@@ -26,8 +26,7 @@
       "classic_queries": ["quantum error correction", "surface code", "fault-tolerant quantum computing", "quantum compiler"],
       "feeds": [
         {"name": "The Quantum Insider", "url": "https://thequantuminsider.com/feed/"},
-        {"name": "Physics World", "url": "https://physicsworld.com/feed/"},
-        {"name": "IBM Quantum Blog", "url": "https://www.ibm.com/quantum/blog/rss.xml"}
+        {"name": "Physics World", "url": "https://physicsworld.com/feed/", "filter_keywords": ["quantum", "qubit"]}
       ]
     }
   },

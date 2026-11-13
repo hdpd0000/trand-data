@@ -98,16 +98,29 @@ def score(p):
 
 
 # ---------- OpenAlex classics ----------
+def _words(s):
+    return re.sub(r"[^a-z0-9]+", " ", (s or "").lower().replace("-", " ")).split()
+
+
+def title_matches(query, title):
+    """True only if every word of the query starts some word of the title."""
+    tw = _words(title)
+    return all(any(w.startswith(tok) for w in tw) for tok in _words(query))
+
+
 def classics(queries, keep):
+    # Relevance-ranked search (API default), then keep only papers whose TITLE
+    # contains the query terms, then order by citations. Avoids off-topic
+    # highly-cited papers that a loose full-text match would otherwise surface.
     seen = {}
     for q in queries:
         params = urllib.parse.urlencode({
             "search": q, "filter": "from_publication_date:2012-01-01,type:article",
-            "sort": "cited_by_count:desc", "per_page": 25,
+            "per_page": 100,
             "select": "id,title,publication_year,cited_by_count,doi,primary_location,authorships"})
         data = json.loads(get("https://api.openalex.org/works?" + params))
         for w in data.get("results", []):
-            if w["id"] in seen:
+            if w["id"] in seen or not title_matches(q, w.get("title")):
                 continue
             src = ((w.get("primary_location") or {}).get("source") or {})
             seen[w["id"]] = {
@@ -157,7 +170,13 @@ def collect_news(feeds, days, per_feed):
     seen, news = set(), []
     for f in feeds:
         items = safe("feed:" + f["name"], lambda f=f: parse_feed(get(f["url"]), f["name"]), [])
+        parsed = len(items)
+        kws = [k.lower() for k in f.get("filter_keywords", [])]
+        if kws:  # general-interest feeds: keep only on-topic titles
+            items = [i for i in items if any(k in i["title"].lower() for k in kws)]
         items = [i for i in items if datetime.fromisoformat(i["published"]) >= cutoff]
+        if STATUS.get("feed:" + f["name"]) == "ok":  # diagnostics for silent zero-item feeds
+            STATUS["feed:" + f["name"]] = f"ok (parsed={parsed}, kept_in_window={len(items)})"
         items.sort(key=lambda i: i["published"], reverse=True)
         for i in items[:per_feed]:
             if i["url"] not in seen:
@@ -191,7 +210,7 @@ def main():
     (ROOT / "data" / "meta.json").write_text(
         json.dumps({"updated": NOW.isoformat(timespec="seconds"), "status": STATUS},
                    ensure_ascii=False, indent=1), encoding="utf-8")
-    bad = {k: v for k, v in STATUS.items() if v != "ok"}
+    bad = {k: v for k, v in STATUS.items() if not v.startswith("ok")}
     print(json.dumps({"ok": len(STATUS) - len(bad), "failed": bad}, ensure_ascii=False, indent=1))
     return 0
 
