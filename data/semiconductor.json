@@ -1,7 +1,7 @@
 {
  "field": "semiconductor",
  "label": "반도체",
- "updated": "2026-11-13T09:26:30+00:00",
+ "updated": "2026-11-13T09:37:06+00:00",
  "papers_new": [
   {
    "id": "2611.04804",
@@ -787,386 +787,391 @@
  ],
  "papers_classic": [
   {
-   "title": "ImageNet classification with deep convolutional neural networks",
-   "year": 2017,
-   "cited_by": 114706,
-   "venue": "Communications of the ACM",
-   "url": "https://doi.org/10.1145/3065386",
-   "query": "processing-in-memory",
-   "authors": [
-    "Alex Krizhevsky",
-    "Ilya Sutskever",
-    "Geoffrey E. Hinton"
-   ]
-  },
-  {
-   "title": "Fitting Linear Mixed-Effects Models Using lme4",
-   "year": 2015,
-   "cited_by": 100125,
-   "venue": "Journal of Statistical Software",
-   "url": "https://doi.org/10.18637/jss.v067.i01",
-   "query": "processing-in-memory",
-   "authors": [
-    "Douglas M. Bates",
-    "Martin Maechler",
-    "Benjamin M. Bolker"
-   ]
-  },
-  {
-   "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+   "title": "ISAAC: a convolutional neural network accelerator with in-situ analog arithmetic in crossbars",
    "year": 2016,
-   "cited_by": 74087,
-   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-   "url": "https://doi.org/10.1109/tpami.2016.2577031",
-   "query": "processing-in-memory",
-   "authors": [
-    "Shaoqing Ren",
-    "Kaiming He",
-    "Ross Girshick"
-   ]
-  },
-  {
-   "title": "Highly accurate protein structure prediction with AlphaFold",
-   "year": 2021,
-   "cited_by": 45813,
-   "venue": "Nature",
-   "url": "https://doi.org/10.1038/s41586-021-03819-2",
-   "query": "processing-in-memory",
-   "authors": [
-    "John Jumper",
-    "Richard Evans",
-    "Alexander Pritzel"
-   ]
-  },
-  {
-   "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
-   "year": 2015,
-   "cited_by": 41265,
-   "venue": "Nucleic Acids Research",
-   "url": "https://doi.org/10.1093/nar/gkv007",
-   "query": "processing-in-memory",
-   "authors": [
-    "Matthew E. Ritchie",
-    "Belinda Phipson",
-    "Di Wu"
-   ]
-  },
-  {
-   "title": "MEGA X: Molecular Evolutionary Genetics Analysis across Computing Platforms",
-   "year": 2018,
-   "cited_by": 38472,
-   "venue": "Molecular Biology and Evolution",
-   "url": "https://doi.org/10.1093/molbev/msy096",
-   "query": "processing-in-memory",
-   "authors": [
-    "Sudhir Kumar",
-    "Glen Stecher",
-    "Michael Li"
-   ]
-  },
-  {
-   "title": "RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies",
-   "year": 2014,
-   "cited_by": 32528,
-   "venue": "Bioinformatics",
-   "url": "https://doi.org/10.1093/bioinformatics/btu033",
-   "query": "processing-in-memory",
-   "authors": [
-    "Alexandros Stamatakis"
-   ]
-  },
-  {
-   "title": "SHELXT – Integrated space-group and crystal-structure determination",
-   "year": 2014,
-   "cited_by": 30770,
-   "venue": "Acta Crystallographica Section A Foundations and Advances",
-   "url": "https://doi.org/10.1107/s2053273314026370",
-   "query": "processing-in-memory",
-   "authors": [
-    "George M. Sheldrick"
-   ]
-  },
-  {
-   "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
-   "year": 2013,
-   "cited_by": 27536,
-   "venue": "Bioinformatics",
-   "url": "https://doi.org/10.1093/bioinformatics/btt656",
-   "query": "processing-in-memory",
-   "authors": [
-    "Yang Liao",
-    "Gordon K. Smyth",
-    "Wei Shi"
-   ]
-  },
-  {
-   "title": "MEGA11: Molecular Evolutionary Genetics Analysis Version 11",
-   "year": 2021,
-   "cited_by": 24051,
-   "venue": "Molecular Biology and Evolution",
-   "url": "https://doi.org/10.1093/molbev/msab120",
-   "query": "processing-in-memory",
-   "authors": [
-    "Koichiro Tamura",
-    "Glen Stecher",
-    "Sudhir Kumar"
-   ]
-  },
-  {
-   "title": "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
-   "year": 2017,
-   "cited_by": 23241,
-   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-   "url": "https://doi.org/10.1109/tpami.2017.2699184",
-   "query": "processing-in-memory",
-   "authors": [
-    "Liang-Chieh Chen",
-    "George Papandreou",
-    "Iasonas Kokkinos"
-   ]
-  },
-  {
-   "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
-   "year": 2020,
-   "cited_by": 21369,
-   "venue": "The Lancet",
-   "url": "https://doi.org/10.1016/s0140-6736(20)30925-9",
-   "query": "processing-in-memory",
-   "authors": [
-    "Theo Vos",
-    "Stephen S Lim",
-    "Cristiana Abbafati"
-   ]
-  },
-  {
-   "title": "Grey Wolf Optimizer",
-   "year": 2014,
-   "cited_by": 20562,
-   "venue": "Advances in Engineering Software",
-   "url": "https://doi.org/10.1016/j.advengsoft.2013.12.007",
-   "query": "processing-in-memory",
-   "authors": [
-    "Seyedali Mirjalili",
-    "Seyed Mohammad Mirjalili",
-    "Andrew Lewis"
-   ]
-  },
-  {
-   "title": "SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation",
-   "year": 2017,
-   "cited_by": 20479,
-   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-   "url": "https://doi.org/10.1109/tpami.2016.2644615",
-   "query": "processing-in-memory",
-   "authors": [
-    "Vijay Badrinarayanan",
-    "Alex Kendall",
-    "Roberto Cipolla"
-   ]
-  },
-  {
-   "title": "IQ-TREE 2: New Models and Efficient Methods for Phylogenetic Inference in the Genomic Era",
-   "year": 2020,
-   "cited_by": 17467,
-   "venue": "Molecular Biology and Evolution",
-   "url": "https://doi.org/10.1093/molbev/msaa015",
-   "query": "processing-in-memory",
-   "authors": [
-    "Bùi Quang Minh",
-    "Heiko A. Schmidt",
-    "Olga Chernomor"
-   ]
-  },
-  {
-   "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
-   "year": 2025,
-   "cited_by": 16824,
-   "venue": "Nature",
-   "url": "https://doi.org/10.1038/s41586-025-09422-z",
-   "query": "processing-in-memory",
-   "authors": [
-    "Daya Guo",
-    "Dejian Yang",
-    "Haowei Zhang"
-   ]
-  },
-  {
-   "title": "Twelve years of SAMtools and BCFtools",
-   "year": 2021,
-   "cited_by": 16449,
-   "venue": "GigaScience",
-   "url": "https://doi.org/10.1093/gigascience/giab008",
-   "query": "processing-in-memory",
-   "authors": [
-    "Petr Danecek",
-    "James Bonfield",
-    "Jennifer Liddle"
-   ]
-  },
-  {
-   "title": "Minimap2: pairwise alignment for nucleotide sequences",
-   "year": 2018,
-   "cited_by": 15609,
-   "venue": "Bioinformatics",
-   "url": "https://doi.org/10.1093/bioinformatics/bty191",
-   "query": "processing-in-memory",
-   "authors": [
-    "Heng Li"
-   ]
-  },
-  {
-   "title": "Squeeze-and-Excitation Networks",
-   "year": 2019,
-   "cited_by": 15438,
-   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-   "url": "https://doi.org/10.1109/tpami.2019.2913372",
-   "query": "processing-in-memory",
-   "authors": [
-    "Jie Hu",
-    "Li Shen",
-    "Samuel Albanie"
-   ]
-  },
-  {
-   "title": "glmmTMB Balances Speed and Flexibility Among Packages for Zero-inflated Generalized Linear Mixed Modeling",
-   "year": 2017,
-   "cited_by": 14875,
-   "venue": "The R Journal",
-   "url": "https://doi.org/10.32614/rj-2017-066",
-   "query": "processing-in-memory",
-   "authors": [
-    "Mollie,E. Brooks",
-    "Kasper Kristensen",
-    "Koen J. van Benthem"
-   ]
-  },
-  {
-   "title": "A survey on Image Data Augmentation for Deep Learning",
-   "year": 2019,
-   "cited_by": 14455,
-   "venue": "Journal Of Big Data",
-   "url": "https://doi.org/10.1186/s40537-019-0197-0",
-   "query": "processing-in-memory",
-   "authors": [
-    "Connor Shorten",
-    "Taghi M. Khoshgoftaar"
-   ]
-  },
-  {
-   "title": "Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning",
-   "year": 2017,
-   "cited_by": 13818,
-   "venue": "AAAI Publications (The Association for the Advancement of Artificial Intelligence (AAAI))",
-   "url": "https://doi.org/10.1609/aaai.v31i1.11231",
-   "query": "processing-in-memory",
-   "authors": [
-    "Christian Szegedy",
-    "Sergey Ioffe",
-    "Vincent Vanhoucke"
-   ]
-  },
-  {
-   "title": "2013 ESH/ESC Guidelines for the management of arterial hypertension",
-   "year": 2013,
-   "cited_by": 13764,
-   "venue": "European Heart Journal",
-   "url": "https://doi.org/10.1093/eurheartj/eht151",
-   "query": "processing-in-memory",
-   "authors": [
-    "Authors Task Force Members",
-    "Giuseppe Mancia",
-    "Robert Fagard"
-   ]
-  },
-  {
-   "title": "LAMMPS - a flexible simulation tool for particle-based materials modeling at the atomic, meso, and continuum scales",
-   "year": 2021,
-   "cited_by": 13390,
-   "venue": "Computer Physics Communications",
-   "url": "https://doi.org/10.1016/j.cpc.2021.108171",
-   "query": "processing-in-memory",
-   "authors": [
-    "Aidan P. Thompson",
-    "Hasan Metin Aktulga",
-    "Richard A. Berger"
-   ]
-  },
-  {
-   "title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
-   "year": 2013,
-   "cited_by": 13134,
-   "venue": "Future Generation Computer Systems",
-   "url": "https://doi.org/10.1016/j.future.2013.01.010",
-   "query": "processing-in-memory",
-   "authors": [
-    "Jayavardhana Gubbi",
-    "Rajkumar Buyya",
-    "Slaven Marusic"
-   ]
-  },
-  {
-   "title": "Advances and Open Problems in Federated Learning",
-   "year": 2020,
-   "cited_by": 9668,
-   "venue": "Foundations and Trends® in Machine Learning",
-   "url": "https://doi.org/10.1561/9781680837896",
-   "query": "RISC-V",
-   "authors": [
-    "Peter Kairouz",
-    "H. Brendan McMahan",
-    "Brendan Avent"
-   ]
-  },
-  {
-   "title": "Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications",
-   "year": 2015,
-   "cited_by": 9285,
-   "venue": "IEEE Communications Surveys & Tutorials",
-   "url": "https://doi.org/10.1109/comst.2015.2444095",
-   "query": "high bandwidth memory",
-   "authors": [
-    "Ala Al‐Fuqaha",
-    "Mohsen Guizani",
-    "Mehdi Mohammadi"
-   ]
-  },
-  {
-   "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
-   "year": 2021,
-   "cited_by": 9050,
-   "venue": "Journal Of Big Data",
-   "url": "https://doi.org/10.1186/s40537-021-00444-8",
+   "cited_by": 1559,
+   "venue": "ACM SIGARCH Computer Architecture News",
+   "url": "https://doi.org/10.1145/3007787.3001139",
    "query": "neural network accelerator",
    "authors": [
-    "Laith Alzubaidi",
-    "Jinglan Zhang",
-    "Amjad J. Humaidi"
+    "Ali Reza Shafiee",
+    "Anirban Nag",
+    "Naveen Muralimanohar"
    ]
   },
   {
-   "title": "A Survey of Large Language Models",
-   "year": 2026,
-   "cited_by": 8546,
-   "venue": "Frontiers of Computer Science",
-   "url": "https://doi.org/10.1007/s11704-026-60308-3",
-   "query": "high bandwidth memory",
+   "title": "PRIME: a novel processing-in-memory architecture for neural network computation in ReRAM-based main memory",
+   "year": 2016,
+   "cited_by": 1234,
+   "venue": "ACM SIGARCH Computer Architecture News",
+   "url": "https://doi.org/10.1145/3007787.3001140",
+   "query": "processing-in-memory",
    "authors": [
-    "Wayne Xin Zhao",
-    "Kun Zhou",
-    "Junyi Li"
+    "Ping Chi",
+    "Shuangchen Li",
+    "Cong Xu"
    ]
   },
   {
-   "title": "2015 ESC Guidelines for the management of acute coronary syndromes in patients presenting without persistent ST-segment elevation",
-   "year": 2015,
-   "cited_by": 8426,
-   "venue": "European Heart Journal",
-   "url": "https://doi.org/10.1093/eurheartj/ehv320",
+   "title": "Near-Threshold RISC-V Core With DSP Extensions for Scalable IoT Endpoint Devices",
+   "year": 2017,
+   "cited_by": 539,
+   "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+   "url": "https://doi.org/10.1109/tvlsi.2017.2654506",
    "query": "RISC-V",
    "authors": [
-    "Marco Roffi",
-    "Carlo Patrono",
-    "Jean‐Philippe Collet"
+    "Michael Gautschi",
+    "Pasquale Davide Schiavone",
+    "Andreas Traber"
+   ]
+  },
+  {
+   "title": "Minerva: enabling low-power, highly-accurate deep neural network accelerators",
+   "year": 2016,
+   "cited_by": 452,
+   "venue": "ACM SIGARCH Computer Architecture News",
+   "url": "https://doi.org/10.1145/3007787.3001165",
+   "query": "neural network accelerator",
+   "authors": [
+    "Brandon Reagen",
+    "Paul N. Whatmough",
+    "Robert Adolf"
+   ]
+  },
+  {
+   "title": "A cortical–hippocampal–cortical loop of information processing during memory consolidation",
+   "year": 2016,
+   "cited_by": 411,
+   "venue": "Nature Neuroscience",
+   "url": "https://doi.org/10.1038/nn.4457",
+   "query": "processing-in-memory",
+   "authors": [
+    "Gideon Rothschild",
+    "Elad Eban",
+    "Loren M. Frank"
+   ]
+  },
+  {
+   "title": "Breaking the von Neumann bottleneck: architecture-level processing-in-memory technology",
+   "year": 2021,
+   "cited_by": 365,
+   "venue": "Science China Information Sciences",
+   "url": "https://doi.org/10.1007/s11432-020-3227-1",
+   "query": "processing-in-memory",
+   "authors": [
+    "Xingqi Zou",
+    "Sheng Xu",
+    "Xiaoming Chen"
+   ]
+  },
+  {
+   "title": "Large-scale photonic chiplet Taichi empowers 160-TOPS/W artificial general intelligence",
+   "year": 2024,
+   "cited_by": 348,
+   "venue": "Science",
+   "url": "https://doi.org/10.1126/science.adl1203",
+   "query": "chiplet",
+   "authors": [
+    "Zhihao Xu",
+    "Tiankuang Zhou",
+    "Muzhou Ma"
+   ]
+  },
+  {
+   "title": "UNPU: An Energy-Efficient Deep Neural Network Accelerator With Fully Variable Weight Bit Precision",
+   "year": 2018,
+   "cited_by": 342,
+   "venue": "IEEE Journal of Solid-State Circuits",
+   "url": "https://doi.org/10.1109/jssc.2018.2865489",
+   "query": "neural network accelerator",
+   "authors": [
+    "Jinmook Lee",
+    "Changhyeon Kim",
+    "Sanghoon Kang"
+   ]
+  },
+  {
+   "title": "NullHop: A Flexible Convolutional Neural Network Accelerator Based on Sparse Representations of Feature Maps",
+   "year": 2018,
+   "cited_by": 291,
+   "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+   "url": "https://doi.org/10.1109/tnnls.2018.2852335",
+   "query": "neural network accelerator",
+   "authors": [
+    "Alessandro Aimar",
+    "Hesham Mostafa",
+    "Enrico Calabrese"
+   ]
+  },
+  {
+   "title": "Benchmarking a New Paradigm: Experimental Analysis and Characterization of a Real Processing-in-Memory System",
+   "year": 2022,
+   "cited_by": 284,
+   "venue": "IEEE Access",
+   "url": "https://doi.org/10.1109/access.2022.3174101",
+   "query": "processing-in-memory",
+   "authors": [
+    "Juan Gómez-Luna",
+    "Izzat El Hajj",
+    "Ivan Fernandez"
+   ]
+  },
+  {
+   "title": "Chiplet Heterogeneous Integration Technology—Status and Challenges",
+   "year": 2020,
+   "cited_by": 244,
+   "venue": "Electronics",
+   "url": "https://doi.org/10.3390/electronics9040670",
+   "query": "chiplet",
+   "authors": [
+    "Tao Li",
+    "Jie Hou",
+    "Jinli Yan"
+   ]
+  },
+  {
+   "title": "Universal Chiplet Interconnect Express (UCIe): An Open Industry Standard for Innovations With Chiplets at Package Level",
+   "year": 2022,
+   "cited_by": 221,
+   "venue": "IEEE Transactions on Components Packaging and Manufacturing Technology",
+   "url": "https://doi.org/10.1109/tcpmt.2022.3207195",
+   "query": "chiplet",
+   "authors": [
+    "Debendra Das Sharma",
+    "Gerald Pasdast",
+    "Zhiguo Qian"
+   ]
+  },
+  {
+   "title": "A Reconfigurable Streaming Deep Convolutional Neural Network Accelerator for Internet of Things",
+   "year": 2017,
+   "cited_by": 210,
+   "venue": "IEEE Transactions on Circuits and Systems I Regular Papers",
+   "url": "https://doi.org/10.1109/tcsi.2017.2735490",
+   "query": "neural network accelerator",
+   "authors": [
+    "Li Du",
+    "Yuan Du",
+    "Yilei Li"
+   ]
+  },
+  {
+   "title": "The RISC-V Instruction Set Manual",
+   "year": 2014,
+   "cited_by": 195,
+   "venue": null,
+   "url": "https://openalex.org/W2187802606",
+   "query": "RISC-V",
+   "authors": [
+    "Andrew S. Waterman",
+    "Yunsup Lee",
+    "David A. Patterson"
+   ]
+  },
+  {
+   "title": "A Survey of ReRAM-Based Architectures for Processing-In-Memory and Neural Networks",
+   "year": 2018,
+   "cited_by": 190,
+   "venue": "Machine Learning and Knowledge Extraction",
+   "url": "https://doi.org/10.3390/make1010005",
+   "query": "processing-in-memory",
+   "authors": [
+    "Sparsh Mittal"
+   ]
+  },
+  {
+   "title": "Active Memory Cube: A processing-in-memory architecture for exascale systems",
+   "year": 2015,
+   "cited_by": 189,
+   "venue": "IBM Journal of Research and Development",
+   "url": "https://doi.org/10.1147/jrd.2015.2409732",
+   "query": "processing-in-memory",
+   "authors": [
+    "R. Nair",
+    "Samuel Antão",
+    "Carlo Bertolli"
+   ]
+  },
+  {
+   "title": "Processing-in-memory: A workload-driven perspective",
+   "year": 2019,
+   "cited_by": 187,
+   "venue": "IBM Journal of Research and Development",
+   "url": "https://doi.org/10.1147/jrd.2019.2934048",
+   "query": "processing-in-memory",
+   "authors": [
+    "Saugata Ghose",
+    "Amirali Boroumand",
+    "Jeremie S. Kim"
+   ]
+  },
+  {
+   "title": "ISA semantics for ARMv8-a, RISC-v, and CHERI-MIPS",
+   "year": 2019,
+   "cited_by": 184,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "url": "https://doi.org/10.1145/3290384",
+   "query": "RISC-V",
+   "authors": [
+    "Alasdair Armstrong",
+    "Thomas Bauereiß",
+    "B. K. Campbell"
+   ]
+  },
+  {
+   "title": "RISQ-V: Tightly Coupled RISC-V Accelerators for Post-Quantum Cryptography",
+   "year": 2020,
+   "cited_by": 184,
+   "venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+   "url": "https://doi.org/10.46586/tches.v2020.i4.239-280",
+   "query": "RISC-V",
+   "authors": [
+    "Tim Fritzmann",
+    "Georg Sigl",
+    "Johanna Sepúlveda"
+   ]
+  },
+  {
+   "title": "RISC-V Instruction Set Architecture Extensions: A Survey",
+   "year": 2023,
+   "cited_by": 179,
+   "venue": "IEEE Access",
+   "url": "https://doi.org/10.1109/access.2023.3246491",
+   "query": "RISC-V",
+   "authors": [
+    "Enfang Cui",
+    "Tianzheng Li",
+    "Wei Qian"
+   ]
+  },
+  {
+   "title": "Hardware Approximate Techniques for Deep Neural Network Accelerators: A Survey",
+   "year": 2022,
+   "cited_by": 167,
+   "venue": "ACM Computing Surveys",
+   "url": "https://doi.org/10.1145/3527156",
+   "query": "neural network accelerator",
+   "authors": [
+    "Giorgos Armeniakos",
+    "Georgios Zervakis",
+    "Dimitrios Soudris"
+   ]
+  },
+  {
+   "title": "LazyPIM: An Efficient Cache Coherence Mechanism for Processing-in-Memory",
+   "year": 2016,
+   "cited_by": 161,
+   "venue": "IEEE Computer Architecture Letters",
+   "url": "https://doi.org/10.1109/lca.2016.2577557",
+   "query": "processing-in-memory",
+   "authors": [
+    "Amirali Boroumand",
+    "Saugata Ghose",
+    "Minesh Patel"
+   ]
+  },
+  {
+   "title": "TeraPHY: A Chiplet Technology for Low-Power, High-Bandwidth In-Package Optical I/O",
+   "year": 2020,
+   "cited_by": 160,
+   "venue": "IEEE Micro",
+   "url": "https://doi.org/10.1109/mm.2020.2976067",
+   "query": "chiplet",
+   "authors": [
+    "Mark T. Wade",
+    "Erik F. Anderson",
+    "Shahab Ardalan"
+   ]
+  },
+  {
+   "title": "GraphH: A Processing-in-Memory Architecture for Large-Scale Graph Processing",
+   "year": 2018,
+   "cited_by": 150,
+   "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+   "url": "https://doi.org/10.1109/tcad.2018.2821565",
+   "query": "processing-in-memory",
+   "authors": [
+    "Guohao Dai",
+    "Tianhao Huang",
+    "Yuze Chi"
+   ]
+  },
+  {
+   "title": "GRIM-Filter: Fast seed location filtering in DNA read mapping using processing-in-memory technologies",
+   "year": 2018,
+   "cited_by": 150,
+   "venue": "BMC Genomics",
+   "url": "https://doi.org/10.1186/s12864-018-4460-0",
+   "query": "processing-in-memory",
+   "authors": [
+    "Jeremie S. Kim",
+    "Damla Senol Cali",
+    "Hongyi Xin"
+   ]
+  },
+  {
+   "title": "Using Dataflow to Optimize Energy Efficiency of Deep Neural Network Accelerators",
+   "year": 2017,
+   "cited_by": 146,
+   "venue": "IEEE Micro",
+   "url": "https://doi.org/10.1109/mm.2017.54",
+   "query": "neural network accelerator",
+   "authors": [
+    "Yu‐Hsin Chen",
+    "Joel Emer",
+    "Vivienne Sze"
+   ]
+  },
+  {
+   "title": "A RISC-V 32-bit microprocessor based on two-dimensional semiconductors",
+   "year": 2025,
+   "cited_by": 143,
+   "venue": "Nature",
+   "url": "https://doi.org/10.1038/s41586-025-08759-9",
+   "query": "RISC-V",
+   "authors": [
+    "Mingrui Ao",
+    "Xiucheng Zhou",
+    "Xinjie Kong"
+   ]
+  },
+  {
+   "title": "IntAct: A 96-Core Processor With Six Chiplets 3D-Stacked on an Active Interposer With Distributed Interconnects and Integrated Power Management",
+   "year": 2020,
+   "cited_by": 140,
+   "venue": "IEEE Journal of Solid-State Circuits",
+   "url": "https://doi.org/10.1109/jssc.2020.3036341",
+   "query": "chiplet",
+   "authors": [
+    "Pascal Vivet",
+    "Èric Guthmuller",
+    "Yvain Thonnart"
+   ]
+  },
+  {
+   "title": "A scalable processing-in-memory accelerator for parallel graph processing",
+   "year": 2015,
+   "cited_by": 136,
+   "venue": "ACM SIGARCH Computer Architecture News",
+   "url": "https://doi.org/10.1145/2872887.2750386",
+   "query": "processing-in-memory",
+   "authors": [
+    "Junwhan Ahn",
+    "Sungpack Hong",
+    "Sungjoo Yoo"
+   ]
+  },
+  {
+   "title": "The Berkeley Out-of-Order Machine (BOOM): An Industry-Competitive, Synthesizable, Parameterized RISC-V Processor",
+   "year": 2015,
+   "cited_by": 135,
+   "venue": null,
+   "url": "https://openalex.org/W2588464298",
+   "query": "RISC-V",
+   "authors": [
+    "Krste Asanović",
+    "David A. Patterson",
+    "Christopher Celio"
    ]
   }
  ],

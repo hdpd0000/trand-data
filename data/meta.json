@@ -1,19 +1,18 @@
 {
- "updated": "2026-11-13T09:26:30+00:00",
+ "updated": "2026-11-13T09:37:06+00:00",
  "status": {
   "semiconductor:arxiv": "ok",
   "semiconductor:openalex-enrich": "ok",
   "semiconductor:openalex-classics": "ok",
-  "feed:Semiconductor Engineering": "ok",
-  "feed:Chips and Cheese": "ok",
-  "feed:The Next Platform": "ok",
-  "feed:EE Times": "ok",
-  "feed:TrendForce News": "ok",
+  "feed:Semiconductor Engineering": "ok (parsed=10, kept_in_window=10)",
+  "feed:Chips and Cheese": "ok (parsed=20, kept_in_window=2)",
+  "feed:The Next Platform": "ok (parsed=87, kept_in_window=13)",
+  "feed:EE Times": "ok (parsed=10, kept_in_window=10)",
+  "feed:TrendForce News": "ok (parsed=20, kept_in_window=0)",
   "quantum:arxiv": "ok",
   "quantum:openalex-enrich": "ok",
   "quantum:openalex-classics": "ok",
-  "feed:The Quantum Insider": "ok",
-  "feed:Physics World": "ok",
-  "feed:IBM Quantum Blog": "HTTPError: HTTP Error 404: Not Found"
+  "feed:The Quantum Insider": "ok (parsed=10, kept_in_window=10)",
+  "feed:Physics World": "ok (parsed=160, kept_in_window=5)"
  }
 }

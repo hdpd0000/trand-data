@@ -1,7 +1,7 @@
 {
  "field": "quantum",
  "label": "양자",
- "updated": "2026-11-13T09:26:30+00:00",
+ "updated": "2026-11-13T09:37:06+00:00",
  "papers_new": [
   {
    "id": "2611.16271",
@@ -777,391 +777,381 @@
  ],
  "papers_classic": [
   {
-   "title": "Fitting Linear Mixed-Effects Models Using lme4",
-   "year": 2015,
-   "cited_by": 100125,
-   "venue": "Journal of Statistical Software",
-   "url": "https://doi.org/10.18637/jss.v067.i01",
-   "query": "surface code",
-   "authors": [
-    "Douglas M. Bates",
-    "Martin Maechler",
-    "Benjamin M. Bolker"
-   ]
-  },
-  {
-   "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
-   "year": 2015,
-   "cited_by": 41265,
-   "venue": "Nucleic Acids Research",
-   "url": "https://doi.org/10.1093/nar/gkv007",
-   "query": "surface code",
-   "authors": [
-    "Matthew E. Ritchie",
-    "Belinda Phipson",
-    "Di Wu"
-   ]
-  },
-  {
-   "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
-   "year": 2019,
-   "cited_by": 24672,
-   "venue": "Nature Biotechnology",
-   "url": "https://doi.org/10.1038/s41587-019-0209-9",
-   "query": "surface code",
-   "authors": [
-    "Evan K Bolyen",
-    "Jai Ram Rideout",
-    "Matthew R. Dillon"
-   ]
-  },
-  {
-   "title": "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
-   "year": 2017,
-   "cited_by": 23241,
-   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-   "url": "https://doi.org/10.1109/tpami.2017.2699184",
-   "query": "surface code",
-   "authors": [
-    "Liang-Chieh Chen",
-    "George Papandreou",
-    "Iasonas Kokkinos"
-   ]
-  },
-  {
-   "title": "SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation",
-   "year": 2017,
-   "cited_by": 20479,
-   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-   "url": "https://doi.org/10.1109/tpami.2016.2644615",
-   "query": "surface code",
-   "authors": [
-    "Vijay Badrinarayanan",
-    "Alex Kendall",
-    "Roberto Cipolla"
-   ]
-  },
-  {
-   "title": "SwissADME: a free web tool to evaluate pharmacokinetics, drug-likeness and medicinal chemistry friendliness of small molecules",
-   "year": 2017,
-   "cited_by": 19526,
-   "venue": "Scientific Reports",
-   "url": "https://doi.org/10.1038/srep42717",
-   "query": "surface code",
-   "authors": [
-    "Antoine Daina",
-    "Olivier Alain Michielin",
-    "Vincent Zoete"
-   ]
-  },
-  {
-   "title": "An integrated encyclopedia of DNA elements in the human genome",
+   "title": "Surface codes: Towards practical large-scale quantum computation",
    "year": 2012,
-   "cited_by": 18262,
-   "venue": "Nature",
-   "url": "https://doi.org/10.1038/nature11247",
+   "cited_by": 3449,
+   "venue": "Physical Review A",
+   "url": "https://doi.org/10.1103/physreva.86.032324",
    "query": "surface code",
    "authors": [
-    "Ian Dunham",
-    "Ewan Birney",
-    "Javier Herrero"
+    "Austin G. Fowler",
+    "M. Mariantoni",
+    "John M. Martinis"
    ]
   },
   {
-   "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
-   "year": 2024,
-   "cited_by": 17874,
-   "venue": "Nature",
-   "url": "https://doi.org/10.1038/s41586-024-07487-w",
-   "query": "surface code",
-   "authors": [
-    "Josh Abramson",
-    "Jonas Adler",
-    "Jack Dunger"
-   ]
-  },
-  {
-   "title": "The Chemistry and Applications of Metal-Organic Frameworks",
-   "year": 2013,
-   "cited_by": 17294,
-   "venue": "Science",
-   "url": "https://doi.org/10.1126/science.1230444",
-   "query": "surface code",
-   "authors": [
-    "Hiroyasu Furukawa",
-    "Kyle E. Cordova",
-    "M. O’Keeffe"
-   ]
-  },
-  {
-   "title": "2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer",
-   "year": 2015,
-   "cited_by": 17177,
-   "venue": "Thyroid",
-   "url": "https://doi.org/10.1089/thy.2015.0020",
-   "query": "surface code",
-   "authors": [
-    "Bryan R. Haugen",
-    "Erik Karl Alexander",
-    "Keith Christopher Bible"
-   ]
-  },
-  {
-   "title": "Planck 2018 results: VI. Cosmological parameters",
-   "year": 2020,
-   "cited_by": 16582,
-   "venue": "Astronomy and Astrophysics",
-   "url": "https://doi.org/10.1051/0004-6361/201833910",
-   "query": "surface code",
-   "authors": [
-    "N. Aghanim",
-    "Y. Akrami",
-    "M. Ashdown"
-   ]
-  },
-  {
-   "title": "Fully Convolutional Networks for Semantic Segmentation",
-   "year": 2016,
-   "cited_by": 15887,
-   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-   "url": "https://doi.org/10.1109/tpami.2016.2572683",
-   "query": "surface code",
-   "authors": [
-    "Evan Shelhamer",
-    "Jonathan Long",
-    "Trevor Darrell"
-   ]
-  },
-  {
-   "title": "Squeeze-and-Excitation Networks",
-   "year": 2019,
-   "cited_by": 15438,
-   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-   "url": "https://doi.org/10.1109/tpami.2019.2913372",
-   "query": "surface code",
-   "authors": [
-    "Jie Hu",
-    "Li Shen",
-    "Samuel Albanie"
-   ]
-  },
-  {
-   "title": "LAMMPS - a flexible simulation tool for particle-based materials modeling at the atomic, meso, and continuum scales",
-   "year": 2021,
-   "cited_by": 13390,
-   "venue": "Computer Physics Communications",
-   "url": "https://doi.org/10.1016/j.cpc.2021.108171",
-   "query": "quantum error correction",
-   "authors": [
-    "Aidan P. Thompson",
-    "Hasan Metin Aktulga",
-    "Richard A. Berger"
-   ]
-  },
-  {
-   "title": "SWISS-MODEL: homology modelling of protein structures and complexes",
-   "year": 2018,
-   "cited_by": 13364,
-   "venue": "Nucleic Acids Research",
-   "url": "https://doi.org/10.1093/nar/gky427",
-   "query": "surface code",
-   "authors": [
-    "Andrew Mark Waterhouse",
-    "Martino Bertoni",
-    "Stefan Bienert"
-   ]
-  },
-  {
-   "title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
-   "year": 2013,
-   "cited_by": 13134,
-   "venue": "Future Generation Computer Systems",
-   "url": "https://doi.org/10.1016/j.future.2013.01.010",
-   "query": "surface code",
-   "authors": [
-    "Jayavardhana Gubbi",
-    "Rajkumar Buyya",
-    "Slaven Marusic"
-   ]
-  },
-  {
-   "title": "Safety, Activity, and Immune Correlates of Anti–PD-1 Antibody in Cancer",
-   "year": 2012,
-   "cited_by": 12861,
-   "venue": "New England Journal of Medicine",
-   "url": "https://doi.org/10.1056/nejmoa1200690",
-   "query": "surface code",
-   "authors": [
-    "Suzanne Louise Topalian",
-    "Frank Stephen Hodi",
-    "Julie Renee Brahmer"
-   ]
-  },
-  {
-   "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes",
-   "year": 2015,
-   "cited_by": 12659,
-   "venue": "New England Journal of Medicine",
-   "url": "https://doi.org/10.1056/nejmoa1504720",
-   "query": "surface code",
-   "authors": [
-    "Bernard Zinman",
-    "Christoph Wanner",
-    "John M. Lachin"
-   ]
-  },
-  {
-   "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
-   "year": 2019,
-   "cited_by": 12556,
-   "venue": "Information Fusion",
-   "url": "https://doi.org/10.1016/j.inffus.2019.12.012",
-   "query": "surface code",
-   "authors": [
-    "Alejandro Barredo Arrieta",
-    "Natalia Díaz-Rodríguez",
-    "Javier Del Ser"
-   ]
-  },
-  {
-   "title": "CBTRUS Statistical Report: Primary Brain and Central Nervous System Tumors Diagnosed in the United States in 2006-2010",
-   "year": 2013,
-   "cited_by": 12084,
-   "venue": "Neuro-Oncology",
-   "url": "https://doi.org/10.1093/neuonc/not151",
-   "query": "surface code",
-   "authors": [
-    "Quinn T. Ostrom",
-    "Haley R Gittleman",
-    "P. Farah"
-   ]
-  },
-  {
-   "title": "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation",
-   "year": 2020,
-   "cited_by": 11875,
-   "venue": "Nature Methods",
-   "url": "https://doi.org/10.1038/s41592-020-01008-z",
-   "query": "surface code",
-   "authors": [
-    "Fabian Isensee",
-    "Paul F. Jaeger",
-    "Simon A. A. Kohl"
-   ]
-  },
-  {
-   "title": "Minimal information for studies of extracellular vesicles 2018 (MISEV2018): a position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines",
-   "year": 2018,
-   "cited_by": 11481,
-   "venue": "Journal of Extracellular Vesicles",
-   "url": "https://doi.org/10.1080/20013078.2018.1535750",
-   "query": "surface code",
-   "authors": [
-    "Clotilde Théry",
-    "Kenneth Whitaker Witwer",
-    "Elena Aïkawa"
-   ]
-  },
-  {
-   "title": "Genome engineering using the CRISPR-Cas9 system",
-   "year": 2013,
-   "cited_by": 11349,
-   "venue": "Nature Protocols",
-   "url": "https://doi.org/10.1038/nprot.2013.143",
-   "query": "surface code",
-   "authors": [
-    "F. Ann Ran",
-    "Patrick D. Hsu",
-    "Jason B. Wright"
-   ]
-  },
-  {
-   "title": "Avogadro: an advanced semantic chemical editor, visualization, and analysis platform",
-   "year": 2012,
-   "cited_by": 11112,
-   "venue": "Journal of Cheminformatics",
-   "url": "https://doi.org/10.1186/1758-2946-4-17",
-   "query": "surface code",
-   "authors": [
-    "Marcus D. Hanwell",
-    "Donald E Curtis",
-    "David C. Lonie"
-   ]
-  },
-  {
-   "title": "Image Super-Resolution Using Deep Convolutional Networks",
-   "year": 2015,
-   "cited_by": 10415,
-   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-   "url": "https://doi.org/10.1109/tpami.2015.2439281",
-   "query": "surface code",
-   "authors": [
-    "Chao Dong",
-    "Chen Change Loy",
-    "Kaiming He"
-   ]
-  },
-  {
-   "title": "Quantum Computing in the NISQ era and beyond",
-   "year": 2018,
-   "cited_by": 10251,
-   "venue": "Quantum",
-   "url": "https://doi.org/10.22331/q-2018-08-06-79",
-   "query": "quantum error correction",
-   "authors": [
-    "John P. Preskill"
-   ]
-  },
-  {
-   "title": "The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations",
+   "title": "Superconducting quantum circuits at the surface code threshold for fault tolerance",
    "year": 2014,
-   "cited_by": 9858,
-   "venue": "Journal of High Energy Physics",
-   "url": "https://doi.org/10.1007/jhep07(2014)079",
-   "query": "quantum error correction",
-   "authors": [
-    "Johan Alwall",
-    "Rikkert Frederix",
-    "Stefano Frixione A"
-   ]
-  },
-  {
-   "title": "Advanced capabilities for materials modelling with Q uantum ESPRESSO",
-   "year": 2017,
-   "cited_by": 9529,
-   "venue": "Journal of Physics Condensed Matter",
-   "url": "https://doi.org/10.1088/1361-648x/aa8f79",
-   "query": "quantum error correction",
-   "authors": [
-    "P Giannozzi",
-    "O Andreussi",
-    "Thomas Brumme"
-   ]
-  },
-  {
-   "title": "VASPKIT: A user-friendly interface facilitating high-throughput computing and analysis using VASP code",
-   "year": 2021,
-   "cited_by": 8267,
-   "venue": "Computer Physics Communications",
-   "url": "https://doi.org/10.1016/j.cpc.2021.108033",
-   "query": "quantum error correction",
-   "authors": [
-    "Vei Wang",
-    "Nan Xu",
-    "Jincheng Liu"
-   ]
-  },
-  {
-   "title": "Quantum supremacy using a programmable superconducting processor",
-   "year": 2019,
-   "cited_by": 8257,
+   "cited_by": 1776,
    "venue": "Nature",
-   "url": "https://doi.org/10.1038/s41586-019-1666-5",
+   "url": "https://doi.org/10.1038/nature13171",
+   "query": "surface code",
+   "authors": [
+    "R. Barends",
+    "J. Kelly",
+    "A. Megrant"
+   ]
+  },
+  {
+   "title": "Quantum error correction for quantum memories",
+   "year": 2015,
+   "cited_by": 1510,
+   "venue": "Reviews of Modern Physics",
+   "url": "https://doi.org/10.1103/revmodphys.87.307",
    "query": "quantum error correction",
    "authors": [
-    "Frank Arute",
-    "Kunal Arya",
-    "Ryan Babbush"
+    "Barbara M. Terhal"
+   ]
+  },
+  {
+   "title": "Suppressing quantum errors by scaling a surface code logical qubit",
+   "year": 2023,
+   "cited_by": 1353,
+   "venue": "Nature",
+   "url": "https://doi.org/10.1038/s41586-022-05434-1",
+   "query": "surface code",
+   "authors": [
+    "Google Quantum AI",
+    "Rajeev Acharya",
+    "I. L. Aleǐner"
+   ]
+  },
+  {
+   "title": "Quantum error correction below the surface code threshold",
+   "year": 2024,
+   "cited_by": 1304,
+   "venue": "Nature",
+   "url": "https://doi.org/10.1038/s41586-024-08449-y",
+   "query": "quantum error correction",
+   "authors": [
+    "Google Quantum AI and Collaborators",
+    "Rajeev Acharya",
+    "Dmitry A. Abanin"
+   ]
+  },
+  {
+   "title": "Bulk locality and quantum error correction in AdS/CFT",
+   "year": 2015,
+   "cited_by": 922,
+   "venue": "Journal of High Energy Physics",
+   "url": "https://doi.org/10.1007/jhep04(2015)163",
+   "query": "quantum error correction",
+   "authors": [
+    "Ahmed Almheiri",
+    "Xi Dong",
+    "Daniel Harlow"
+   ]
+  },
+  {
+   "title": "Quantum error correction for beginners",
+   "year": 2013,
+   "cited_by": 841,
+   "venue": "Reports on Progress in Physics",
+   "url": "https://doi.org/10.1088/0034-4885/76/7/076001",
+   "query": "quantum error correction",
+   "authors": [
+    "Simon J. Devitt",
+    "William J. Munro",
+    "Kae Nemoto"
+   ]
+  },
+  {
+   "title": "Realizing repeated quantum error correction in a distance-three surface code",
+   "year": 2022,
+   "cited_by": 792,
+   "venue": "Nature",
+   "url": "https://doi.org/10.1038/s41586-022-04566-8",
+   "query": "quantum error correction",
+   "authors": [
+    "Sebastian Krinner",
+    "Nathan Lacroix",
+    "Ants Remm"
+   ]
+  },
+  {
+   "title": "Surface code quantum computing by lattice surgery",
+   "year": 2012,
+   "cited_by": 731,
+   "venue": "New Journal of Physics",
+   "url": "https://doi.org/10.1088/1367-2630/14/12/123011",
+   "query": "surface code",
+   "authors": [
+    "Dominic C. Horsman",
+    "Austin G. Fowler",
+    "Simon J. Devitt"
+   ]
+  },
+  {
+   "title": "Quantum error correction in a solid-state hybrid spin register",
+   "year": 2014,
+   "cited_by": 620,
+   "venue": "Nature",
+   "url": "https://doi.org/10.1038/nature12919",
+   "query": "quantum error correction",
+   "authors": [
+    "G. Waldherr",
+    "Y. Wang",
+    "Sebastian Zaiser"
+   ]
+  },
+  {
+   "title": "Realization of three-qubit quantum error correction with superconducting circuits",
+   "year": 2012,
+   "cited_by": 604,
+   "venue": "Nature",
+   "url": "https://doi.org/10.1038/nature10786",
+   "query": "quantum error correction",
+   "authors": [
+    "M. D. Reed",
+    "L. DiCarlo",
+    "Simon E. Nigg"
+   ]
+  },
+  {
+   "title": "A Game of Surface Codes: Large-Scale Quantum Computing with Lattice Surgery",
+   "year": 2019,
+   "cited_by": 599,
+   "venue": "Quantum",
+   "url": "https://doi.org/10.22331/q-2019-03-05-128",
+   "query": "surface code",
+   "authors": [
+    "Daniel Litinski"
+   ]
+  },
+  {
+   "title": "Quantum logic with spin qubits crossing the surface code threshold",
+   "year": 2022,
+   "cited_by": 575,
+   "venue": "Nature",
+   "url": "https://doi.org/10.1038/s41586-021-04273-w",
+   "query": "surface code",
+   "authors": [
+    "Xiao Xue",
+    "Maximilian Rimbach-Russ",
+    "Nodar Samkharadze"
+   ]
+  },
+  {
+   "title": "Quantum error correction of a qubit encoded in grid states of an oscillator",
+   "year": 2020,
+   "cited_by": 531,
+   "venue": "Nature",
+   "url": "https://doi.org/10.1038/s41586-020-2603-3",
+   "query": "quantum error correction",
+   "authors": [
+    "Philippe Campagne-Ibarcq",
+    "Alec Eickbusch",
+    "Steven Touzard"
+   ]
+  },
+  {
+   "title": "Real-time quantum error correction beyond break-even",
+   "year": 2023,
+   "cited_by": 501,
+   "venue": "Nature",
+   "url": "https://doi.org/10.1038/s41586-023-05782-6",
+   "query": "quantum error correction",
+   "authors": [
+    "Volodymyr Sivak",
+    "Alec Eickbusch",
+    "Baptiste Royer"
+   ]
+  },
+  {
+   "title": "Quantum Error Correction in Scrambling Dynamics and Measurement-Induced Phase Transition",
+   "year": 2020,
+   "cited_by": 483,
+   "venue": "Physical Review Letters",
+   "url": "https://doi.org/10.1103/physrevlett.125.030505",
+   "query": "quantum error correction",
+   "authors": [
+    "Soonwon Choi",
+    "Yimu Bao",
+    "Xiao-Liang Qi"
+   ]
+  },
+  {
+   "title": "Quantum error correction: an introductory guide",
+   "year": 2019,
+   "cited_by": 468,
+   "venue": "Contemporary Physics",
+   "url": "https://doi.org/10.1080/00107514.2019.1667078",
+   "query": "quantum error correction",
+   "authors": [
+    "Joschka Roffe"
+   ]
+  },
+  {
+   "title": "Application of a Resource Theory for Magic States to Fault-Tolerant Quantum Computing",
+   "year": 2017,
+   "cited_by": 461,
+   "venue": "Physical Review Letters",
+   "url": "https://doi.org/10.1103/physrevlett.118.090501",
+   "query": "fault-tolerant quantum computing",
+   "authors": [
+    "Mark Howard",
+    "Earl T. Campbell"
+   ]
+  },
+  {
+   "title": "The Ryu–Takayanagi Formula from Quantum Error Correction",
+   "year": 2017,
+   "cited_by": 460,
+   "venue": "Communications in Mathematical Physics",
+   "url": "https://doi.org/10.1007/s00220-017-2904-z",
+   "query": "quantum error correction",
+   "authors": [
+    "Daniel Harlow"
+   ]
+  },
+  {
+   "title": "Fault-Tolerant Measurement-Based Quantum Computing with Continuous-Variable Cluster States",
+   "year": 2014,
+   "cited_by": 402,
+   "venue": "Physical Review Letters",
+   "url": "https://doi.org/10.1103/physrevlett.112.120504",
+   "query": "fault-tolerant quantum computing",
+   "authors": [
+    "Nicolas C. Menicucci"
+   ]
+  },
+  {
+   "title": "Realization of an Error-Correcting Surface Code with Superconducting Qubits",
+   "year": 2022,
+   "cited_by": 385,
+   "venue": "Physical Review Letters",
+   "url": "https://doi.org/10.1103/physrevlett.129.030501",
+   "query": "surface code",
+   "authors": [
+    "Youwei Zhao",
+    "Yangsen Ye",
+    "He-Liang Huang"
+   ]
+  },
+  {
+   "title": "Realization of Real-Time Fault-Tolerant Quantum Error Correction",
+   "year": 2021,
+   "cited_by": 374,
+   "venue": "Physical Review X",
+   "url": "https://doi.org/10.1103/physrevx.11.041058",
+   "query": "quantum error correction",
+   "authors": [
+    "Ciarán Ryan-Anderson",
+    "Justin Bohnet",
+    "K. Lee"
+   ]
+  },
+  {
+   "title": "Repeated quantum error detection in a surface code",
+   "year": 2020,
+   "cited_by": 349,
+   "venue": "Nature Physics",
+   "url": "https://doi.org/10.1038/s41567-020-0920-y",
+   "query": "surface code",
+   "authors": [
+    "Christian Kraglund Andersen",
+    "Ants Remm",
+    "Stefania Lazar"
+   ]
+  },
+  {
+   "title": "The XZZX surface code",
+   "year": 2021,
+   "cited_by": 333,
+   "venue": "Nature Communications",
+   "url": "https://doi.org/10.1038/s41467-021-22274-1",
+   "query": "surface code",
+   "authors": [
+    "J. Pablo Bonilla Ataides",
+    "David K. Tuckett",
+    "Stephen D. Bartlett"
+   ]
+  },
+  {
+   "title": "Achieving the Heisenberg limit in quantum metrology using quantum error correction",
+   "year": 2018,
+   "cited_by": 328,
+   "venue": "Nature Communications",
+   "url": "https://doi.org/10.1038/s41467-017-02510-3",
+   "query": "quantum error correction",
+   "authors": [
+    "Sisi Zhou",
+    "Mengzhen Zhang",
+    "John Preskill"
+   ]
+  },
+  {
+   "title": "Quantum error correction and universal gate set operation on a binomial bosonic logical qubit",
+   "year": 2019,
+   "cited_by": 327,
+   "venue": "Nature Physics",
+   "url": "https://doi.org/10.1038/s41567-018-0414-3",
+   "query": "quantum error correction",
+   "authors": [
+    "L. Hu",
+    "Y. Ma",
+    "W. Cai"
+   ]
+  },
+  {
+   "title": "Improved Quantum Metrology Using Quantum Error Correction",
+   "year": 2014,
+   "cited_by": 319,
+   "venue": "Physical Review Letters",
+   "url": "https://doi.org/10.1103/physrevlett.112.080801",
+   "query": "quantum error correction",
+   "authors": [
+    "Wolfgang Dür",
+    "Michalis Skotiniotis",
+    "Florian Fröwis"
+   ]
+  },
+  {
+   "title": "Low-distance surface codes under realistic quantum noise",
+   "year": 2014,
+   "cited_by": 318,
+   "venue": "Physical Review A",
+   "url": "https://doi.org/10.1103/physreva.90.062320",
+   "query": "surface code",
+   "authors": [
+    "Yu Tomita",
+    "Krysta M. Svore"
+   ]
+  },
+  {
+   "title": "Quantum Error Correction for Metrology",
+   "year": 2014,
+   "cited_by": 292,
+   "venue": "Physical Review Letters",
+   "url": "https://doi.org/10.1103/physrevlett.112.150802",
+   "query": "quantum error correction",
+   "authors": [
+    "E. M. Kessler",
+    "Igor Lovchinsky",
+    "Alexander O. Sushkov"
+   ]
+  },
+  {
+   "title": "Implementing a strand of a scalable fault-tolerant quantum computing fabric",
+   "year": 2014,
+   "cited_by": 286,
+   "venue": "Nature Communications",
+   "url": "https://doi.org/10.1038/ncomms5015",
+   "query": "fault-tolerant quantum computing",
+   "authors": [
+    "Jerry M. Chow",
+    "Jay Gambetta",
+    "Easwar Magesan"
    ]
   }
  ],
@@ -1171,12 +1161,6 @@
    "url": "https://thequantuminsider.com/2026/11/13/classical-light-dynamics-could-help-simulate-quantum-interactions/",
    "source": "The Quantum Insider",
    "published": "2026-11-13T09:01:36+00:00"
-  },
-  {
-   "title": "AI agents act as search tool for more efficient collider physics calculations",
-   "url": "https://physicsworld.com/a/ai-agents-act-as-search-tool-for-more-efficient-collider-physics-calculations/",
-   "source": "Physics World",
-   "published": "2026-11-13T09:00:21+00:00"
   },
   {
    "title": "University at Buffalo Study Decodes Quantum Material’s ‘Optical Dingerprints’",
@@ -1221,22 +1205,10 @@
    "published": "2026-11-12T15:49:35+00:00"
   },
   {
-   "title": "Probing advanced materials with time-resolved photoluminescence microscopy",
-   "url": "https://physicsworld.com/a/probing-advanced-materials-with-time-resolved-photoluminescence-microscopy/",
-   "source": "Physics World",
-   "published": "2026-11-12T14:55:43+00:00"
-  },
-  {
    "title": "Quantum Elements Helps Rigetti Predict Quantum Hardware Behavior",
    "url": "https://thequantuminsider.com/2026/11/12/quantum-elements-helps-rigetti-predict-quantum-hardware-behavior/",
    "source": "The Quantum Insider",
    "published": "2026-11-12T14:12:15+00:00"
-  },
-  {
-   "title": "Jocelyn Bell Burnell on Graham Farmelo’s new biography of Stephen Hawking",
-   "url": "https://physicsworld.com/a/jocelyn-bell-burnell-on-graham-farmelos-new-biography-of-stephen-hawking/",
-   "source": "Physics World",
-   "published": "2026-11-12T13:30:00+00:00"
   },
   {
    "title": "Q-CTRL Secures US$290 Million Series C Funding Led by Salesforce Ventures",
@@ -1245,76 +1217,34 @@
    "published": "2026-11-12T13:05:33+00:00"
   },
   {
-   "title": "Attosecond hard X-ray pulses reach record-high intensities",
-   "url": "https://physicsworld.com/a/attosecond-hard-x-ray-pulses-reach-record-high-intensities/",
-   "source": "Physics World",
-   "published": "2026-11-12T13:00:39+00:00"
-  },
-  {
-   "title": "ESA’s Euclid mission unveils treasure trove of cosmic data",
-   "url": "https://physicsworld.com/a/esas-euclid-mission-unveils-treasure-trove-of-cosmic-data/",
-   "source": "Physics World",
-   "published": "2026-11-12T11:00:05+00:00"
-  },
-  {
-   "title": "Chloride-based electrolytes for efficient metal production",
-   "url": "https://physicsworld.com/a/chloride-based-electrolytes-for-efficient-metal-production/",
-   "source": "Physics World",
-   "published": "2026-11-11T13:42:03+00:00"
-  },
-  {
-   "title": "White dwarf star glows an eerie green",
-   "url": "https://physicsworld.com/a/white-dwarf-star-glows-an-eerie-green/",
-   "source": "Physics World",
-   "published": "2026-11-11T12:00:20+00:00"
-  },
-  {
-   "title": "Gold nanoparticles on superfluid droplets illuminate century-old ‘Thomson problem’",
-   "url": "https://physicsworld.com/a/gold-nanoparticles-on-superfluid-droplets-illuminate-century-old-thomson-problem/",
-   "source": "Physics World",
-   "published": "2026-11-11T08:50:22+00:00"
-  },
-  {
    "title": "Purity versus scrambling: universal laws in quantum systems",
    "url": "https://physicsworld.com/a/purity-versus-scrambling-universal-laws-in-quantum-systems/",
    "source": "Physics World",
    "published": "2026-11-11T08:08:52+00:00"
   },
   {
-   "title": "AI-designed metasurface could make cameras far more light-efficient",
-   "url": "https://physicsworld.com/a/ai-designed-metasurface-could-make-cameras-far-more-light-efficient/",
+   "title": "Quantum information reveals limits of neutrino flavour measurements",
+   "url": "https://physicsworld.com/a/quantum-information-reveals-limits-of-neutrino-flavour-measurements/",
    "source": "Physics World",
-   "published": "2026-11-11T08:07:16+00:00"
+   "published": "2026-11-09T09:00:51+00:00"
   },
   {
-   "title": "US underground neutrino experiment begins cryostat installation",
-   "url": "https://physicsworld.com/a/us-underground-neutrino-experiment-begins-cryostat-installation/",
+   "title": "New fractional quantum Hall states",
+   "url": "https://physicsworld.com/a/new-fractional-quantum-hall-states/",
    "source": "Physics World",
-   "published": "2026-11-10T15:00:38+00:00"
+   "published": "2026-11-04T09:10:24+00:00"
   },
   {
-   "title": "Myriam Sarachik: how her work on the Kondo effect sparked a revolution in modern physics",
-   "url": "https://physicsworld.com/a/myriam-sarachik-how-her-work-on-the-kondo-effect-sparked-a-revolution-in-modern-physics/",
+   "title": "Cool correlations: quantum steering can make cooling more efficient",
+   "url": "https://physicsworld.com/a/cool-correlations-quantum-steering-can-make-cooling-more-efficient/",
    "source": "Physics World",
-   "published": "2026-11-10T11:00:04+00:00"
+   "published": "2026-11-03T14:19:05+00:00"
   },
   {
-   "title": "Climate prediction model breaks resolution records and removes ‘popcorn-like’ rain",
-   "url": "https://physicsworld.com/a/climate-prediction-model-breaks-resolution-records-and-removes-popcorn-like-rain/",
+   "title": "Technology companies join forces to boost scientific discovery and quantum scale-up",
+   "url": "https://physicsworld.com/a/technology-companies-join-forces-to-boost-scientific-discovery-and-quantum-scale-up/",
    "source": "Physics World",
-   "published": "2026-11-10T09:00:29+00:00"
-  },
-  {
-   "title": "Ask me anything: Pradeep Niroula – ‘I believe that the greatest asset you can have as a scientist today is intellectual mobility’",
-   "url": "https://physicsworld.com/a/ask-me-anything-pradeep-niroula-i-believe-that-the-greatest-asset-you-can-have-as-a-scientist-today-is-intellectual-mobility/",
-   "source": "Physics World",
-   "published": "2026-11-09T18:00:27+00:00"
-  },
-  {
-   "title": "Multiphysics moves to the heart of semiconductor design as Synopsys brings multiphysics into the chip-design workflow",
-   "url": "https://physicsworld.com/a/multiphysics-moves-to-the-heart-of-semiconductor-design-as-synopsys-brings-multiphysics-into-the-chip-design-workflow/",
-   "source": "Physics World",
-   "published": "2026-11-09T14:11:32+00:00"
+   "published": "2026-11-03T10:43:19+00:00"
   }
  ],
  "score_rule": "score = 2*keyword_hits(title+abstract) + ln(1+citations); source: arXiv API, OpenAlex"
