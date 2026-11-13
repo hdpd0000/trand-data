@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "semiconductor": {
+      "label": "반도체",
+      "arxiv": {
+        "categories": ["cs.AR", "cs.ET"],
+        "keywords": ["processing-in-memory", "in-memory computing", "near-memory", "high bandwidth memory", "HBM", "CXL", "neural processing unit", "NPU", "RISC-V", "chiplet", "DRAM", "accelerator", "FPGA"],
+        "max_results": 100
+      },
+      "classic_queries": ["processing-in-memory", "RISC-V", "neural network accelerator", "high bandwidth memory", "chiplet"],
+      "feeds": [
+        {"name": "Semiconductor Engineering", "url": "https://semiengineering.com/feed/"},
+        {"name": "Chips and Cheese", "url": "https://chipsandcheese.com/feed/"},
+        {"name": "The Next Platform", "url": "https://www.nextplatform.com/feed/"},
+        {"name": "EE Times", "url": "https://www.eetimes.com/feed/"},
+        {"name": "TrendForce News", "url": "https://www.trendforce.com/news/feed/"}
+      ]
+    },
+    "quantum": {
+      "label": "양자",
+      "arxiv": {
+        "categories": ["quant-ph"],
+        "keywords": ["error correction", "fault-tolerant", "quantum architecture", "quantum compilation", "transpilation", "decoder", "superconducting qubit", "trapped ion", "neutral atom", "logical qubit"],
+        "max_results": 100
+      },
+      "classic_queries": ["quantum error correction", "surface code", "fault-tolerant quantum computing", "quantum compiler"],
+      "feeds": [
+        {"name": "The Quantum Insider", "url": "https://thequantuminsider.com/feed/"},
+        {"name": "Physics World", "url": "https://physicsworld.com/feed/"},
+        {"name": "IBM Quantum Blog", "url": "https://www.ibm.com/quantum/blog/rss.xml"}
+      ]
+    }
+  },
+  "news_days": 14,
+  "news_per_feed": 15,
+  "new_papers_keep": 40,
+  "classic_keep": 30
+}
