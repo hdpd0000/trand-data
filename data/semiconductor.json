@@ -1,0 +1,1386 @@
+{
+ "field": "semiconductor",
+ "label": "반도체",
+ "updated": "2026-11-13T09:26:30+00:00",
+ "papers_new": [
+  {
+   "id": "2611.04804",
+   "title": "GSPIM: A Temporal-Locality-Aware 4D Gaussian Splatting Accelerator with Polymorphic PIM and Multi-Frame Rendering Dataflow",
+   "url": "https://arxiv.org/abs/2611.04804",
+   "authors": [
+    "Zirui Ma",
+    "Zhihua Fan",
+    "Haibin Wu"
+   ],
+   "n_authors": 6,
+   "published": "2026-11-03",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 4,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 8.0
+  },
+  {
+   "id": "2611.17097",
+   "title": "Broadcast, Don't Replicate: Eliminating Weight HBM in Datacenter LLM Serving",
+   "url": "https://arxiv.org/abs/2611.17097",
+   "authors": [
+    "Hannah Atmer",
+    "Yuan Yao",
+    "Thiemo Voigt"
+   ],
+   "n_authors": 4,
+   "published": "2026-11-12",
+   "categories": [
+    "cs.AR",
+    "cs.DC",
+    "cs.ET",
+    "cs.NI"
+   ],
+   "kw_hits": 3,
+   "cited_by": null,
+   "venue": null,
+   "score": 6.0
+  },
+  {
+   "id": "2611.14495",
+   "title": "SkipLane: Write-Once, Conflict-Free Accumulation for Zero-Skipping CNN Engines on FPGAs",
+   "url": "https://arxiv.org/abs/2611.14495",
+   "authors": [
+    "Aditya Saboo",
+    "Pratibha Verma"
+   ],
+   "n_authors": 2,
+   "published": "2026-11-10",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 3,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 6.0
+  },
+  {
+   "id": "2611.13644",
+   "title": "Tri-Stack-PIM: A Heterogeneous Multi-Die 3D-Integrated Processing-in-Memory Architecture for Efficient LLM Inference",
+   "url": "https://arxiv.org/abs/2611.13644",
+   "authors": [
+    "Shuao Jia",
+    "Zichao Ling",
+    "Chen Bai"
+   ],
+   "n_authors": 5,
+   "published": "2026-11-10",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 3,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 6.0
+  },
+  {
+   "id": "2611.11823",
+   "title": "AscSpMM: Efficient SpMM on Ascend NPUs via Pipelined Vector-Cube Collaboration",
+   "url": "https://arxiv.org/abs/2611.11823",
+   "authors": [
+    "Fei Li",
+    "Haoxin Li",
+    "Kehong Liu"
+   ],
+   "n_authors": 8,
+   "published": "2026-11-09",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 3,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 6.0
+  },
+  {
+   "id": "2611.10930",
+   "title": "Beyond Host-Side Control: HBM Controller Partitioning Across Host and HBM Base Dies",
+   "url": "https://arxiv.org/abs/2611.10930",
+   "authors": [
+    "Tharunya Yogananda",
+    "Wantong Li"
+   ],
+   "n_authors": 2,
+   "published": "2026-11-07",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 3,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 6.0
+  },
+  {
+   "id": "2611.10648",
+   "title": "PENSA: A Spatial Accelerator for BitNet b1.58 Inference on an HBM-equipped AMD Alveo FPGA",
+   "url": "https://arxiv.org/abs/2611.10648",
+   "authors": [
+    "Karthikeyan B. Kalyanasundaram",
+    "Ivan S. Maksymov",
+    "Philip H. W. Leong"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-07",
+   "categories": [
+    "cs.AR",
+    "eess.SP"
+   ],
+   "kw_hits": 3,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 6.0
+  },
+  {
+   "id": "2611.07506",
+   "title": "Memory Fit: Architectural Support for Page Placement by Learning Models of Good Behavior",
+   "url": "https://arxiv.org/abs/2611.07506",
+   "authors": [
+    "Chun Deng",
+    "Hui Sub Shim",
+    "Evan Laufer"
+   ],
+   "n_authors": 7,
+   "published": "2026-11-05",
+   "categories": [
+    "cs.OS",
+    "cs.AR"
+   ],
+   "kw_hits": 3,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 6.0
+  },
+  {
+   "id": "2611.00487",
+   "title": "Efficient Reconfigurable Architectures for Deep Learning",
+   "url": "https://arxiv.org/abs/2611.00487",
+   "authors": [
+    "Endri Taka"
+   ],
+   "n_authors": 1,
+   "published": "2026-10-31",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 3,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 6.0
+  },
+  {
+   "id": "2611.00292",
+   "title": "TADA: Technology Aware DNN Accelerator Performance and Energy Estimator",
+   "url": "https://arxiv.org/abs/2611.00292",
+   "authors": [
+    "Tanvi Sharma",
+    "Surya Selvam",
+    "Anand Raghunathan"
+   ],
+   "n_authors": 4,
+   "published": "2026-10-30",
+   "categories": [
+    "cs.AR",
+    "cs.AI"
+   ],
+   "kw_hits": 3,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 6.0
+  },
+  {
+   "id": "2610.39420",
+   "title": "Energy-Efficient Memristor Accelerator for Depression Detection with a CNN-LSTM Hybrid Model",
+   "url": "https://arxiv.org/abs/2610.39420",
+   "authors": [
+    "Jiaqi Liu",
+    "Yun Yu",
+    "Fenglin Xi"
+   ],
+   "n_authors": 10,
+   "published": "2026-10-29",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 3,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 6.0
+  },
+  {
+   "id": "2611.17108",
+   "title": "LazyWeights: Decode-on-Demand Edge LLMs",
+   "url": "https://arxiv.org/abs/2611.17108",
+   "authors": [
+    "Arnab Sanyal",
+    "Gourav Datta",
+    "Sandeep P. Chinchali"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-12",
+   "categories": [
+    "cs.LG",
+    "cs.AR",
+    "cs.CL",
+    "cs.IT"
+   ],
+   "kw_hits": 2,
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0
+  },
+  {
+   "id": "2611.17042",
+   "title": "Infrastructure for Verifiable AI: Where Proof Costs Go and How Hardware Can Help",
+   "url": "https://arxiv.org/abs/2611.17042",
+   "authors": [
+    "Yihan Xia",
+    "Wenxin Xu",
+    "Taotao Wang"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-12",
+   "categories": [
+    "cs.AR",
+    "cs.CR",
+    "cs.LG"
+   ],
+   "kw_hits": 2,
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0
+  },
+  {
+   "id": "2611.16376",
+   "title": "SPEC CPU2026 Under the Microscope: Programs, Phases, and Samples",
+   "url": "https://arxiv.org/abs/2611.16376",
+   "authors": [
+    "Peijun Li",
+    "Pei-Hung Lin",
+    "Tianming Cui"
+   ],
+   "n_authors": 6,
+   "published": "2026-11-12",
+   "categories": [
+    "cs.AR",
+    "cs.PF"
+   ],
+   "kw_hits": 2,
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0
+  },
+  {
+   "id": "2611.16363",
+   "title": "Vector-Space Projection and Unified Complex-Valued Acceleration for Scaling Matrix-Based Brain-Inspired Representations",
+   "url": "https://arxiv.org/abs/2611.16363",
+   "authors": [
+    "William Youngwoo Chung",
+    "Hyunwoo Oh",
+    "Calvin Yeung"
+   ],
+   "n_authors": 6,
+   "published": "2026-11-12",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0
+  },
+  {
+   "id": "2611.16189",
+   "title": "SBA: A Practical Memory Performance Denial-of-Service Attack",
+   "url": "https://arxiv.org/abs/2611.16189",
+   "authors": [
+    "Amin Mamandipoor",
+    "Connor Rudy Sullivan",
+    "Cole Ridge Strickler"
+   ],
+   "n_authors": 5,
+   "published": "2026-11-12",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0
+  },
+  {
+   "id": "2611.15951",
+   "title": "Starscream: Reimagining LLM Sharding on AMD Instinct GPUs with GPU Partitioning",
+   "url": "https://arxiv.org/abs/2611.15951",
+   "authors": [
+    "Sumanth Gudaparthi",
+    "Smeet Chheda",
+    "Ganesh Dasika"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-11",
+   "categories": [
+    "cs.DC",
+    "cs.AR",
+    "cs.LG"
+   ],
+   "kw_hits": 2,
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0
+  },
+  {
+   "id": "2611.14776",
+   "title": "SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads",
+   "url": "https://arxiv.org/abs/2611.14776",
+   "authors": [
+    "Anish Saxena",
+    "Hritvik Taneja",
+    "Christos Kozyrakis"
+   ],
+   "n_authors": 4,
+   "published": "2026-11-10",
+   "categories": [
+    "cs.AR",
+    "cs.DC",
+    "cs.LG"
+   ],
+   "kw_hits": 2,
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0
+  },
+  {
+   "id": "2611.12622",
+   "title": "Reconfiguring System-Level Protection Through Bounded Delegation in RISC-V MCUs",
+   "url": "https://arxiv.org/abs/2611.12622",
+   "authors": [
+    "Luís Cunha",
+    "José Martins",
+    "Manuel Rodríguez"
+   ],
+   "n_authors": 10,
+   "published": "2026-11-09",
+   "categories": [
+    "cs.CR",
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.11402",
+   "title": "A Per-Step Load-Balancing Engine for Expert-Parallel MoE Serving",
+   "url": "https://arxiv.org/abs/2611.11402",
+   "authors": [
+    "Jingyuan Li",
+    "Maolin Wang",
+    "Hayden So"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-08",
+   "categories": [
+    "cs.AR",
+    "cs.DC"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.10316",
+   "title": "The World Model Planning Accelerator (WMPA): Hardware-Algorithm Co-Design for Embedded AI in Robotics",
+   "url": "https://arxiv.org/abs/2611.10316",
+   "authors": [
+    "Prerana Ramkumar",
+    "Suhas Suresh Bharadwaj",
+    "Fazal Hameed"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-06",
+   "categories": [
+    "cs.AR",
+    "cs.LG",
+    "cs.RO"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.09522",
+   "title": "Atik: A Shared-Mesh Transformer Accelerator for RISC-V",
+   "url": "https://arxiv.org/abs/2611.09522",
+   "authors": [
+    "Ahmed Zeer",
+    "Erkan Uslu"
+   ],
+   "n_authors": 2,
+   "published": "2026-11-06",
+   "categories": [
+    "cs.AI",
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.09254",
+   "title": "TwinHash: Two-Sided Object Identity Management for Time- and Energy-Efficient Agentic Workflows",
+   "url": "https://arxiv.org/abs/2611.09254",
+   "authors": [
+    "Sangbu Yun",
+    "Jung Gyu Min",
+    "Jin Hyun"
+   ],
+   "n_authors": 5,
+   "published": "2026-11-06",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.08693",
+   "title": "Enabling Retraining-Free Accurate Inference in Analog Compute in Memory Accelerators",
+   "url": "https://arxiv.org/abs/2611.08693",
+   "authors": [
+    "George Karfakis",
+    "Puneet Gupta"
+   ],
+   "n_authors": 2,
+   "published": "2026-11-05",
+   "categories": [
+    "cs.AR",
+    "cs.LG"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.08380",
+   "title": "SensorGuard-RV: Sensor-to-Register Data Protection for Resource-Constrained RISC-V Devices",
+   "url": "https://arxiv.org/abs/2611.08380",
+   "authors": [
+    "Hamid Noori",
+    "Carlton Shepherd"
+   ],
+   "n_authors": 2,
+   "published": "2026-11-05",
+   "categories": [
+    "cs.CR",
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.08147",
+   "title": "MCUFlowNet: Hardware-Aware Neural Architecture Search for Optical Flow on Microcontrollers",
+   "url": "https://arxiv.org/abs/2611.08147",
+   "authors": [
+    "Enmin Lin",
+    "Jona Beysens"
+   ],
+   "n_authors": 2,
+   "published": "2026-11-05",
+   "categories": [
+    "cs.CV",
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.07707",
+   "title": "CAMP: Context-Aware Mapping and Placement for LLMs on 3D-IMC Arrays",
+   "url": "https://arxiv.org/abs/2611.07707",
+   "authors": [
+    "Orhun Görkem",
+    "Athanasios Vasilopoulos",
+    "Georgios Pagonis"
+   ],
+   "n_authors": 9,
+   "published": "2026-11-05",
+   "categories": [
+    "cs.AR",
+    "cs.AI"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.06829",
+   "title": "Enabling AWS Cloud FPGA Development Using High-Level Vitis HLS",
+   "url": "https://arxiv.org/abs/2611.06829",
+   "authors": [
+    "David Rostcheck"
+   ],
+   "n_authors": 1,
+   "published": "2026-11-04",
+   "categories": [
+    "cs.AR",
+    "cs.AI",
+    "cs.LG"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.06036",
+   "title": "PIMROP: A Feasibility Study of Return-Oriented Programming on Commercial Processing-in-Memory Architectures",
+   "url": "https://arxiv.org/abs/2611.06036",
+   "authors": [
+    "William C. Tegge",
+    "Shouzhi Fang",
+    "Alex K. Jones"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-04",
+   "categories": [
+    "cs.CR",
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.04740",
+   "title": "A RISC-V Simulator for the Tenstorrent Tensix Architecture",
+   "url": "https://arxiv.org/abs/2611.04740",
+   "authors": [
+    "Nick Brown",
+    "Daniyal Arshad"
+   ],
+   "n_authors": 2,
+   "published": "2026-11-03",
+   "categories": [
+    "cs.DC",
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.03392",
+   "title": "TinyML Hits the Memory Wall: A Benchmark of Ten Sub-Watt Edge Devices",
+   "url": "https://arxiv.org/abs/2611.03392",
+   "authors": [
+    "Pietro Bonazzi",
+    "Luigi Capogrosso",
+    "Ahmet Celik"
+   ],
+   "n_authors": 8,
+   "published": "2026-11-02",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.02023",
+   "title": "Naviq: An Open-Source System-on-Chip Simulator for Rapid Prototyping, Verification, and Design Space Exploration",
+   "url": "https://arxiv.org/abs/2611.02023",
+   "authors": [
+    "Scott Smith",
+    "Lukas Zscherpel",
+    "Alyssa Huang"
+   ],
+   "n_authors": 5,
+   "published": "2026-11-01",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.01707",
+   "title": "SMART-AIMC: Sensitivity-Aware Mixed ADC Resolution with Fine-Grained Tunability for Analog In-Memory Computing",
+   "url": "https://arxiv.org/abs/2611.01707",
+   "authors": [
+    "Yung-Chin Chen",
+    "Ourania Stouraiti",
+    "Naveen Verma"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-01",
+   "categories": [
+    "cs.AR",
+    "cs.AI"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.01611",
+   "title": "SparseForge: Beyond Spike Sparsity toward Hardware-Exploitable Neuron Pruning for Efficient SNN Acceleration",
+   "url": "https://arxiv.org/abs/2611.01611",
+   "authors": [
+    "Kainan Wang",
+    "Sanhe Fu",
+    "Aili Wang"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-01",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0
+  },
+  {
+   "id": "2611.00669",
+   "title": "FPGA Acceleration of CNN-BiLSTM for EEG-Based Sleep Staging Featuring FFT-Based Non-Unit Stride Fast Convolution",
+   "url": "https://arxiv.org/abs/2611.00669",
+   "authors": [
+    "Aaron Zhou",
+    "Yaqian Xu",
+    "Chen Chen"
+   ],
+   "n_authors": 10,
+   "published": "2026-10-31",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.00660",
+   "title": "A Mixed-Precision CNN-LSTM Accelerator Featuring Long-Kernel Memory Reuse and Dynamic Quantization for Sleep Staging",
+   "url": "https://arxiv.org/abs/2611.00660",
+   "authors": [
+    "Xinyu Chen",
+    "Yaqian Xu",
+    "Yuhan Hou"
+   ],
+   "n_authors": 6,
+   "published": "2026-10-31",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0
+  },
+  {
+   "id": "2611.00282",
+   "title": "Randomized Caches in Hardware: Challenges and Trade-offs",
+   "url": "https://arxiv.org/abs/2611.00282",
+   "authors": [
+    "Xinrui Wang",
+    "Pascal Kosak",
+    "Christof Paar"
+   ],
+   "n_authors": 6,
+   "published": "2026-10-30",
+   "categories": [
+    "cs.AR",
+    "cs.CR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2610.40932",
+   "title": "HippocamFLEX: FPGA Prototyping of Hippocampus-Inspired Architecture for Context-Aware Sequence Prediction",
+   "url": "https://arxiv.org/abs/2610.40932",
+   "authors": [
+    "Bhuvanesh S. Kayarabettu",
+    "Hamed Poursiami",
+    "Keiland Cooper"
+   ],
+   "n_authors": 7,
+   "published": "2026-10-29",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2610.39572",
+   "title": "RV2GC: Reconstructing the Garbling Boundary in a RISC-V Garbled Processor",
+   "url": "https://arxiv.org/abs/2610.39572",
+   "authors": [
+    "Zixiao Feng",
+    "Xiaolin Li",
+    "Chenglu Jin"
+   ],
+   "n_authors": 8,
+   "published": "2026-10-29",
+   "categories": [
+    "cs.CR",
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2610.39570",
+   "title": "LLM Agent-Based Design of RISC-V CPUs with FPGA-in-the-Loop Evaluation",
+   "url": "https://arxiv.org/abs/2610.39570",
+   "authors": [
+    "Leo Itoh",
+    "Junichiro Kadomoto"
+   ],
+   "n_authors": 2,
+   "published": "2026-10-29",
+   "categories": [
+    "cs.AR",
+    "cs.AI"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  }
+ ],
+ "papers_classic": [
+  {
+   "title": "ImageNet classification with deep convolutional neural networks",
+   "year": 2017,
+   "cited_by": 114706,
+   "venue": "Communications of the ACM",
+   "url": "https://doi.org/10.1145/3065386",
+   "query": "processing-in-memory",
+   "authors": [
+    "Alex Krizhevsky",
+    "Ilya Sutskever",
+    "Geoffrey E. Hinton"
+   ]
+  },
+  {
+   "title": "Fitting Linear Mixed-Effects Models Using lme4",
+   "year": 2015,
+   "cited_by": 100125,
+   "venue": "Journal of Statistical Software",
+   "url": "https://doi.org/10.18637/jss.v067.i01",
+   "query": "processing-in-memory",
+   "authors": [
+    "Douglas M. Bates",
+    "Martin Maechler",
+    "Benjamin M. Bolker"
+   ]
+  },
+  {
+   "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+   "year": 2016,
+   "cited_by": 74087,
+   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "url": "https://doi.org/10.1109/tpami.2016.2577031",
+   "query": "processing-in-memory",
+   "authors": [
+    "Shaoqing Ren",
+    "Kaiming He",
+    "Ross Girshick"
+   ]
+  },
+  {
+   "title": "Highly accurate protein structure prediction with AlphaFold",
+   "year": 2021,
+   "cited_by": 45813,
+   "venue": "Nature",
+   "url": "https://doi.org/10.1038/s41586-021-03819-2",
+   "query": "processing-in-memory",
+   "authors": [
+    "John Jumper",
+    "Richard Evans",
+    "Alexander Pritzel"
+   ]
+  },
+  {
+   "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
+   "year": 2015,
+   "cited_by": 41265,
+   "venue": "Nucleic Acids Research",
+   "url": "https://doi.org/10.1093/nar/gkv007",
+   "query": "processing-in-memory",
+   "authors": [
+    "Matthew E. Ritchie",
+    "Belinda Phipson",
+    "Di Wu"
+   ]
+  },
+  {
+   "title": "MEGA X: Molecular Evolutionary Genetics Analysis across Computing Platforms",
+   "year": 2018,
+   "cited_by": 38472,
+   "venue": "Molecular Biology and Evolution",
+   "url": "https://doi.org/10.1093/molbev/msy096",
+   "query": "processing-in-memory",
+   "authors": [
+    "Sudhir Kumar",
+    "Glen Stecher",
+    "Michael Li"
+   ]
+  },
+  {
+   "title": "RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies",
+   "year": 2014,
+   "cited_by": 32528,
+   "venue": "Bioinformatics",
+   "url": "https://doi.org/10.1093/bioinformatics/btu033",
+   "query": "processing-in-memory",
+   "authors": [
+    "Alexandros Stamatakis"
+   ]
+  },
+  {
+   "title": "SHELXT – Integrated space-group and crystal-structure determination",
+   "year": 2014,
+   "cited_by": 30770,
+   "venue": "Acta Crystallographica Section A Foundations and Advances",
+   "url": "https://doi.org/10.1107/s2053273314026370",
+   "query": "processing-in-memory",
+   "authors": [
+    "George M. Sheldrick"
+   ]
+  },
+  {
+   "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+   "year": 2013,
+   "cited_by": 27536,
+   "venue": "Bioinformatics",
+   "url": "https://doi.org/10.1093/bioinformatics/btt656",
+   "query": "processing-in-memory",
+   "authors": [
+    "Yang Liao",
+    "Gordon K. Smyth",
+    "Wei Shi"
+   ]
+  },
+  {
+   "title": "MEGA11: Molecular Evolutionary Genetics Analysis Version 11",
+   "year": 2021,
+   "cited_by": 24051,
+   "venue": "Molecular Biology and Evolution",
+   "url": "https://doi.org/10.1093/molbev/msab120",
+   "query": "processing-in-memory",
+   "authors": [
+    "Koichiro Tamura",
+    "Glen Stecher",
+    "Sudhir Kumar"
+   ]
+  },
+  {
+   "title": "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+   "year": 2017,
+   "cited_by": 23241,
+   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "url": "https://doi.org/10.1109/tpami.2017.2699184",
+   "query": "processing-in-memory",
+   "authors": [
+    "Liang-Chieh Chen",
+    "George Papandreou",
+    "Iasonas Kokkinos"
+   ]
+  },
+  {
+   "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+   "year": 2020,
+   "cited_by": 21369,
+   "venue": "The Lancet",
+   "url": "https://doi.org/10.1016/s0140-6736(20)30925-9",
+   "query": "processing-in-memory",
+   "authors": [
+    "Theo Vos",
+    "Stephen S Lim",
+    "Cristiana Abbafati"
+   ]
+  },
+  {
+   "title": "Grey Wolf Optimizer",
+   "year": 2014,
+   "cited_by": 20562,
+   "venue": "Advances in Engineering Software",
+   "url": "https://doi.org/10.1016/j.advengsoft.2013.12.007",
+   "query": "processing-in-memory",
+   "authors": [
+    "Seyedali Mirjalili",
+    "Seyed Mohammad Mirjalili",
+    "Andrew Lewis"
+   ]
+  },
+  {
+   "title": "SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation",
+   "year": 2017,
+   "cited_by": 20479,
+   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "url": "https://doi.org/10.1109/tpami.2016.2644615",
+   "query": "processing-in-memory",
+   "authors": [
+    "Vijay Badrinarayanan",
+    "Alex Kendall",
+    "Roberto Cipolla"
+   ]
+  },
+  {
+   "title": "IQ-TREE 2: New Models and Efficient Methods for Phylogenetic Inference in the Genomic Era",
+   "year": 2020,
+   "cited_by": 17467,
+   "venue": "Molecular Biology and Evolution",
+   "url": "https://doi.org/10.1093/molbev/msaa015",
+   "query": "processing-in-memory",
+   "authors": [
+    "Bùi Quang Minh",
+    "Heiko A. Schmidt",
+    "Olga Chernomor"
+   ]
+  },
+  {
+   "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+   "year": 2025,
+   "cited_by": 16824,
+   "venue": "Nature",
+   "url": "https://doi.org/10.1038/s41586-025-09422-z",
+   "query": "processing-in-memory",
+   "authors": [
+    "Daya Guo",
+    "Dejian Yang",
+    "Haowei Zhang"
+   ]
+  },
+  {
+   "title": "Twelve years of SAMtools and BCFtools",
+   "year": 2021,
+   "cited_by": 16449,
+   "venue": "GigaScience",
+   "url": "https://doi.org/10.1093/gigascience/giab008",
+   "query": "processing-in-memory",
+   "authors": [
+    "Petr Danecek",
+    "James Bonfield",
+    "Jennifer Liddle"
+   ]
+  },
+  {
+   "title": "Minimap2: pairwise alignment for nucleotide sequences",
+   "year": 2018,
+   "cited_by": 15609,
+   "venue": "Bioinformatics",
+   "url": "https://doi.org/10.1093/bioinformatics/bty191",
+   "query": "processing-in-memory",
+   "authors": [
+    "Heng Li"
+   ]
+  },
+  {
+   "title": "Squeeze-and-Excitation Networks",
+   "year": 2019,
+   "cited_by": 15438,
+   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "url": "https://doi.org/10.1109/tpami.2019.2913372",
+   "query": "processing-in-memory",
+   "authors": [
+    "Jie Hu",
+    "Li Shen",
+    "Samuel Albanie"
+   ]
+  },
+  {
+   "title": "glmmTMB Balances Speed and Flexibility Among Packages for Zero-inflated Generalized Linear Mixed Modeling",
+   "year": 2017,
+   "cited_by": 14875,
+   "venue": "The R Journal",
+   "url": "https://doi.org/10.32614/rj-2017-066",
+   "query": "processing-in-memory",
+   "authors": [
+    "Mollie,E. Brooks",
+    "Kasper Kristensen",
+    "Koen J. van Benthem"
+   ]
+  },
+  {
+   "title": "A survey on Image Data Augmentation for Deep Learning",
+   "year": 2019,
+   "cited_by": 14455,
+   "venue": "Journal Of Big Data",
+   "url": "https://doi.org/10.1186/s40537-019-0197-0",
+   "query": "processing-in-memory",
+   "authors": [
+    "Connor Shorten",
+    "Taghi M. Khoshgoftaar"
+   ]
+  },
+  {
+   "title": "Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning",
+   "year": 2017,
+   "cited_by": 13818,
+   "venue": "AAAI Publications (The Association for the Advancement of Artificial Intelligence (AAAI))",
+   "url": "https://doi.org/10.1609/aaai.v31i1.11231",
+   "query": "processing-in-memory",
+   "authors": [
+    "Christian Szegedy",
+    "Sergey Ioffe",
+    "Vincent Vanhoucke"
+   ]
+  },
+  {
+   "title": "2013 ESH/ESC Guidelines for the management of arterial hypertension",
+   "year": 2013,
+   "cited_by": 13764,
+   "venue": "European Heart Journal",
+   "url": "https://doi.org/10.1093/eurheartj/eht151",
+   "query": "processing-in-memory",
+   "authors": [
+    "Authors Task Force Members",
+    "Giuseppe Mancia",
+    "Robert Fagard"
+   ]
+  },
+  {
+   "title": "LAMMPS - a flexible simulation tool for particle-based materials modeling at the atomic, meso, and continuum scales",
+   "year": 2021,
+   "cited_by": 13390,
+   "venue": "Computer Physics Communications",
+   "url": "https://doi.org/10.1016/j.cpc.2021.108171",
+   "query": "processing-in-memory",
+   "authors": [
+    "Aidan P. Thompson",
+    "Hasan Metin Aktulga",
+    "Richard A. Berger"
+   ]
+  },
+  {
+   "title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
+   "year": 2013,
+   "cited_by": 13134,
+   "venue": "Future Generation Computer Systems",
+   "url": "https://doi.org/10.1016/j.future.2013.01.010",
+   "query": "processing-in-memory",
+   "authors": [
+    "Jayavardhana Gubbi",
+    "Rajkumar Buyya",
+    "Slaven Marusic"
+   ]
+  },
+  {
+   "title": "Advances and Open Problems in Federated Learning",
+   "year": 2020,
+   "cited_by": 9668,
+   "venue": "Foundations and Trends® in Machine Learning",
+   "url": "https://doi.org/10.1561/9781680837896",
+   "query": "RISC-V",
+   "authors": [
+    "Peter Kairouz",
+    "H. Brendan McMahan",
+    "Brendan Avent"
+   ]
+  },
+  {
+   "title": "Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications",
+   "year": 2015,
+   "cited_by": 9285,
+   "venue": "IEEE Communications Surveys & Tutorials",
+   "url": "https://doi.org/10.1109/comst.2015.2444095",
+   "query": "high bandwidth memory",
+   "authors": [
+    "Ala Al‐Fuqaha",
+    "Mohsen Guizani",
+    "Mehdi Mohammadi"
+   ]
+  },
+  {
+   "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+   "year": 2021,
+   "cited_by": 9050,
+   "venue": "Journal Of Big Data",
+   "url": "https://doi.org/10.1186/s40537-021-00444-8",
+   "query": "neural network accelerator",
+   "authors": [
+    "Laith Alzubaidi",
+    "Jinglan Zhang",
+    "Amjad J. Humaidi"
+   ]
+  },
+  {
+   "title": "A Survey of Large Language Models",
+   "year": 2026,
+   "cited_by": 8546,
+   "venue": "Frontiers of Computer Science",
+   "url": "https://doi.org/10.1007/s11704-026-60308-3",
+   "query": "high bandwidth memory",
+   "authors": [
+    "Wayne Xin Zhao",
+    "Kun Zhou",
+    "Junyi Li"
+   ]
+  },
+  {
+   "title": "2015 ESC Guidelines for the management of acute coronary syndromes in patients presenting without persistent ST-segment elevation",
+   "year": 2015,
+   "cited_by": 8426,
+   "venue": "European Heart Journal",
+   "url": "https://doi.org/10.1093/eurheartj/ehv320",
+   "query": "RISC-V",
+   "authors": [
+    "Marco Roffi",
+    "Carlo Patrono",
+    "Jean‐Philippe Collet"
+   ]
+  }
+ ],
+ "news": [
+  {
+   "title": "Chip Industry Week In Review",
+   "url": "https://semiengineering.com/chip-industry-week-in-review-164/",
+   "source": "Semiconductor Engineering",
+   "published": "2026-11-13T08:01:34+00:00"
+  },
+  {
+   "title": "Staying Data-Resilient for Cyber Insurance",
+   "url": "https://intelligence.theregister.com/paper/view/19690",
+   "source": "The Next Platform",
+   "published": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "title": "Jensen Resigns Over Second Affair",
+   "url": "https://www.eetimes.com/jensen-resigns-over-second-affair/",
+   "source": "EE Times",
+   "published": "2026-11-12T20:48:35+00:00"
+  },
+  {
+   "title": "The Nvidia Machine Is Self-Sustaining – And Was Already Facing A Tougher Future",
+   "url": "https://www.nextplatform.com/ai/2026/11/12/the-nvidia-machine-is-self-sustaining-and-was-already-facing-a-tougher-future/5309473",
+   "source": "The Next Platform",
+   "published": "2026-11-12T18:42:07+00:00"
+  },
+  {
+   "title": "The Semiconductor Singularity",
+   "url": "https://semiengineering.com/the-semiconductor-singularity/",
+   "source": "Semiconductor Engineering",
+   "published": "2026-11-12T15:57:50+00:00"
+  },
+  {
+   "title": "Design Smarter – Energy Harvesting for Battery-Free and Low-Maintenance Devices in Safety & Security applications",
+   "url": "https://www.eetimes.com/design-smarter-energy-harvesting-for-battery-free-and-low-maintenance-devices-in-safety-security-applications/",
+   "source": "EE Times",
+   "published": "2026-11-12T15:00:00+00:00"
+  },
+  {
+   "title": "Can Machines See a Sick Plant Before a Farmer Can?",
+   "url": "https://www.eetimes.com/can-machines-see-a-sick-plant-before-a-farmer-can/",
+   "source": "EE Times",
+   "published": "2026-11-12T13:00:00+00:00"
+  },
+  {
+   "title": "Connecting AI to the Physical World",
+   "url": "https://www.eetimes.com/connecting-ai-to-the-physical-world/",
+   "source": "EE Times",
+   "published": "2026-11-12T10:20:00+00:00"
+  },
+  {
+   "title": "Harari Warns Tech Leaders Against Pursuing AI Superintelligence",
+   "url": "https://www.eetimes.com/harari-warns-tech-leaders-against-pursuing-ai-superintelligence/",
+   "source": "EE Times",
+   "published": "2026-11-12T08:30:00+00:00"
+  },
+  {
+   "title": "Rethinking Memory For AI Inference",
+   "url": "https://semiengineering.com/rethinking-memory-for-ai-inference/",
+   "source": "Semiconductor Engineering",
+   "published": "2026-11-12T08:11:46+00:00"
+  },
+  {
+   "title": "Beyond Bandwidth: AI Inference Is Reshaping The Memory Wall",
+   "url": "https://semiengineering.com/beyond-bandwidth-ai-inference-is-reshaping-the-memory-wall/",
+   "source": "Semiconductor Engineering",
+   "published": "2026-11-12T08:08:39+00:00"
+  },
+  {
+   "title": "The Semiconductor Singularity: When AI Starts Accelerating The Silicon That Accelerates AI",
+   "url": "https://semiengineering.com/the-semiconductor-singularity-when-ai-starts-accelerating-the-silicon-that-accelerates-ai/",
+   "source": "Semiconductor Engineering",
+   "published": "2026-11-12T08:06:49+00:00"
+  },
+  {
+   "title": "Designing Edge AI SoCs At Near-Threshold: Why Foundation IP Can Help You Break Down The Power Wall",
+   "url": "https://semiengineering.com/designing-edge-ai-socs-at-near-threshold-why-foundation-ip-can-help-you-break-down-the-power-wall/",
+   "source": "Semiconductor Engineering",
+   "published": "2026-11-12T08:05:04+00:00"
+  },
+  {
+   "title": "IP Integration Challenges Evolve",
+   "url": "https://semiengineering.com/ip-integration-challenges-evolve/",
+   "source": "Semiconductor Engineering",
+   "published": "2026-11-12T08:05:00+00:00"
+  },
+  {
+   "title": "The Memory Challenge Of Physical AI",
+   "url": "https://semiengineering.com/the-memory-challenge-of-physical-ai/",
+   "source": "Semiconductor Engineering",
+   "published": "2026-11-12T08:04:39+00:00"
+  },
+  {
+   "title": "Introduction To FP8 Formats: Part 1",
+   "url": "https://semiengineering.com/introduction-to-fp8-formats-part-1/",
+   "source": "Semiconductor Engineering",
+   "published": "2026-11-12T08:03:25+00:00"
+  },
+  {
+   "title": "RISC-V For AI: Breakthrough Or Bad Idea?",
+   "url": "https://semiengineering.com/risc-v-for-ai-breakthrough-or-bad-idea/",
+   "source": "Semiconductor Engineering",
+   "published": "2026-11-12T08:01:26+00:00"
+  },
+  {
+   "title": "CoreWeave Is Accelerating To Escape Velocity Thanks To GPU Shortages",
+   "url": "https://www.nextplatform.com/cloud/2026/11/12/coreweave-is-accelerating-to-escape-velocity-thanks-to-gpu-shortages/5309222",
+   "source": "The Next Platform",
+   "published": "2026-11-12T00:50:59+00:00"
+  },
+  {
+   "title": "Automotive Tech Forum: Panel Discussion the Make-or-Break Milestones Toward Level 4 Autonomous Driving",
+   "url": "https://www.eetimes.com/automotive-tech-forum-panel-discussion-the-make-or-break-milestones-toward-level-4-autonomous-driving/",
+   "source": "EE Times",
+   "published": "2026-11-11T23:39:41+00:00"
+  },
+  {
+   "title": "Automotive Tech Forum: The Current State of Sic in EV Design and How It’s Evolving",
+   "url": "https://www.eetimes.com/automotive-tech-forum-the-current-state-of-sic-in-ev-design-and-how-its-evolving/",
+   "source": "EE Times",
+   "published": "2026-11-11T23:34:28+00:00"
+  },
+  {
+   "title": "Automotive Tech Forum: Lidar is Key to Safer ADAS and Autonomous Vehicles",
+   "url": "https://www.eetimes.com/automotive-tech-forum-lidar-is-key-to-safer-adas-and-autonomous-vehicles/",
+   "source": "EE Times",
+   "published": "2026-11-11T23:28:21+00:00"
+  },
+  {
+   "title": "Automotive Tech Forum: GaN Building Blocks in EV’s and Their Design Roadmap in 2026 and Beyond",
+   "url": "https://www.eetimes.com/automotive-tech-forum-gan-building-blocks-in-evs-and-their-design-roadmap-in-2026-and-beyond/",
+   "source": "EE Times",
+   "published": "2026-11-11T23:22:01+00:00"
+  },
+  {
+   "title": "Chiplets: Revolutionizing Design Velocity with Artificial Chip Intelligence ACI",
+   "url": "https://www.eetimes.com/chiplets-revolutionizing-design-velocity-with-artificial-chip-intelligence-aci/",
+   "source": "EE Times",
+   "published": "2026-11-11T23:00:05+00:00"
+  },
+  {
+   "title": "Talking Zen 6 with Mike Clark at AMD In-Depth",
+   "url": "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at",
+   "source": "Chips and Cheese",
+   "published": "2026-11-11T22:22:57+00:00"
+  },
+  {
+   "title": "How The 'Venice' Epycs Measure Up Against Prior AMD Server CPUs",
+   "url": "https://www.nextplatform.com/compute/2026/11/10/how-the-venice-epycs-measure-up-against-prior-amd-server-cpus/5308901",
+   "source": "The Next Platform",
+   "published": "2026-11-10T20:02:09+00:00"
+  },
+  {
+   "title": "AMD Tunes Up CPUs For Agentic AI With 'Venice' Epyc Processors",
+   "url": "https://www.nextplatform.com/compute/2026/11/10/amd-tunes-up-cpus-for-agentic-ai-with-venice-epyc-processors/5308850",
+   "source": "The Next Platform",
+   "published": "2026-11-10T17:06:06+00:00"
+  },
+  {
+   "title": "AMD’s Zen 6 Family: Feeding the Beast",
+   "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
+   "source": "Chips and Cheese",
+   "published": "2026-11-10T17:00:10+00:00"
+  },
+  {
+   "title": "Datacenter Systems Spending To Go Through The Roof In 2027",
+   "url": "https://www.nextplatform.com/compute/2026/11/10/datacenter-systems-spending-to-go-through-the-roof-in-2027/5308636",
+   "source": "The Next Platform",
+   "published": "2026-11-10T00:28:14+00:00"
+  },
+  {
+   "title": "Google Rejiggers TPU Accelerators For Broader AI Inference Work",
+   "url": "https://www.nextplatform.com/compute/2026/11/09/google-rejiggers-tpu-accelerators-for-broader-ai-inference-work/5308534",
+   "source": "The Next Platform",
+   "published": "2026-11-09T18:06:49+00:00"
+  },
+  {
+   "title": "IBM, AMD, And Oak Ridge Unveil Quantum Error Correction Platform",
+   "url": "https://www.nextplatform.com/compute/2026/11/06/ibm-amd-and-oak-ridge-unveil-quantum-error-correction-platform/5308284",
+   "source": "The Next Platform",
+   "published": "2026-11-06T22:58:31+00:00"
+  },
+  {
+   "title": "Arista Lines Up Networking For 10 Gigawatts Of AI Systems",
+   "url": "https://www.nextplatform.com/connect/2026/11/05/arista-lines-up-networking-for-10-gigawatts-of-ai-systems/5307929",
+   "source": "The Next Platform",
+   "published": "2026-11-05T17:30:52+00:00"
+  },
+  {
+   "title": "AMD Cannot Catch Nvidia, But It Sure Can Make Some Money",
+   "url": "https://www.nextplatform.com/compute/2026/11/04/amd-cannot-catch-nvidia-but-it-sure-can-make-some-money/5307666",
+   "source": "The Next Platform",
+   "published": "2026-11-04T20:31:15+00:00"
+  },
+  {
+   "title": "Marvell Cuts To The Front Of The Datacenter Optics Line With Lumentum Deal",
+   "url": "https://www.nextplatform.com/connect/2026/11/03/marvell-cuts-to-the-front-of-the-datacenter-optics-line-with-lumentum-deal/5307392",
+   "source": "The Next Platform",
+   "published": "2026-11-03T21:31:01+00:00"
+  },
+  {
+   "title": "Qualcomm Has Eyes On The AI Inference Datacenter With HBC And AI250",
+   "url": "https://www.nextplatform.com/ai/2026/11/02/qualcomm-has-eyes-on-the-ai-inference-datacenter-with-hbc-and-ai250/5306954",
+   "source": "The Next Platform",
+   "published": "2026-11-02T18:02:57+00:00"
+  },
+  {
+   "title": "AI Arms Race Puts Sovereign Supply Chains in the Spotlight",
+   "url": "https://www.nextplatform.com/ai/2026/10/30/ai-arms-race-puts-sovereign-supply-chains-in-the-spotlight/5306758",
+   "source": "The Next Platform",
+   "published": "2026-10-30T19:08:51+00:00"
+  }
+ ],
+ "score_rule": "score = 2*keyword_hits(title+abstract) + ln(1+citations); source: arXiv API, OpenAlex"
+}

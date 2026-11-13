@@ -1,0 +1,19 @@
+{
+ "updated": "2026-11-13T09:26:30+00:00",
+ "status": {
+  "semiconductor:arxiv": "ok",
+  "semiconductor:openalex-enrich": "ok",
+  "semiconductor:openalex-classics": "ok",
+  "feed:Semiconductor Engineering": "ok",
+  "feed:Chips and Cheese": "ok",
+  "feed:The Next Platform": "ok",
+  "feed:EE Times": "ok",
+  "feed:TrendForce News": "ok",
+  "quantum:arxiv": "ok",
+  "quantum:openalex-enrich": "ok",
+  "quantum:openalex-classics": "ok",
+  "feed:The Quantum Insider": "ok",
+  "feed:Physics World": "ok",
+  "feed:IBM Quantum Blog": "HTTPError: HTTP Error 404: Not Found"
+ }
+}

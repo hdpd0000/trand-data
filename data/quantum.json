@@ -1,0 +1,1321 @@
+{
+ "field": "quantum",
+ "label": "양자",
+ "updated": "2026-11-13T09:26:30+00:00",
+ "papers_new": [
+  {
+   "id": "2611.16271",
+   "title": "Hierarchical Decoding for Quantum Error Correction",
+   "url": "https://arxiv.org/abs/2611.16271",
+   "authors": [
+    "Xulong Tang",
+    "Narges Alavisamani",
+    "Joan Camps"
+   ],
+   "n_authors": 21,
+   "published": "2026-11-12",
+   "categories": [
+    "quant-ph",
+    "cs.ET"
+   ],
+   "kw_hits": 3,
+   "cited_by": null,
+   "venue": null,
+   "score": 6.0
+  },
+  {
+   "id": "2611.15104",
+   "title": "An Architecture for Real-Time Quantum Error Correction with Neutral Atoms",
+   "url": "https://arxiv.org/abs/2611.15104",
+   "authors": [
+    "X. Wang",
+    "Y. Jing",
+    "Z. Yu"
+   ],
+   "n_authors": 11,
+   "published": "2026-11-11",
+   "categories": [
+    "quant-ph"
+   ],
+   "kw_hits": 3,
+   "cited_by": null,
+   "venue": null,
+   "score": 6.0
+  },
+  {
+   "id": "2611.13630",
+   "title": "Machine-learning decoders for fusion-based quantum computing in real time",
+   "url": "https://arxiv.org/abs/2611.13630",
+   "authors": [
+    "Daniel Barter",
+    "Jacob C. Bridgeman",
+    "Chris Dawson"
+   ],
+   "n_authors": 15,
+   "published": "2026-11-10",
+   "categories": [
+    "quant-ph",
+    "cs.AR",
+    "cs.LG"
+   ],
+   "kw_hits": 3,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 6.0
+  },
+  {
+   "id": "2611.13174",
+   "title": "How wide must an eavesdropper be? Leakage of a toric-code logical bit to a strip and the Nishimori point",
+   "url": "https://arxiv.org/abs/2611.13174",
+   "authors": [
+    "Konstantinos Karagiannis"
+   ],
+   "n_authors": 1,
+   "published": "2026-11-09",
+   "categories": [
+    "quant-ph",
+    "cond-mat.stat-mech",
+    "cs.CR"
+   ],
+   "kw_hits": 3,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 6.0
+  },
+  {
+   "id": "2611.16285",
+   "title": "Scaling Pêlagos: Multi-GPU Orchestration for Relay Belief-Propagation Decoding",
+   "url": "https://arxiv.org/abs/2611.16285",
+   "authors": [
+    "Xulong Tang",
+    "Dionysios Diamantopoulos",
+    "Tristan Müller"
+   ],
+   "n_authors": 10,
+   "published": "2026-11-12",
+   "categories": [
+    "quant-ph",
+    "cs.ET"
+   ],
+   "kw_hits": 2,
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0
+  },
+  {
+   "id": "2611.16016",
+   "title": "Quantum Material Generation via Coherent Hamiltonian Search",
+   "url": "https://arxiv.org/abs/2611.16016",
+   "authors": [
+    "Jiang Yuhan",
+    "Matthew Otten"
+   ],
+   "n_authors": 2,
+   "published": "2026-11-11",
+   "categories": [
+    "quant-ph",
+    "cond-mat.mtrl-sci"
+   ],
+   "kw_hits": 2,
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0
+  },
+  {
+   "id": "2611.15952",
+   "title": "Quasi-Cyclic Qudit Lifted Product Codes with Almost Linear Minimum Distance",
+   "url": "https://arxiv.org/abs/2611.15952",
+   "authors": [
+    "Shantom K. Borah",
+    "Abhinav Vaishya",
+    "V. Lalitha"
+   ],
+   "n_authors": 6,
+   "published": "2026-11-11",
+   "categories": [
+    "quant-ph",
+    "cs.IT"
+   ],
+   "kw_hits": 2,
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0
+  },
+  {
+   "id": "2611.15573",
+   "title": "Quantum-logic detection of rotationally inelastic collisions of single molecules",
+   "url": "https://arxiv.org/abs/2611.15573",
+   "authors": [
+    "Mikolaj Roguski",
+    "Shimoni Patel",
+    "Richard Karl"
+   ],
+   "n_authors": 7,
+   "published": "2026-11-11",
+   "categories": [
+    "physics.atom-ph",
+    "physics.chem-ph",
+    "quant-ph"
+   ],
+   "kw_hits": 2,
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0
+  },
+  {
+   "id": "2611.14923",
+   "title": "Quantum CSS codes: Decoder-aware multiobjective design and bound-certified selection",
+   "url": "https://arxiv.org/abs/2611.14923",
+   "authors": [
+    "Jiapei Zhuang",
+    "Yaocheng Chen",
+    "Xingyao Wu"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-11",
+   "categories": [
+    "quant-ph"
+   ],
+   "kw_hits": 2,
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0
+  },
+  {
+   "id": "2611.14391",
+   "title": "Implementing rapid reset of superconducting qubits with on-chip dissipation",
+   "url": "https://arxiv.org/abs/2611.14391",
+   "authors": [
+    "Feiyu Li",
+    "Yang Liu",
+    "Zhen Yang"
+   ],
+   "n_authors": 13,
+   "published": "2026-11-10",
+   "categories": [
+    "quant-ph"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.14583",
+   "title": "Circuit-aware protection against burst errors in lattice surgery",
+   "url": "https://arxiv.org/abs/2611.14583",
+   "authors": [
+    "Jaebum Kim"
+   ],
+   "n_authors": 1,
+   "published": "2026-11-10",
+   "categories": [
+    "quant-ph"
+   ],
+   "kw_hits": 2,
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0
+  },
+  {
+   "id": "2611.13301",
+   "title": "A Compiler for Fault Tolerant Quantum Computing",
+   "url": "https://arxiv.org/abs/2611.13301",
+   "authors": [
+    "Narasinga Rao Miniskar",
+    "Elaine Wong",
+    "Seyong Lee"
+   ],
+   "n_authors": 6,
+   "published": "2026-11-09",
+   "categories": [
+    "quant-ph",
+    "cs.PL"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.13111",
+   "title": "FusionQ: A Generic and Optimal Decoding Framework for Ultra-Low-Latency Quantum Error Correction",
+   "url": "https://arxiv.org/abs/2611.13111",
+   "authors": [
+    "Junyu Zhou",
+    "Sean Garner",
+    "Aarthi Sundaram"
+   ],
+   "n_authors": 5,
+   "published": "2026-11-09",
+   "categories": [
+    "quant-ph"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.12833",
+   "title": "GARI++: A General-Purpose Decoder for Quantum Error Correction",
+   "url": "https://arxiv.org/abs/2611.12833",
+   "authors": [
+    "Arshpreet Singh Maan",
+    "Francisco Garcia-Herrero",
+    "Daniel Bascones"
+   ],
+   "n_authors": 5,
+   "published": "2026-11-09",
+   "categories": [
+    "quant-ph"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.12098",
+   "title": "A Universal Fault-Tolerant Quantum Computing Architecture with Globally Driven Atom Arrays",
+   "url": "https://arxiv.org/abs/2611.12098",
+   "authors": [
+    "Zhihao Zhang",
+    "Shuaifan Cao",
+    "Xinyang Yu"
+   ],
+   "n_authors": 9,
+   "published": "2026-11-09",
+   "categories": [
+    "quant-ph"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.11990",
+   "title": "Rapid high-purity loading of barium ion via relayed selectivity from naturally abundant source",
+   "url": "https://arxiv.org/abs/2611.11990",
+   "authors": [
+    "Zichun Zhou",
+    "Xuhui Yao",
+    "Jiaze Li"
+   ],
+   "n_authors": 8,
+   "published": "2026-11-09",
+   "categories": [
+    "physics.atom-ph",
+    "quant-ph"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.09873",
+   "title": "Trajectory-Dependent Decoherence and Leakage During Shuttling of Multi-Spin Qubits",
+   "url": "https://arxiv.org/abs/2611.09873",
+   "authors": [
+    "Yu-Ning Zhang",
+    "Aleksandr S. Mokeev",
+    "Maximilian Rimbach-Russ"
+   ],
+   "n_authors": 5,
+   "published": "2026-11-06",
+   "categories": [
+    "cond-mat.mes-hall",
+    "quant-ph"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.09779",
+   "title": "Differentiable Digital Twins for Optimization, Calibration, and Characterization of Neutral-Atom- and Ion-based Quantum Computers",
+   "url": "https://arxiv.org/abs/2611.09779",
+   "authors": [
+    "Marco Rossignolo",
+    "Lorena C. Bianchet",
+    "Anurag Saha Roy"
+   ],
+   "n_authors": 4,
+   "published": "2026-11-06",
+   "categories": [
+    "quant-ph"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.09105",
+   "title": "Parametric $\\mathrm{CZ}$ Gates in a Tunable Tripod Architecture with Fixed-Frequency Superconducting Qubits",
+   "url": "https://arxiv.org/abs/2611.09105",
+   "authors": [
+    "Chanpyo Kim",
+    "Hansol Kim",
+    "Jeongsoo Kang"
+   ],
+   "n_authors": 4,
+   "published": "2026-11-06",
+   "categories": [
+    "quant-ph"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.07175",
+   "title": "Scalable Transpilation for Overcoming Restricted Connectivity in Distributed Superconducting Quantum Architectures",
+   "url": "https://arxiv.org/abs/2611.07175",
+   "authors": [
+    "Afonso Azenha",
+    "Ilia Polian",
+    "Sebastian Brandhofer"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-04",
+   "categories": [
+    "quant-ph",
+    "cs.ET"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.06818",
+   "title": "Linear-time erasure recovery for quantum expander codes",
+   "url": "https://arxiv.org/abs/2611.06818",
+   "authors": [
+    "Anirudh Krishna",
+    "Christopher A. Pattison"
+   ],
+   "n_authors": 2,
+   "published": "2026-11-04",
+   "categories": [
+    "quant-ph",
+    "cs.IT"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.08310",
+   "title": "Recovery gates as a resource in repetition-code process tomography: exhaustive gate-optimal designs for three, five and seven qubits",
+   "url": "https://arxiv.org/abs/2611.08310",
+   "authors": [
+    "Long Huang"
+   ],
+   "n_authors": 1,
+   "published": "2026-11-05",
+   "categories": [
+    "quant-ph"
+   ],
+   "kw_hits": 1,
+   "cited_by": 1,
+   "venue": "arXiv (Cornell University)",
+   "score": 2.69
+  },
+  {
+   "id": "2611.17265",
+   "title": "A deployed four-city entanglement-based QKD network with real-time key delivery, benchmarked against finite-key security bounds",
+   "url": "https://arxiv.org/abs/2611.17265",
+   "authors": [
+    "Gilberto Borges",
+    "Saeid Salari",
+    "Ekta Panwar"
+   ],
+   "n_authors": 8,
+   "published": "2026-11-12",
+   "categories": [
+    "quant-ph",
+    "physics.optics"
+   ],
+   "kw_hits": 1,
+   "cited_by": null,
+   "venue": null,
+   "score": 2.0
+  },
+  {
+   "id": "2611.16751",
+   "title": "Reduced filtering using classical control hierarchy with linear optimality for continuous quantum error correction",
+   "url": "https://arxiv.org/abs/2611.16751",
+   "authors": [
+    "Manuel Guatto",
+    "F. A. Cárdenas-López",
+    "Felix Motzoi"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-12",
+   "categories": [
+    "quant-ph"
+   ],
+   "kw_hits": 1,
+   "cited_by": null,
+   "venue": null,
+   "score": 2.0
+  },
+  {
+   "id": "2611.16691",
+   "title": "Persistent-mediator architecture for universal fault-tolerant quantum computation with color codes",
+   "url": "https://arxiv.org/abs/2611.16691",
+   "authors": [
+    "Zhi-Cheng He",
+    "Jingbo Wang",
+    "Dong E. Liu"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-12",
+   "categories": [
+    "quant-ph"
+   ],
+   "kw_hits": 1,
+   "cited_by": null,
+   "venue": null,
+   "score": 2.0
+  },
+  {
+   "id": "2611.16607",
+   "title": "Beauty and charm jet identification with end-to-end training on a superconducting quantum processor",
+   "url": "https://arxiv.org/abs/2611.16607",
+   "authors": [
+    "Lucio Anderlini",
+    "Pietro Asinari",
+    "Gianluca Bertaina"
+   ],
+   "n_authors": 12,
+   "published": "2026-11-12",
+   "categories": [
+    "quant-ph"
+   ],
+   "kw_hits": 1,
+   "cited_by": null,
+   "venue": null,
+   "score": 2.0
+  },
+  {
+   "id": "2611.16563",
+   "title": "Noise-Protected Superconducting Qudits from Higher-Harmonic Josephson Junctions",
+   "url": "https://arxiv.org/abs/2611.16563",
+   "authors": [
+    "Hamed Vakili"
+   ],
+   "n_authors": 1,
+   "published": "2026-11-12",
+   "categories": [
+    "cond-mat.supr-con",
+    "cond-mat.mes-hall",
+    "quant-ph"
+   ],
+   "kw_hits": 1,
+   "cited_by": null,
+   "venue": null,
+   "score": 2.0
+  },
+  {
+   "id": "2611.16456",
+   "title": "Learning Sparse Graph States with Local Pauli Measurements: Tight Nonadaptive Bounds and an Adaptive Separation",
+   "url": "https://arxiv.org/abs/2611.16456",
+   "authors": [
+    "Matteo De Francesco"
+   ],
+   "n_authors": 1,
+   "published": "2026-11-12",
+   "categories": [
+    "quant-ph"
+   ],
+   "kw_hits": 1,
+   "cited_by": null,
+   "venue": null,
+   "score": 2.0
+  },
+  {
+   "id": "2611.16435",
+   "title": "Circuit-Level Analysis of Quantum Error Correction in Second-Generation Quantum Repeaters",
+   "url": "https://arxiv.org/abs/2611.16435",
+   "authors": [
+    "Suraj Vishwanath",
+    "Jonas Hawellek",
+    "Roberto Ferrara"
+   ],
+   "n_authors": 4,
+   "published": "2026-11-12",
+   "categories": [
+    "quant-ph"
+   ],
+   "kw_hits": 1,
+   "cited_by": null,
+   "venue": null,
+   "score": 2.0
+  },
+  {
+   "id": "2611.16229",
+   "title": "Infinite or indefinite: the query cost of simulating the quantum switch",
+   "url": "https://arxiv.org/abs/2611.16229",
+   "authors": [
+    "Dantong Li"
+   ],
+   "n_authors": 1,
+   "published": "2026-11-12",
+   "categories": [
+    "quant-ph"
+   ],
+   "kw_hits": 1,
+   "cited_by": null,
+   "venue": null,
+   "score": 2.0
+  },
+  {
+   "id": "2611.15757",
+   "title": "Buffer-Gas-Assisted Fluorescence Spectroscopy of Molecular Ions",
+   "url": "https://arxiv.org/abs/2611.15757",
+   "authors": [
+    "Jinyue Jiang",
+    "Kenji Shu",
+    "Huaxu Dan"
+   ],
+   "n_authors": 4,
+   "published": "2026-11-11",
+   "categories": [
+    "physics.atom-ph",
+    "physics.chem-ph",
+    "quant-ph"
+   ],
+   "kw_hits": 1,
+   "cited_by": null,
+   "venue": null,
+   "score": 2.0
+  },
+  {
+   "id": "2611.15416",
+   "title": "Extractable Work from Collective Dark-State Charging of Quantum Batteries",
+   "url": "https://arxiv.org/abs/2611.15416",
+   "authors": [
+    "Jian-Jian Cheng",
+    "Ming-Liang Hu"
+   ],
+   "n_authors": 2,
+   "published": "2026-11-11",
+   "categories": [
+    "quant-ph"
+   ],
+   "kw_hits": 1,
+   "cited_by": null,
+   "venue": null,
+   "score": 2.0
+  },
+  {
+   "id": "2611.15343",
+   "title": "Hybrid Classical-Quantum Optimization for CVRPTW: A Systems Framework with Provable Feasibility and Empirical Hardware Limits",
+   "url": "https://arxiv.org/abs/2611.15343",
+   "authors": [
+    "Syamasundar Gopasana",
+    "Swatantra Singh",
+    "Rohan Joydhar"
+   ],
+   "n_authors": 4,
+   "published": "2026-11-11",
+   "categories": [
+    "quant-ph",
+    "cs.ET"
+   ],
+   "kw_hits": 1,
+   "cited_by": null,
+   "venue": null,
+   "score": 2.0
+  },
+  {
+   "id": "2611.15000",
+   "title": "QSim-Arena: an evolving developer for quantum simulation advantage",
+   "url": "https://arxiv.org/abs/2611.15000",
+   "authors": [
+    "Jue Xu",
+    "Yue Wang",
+    "Qi Zhao"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-11",
+   "categories": [
+    "quant-ph",
+    "cs.AI"
+   ],
+   "kw_hits": 1,
+   "cited_by": null,
+   "venue": null,
+   "score": 2.0
+  },
+  {
+   "id": "2611.14944",
+   "title": "CSS Circuits: useful quantum circuits that can be simulated with $O(1)$ cost per gate",
+   "url": "https://arxiv.org/abs/2611.14944",
+   "authors": [
+    "Craig Gidney",
+    "Cody Jones"
+   ],
+   "n_authors": 2,
+   "published": "2026-11-11",
+   "categories": [
+    "quant-ph"
+   ],
+   "kw_hits": 1,
+   "cited_by": null,
+   "venue": null,
+   "score": 2.0
+  },
+  {
+   "id": "2611.14484",
+   "title": "Nonperturbative string dynamics in a (2+1)D lattice gauge theory on a superconducting quantum processor",
+   "url": "https://arxiv.org/abs/2611.14484",
+   "authors": [
+    "Sanziana Stelea",
+    "Anthony Gandon",
+    "Francesco Tacchino"
+   ],
+   "n_authors": 5,
+   "published": "2026-11-10",
+   "categories": [
+    "quant-ph"
+   ],
+   "kw_hits": 1,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 2.0
+  },
+  {
+   "id": "2611.14607",
+   "title": "Optical trapping of neutral atoms via magnetic-dipole transitions",
+   "url": "https://arxiv.org/abs/2611.14607",
+   "authors": [
+    "E. Orellana-Paillaleo",
+    "N. Vera",
+    "P. Solano"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-10",
+   "categories": [
+    "physics.atom-ph",
+    "physics.optics",
+    "quant-ph"
+   ],
+   "kw_hits": 1,
+   "cited_by": null,
+   "venue": null,
+   "score": 2.0
+  },
+  {
+   "id": "2611.14398",
+   "title": "Simulating closed- and open-system dynamics of Tavis--Cummings lattices on fault-tolerant quantum computers",
+   "url": "https://arxiv.org/abs/2611.14398",
+   "authors": [
+    "Soumya Sarkar",
+    "Rakshit Gharat",
+    "Nam Nguyen"
+   ],
+   "n_authors": 4,
+   "published": "2026-11-10",
+   "categories": [
+    "quant-ph"
+   ],
+   "kw_hits": 1,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 2.0
+  },
+  {
+   "id": "2611.14214",
+   "title": "Classical phase unwrapping enables large-time-step unitary quantum Krylov subspace diagonalization",
+   "url": "https://arxiv.org/abs/2611.14214",
+   "authors": [
+    "Tushar Kumar Jain",
+    "Rahul Maitra",
+    "Nicholas J. Mayhall"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-10",
+   "categories": [
+    "quant-ph",
+    "physics.chem-ph"
+   ],
+   "kw_hits": 1,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 2.0
+  },
+  {
+   "id": "2611.14147",
+   "title": "Secure Information Flow in Quantum Programs",
+   "url": "https://arxiv.org/abs/2611.14147",
+   "authors": [
+    "Zhicheng Zhang",
+    "Mingsheng Ying",
+    "Lirong Xia"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-10",
+   "categories": [
+    "quant-ph",
+    "cs.CR",
+    "cs.PL"
+   ],
+   "kw_hits": 1,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 2.0
+  }
+ ],
+ "papers_classic": [
+  {
+   "title": "Fitting Linear Mixed-Effects Models Using lme4",
+   "year": 2015,
+   "cited_by": 100125,
+   "venue": "Journal of Statistical Software",
+   "url": "https://doi.org/10.18637/jss.v067.i01",
+   "query": "surface code",
+   "authors": [
+    "Douglas M. Bates",
+    "Martin Maechler",
+    "Benjamin M. Bolker"
+   ]
+  },
+  {
+   "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
+   "year": 2015,
+   "cited_by": 41265,
+   "venue": "Nucleic Acids Research",
+   "url": "https://doi.org/10.1093/nar/gkv007",
+   "query": "surface code",
+   "authors": [
+    "Matthew E. Ritchie",
+    "Belinda Phipson",
+    "Di Wu"
+   ]
+  },
+  {
+   "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+   "year": 2019,
+   "cited_by": 24672,
+   "venue": "Nature Biotechnology",
+   "url": "https://doi.org/10.1038/s41587-019-0209-9",
+   "query": "surface code",
+   "authors": [
+    "Evan K Bolyen",
+    "Jai Ram Rideout",
+    "Matthew R. Dillon"
+   ]
+  },
+  {
+   "title": "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+   "year": 2017,
+   "cited_by": 23241,
+   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "url": "https://doi.org/10.1109/tpami.2017.2699184",
+   "query": "surface code",
+   "authors": [
+    "Liang-Chieh Chen",
+    "George Papandreou",
+    "Iasonas Kokkinos"
+   ]
+  },
+  {
+   "title": "SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation",
+   "year": 2017,
+   "cited_by": 20479,
+   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "url": "https://doi.org/10.1109/tpami.2016.2644615",
+   "query": "surface code",
+   "authors": [
+    "Vijay Badrinarayanan",
+    "Alex Kendall",
+    "Roberto Cipolla"
+   ]
+  },
+  {
+   "title": "SwissADME: a free web tool to evaluate pharmacokinetics, drug-likeness and medicinal chemistry friendliness of small molecules",
+   "year": 2017,
+   "cited_by": 19526,
+   "venue": "Scientific Reports",
+   "url": "https://doi.org/10.1038/srep42717",
+   "query": "surface code",
+   "authors": [
+    "Antoine Daina",
+    "Olivier Alain Michielin",
+    "Vincent Zoete"
+   ]
+  },
+  {
+   "title": "An integrated encyclopedia of DNA elements in the human genome",
+   "year": 2012,
+   "cited_by": 18262,
+   "venue": "Nature",
+   "url": "https://doi.org/10.1038/nature11247",
+   "query": "surface code",
+   "authors": [
+    "Ian Dunham",
+    "Ewan Birney",
+    "Javier Herrero"
+   ]
+  },
+  {
+   "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+   "year": 2024,
+   "cited_by": 17874,
+   "venue": "Nature",
+   "url": "https://doi.org/10.1038/s41586-024-07487-w",
+   "query": "surface code",
+   "authors": [
+    "Josh Abramson",
+    "Jonas Adler",
+    "Jack Dunger"
+   ]
+  },
+  {
+   "title": "The Chemistry and Applications of Metal-Organic Frameworks",
+   "year": 2013,
+   "cited_by": 17294,
+   "venue": "Science",
+   "url": "https://doi.org/10.1126/science.1230444",
+   "query": "surface code",
+   "authors": [
+    "Hiroyasu Furukawa",
+    "Kyle E. Cordova",
+    "M. O’Keeffe"
+   ]
+  },
+  {
+   "title": "2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer",
+   "year": 2015,
+   "cited_by": 17177,
+   "venue": "Thyroid",
+   "url": "https://doi.org/10.1089/thy.2015.0020",
+   "query": "surface code",
+   "authors": [
+    "Bryan R. Haugen",
+    "Erik Karl Alexander",
+    "Keith Christopher Bible"
+   ]
+  },
+  {
+   "title": "Planck 2018 results: VI. Cosmological parameters",
+   "year": 2020,
+   "cited_by": 16582,
+   "venue": "Astronomy and Astrophysics",
+   "url": "https://doi.org/10.1051/0004-6361/201833910",
+   "query": "surface code",
+   "authors": [
+    "N. Aghanim",
+    "Y. Akrami",
+    "M. Ashdown"
+   ]
+  },
+  {
+   "title": "Fully Convolutional Networks for Semantic Segmentation",
+   "year": 2016,
+   "cited_by": 15887,
+   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "url": "https://doi.org/10.1109/tpami.2016.2572683",
+   "query": "surface code",
+   "authors": [
+    "Evan Shelhamer",
+    "Jonathan Long",
+    "Trevor Darrell"
+   ]
+  },
+  {
+   "title": "Squeeze-and-Excitation Networks",
+   "year": 2019,
+   "cited_by": 15438,
+   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "url": "https://doi.org/10.1109/tpami.2019.2913372",
+   "query": "surface code",
+   "authors": [
+    "Jie Hu",
+    "Li Shen",
+    "Samuel Albanie"
+   ]
+  },
+  {
+   "title": "LAMMPS - a flexible simulation tool for particle-based materials modeling at the atomic, meso, and continuum scales",
+   "year": 2021,
+   "cited_by": 13390,
+   "venue": "Computer Physics Communications",
+   "url": "https://doi.org/10.1016/j.cpc.2021.108171",
+   "query": "quantum error correction",
+   "authors": [
+    "Aidan P. Thompson",
+    "Hasan Metin Aktulga",
+    "Richard A. Berger"
+   ]
+  },
+  {
+   "title": "SWISS-MODEL: homology modelling of protein structures and complexes",
+   "year": 2018,
+   "cited_by": 13364,
+   "venue": "Nucleic Acids Research",
+   "url": "https://doi.org/10.1093/nar/gky427",
+   "query": "surface code",
+   "authors": [
+    "Andrew Mark Waterhouse",
+    "Martino Bertoni",
+    "Stefan Bienert"
+   ]
+  },
+  {
+   "title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
+   "year": 2013,
+   "cited_by": 13134,
+   "venue": "Future Generation Computer Systems",
+   "url": "https://doi.org/10.1016/j.future.2013.01.010",
+   "query": "surface code",
+   "authors": [
+    "Jayavardhana Gubbi",
+    "Rajkumar Buyya",
+    "Slaven Marusic"
+   ]
+  },
+  {
+   "title": "Safety, Activity, and Immune Correlates of Anti–PD-1 Antibody in Cancer",
+   "year": 2012,
+   "cited_by": 12861,
+   "venue": "New England Journal of Medicine",
+   "url": "https://doi.org/10.1056/nejmoa1200690",
+   "query": "surface code",
+   "authors": [
+    "Suzanne Louise Topalian",
+    "Frank Stephen Hodi",
+    "Julie Renee Brahmer"
+   ]
+  },
+  {
+   "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes",
+   "year": 2015,
+   "cited_by": 12659,
+   "venue": "New England Journal of Medicine",
+   "url": "https://doi.org/10.1056/nejmoa1504720",
+   "query": "surface code",
+   "authors": [
+    "Bernard Zinman",
+    "Christoph Wanner",
+    "John M. Lachin"
+   ]
+  },
+  {
+   "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+   "year": 2019,
+   "cited_by": 12556,
+   "venue": "Information Fusion",
+   "url": "https://doi.org/10.1016/j.inffus.2019.12.012",
+   "query": "surface code",
+   "authors": [
+    "Alejandro Barredo Arrieta",
+    "Natalia Díaz-Rodríguez",
+    "Javier Del Ser"
+   ]
+  },
+  {
+   "title": "CBTRUS Statistical Report: Primary Brain and Central Nervous System Tumors Diagnosed in the United States in 2006-2010",
+   "year": 2013,
+   "cited_by": 12084,
+   "venue": "Neuro-Oncology",
+   "url": "https://doi.org/10.1093/neuonc/not151",
+   "query": "surface code",
+   "authors": [
+    "Quinn T. Ostrom",
+    "Haley R Gittleman",
+    "P. Farah"
+   ]
+  },
+  {
+   "title": "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation",
+   "year": 2020,
+   "cited_by": 11875,
+   "venue": "Nature Methods",
+   "url": "https://doi.org/10.1038/s41592-020-01008-z",
+   "query": "surface code",
+   "authors": [
+    "Fabian Isensee",
+    "Paul F. Jaeger",
+    "Simon A. A. Kohl"
+   ]
+  },
+  {
+   "title": "Minimal information for studies of extracellular vesicles 2018 (MISEV2018): a position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines",
+   "year": 2018,
+   "cited_by": 11481,
+   "venue": "Journal of Extracellular Vesicles",
+   "url": "https://doi.org/10.1080/20013078.2018.1535750",
+   "query": "surface code",
+   "authors": [
+    "Clotilde Théry",
+    "Kenneth Whitaker Witwer",
+    "Elena Aïkawa"
+   ]
+  },
+  {
+   "title": "Genome engineering using the CRISPR-Cas9 system",
+   "year": 2013,
+   "cited_by": 11349,
+   "venue": "Nature Protocols",
+   "url": "https://doi.org/10.1038/nprot.2013.143",
+   "query": "surface code",
+   "authors": [
+    "F. Ann Ran",
+    "Patrick D. Hsu",
+    "Jason B. Wright"
+   ]
+  },
+  {
+   "title": "Avogadro: an advanced semantic chemical editor, visualization, and analysis platform",
+   "year": 2012,
+   "cited_by": 11112,
+   "venue": "Journal of Cheminformatics",
+   "url": "https://doi.org/10.1186/1758-2946-4-17",
+   "query": "surface code",
+   "authors": [
+    "Marcus D. Hanwell",
+    "Donald E Curtis",
+    "David C. Lonie"
+   ]
+  },
+  {
+   "title": "Image Super-Resolution Using Deep Convolutional Networks",
+   "year": 2015,
+   "cited_by": 10415,
+   "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "url": "https://doi.org/10.1109/tpami.2015.2439281",
+   "query": "surface code",
+   "authors": [
+    "Chao Dong",
+    "Chen Change Loy",
+    "Kaiming He"
+   ]
+  },
+  {
+   "title": "Quantum Computing in the NISQ era and beyond",
+   "year": 2018,
+   "cited_by": 10251,
+   "venue": "Quantum",
+   "url": "https://doi.org/10.22331/q-2018-08-06-79",
+   "query": "quantum error correction",
+   "authors": [
+    "John P. Preskill"
+   ]
+  },
+  {
+   "title": "The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations",
+   "year": 2014,
+   "cited_by": 9858,
+   "venue": "Journal of High Energy Physics",
+   "url": "https://doi.org/10.1007/jhep07(2014)079",
+   "query": "quantum error correction",
+   "authors": [
+    "Johan Alwall",
+    "Rikkert Frederix",
+    "Stefano Frixione A"
+   ]
+  },
+  {
+   "title": "Advanced capabilities for materials modelling with Q uantum ESPRESSO",
+   "year": 2017,
+   "cited_by": 9529,
+   "venue": "Journal of Physics Condensed Matter",
+   "url": "https://doi.org/10.1088/1361-648x/aa8f79",
+   "query": "quantum error correction",
+   "authors": [
+    "P Giannozzi",
+    "O Andreussi",
+    "Thomas Brumme"
+   ]
+  },
+  {
+   "title": "VASPKIT: A user-friendly interface facilitating high-throughput computing and analysis using VASP code",
+   "year": 2021,
+   "cited_by": 8267,
+   "venue": "Computer Physics Communications",
+   "url": "https://doi.org/10.1016/j.cpc.2021.108033",
+   "query": "quantum error correction",
+   "authors": [
+    "Vei Wang",
+    "Nan Xu",
+    "Jincheng Liu"
+   ]
+  },
+  {
+   "title": "Quantum supremacy using a programmable superconducting processor",
+   "year": 2019,
+   "cited_by": 8257,
+   "venue": "Nature",
+   "url": "https://doi.org/10.1038/s41586-019-1666-5",
+   "query": "quantum error correction",
+   "authors": [
+    "Frank Arute",
+    "Kunal Arya",
+    "Ryan Babbush"
+   ]
+  }
+ ],
+ "news": [
+  {
+   "title": "Classical Light Dynamics Could Help Simulate Quantum Interactions",
+   "url": "https://thequantuminsider.com/2026/11/13/classical-light-dynamics-could-help-simulate-quantum-interactions/",
+   "source": "The Quantum Insider",
+   "published": "2026-11-13T09:01:36+00:00"
+  },
+  {
+   "title": "AI agents act as search tool for more efficient collider physics calculations",
+   "url": "https://physicsworld.com/a/ai-agents-act-as-search-tool-for-more-efficient-collider-physics-calculations/",
+   "source": "Physics World",
+   "published": "2026-11-13T09:00:21+00:00"
+  },
+  {
+   "title": "University at Buffalo Study Decodes Quantum Material’s ‘Optical Dingerprints’",
+   "url": "https://thequantuminsider.com/2026/11/13/university-at-buffalo-study-decodes-quantum-materials-optical-dingerprints/",
+   "source": "The Quantum Insider",
+   "published": "2026-11-13T08:48:53+00:00"
+  },
+  {
+   "title": "The Geometry of Quantum Memory: How Anyons Rewrite the Rules of Remembering and Computation in the Quantum Realm",
+   "url": "https://thequantuminsider.com/2026/11/13/the-geometry-of-quantum-memory-how-anyons-rewrite-the-rules-of-remembering-and-computation-in-the-quantum-realm/",
+   "source": "The Quantum Insider",
+   "published": "2026-11-13T02:40:00+00:00"
+  },
+  {
+   "title": "Train the Trainer: Inside MAHE’s Hardware-First Bet on Quantum",
+   "url": "https://thequantuminsider.com/2026/11/12/train-the-trainer-inside-mahes-hardware-first-bet-on-quantum/",
+   "source": "The Quantum Insider",
+   "published": "2026-11-12T17:51:35+00:00"
+  },
+  {
+   "title": "Haiqu Appoints Kortny Rolston-Duce to Lead Ecosystem Development and Marketing",
+   "url": "https://thequantuminsider.com/2026/11/12/haiqu-appoints-kortny-rolston-duce-ecosystem-development-marketing/",
+   "source": "The Quantum Insider",
+   "published": "2026-11-12T16:19:28+00:00"
+  },
+  {
+   "title": "Qedma Appoints Scott Aaronson to Its Scientific Advisory Board",
+   "url": "https://thequantuminsider.com/2026/11/12/qedma-appoints-scott-aaronson-scientific-advisory-board/",
+   "source": "The Quantum Insider",
+   "published": "2026-11-12T16:04:33+00:00"
+  },
+  {
+   "title": "PsiQuantum and AMD Expand Partnership on Quantum Computing Infrastructure",
+   "url": "https://thequantuminsider.com/2026/11/12/psiquantum-amd-expand-quantum-computing-infrastructure-partnership/",
+   "source": "The Quantum Insider",
+   "published": "2026-11-12T15:54:57+00:00"
+  },
+  {
+   "title": "FAU Receives $3 Million Award for Quantum Workforce Development",
+   "url": "https://thequantuminsider.com/2026/11/12/fau-3-million-award-quantum-workforce-development/",
+   "source": "The Quantum Insider",
+   "published": "2026-11-12T15:49:35+00:00"
+  },
+  {
+   "title": "Probing advanced materials with time-resolved photoluminescence microscopy",
+   "url": "https://physicsworld.com/a/probing-advanced-materials-with-time-resolved-photoluminescence-microscopy/",
+   "source": "Physics World",
+   "published": "2026-11-12T14:55:43+00:00"
+  },
+  {
+   "title": "Quantum Elements Helps Rigetti Predict Quantum Hardware Behavior",
+   "url": "https://thequantuminsider.com/2026/11/12/quantum-elements-helps-rigetti-predict-quantum-hardware-behavior/",
+   "source": "The Quantum Insider",
+   "published": "2026-11-12T14:12:15+00:00"
+  },
+  {
+   "title": "Jocelyn Bell Burnell on Graham Farmelo’s new biography of Stephen Hawking",
+   "url": "https://physicsworld.com/a/jocelyn-bell-burnell-on-graham-farmelos-new-biography-of-stephen-hawking/",
+   "source": "Physics World",
+   "published": "2026-11-12T13:30:00+00:00"
+  },
+  {
+   "title": "Q-CTRL Secures US$290 Million Series C Funding Led by Salesforce Ventures",
+   "url": "https://thequantuminsider.com/2026/11/12/q-ctrl-secures-us290-million-series-c-funding-led-by-salesforce-ventures/",
+   "source": "The Quantum Insider",
+   "published": "2026-11-12T13:05:33+00:00"
+  },
+  {
+   "title": "Attosecond hard X-ray pulses reach record-high intensities",
+   "url": "https://physicsworld.com/a/attosecond-hard-x-ray-pulses-reach-record-high-intensities/",
+   "source": "Physics World",
+   "published": "2026-11-12T13:00:39+00:00"
+  },
+  {
+   "title": "ESA’s Euclid mission unveils treasure trove of cosmic data",
+   "url": "https://physicsworld.com/a/esas-euclid-mission-unveils-treasure-trove-of-cosmic-data/",
+   "source": "Physics World",
+   "published": "2026-11-12T11:00:05+00:00"
+  },
+  {
+   "title": "Chloride-based electrolytes for efficient metal production",
+   "url": "https://physicsworld.com/a/chloride-based-electrolytes-for-efficient-metal-production/",
+   "source": "Physics World",
+   "published": "2026-11-11T13:42:03+00:00"
+  },
+  {
+   "title": "White dwarf star glows an eerie green",
+   "url": "https://physicsworld.com/a/white-dwarf-star-glows-an-eerie-green/",
+   "source": "Physics World",
+   "published": "2026-11-11T12:00:20+00:00"
+  },
+  {
+   "title": "Gold nanoparticles on superfluid droplets illuminate century-old ‘Thomson problem’",
+   "url": "https://physicsworld.com/a/gold-nanoparticles-on-superfluid-droplets-illuminate-century-old-thomson-problem/",
+   "source": "Physics World",
+   "published": "2026-11-11T08:50:22+00:00"
+  },
+  {
+   "title": "Purity versus scrambling: universal laws in quantum systems",
+   "url": "https://physicsworld.com/a/purity-versus-scrambling-universal-laws-in-quantum-systems/",
+   "source": "Physics World",
+   "published": "2026-11-11T08:08:52+00:00"
+  },
+  {
+   "title": "AI-designed metasurface could make cameras far more light-efficient",
+   "url": "https://physicsworld.com/a/ai-designed-metasurface-could-make-cameras-far-more-light-efficient/",
+   "source": "Physics World",
+   "published": "2026-11-11T08:07:16+00:00"
+  },
+  {
+   "title": "US underground neutrino experiment begins cryostat installation",
+   "url": "https://physicsworld.com/a/us-underground-neutrino-experiment-begins-cryostat-installation/",
+   "source": "Physics World",
+   "published": "2026-11-10T15:00:38+00:00"
+  },
+  {
+   "title": "Myriam Sarachik: how her work on the Kondo effect sparked a revolution in modern physics",
+   "url": "https://physicsworld.com/a/myriam-sarachik-how-her-work-on-the-kondo-effect-sparked-a-revolution-in-modern-physics/",
+   "source": "Physics World",
+   "published": "2026-11-10T11:00:04+00:00"
+  },
+  {
+   "title": "Climate prediction model breaks resolution records and removes ‘popcorn-like’ rain",
+   "url": "https://physicsworld.com/a/climate-prediction-model-breaks-resolution-records-and-removes-popcorn-like-rain/",
+   "source": "Physics World",
+   "published": "2026-11-10T09:00:29+00:00"
+  },
+  {
+   "title": "Ask me anything: Pradeep Niroula – ‘I believe that the greatest asset you can have as a scientist today is intellectual mobility’",
+   "url": "https://physicsworld.com/a/ask-me-anything-pradeep-niroula-i-believe-that-the-greatest-asset-you-can-have-as-a-scientist-today-is-intellectual-mobility/",
+   "source": "Physics World",
+   "published": "2026-11-09T18:00:27+00:00"
+  },
+  {
+   "title": "Multiphysics moves to the heart of semiconductor design as Synopsys brings multiphysics into the chip-design workflow",
+   "url": "https://physicsworld.com/a/multiphysics-moves-to-the-heart-of-semiconductor-design-as-synopsys-brings-multiphysics-into-the-chip-design-workflow/",
+   "source": "Physics World",
+   "published": "2026-11-09T14:11:32+00:00"
+  }
+ ],
+ "score_rule": "score = 2*keyword_hits(title+abstract) + ln(1+citations); source: arXiv API, OpenAlex"
+}
