@@ -1,785 +1,13 @@
 {
  "field": "quantum",
  "label": "양자",
- "updated": "2026-11-13T10:12:12+00:00",
- "papers_new": [
-  {
-   "id": "2611.16271",
-   "title": "Hierarchical Decoding for Quantum Error Correction",
-   "url": "https://arxiv.org/abs/2611.16271",
-   "authors": [
-    "Xulong Tang",
-    "Narges Alavisamani",
-    "Joan Camps"
-   ],
-   "n_authors": 21,
-   "published": "2026-11-12",
-   "categories": [
-    "quant-ph",
-    "cs.ET"
-   ],
-   "kw_hits": 3,
-   "cited_by": null,
-   "venue": null,
-   "score": 6.0
-  },
-  {
-   "id": "2611.15104",
-   "title": "An Architecture for Real-Time Quantum Error Correction with Neutral Atoms",
-   "url": "https://arxiv.org/abs/2611.15104",
-   "authors": [
-    "X. Wang",
-    "Y. Jing",
-    "Z. Yu"
-   ],
-   "n_authors": 11,
-   "published": "2026-11-11",
-   "categories": [
-    "quant-ph"
-   ],
-   "kw_hits": 3,
-   "cited_by": null,
-   "venue": null,
-   "score": 6.0
-  },
-  {
-   "id": "2611.13630",
-   "title": "Machine-learning decoders for fusion-based quantum computing in real time",
-   "url": "https://arxiv.org/abs/2611.13630",
-   "authors": [
-    "Daniel Barter",
-    "Jacob C. Bridgeman",
-    "Chris Dawson"
-   ],
-   "n_authors": 15,
-   "published": "2026-11-10",
-   "categories": [
-    "quant-ph",
-    "cs.AR",
-    "cs.LG"
-   ],
-   "kw_hits": 3,
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 6.0
-  },
-  {
-   "id": "2611.13174",
-   "title": "How wide must an eavesdropper be? Leakage of a toric-code logical bit to a strip and the Nishimori point",
-   "url": "https://arxiv.org/abs/2611.13174",
-   "authors": [
-    "Konstantinos Karagiannis"
-   ],
-   "n_authors": 1,
-   "published": "2026-11-09",
-   "categories": [
-    "quant-ph",
-    "cond-mat.stat-mech",
-    "cs.CR"
-   ],
-   "kw_hits": 3,
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 6.0
-  },
-  {
-   "id": "2611.16285",
-   "title": "Scaling Pêlagos: Multi-GPU Orchestration for Relay Belief-Propagation Decoding",
-   "url": "https://arxiv.org/abs/2611.16285",
-   "authors": [
-    "Xulong Tang",
-    "Dionysios Diamantopoulos",
-    "Tristan Müller"
-   ],
-   "n_authors": 10,
-   "published": "2026-11-12",
-   "categories": [
-    "quant-ph",
-    "cs.ET"
-   ],
-   "kw_hits": 2,
-   "cited_by": null,
-   "venue": null,
-   "score": 4.0
-  },
-  {
-   "id": "2611.16016",
-   "title": "Quantum Material Generation via Coherent Hamiltonian Search",
-   "url": "https://arxiv.org/abs/2611.16016",
-   "authors": [
-    "Jiang Yuhan",
-    "Matthew Otten"
-   ],
-   "n_authors": 2,
-   "published": "2026-11-11",
-   "categories": [
-    "quant-ph",
-    "cond-mat.mtrl-sci"
-   ],
-   "kw_hits": 2,
-   "cited_by": null,
-   "venue": null,
-   "score": 4.0
-  },
-  {
-   "id": "2611.15952",
-   "title": "Quasi-Cyclic Qudit Lifted Product Codes with Almost Linear Minimum Distance",
-   "url": "https://arxiv.org/abs/2611.15952",
-   "authors": [
-    "Shantom K. Borah",
-    "Abhinav Vaishya",
-    "V. Lalitha"
-   ],
-   "n_authors": 6,
-   "published": "2026-11-11",
-   "categories": [
-    "quant-ph",
-    "cs.IT"
-   ],
-   "kw_hits": 2,
-   "cited_by": null,
-   "venue": null,
-   "score": 4.0
-  },
-  {
-   "id": "2611.15573",
-   "title": "Quantum-logic detection of rotationally inelastic collisions of single molecules",
-   "url": "https://arxiv.org/abs/2611.15573",
-   "authors": [
-    "Mikolaj Roguski",
-    "Shimoni Patel",
-    "Richard Karl"
-   ],
-   "n_authors": 7,
-   "published": "2026-11-11",
-   "categories": [
-    "physics.atom-ph",
-    "physics.chem-ph",
-    "quant-ph"
-   ],
-   "kw_hits": 2,
-   "cited_by": null,
-   "venue": null,
-   "score": 4.0
-  },
-  {
-   "id": "2611.14923",
-   "title": "Quantum CSS codes: Decoder-aware multiobjective design and bound-certified selection",
-   "url": "https://arxiv.org/abs/2611.14923",
-   "authors": [
-    "Jiapei Zhuang",
-    "Yaocheng Chen",
-    "Xingyao Wu"
-   ],
-   "n_authors": 3,
-   "published": "2026-11-11",
-   "categories": [
-    "quant-ph"
-   ],
-   "kw_hits": 2,
-   "cited_by": null,
-   "venue": null,
-   "score": 4.0
-  },
-  {
-   "id": "2611.14391",
-   "title": "Implementing rapid reset of superconducting qubits with on-chip dissipation",
-   "url": "https://arxiv.org/abs/2611.14391",
-   "authors": [
-    "Feiyu Li",
-    "Yang Liu",
-    "Zhen Yang"
-   ],
-   "n_authors": 13,
-   "published": "2026-11-10",
-   "categories": [
-    "quant-ph"
-   ],
-   "kw_hits": 2,
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0
-  },
-  {
-   "id": "2611.14583",
-   "title": "Circuit-aware protection against burst errors in lattice surgery",
-   "url": "https://arxiv.org/abs/2611.14583",
-   "authors": [
-    "Jaebum Kim"
-   ],
-   "n_authors": 1,
-   "published": "2026-11-10",
-   "categories": [
-    "quant-ph"
-   ],
-   "kw_hits": 2,
-   "cited_by": null,
-   "venue": null,
-   "score": 4.0
-  },
-  {
-   "id": "2611.13301",
-   "title": "A Compiler for Fault Tolerant Quantum Computing",
-   "url": "https://arxiv.org/abs/2611.13301",
-   "authors": [
-    "Narasinga Rao Miniskar",
-    "Elaine Wong",
-    "Seyong Lee"
-   ],
-   "n_authors": 6,
-   "published": "2026-11-09",
-   "categories": [
-    "quant-ph",
-    "cs.PL"
-   ],
-   "kw_hits": 2,
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0
-  },
-  {
-   "id": "2611.13111",
-   "title": "FusionQ: A Generic and Optimal Decoding Framework for Ultra-Low-Latency Quantum Error Correction",
-   "url": "https://arxiv.org/abs/2611.13111",
-   "authors": [
-    "Junyu Zhou",
-    "Sean Garner",
-    "Aarthi Sundaram"
-   ],
-   "n_authors": 5,
-   "published": "2026-11-09",
-   "categories": [
-    "quant-ph"
-   ],
-   "kw_hits": 2,
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0
-  },
-  {
-   "id": "2611.12833",
-   "title": "GARI++: A General-Purpose Decoder for Quantum Error Correction",
-   "url": "https://arxiv.org/abs/2611.12833",
-   "authors": [
-    "Arshpreet Singh Maan",
-    "Francisco Garcia-Herrero",
-    "Daniel Bascones"
-   ],
-   "n_authors": 5,
-   "published": "2026-11-09",
-   "categories": [
-    "quant-ph"
-   ],
-   "kw_hits": 2,
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0
-  },
-  {
-   "id": "2611.12098",
-   "title": "A Universal Fault-Tolerant Quantum Computing Architecture with Globally Driven Atom Arrays",
-   "url": "https://arxiv.org/abs/2611.12098",
-   "authors": [
-    "Zhihao Zhang",
-    "Shuaifan Cao",
-    "Xinyang Yu"
-   ],
-   "n_authors": 9,
-   "published": "2026-11-09",
-   "categories": [
-    "quant-ph"
-   ],
-   "kw_hits": 2,
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0
-  },
-  {
-   "id": "2611.11990",
-   "title": "Rapid high-purity loading of barium ion via relayed selectivity from naturally abundant source",
-   "url": "https://arxiv.org/abs/2611.11990",
-   "authors": [
-    "Zichun Zhou",
-    "Xuhui Yao",
-    "Jiaze Li"
-   ],
-   "n_authors": 8,
-   "published": "2026-11-09",
-   "categories": [
-    "physics.atom-ph",
-    "quant-ph"
-   ],
-   "kw_hits": 2,
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0
-  },
-  {
-   "id": "2611.09873",
-   "title": "Trajectory-Dependent Decoherence and Leakage During Shuttling of Multi-Spin Qubits",
-   "url": "https://arxiv.org/abs/2611.09873",
-   "authors": [
-    "Yu-Ning Zhang",
-    "Aleksandr S. Mokeev",
-    "Maximilian Rimbach-Russ"
-   ],
-   "n_authors": 5,
-   "published": "2026-11-06",
-   "categories": [
-    "cond-mat.mes-hall",
-    "quant-ph"
-   ],
-   "kw_hits": 2,
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0
-  },
-  {
-   "id": "2611.09779",
-   "title": "Differentiable Digital Twins for Optimization, Calibration, and Characterization of Neutral-Atom- and Ion-based Quantum Computers",
-   "url": "https://arxiv.org/abs/2611.09779",
-   "authors": [
-    "Marco Rossignolo",
-    "Lorena C. Bianchet",
-    "Anurag Saha Roy"
-   ],
-   "n_authors": 4,
-   "published": "2026-11-06",
-   "categories": [
-    "quant-ph"
-   ],
-   "kw_hits": 2,
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0
-  },
-  {
-   "id": "2611.09105",
-   "title": "Parametric $\\mathrm{CZ}$ Gates in a Tunable Tripod Architecture with Fixed-Frequency Superconducting Qubits",
-   "url": "https://arxiv.org/abs/2611.09105",
-   "authors": [
-    "Chanpyo Kim",
-    "Hansol Kim",
-    "Jeongsoo Kang"
-   ],
-   "n_authors": 4,
-   "published": "2026-11-06",
-   "categories": [
-    "quant-ph"
-   ],
-   "kw_hits": 2,
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0
-  },
-  {
-   "id": "2611.07175",
-   "title": "Scalable Transpilation for Overcoming Restricted Connectivity in Distributed Superconducting Quantum Architectures",
-   "url": "https://arxiv.org/abs/2611.07175",
-   "authors": [
-    "Afonso Azenha",
-    "Ilia Polian",
-    "Sebastian Brandhofer"
-   ],
-   "n_authors": 3,
-   "published": "2026-11-04",
-   "categories": [
-    "quant-ph",
-    "cs.ET"
-   ],
-   "kw_hits": 2,
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0
-  },
-  {
-   "id": "2611.06818",
-   "title": "Linear-time erasure recovery for quantum expander codes",
-   "url": "https://arxiv.org/abs/2611.06818",
-   "authors": [
-    "Anirudh Krishna",
-    "Christopher A. Pattison"
-   ],
-   "n_authors": 2,
-   "published": "2026-11-04",
-   "categories": [
-    "quant-ph",
-    "cs.IT"
-   ],
-   "kw_hits": 2,
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0
-  },
-  {
-   "id": "2611.08310",
-   "title": "Recovery gates as a resource in repetition-code process tomography: exhaustive gate-optimal designs for three, five and seven qubits",
-   "url": "https://arxiv.org/abs/2611.08310",
-   "authors": [
-    "Long Huang"
-   ],
-   "n_authors": 1,
-   "published": "2026-11-05",
-   "categories": [
-    "quant-ph"
-   ],
-   "kw_hits": 1,
-   "cited_by": 1,
-   "venue": "arXiv (Cornell University)",
-   "score": 2.69
-  },
-  {
-   "id": "2611.17265",
-   "title": "A deployed four-city entanglement-based QKD network with real-time key delivery, benchmarked against finite-key security bounds",
-   "url": "https://arxiv.org/abs/2611.17265",
-   "authors": [
-    "Gilberto Borges",
-    "Saeid Salari",
-    "Ekta Panwar"
-   ],
-   "n_authors": 8,
-   "published": "2026-11-12",
-   "categories": [
-    "quant-ph",
-    "physics.optics"
-   ],
-   "kw_hits": 1,
-   "cited_by": null,
-   "venue": null,
-   "score": 2.0
-  },
-  {
-   "id": "2611.16751",
-   "title": "Reduced filtering using classical control hierarchy with linear optimality for continuous quantum error correction",
-   "url": "https://arxiv.org/abs/2611.16751",
-   "authors": [
-    "Manuel Guatto",
-    "F. A. Cárdenas-López",
-    "Felix Motzoi"
-   ],
-   "n_authors": 3,
-   "published": "2026-11-12",
-   "categories": [
-    "quant-ph"
-   ],
-   "kw_hits": 1,
-   "cited_by": null,
-   "venue": null,
-   "score": 2.0
-  },
-  {
-   "id": "2611.16691",
-   "title": "Persistent-mediator architecture for universal fault-tolerant quantum computation with color codes",
-   "url": "https://arxiv.org/abs/2611.16691",
-   "authors": [
-    "Zhi-Cheng He",
-    "Jingbo Wang",
-    "Dong E. Liu"
-   ],
-   "n_authors": 3,
-   "published": "2026-11-12",
-   "categories": [
-    "quant-ph"
-   ],
-   "kw_hits": 1,
-   "cited_by": null,
-   "venue": null,
-   "score": 2.0
-  },
-  {
-   "id": "2611.16607",
-   "title": "Beauty and charm jet identification with end-to-end training on a superconducting quantum processor",
-   "url": "https://arxiv.org/abs/2611.16607",
-   "authors": [
-    "Lucio Anderlini",
-    "Pietro Asinari",
-    "Gianluca Bertaina"
-   ],
-   "n_authors": 12,
-   "published": "2026-11-12",
-   "categories": [
-    "quant-ph"
-   ],
-   "kw_hits": 1,
-   "cited_by": null,
-   "venue": null,
-   "score": 2.0
-  },
-  {
-   "id": "2611.16563",
-   "title": "Noise-Protected Superconducting Qudits from Higher-Harmonic Josephson Junctions",
-   "url": "https://arxiv.org/abs/2611.16563",
-   "authors": [
-    "Hamed Vakili"
-   ],
-   "n_authors": 1,
-   "published": "2026-11-12",
-   "categories": [
-    "cond-mat.supr-con",
-    "cond-mat.mes-hall",
-    "quant-ph"
-   ],
-   "kw_hits": 1,
-   "cited_by": null,
-   "venue": null,
-   "score": 2.0
-  },
-  {
-   "id": "2611.16456",
-   "title": "Learning Sparse Graph States with Local Pauli Measurements: Tight Nonadaptive Bounds and an Adaptive Separation",
-   "url": "https://arxiv.org/abs/2611.16456",
-   "authors": [
-    "Matteo De Francesco"
-   ],
-   "n_authors": 1,
-   "published": "2026-11-12",
-   "categories": [
-    "quant-ph"
-   ],
-   "kw_hits": 1,
-   "cited_by": null,
-   "venue": null,
-   "score": 2.0
-  },
-  {
-   "id": "2611.16435",
-   "title": "Circuit-Level Analysis of Quantum Error Correction in Second-Generation Quantum Repeaters",
-   "url": "https://arxiv.org/abs/2611.16435",
-   "authors": [
-    "Suraj Vishwanath",
-    "Jonas Hawellek",
-    "Roberto Ferrara"
-   ],
-   "n_authors": 4,
-   "published": "2026-11-12",
-   "categories": [
-    "quant-ph"
-   ],
-   "kw_hits": 1,
-   "cited_by": null,
-   "venue": null,
-   "score": 2.0
-  },
-  {
-   "id": "2611.16229",
-   "title": "Infinite or indefinite: the query cost of simulating the quantum switch",
-   "url": "https://arxiv.org/abs/2611.16229",
-   "authors": [
-    "Dantong Li"
-   ],
-   "n_authors": 1,
-   "published": "2026-11-12",
-   "categories": [
-    "quant-ph"
-   ],
-   "kw_hits": 1,
-   "cited_by": null,
-   "venue": null,
-   "score": 2.0
-  },
-  {
-   "id": "2611.15757",
-   "title": "Buffer-Gas-Assisted Fluorescence Spectroscopy of Molecular Ions",
-   "url": "https://arxiv.org/abs/2611.15757",
-   "authors": [
-    "Jinyue Jiang",
-    "Kenji Shu",
-    "Huaxu Dan"
-   ],
-   "n_authors": 4,
-   "published": "2026-11-11",
-   "categories": [
-    "physics.atom-ph",
-    "physics.chem-ph",
-    "quant-ph"
-   ],
-   "kw_hits": 1,
-   "cited_by": null,
-   "venue": null,
-   "score": 2.0
-  },
-  {
-   "id": "2611.15416",
-   "title": "Extractable Work from Collective Dark-State Charging of Quantum Batteries",
-   "url": "https://arxiv.org/abs/2611.15416",
-   "authors": [
-    "Jian-Jian Cheng",
-    "Ming-Liang Hu"
-   ],
-   "n_authors": 2,
-   "published": "2026-11-11",
-   "categories": [
-    "quant-ph"
-   ],
-   "kw_hits": 1,
-   "cited_by": null,
-   "venue": null,
-   "score": 2.0
-  },
-  {
-   "id": "2611.15343",
-   "title": "Hybrid Classical-Quantum Optimization for CVRPTW: A Systems Framework with Provable Feasibility and Empirical Hardware Limits",
-   "url": "https://arxiv.org/abs/2611.15343",
-   "authors": [
-    "Syamasundar Gopasana",
-    "Swatantra Singh",
-    "Rohan Joydhar"
-   ],
-   "n_authors": 4,
-   "published": "2026-11-11",
-   "categories": [
-    "quant-ph",
-    "cs.ET"
-   ],
-   "kw_hits": 1,
-   "cited_by": null,
-   "venue": null,
-   "score": 2.0
-  },
-  {
-   "id": "2611.15000",
-   "title": "QSim-Arena: an evolving developer for quantum simulation advantage",
-   "url": "https://arxiv.org/abs/2611.15000",
-   "authors": [
-    "Jue Xu",
-    "Yue Wang",
-    "Qi Zhao"
-   ],
-   "n_authors": 3,
-   "published": "2026-11-11",
-   "categories": [
-    "quant-ph",
-    "cs.AI"
-   ],
-   "kw_hits": 1,
-   "cited_by": null,
-   "venue": null,
-   "score": 2.0
-  },
-  {
-   "id": "2611.14944",
-   "title": "CSS Circuits: useful quantum circuits that can be simulated with $O(1)$ cost per gate",
-   "url": "https://arxiv.org/abs/2611.14944",
-   "authors": [
-    "Craig Gidney",
-    "Cody Jones"
-   ],
-   "n_authors": 2,
-   "published": "2026-11-11",
-   "categories": [
-    "quant-ph"
-   ],
-   "kw_hits": 1,
-   "cited_by": null,
-   "venue": null,
-   "score": 2.0
-  },
-  {
-   "id": "2611.14484",
-   "title": "Nonperturbative string dynamics in a (2+1)D lattice gauge theory on a superconducting quantum processor",
-   "url": "https://arxiv.org/abs/2611.14484",
-   "authors": [
-    "Sanziana Stelea",
-    "Anthony Gandon",
-    "Francesco Tacchino"
-   ],
-   "n_authors": 5,
-   "published": "2026-11-10",
-   "categories": [
-    "quant-ph"
-   ],
-   "kw_hits": 1,
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 2.0
-  },
-  {
-   "id": "2611.14607",
-   "title": "Optical trapping of neutral atoms via magnetic-dipole transitions",
-   "url": "https://arxiv.org/abs/2611.14607",
-   "authors": [
-    "E. Orellana-Paillaleo",
-    "N. Vera",
-    "P. Solano"
-   ],
-   "n_authors": 3,
-   "published": "2026-11-10",
-   "categories": [
-    "physics.atom-ph",
-    "physics.optics",
-    "quant-ph"
-   ],
-   "kw_hits": 1,
-   "cited_by": null,
-   "venue": null,
-   "score": 2.0
-  },
-  {
-   "id": "2611.14398",
-   "title": "Simulating closed- and open-system dynamics of Tavis--Cummings lattices on fault-tolerant quantum computers",
-   "url": "https://arxiv.org/abs/2611.14398",
-   "authors": [
-    "Soumya Sarkar",
-    "Rakshit Gharat",
-    "Nam Nguyen"
-   ],
-   "n_authors": 4,
-   "published": "2026-11-10",
-   "categories": [
-    "quant-ph"
-   ],
-   "kw_hits": 1,
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 2.0
-  },
-  {
-   "id": "2611.14214",
-   "title": "Classical phase unwrapping enables large-time-step unitary quantum Krylov subspace diagonalization",
-   "url": "https://arxiv.org/abs/2611.14214",
-   "authors": [
-    "Tushar Kumar Jain",
-    "Rahul Maitra",
-    "Nicholas J. Mayhall"
-   ],
-   "n_authors": 3,
-   "published": "2026-11-10",
-   "categories": [
-    "quant-ph",
-    "physics.chem-ph"
-   ],
-   "kw_hits": 1,
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 2.0
-  },
-  {
-   "id": "2611.14147",
-   "title": "Secure Information Flow in Quantum Programs",
-   "url": "https://arxiv.org/abs/2611.14147",
-   "authors": [
-    "Zhicheng Zhang",
-    "Mingsheng Ying",
-    "Lirong Xia"
-   ],
-   "n_authors": 3,
-   "published": "2026-11-10",
-   "categories": [
-    "quant-ph",
-    "cs.CR",
-    "cs.PL"
-   ],
-   "kw_hits": 1,
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 2.0
-  }
- ],
+ "updated": "2026-11-14T01:10:58+00:00",
+ "papers_new": [],
  "papers_classic": [
   {
    "title": "Surface codes: Towards practical large-scale quantum computation",
    "year": 2012,
-   "cited_by": 3449,
+   "cited_by": 3450,
    "venue": "Physical Review A",
    "url": "https://doi.org/10.1103/physreva.86.032324",
    "query": "surface code",
@@ -816,7 +44,7 @@
   {
    "title": "Suppressing quantum errors by scaling a surface code logical qubit",
    "year": 2023,
-   "cited_by": 1353,
+   "cited_by": 1354,
    "venue": "Nature",
    "url": "https://doi.org/10.1038/s41586-022-05434-1",
    "query": "surface code",
@@ -829,7 +57,7 @@
   {
    "title": "Quantum error correction below the surface code threshold",
    "year": 2024,
-   "cited_by": 1304,
+   "cited_by": 1310,
    "venue": "Nature",
    "url": "https://doi.org/10.1038/s41586-024-08449-y",
    "query": "quantum error correction",
@@ -842,7 +70,7 @@
   {
    "title": "Bulk locality and quantum error correction in AdS/CFT",
    "year": 2015,
-   "cited_by": 922,
+   "cited_by": 923,
    "venue": "Journal of High Energy Physics",
    "url": "https://doi.org/10.1007/jhep04(2015)163",
    "query": "quantum error correction",
@@ -881,7 +109,7 @@
   {
    "title": "Surface code quantum computing by lattice surgery",
    "year": 2012,
-   "cited_by": 731,
+   "cited_by": 733,
    "venue": "New Journal of Physics",
    "url": "https://doi.org/10.1088/1367-2630/14/12/123011",
    "query": "surface code",
@@ -920,7 +148,7 @@
   {
    "title": "A Game of Surface Codes: Large-Scale Quantum Computing with Lattice Surgery",
    "year": 2019,
-   "cited_by": 599,
+   "cited_by": 600,
    "venue": "Quantum",
    "url": "https://doi.org/10.22331/q-2019-03-05-128",
    "query": "surface code",
@@ -931,7 +159,7 @@
   {
    "title": "Quantum logic with spin qubits crossing the surface code threshold",
    "year": 2022,
-   "cited_by": 575,
+   "cited_by": 576,
    "venue": "Nature",
    "url": "https://doi.org/10.1038/s41586-021-04273-w",
    "query": "surface code",
@@ -957,7 +185,7 @@
   {
    "title": "Real-time quantum error correction beyond break-even",
    "year": 2023,
-   "cited_by": 501,
+   "cited_by": 502,
    "venue": "Nature",
    "url": "https://doi.org/10.1038/s41586-023-05782-6",
    "query": "quantum error correction",
@@ -983,12 +211,23 @@
   {
    "title": "Quantum error correction: an introductory guide",
    "year": 2019,
-   "cited_by": 468,
+   "cited_by": 470,
    "venue": "Contemporary Physics",
    "url": "https://doi.org/10.1080/00107514.2019.1667078",
    "query": "quantum error correction",
    "authors": [
     "Joschka Roffe"
+   ]
+  },
+  {
+   "title": "The Ryu–Takayanagi Formula from Quantum Error Correction",
+   "year": 2017,
+   "cited_by": 461,
+   "venue": "Communications in Mathematical Physics",
+   "url": "https://doi.org/10.1007/s00220-017-2904-z",
+   "query": "quantum error correction",
+   "authors": [
+    "Daniel Harlow"
    ]
   },
   {
@@ -1001,17 +240,6 @@
    "authors": [
     "Mark Howard",
     "Earl T. Campbell"
-   ]
-  },
-  {
-   "title": "The Ryu–Takayanagi Formula from Quantum Error Correction",
-   "year": 2017,
-   "cited_by": 460,
-   "venue": "Communications in Mathematical Physics",
-   "url": "https://doi.org/10.1007/s00220-017-2904-z",
-   "query": "quantum error correction",
-   "authors": [
-    "Daniel Harlow"
    ]
   },
   {
@@ -1067,7 +295,7 @@
   {
    "title": "The XZZX surface code",
    "year": 2021,
-   "cited_by": 333,
+   "cited_by": 334,
    "venue": "Nature Communications",
    "url": "https://doi.org/10.1038/s41467-021-22274-1",
    "query": "surface code",
@@ -1157,13 +385,25 @@
  ],
  "news": [
   {
+   "title": "Atom Computing Finalizes $100 Million U.S. Department of Commerce R&D Award",
+   "url": "https://thequantuminsider.com/2026/11/13/atom-computing-finalizes-100-million-u-s-department-of-commerce-rd-award/",
+   "source": "The Quantum Insider",
+   "published": "2026-11-13T18:36:11+00:00"
+  },
+  {
+   "title": "U.S. Quantum Ambitions Face a Supply Chain Test, Policy Analysts Warn",
+   "url": "https://thequantuminsider.com/2026/11/13/u-s-quantum-ambitions-face-a-supply-chain-test-policy-analysts-warn/",
+   "source": "The Quantum Insider",
+   "published": "2026-11-13T16:17:23+00:00"
+  },
+  {
    "title": "Classical Light Dynamics Could Help Simulate Quantum Interactions",
    "url": "https://thequantuminsider.com/2026/11/13/classical-light-dynamics-could-help-simulate-quantum-interactions/",
    "source": "The Quantum Insider",
    "published": "2026-11-13T09:01:36+00:00"
   },
   {
-   "title": "University at Buffalo Study Decodes Quantum Material’s ‘Optical Dingerprints’",
+   "title": "University at Buffalo Study Decodes Quantum Material’s ‘Optical Fingerprints’",
    "url": "https://thequantuminsider.com/2026/11/13/university-at-buffalo-study-decodes-quantum-materials-optical-dingerprints/",
    "source": "The Quantum Insider",
    "published": "2026-11-13T08:48:53+00:00"
@@ -1203,18 +443,6 @@
    "url": "https://thequantuminsider.com/2026/11/12/fau-3-million-award-quantum-workforce-development/",
    "source": "The Quantum Insider",
    "published": "2026-11-12T15:49:35+00:00"
-  },
-  {
-   "title": "Quantum Elements Helps Rigetti Predict Quantum Hardware Behavior",
-   "url": "https://thequantuminsider.com/2026/11/12/quantum-elements-helps-rigetti-predict-quantum-hardware-behavior/",
-   "source": "The Quantum Insider",
-   "published": "2026-11-12T14:12:15+00:00"
-  },
-  {
-   "title": "Q-CTRL Secures US$290 Million Series C Funding Led by Salesforce Ventures",
-   "url": "https://thequantuminsider.com/2026/11/12/q-ctrl-secures-us290-million-series-c-funding-led-by-salesforce-ventures/",
-   "source": "The Quantum Insider",
-   "published": "2026-11-12T13:05:33+00:00"
   },
   {
    "title": "Purity versus scrambling: universal laws in quantum systems",
