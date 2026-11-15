@@ -1,14 +1,16 @@
 {
- "updated": "2026-11-14T01:10:58+00:00",
+ "updated": "2026-11-15T00:37:14+00:00",
  "status": {
-  "semiconductor:arxiv": "TimeoutError: The read operation timed out",
+  "semiconductor:arxiv": "ok",
+  "semiconductor:openalex-enrich": "ok",
   "semiconductor:openalex-classics": "ok",
   "feed:Semiconductor Engineering": "ok (parsed=10, kept_in_window=10)",
   "feed:Chips and Cheese": "ok (parsed=20, kept_in_window=2)",
   "feed:The Next Platform": "ok (parsed=87, kept_in_window=13)",
   "feed:EE Times": "ok (parsed=10, kept_in_window=10)",
   "feed:TrendForce News": "ok (parsed=20, kept_in_window=0)",
-  "quantum:arxiv": "TimeoutError: The read operation timed out",
+  "quantum:arxiv": "ok",
+  "quantum:openalex-enrich": "ok",
   "quantum:openalex-classics": "ok",
   "feed:The Quantum Insider": "ok (parsed=10, kept_in_window=10)",
   "feed:Physics World": "ok (parsed=160, kept_in_window=5)"

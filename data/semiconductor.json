@@ -1,8 +1,790 @@
 {
  "field": "semiconductor",
  "label": "반도체",
- "updated": "2026-11-14T01:10:58+00:00",
- "papers_new": [],
+ "updated": "2026-11-15T00:37:14+00:00",
+ "papers_new": [
+  {
+   "id": "2611.04804",
+   "title": "GSPIM: A Temporal-Locality-Aware 4D Gaussian Splatting Accelerator with Polymorphic PIM and Multi-Frame Rendering Dataflow",
+   "url": "https://arxiv.org/abs/2611.04804",
+   "authors": [
+    "Zirui Ma",
+    "Zhihua Fan",
+    "Haibin Wu"
+   ],
+   "n_authors": 6,
+   "published": "2026-11-03",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 4,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 8.0
+  },
+  {
+   "id": "2611.17097",
+   "title": "Broadcast, Don't Replicate: Eliminating Weight HBM in Datacenter LLM Serving",
+   "url": "https://arxiv.org/abs/2611.17097",
+   "authors": [
+    "Hannah Atmer",
+    "Yuan Yao",
+    "Thiemo Voigt"
+   ],
+   "n_authors": 4,
+   "published": "2026-11-12",
+   "categories": [
+    "cs.AR",
+    "cs.DC",
+    "cs.ET",
+    "cs.NI"
+   ],
+   "kw_hits": 3,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 6.0
+  },
+  {
+   "id": "2611.14495",
+   "title": "SkipLane: Write-Once, Conflict-Free Accumulation for Zero-Skipping CNN Engines on FPGAs",
+   "url": "https://arxiv.org/abs/2611.14495",
+   "authors": [
+    "Aditya Saboo",
+    "Pratibha Verma"
+   ],
+   "n_authors": 2,
+   "published": "2026-11-10",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 3,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 6.0
+  },
+  {
+   "id": "2611.13644",
+   "title": "Tri-Stack-PIM: A Heterogeneous Multi-Die 3D-Integrated Processing-in-Memory Architecture for Efficient LLM Inference",
+   "url": "https://arxiv.org/abs/2611.13644",
+   "authors": [
+    "Shuao Jia",
+    "Zichao Ling",
+    "Chen Bai"
+   ],
+   "n_authors": 5,
+   "published": "2026-11-10",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 3,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 6.0
+  },
+  {
+   "id": "2611.11823",
+   "title": "AscSpMM: Efficient SpMM on Ascend NPUs via Pipelined Vector-Cube Collaboration",
+   "url": "https://arxiv.org/abs/2611.11823",
+   "authors": [
+    "Fei Li",
+    "Haoxin Li",
+    "Kehong Liu"
+   ],
+   "n_authors": 8,
+   "published": "2026-11-09",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 3,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 6.0
+  },
+  {
+   "id": "2611.10930",
+   "title": "Beyond Host-Side Control: HBM Controller Partitioning Across Host and HBM Base Dies",
+   "url": "https://arxiv.org/abs/2611.10930",
+   "authors": [
+    "Tharunya Yogananda",
+    "Wantong Li"
+   ],
+   "n_authors": 2,
+   "published": "2026-11-07",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 3,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 6.0
+  },
+  {
+   "id": "2611.10648",
+   "title": "PENSA: A Spatial Accelerator for BitNet b1.58 Inference on an HBM-equipped AMD Alveo FPGA",
+   "url": "https://arxiv.org/abs/2611.10648",
+   "authors": [
+    "Karthikeyan B. Kalyanasundaram",
+    "Ivan S. Maksymov",
+    "Philip H. W. Leong"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-07",
+   "categories": [
+    "cs.AR",
+    "eess.SP"
+   ],
+   "kw_hits": 3,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 6.0
+  },
+  {
+   "id": "2611.07506",
+   "title": "Memory Fit: Architectural Support for Page Placement by Learning Models of Good Behavior",
+   "url": "https://arxiv.org/abs/2611.07506",
+   "authors": [
+    "Chun Deng",
+    "Hui Sub Shim",
+    "Evan Laufer"
+   ],
+   "n_authors": 7,
+   "published": "2026-11-05",
+   "categories": [
+    "cs.OS",
+    "cs.AR"
+   ],
+   "kw_hits": 3,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 6.0
+  },
+  {
+   "id": "2611.00487",
+   "title": "Efficient Reconfigurable Architectures for Deep Learning",
+   "url": "https://arxiv.org/abs/2611.00487",
+   "authors": [
+    "Endri Taka"
+   ],
+   "n_authors": 1,
+   "published": "2026-10-31",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 3,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 6.0
+  },
+  {
+   "id": "2611.00292",
+   "title": "TADA: Technology Aware DNN Accelerator Performance and Energy Estimator",
+   "url": "https://arxiv.org/abs/2611.00292",
+   "authors": [
+    "Tanvi Sharma",
+    "Surya Selvam",
+    "Anand Raghunathan"
+   ],
+   "n_authors": 4,
+   "published": "2026-10-30",
+   "categories": [
+    "cs.AR",
+    "cs.AI"
+   ],
+   "kw_hits": 3,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 6.0
+  },
+  {
+   "id": "2610.39420",
+   "title": "Energy-Efficient Memristor Accelerator for Depression Detection with a CNN-LSTM Hybrid Model",
+   "url": "https://arxiv.org/abs/2610.39420",
+   "authors": [
+    "Jiaqi Liu",
+    "Yun Yu",
+    "Fenglin Xi"
+   ],
+   "n_authors": 10,
+   "published": "2026-10-29",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 3,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 6.0
+  },
+  {
+   "id": "2611.17108",
+   "title": "LazyWeights: Decode-on-Demand Edge LLMs",
+   "url": "https://arxiv.org/abs/2611.17108",
+   "authors": [
+    "Arnab Sanyal",
+    "Gourav Datta",
+    "Sandeep P. Chinchali"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-12",
+   "categories": [
+    "cs.LG",
+    "cs.AR",
+    "cs.CL",
+    "cs.IT"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.17042",
+   "title": "Infrastructure for Verifiable AI: Where Proof Costs Go and How Hardware Can Help",
+   "url": "https://arxiv.org/abs/2611.17042",
+   "authors": [
+    "Yihan Xia",
+    "Wenxin Xu",
+    "Taotao Wang"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-12",
+   "categories": [
+    "cs.AR",
+    "cs.CR",
+    "cs.LG"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.16376",
+   "title": "SPEC CPU2026 Under the Microscope: Programs, Phases, and Samples",
+   "url": "https://arxiv.org/abs/2611.16376",
+   "authors": [
+    "Peijun Li",
+    "Pei-Hung Lin",
+    "Tianming Cui"
+   ],
+   "n_authors": 6,
+   "published": "2026-11-12",
+   "categories": [
+    "cs.AR",
+    "cs.PF"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.16363",
+   "title": "Vector-Space Projection and Unified Complex-Valued Acceleration for Scaling Matrix-Based Brain-Inspired Representations",
+   "url": "https://arxiv.org/abs/2611.16363",
+   "authors": [
+    "William Youngwoo Chung",
+    "Hyunwoo Oh",
+    "Calvin Yeung"
+   ],
+   "n_authors": 6,
+   "published": "2026-11-12",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0
+  },
+  {
+   "id": "2611.16189",
+   "title": "SBA: A Practical Memory Performance Denial-of-Service Attack",
+   "url": "https://arxiv.org/abs/2611.16189",
+   "authors": [
+    "Amin Mamandipoor",
+    "Connor Rudy Sullivan",
+    "Cole Ridge Strickler"
+   ],
+   "n_authors": 5,
+   "published": "2026-11-12",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.15951",
+   "title": "Starscream: Reimagining LLM Sharding on AMD Instinct GPUs with GPU Partitioning",
+   "url": "https://arxiv.org/abs/2611.15951",
+   "authors": [
+    "Sumanth Gudaparthi",
+    "Smeet Chheda",
+    "Ganesh Dasika"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-11",
+   "categories": [
+    "cs.DC",
+    "cs.AR",
+    "cs.LG"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.14776",
+   "title": "SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads",
+   "url": "https://arxiv.org/abs/2611.14776",
+   "authors": [
+    "Anish Saxena",
+    "Hritvik Taneja",
+    "Christos Kozyrakis"
+   ],
+   "n_authors": 4,
+   "published": "2026-11-10",
+   "categories": [
+    "cs.AR",
+    "cs.DC",
+    "cs.LG"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.12622",
+   "title": "Reconfiguring System-Level Protection Through Bounded Delegation in RISC-V MCUs",
+   "url": "https://arxiv.org/abs/2611.12622",
+   "authors": [
+    "Luís Cunha",
+    "José Martins",
+    "Manuel Rodríguez"
+   ],
+   "n_authors": 10,
+   "published": "2026-11-09",
+   "categories": [
+    "cs.CR",
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.11402",
+   "title": "A Per-Step Load-Balancing Engine for Expert-Parallel MoE Serving",
+   "url": "https://arxiv.org/abs/2611.11402",
+   "authors": [
+    "Jingyuan Li",
+    "Maolin Wang",
+    "Hayden So"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-08",
+   "categories": [
+    "cs.AR",
+    "cs.DC"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.10316",
+   "title": "The World Model Planning Accelerator (WMPA): Hardware-Algorithm Co-Design for Embedded AI in Robotics",
+   "url": "https://arxiv.org/abs/2611.10316",
+   "authors": [
+    "Prerana Ramkumar",
+    "Suhas Suresh Bharadwaj",
+    "Fazal Hameed"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-06",
+   "categories": [
+    "cs.AR",
+    "cs.LG",
+    "cs.RO"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.09522",
+   "title": "Atik: A Shared-Mesh Transformer Accelerator for RISC-V",
+   "url": "https://arxiv.org/abs/2611.09522",
+   "authors": [
+    "Ahmed Zeer",
+    "Erkan Uslu"
+   ],
+   "n_authors": 2,
+   "published": "2026-11-06",
+   "categories": [
+    "cs.AI",
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.09254",
+   "title": "TwinHash: Two-Sided Object Identity Management for Time- and Energy-Efficient Agentic Workflows",
+   "url": "https://arxiv.org/abs/2611.09254",
+   "authors": [
+    "Sangbu Yun",
+    "Jung Gyu Min",
+    "Jin Hyun"
+   ],
+   "n_authors": 5,
+   "published": "2026-11-06",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.08693",
+   "title": "Enabling Retraining-Free Accurate Inference in Analog Compute in Memory Accelerators",
+   "url": "https://arxiv.org/abs/2611.08693",
+   "authors": [
+    "George Karfakis",
+    "Puneet Gupta"
+   ],
+   "n_authors": 2,
+   "published": "2026-11-05",
+   "categories": [
+    "cs.AR",
+    "cs.LG"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.08380",
+   "title": "SensorGuard-RV: Sensor-to-Register Data Protection for Resource-Constrained RISC-V Devices",
+   "url": "https://arxiv.org/abs/2611.08380",
+   "authors": [
+    "Hamid Noori",
+    "Carlton Shepherd"
+   ],
+   "n_authors": 2,
+   "published": "2026-11-05",
+   "categories": [
+    "cs.CR",
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.08147",
+   "title": "MCUFlowNet: Hardware-Aware Neural Architecture Search for Optical Flow on Microcontrollers",
+   "url": "https://arxiv.org/abs/2611.08147",
+   "authors": [
+    "Enmin Lin",
+    "Jona Beysens"
+   ],
+   "n_authors": 2,
+   "published": "2026-11-05",
+   "categories": [
+    "cs.CV",
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.07707",
+   "title": "CAMP: Context-Aware Mapping and Placement for LLMs on 3D-IMC Arrays",
+   "url": "https://arxiv.org/abs/2611.07707",
+   "authors": [
+    "Orhun Görkem",
+    "Athanasios Vasilopoulos",
+    "Georgios Pagonis"
+   ],
+   "n_authors": 9,
+   "published": "2026-11-05",
+   "categories": [
+    "cs.AR",
+    "cs.AI"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.06829",
+   "title": "Enabling AWS Cloud FPGA Development Using High-Level Vitis HLS",
+   "url": "https://arxiv.org/abs/2611.06829",
+   "authors": [
+    "David Rostcheck"
+   ],
+   "n_authors": 1,
+   "published": "2026-11-04",
+   "categories": [
+    "cs.AR",
+    "cs.AI",
+    "cs.LG"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.06036",
+   "title": "PIMROP: A Feasibility Study of Return-Oriented Programming on Commercial Processing-in-Memory Architectures",
+   "url": "https://arxiv.org/abs/2611.06036",
+   "authors": [
+    "William C. Tegge",
+    "Shouzhi Fang",
+    "Alex K. Jones"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-04",
+   "categories": [
+    "cs.CR",
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.04740",
+   "title": "A RISC-V Simulator for the Tenstorrent Tensix Architecture",
+   "url": "https://arxiv.org/abs/2611.04740",
+   "authors": [
+    "Nick Brown",
+    "Daniyal Arshad"
+   ],
+   "n_authors": 2,
+   "published": "2026-11-03",
+   "categories": [
+    "cs.DC",
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.03392",
+   "title": "TinyML Hits the Memory Wall: A Benchmark of Ten Sub-Watt Edge Devices",
+   "url": "https://arxiv.org/abs/2611.03392",
+   "authors": [
+    "Pietro Bonazzi",
+    "Luigi Capogrosso",
+    "Ahmet Celik"
+   ],
+   "n_authors": 8,
+   "published": "2026-11-02",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.02023",
+   "title": "Naviq: An Open-Source System-on-Chip Simulator for Rapid Prototyping, Verification, and Design Space Exploration",
+   "url": "https://arxiv.org/abs/2611.02023",
+   "authors": [
+    "Scott Smith",
+    "Lukas Zscherpel",
+    "Alyssa Huang"
+   ],
+   "n_authors": 5,
+   "published": "2026-11-01",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.01707",
+   "title": "SMART-AIMC: Sensitivity-Aware Mixed ADC Resolution with Fine-Grained Tunability for Analog In-Memory Computing",
+   "url": "https://arxiv.org/abs/2611.01707",
+   "authors": [
+    "Yung-Chin Chen",
+    "Ourania Stouraiti",
+    "Naveen Verma"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-01",
+   "categories": [
+    "cs.AR",
+    "cs.AI"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.01611",
+   "title": "SparseForge: Beyond Spike Sparsity toward Hardware-Exploitable Neuron Pruning for Efficient SNN Acceleration",
+   "url": "https://arxiv.org/abs/2611.01611",
+   "authors": [
+    "Kainan Wang",
+    "Sanhe Fu",
+    "Aili Wang"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-01",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0
+  },
+  {
+   "id": "2611.00669",
+   "title": "FPGA Acceleration of CNN-BiLSTM for EEG-Based Sleep Staging Featuring FFT-Based Non-Unit Stride Fast Convolution",
+   "url": "https://arxiv.org/abs/2611.00669",
+   "authors": [
+    "Aaron Zhou",
+    "Yaqian Xu",
+    "Chen Chen"
+   ],
+   "n_authors": 10,
+   "published": "2026-10-31",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2611.00660",
+   "title": "A Mixed-Precision CNN-LSTM Accelerator Featuring Long-Kernel Memory Reuse and Dynamic Quantization for Sleep Staging",
+   "url": "https://arxiv.org/abs/2611.00660",
+   "authors": [
+    "Xinyu Chen",
+    "Yaqian Xu",
+    "Yuhan Hou"
+   ],
+   "n_authors": 6,
+   "published": "2026-10-31",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0
+  },
+  {
+   "id": "2611.00282",
+   "title": "Randomized Caches in Hardware: Challenges and Trade-offs",
+   "url": "https://arxiv.org/abs/2611.00282",
+   "authors": [
+    "Xinrui Wang",
+    "Pascal Kosak",
+    "Christof Paar"
+   ],
+   "n_authors": 6,
+   "published": "2026-10-30",
+   "categories": [
+    "cs.AR",
+    "cs.CR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2610.40932",
+   "title": "HippocamFLEX: FPGA Prototyping of Hippocampus-Inspired Architecture for Context-Aware Sequence Prediction",
+   "url": "https://arxiv.org/abs/2610.40932",
+   "authors": [
+    "Bhuvanesh S. Kayarabettu",
+    "Hamed Poursiami",
+    "Keiland Cooper"
+   ],
+   "n_authors": 7,
+   "published": "2026-10-29",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2610.39572",
+   "title": "RV2GC: Reconstructing the Garbling Boundary in a RISC-V Garbled Processor",
+   "url": "https://arxiv.org/abs/2610.39572",
+   "authors": [
+    "Zixiao Feng",
+    "Xiaolin Li",
+    "Chenglu Jin"
+   ],
+   "n_authors": 8,
+   "published": "2026-10-29",
+   "categories": [
+    "cs.CR",
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  },
+  {
+   "id": "2610.39570",
+   "title": "LLM Agent-Based Design of RISC-V CPUs with FPGA-in-the-Loop Evaluation",
+   "url": "https://arxiv.org/abs/2610.39570",
+   "authors": [
+    "Leo Itoh",
+    "Junichiro Kadomoto"
+   ],
+   "n_authors": 2,
+   "published": "2026-10-29",
+   "categories": [
+    "cs.AR",
+    "cs.AI"
+   ],
+   "kw_hits": 2,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
+   "score": 4.0
+  }
+ ],
  "papers_classic": [
   {
    "title": "ISAAC: a convolutional neural network accelerator with in-situ analog arithmetic in crossbars",
@@ -85,7 +867,7 @@
   {
    "title": "Large-scale photonic chiplet Taichi empowers 160-TOPS/W artificial general intelligence",
    "year": 2024,
-   "cited_by": 348,
+   "cited_by": 349,
    "venue": "Science",
    "url": "https://doi.org/10.1126/science.adl1203",
    "query": "chiplet",
@@ -124,7 +906,7 @@
   {
    "title": "Benchmarking a New Paradigm: Experimental Analysis and Characterization of a Real Processing-in-Memory System",
    "year": 2022,
-   "cited_by": 284,
+   "cited_by": 285,
    "venue": "IEEE Access",
    "url": "https://doi.org/10.1109/access.2022.3174101",
    "query": "processing-in-memory",
@@ -226,7 +1008,7 @@
   {
    "title": "ISA semantics for ARMv8-a, RISC-v, and CHERI-MIPS",
    "year": 2019,
-   "cited_by": 184,
+   "cited_by": 185,
    "venue": "Proceedings of the ACM on Programming Languages",
    "url": "https://doi.org/10.1145/3290384",
    "query": "RISC-V",
@@ -291,7 +1073,7 @@
   {
    "title": "TeraPHY: A Chiplet Technology for Low-Power, High-Bandwidth In-Package Optical I/O",
    "year": 2020,
-   "cited_by": 160,
+   "cited_by": 161,
    "venue": "IEEE Micro",
    "url": "https://doi.org/10.1109/mm.2020.2976067",
    "query": "chiplet",
