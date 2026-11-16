@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-15T00:37:14+00:00",
+ "updated": "2026-11-16T00:37:23+00:00",
  "status": {
   "semiconductor:arxiv": "ok",
   "semiconductor:openalex-enrich": "ok",
-  "semiconductor:openalex-classics": "ok",
+  "semiconductor:openalex-classics": "HTTPError: HTTP Error 429: Too Many Requests",
   "feed:Semiconductor Engineering": "ok (parsed=10, kept_in_window=10)",
   "feed:Chips and Cheese": "ok (parsed=20, kept_in_window=2)",
   "feed:The Next Platform": "ok (parsed=87, kept_in_window=13)",
@@ -11,7 +11,7 @@
   "feed:TrendForce News": "ok (parsed=20, kept_in_window=0)",
   "quantum:arxiv": "ok",
   "quantum:openalex-enrich": "ok",
-  "quantum:openalex-classics": "ok",
+  "quantum:openalex-classics": "HTTPError: HTTP Error 429: Too Many Requests",
   "feed:The Quantum Insider": "ok (parsed=10, kept_in_window=10)",
   "feed:Physics World": "ok (parsed=160, kept_in_window=5)"
  }
