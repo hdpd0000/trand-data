@@ -1,7 +1,7 @@
 {
  "field": "semiconductor",
  "label": "반도체",
- "updated": "2026-11-16T09:03:21+00:00",
+ "updated": "2026-11-17T03:21:45+00:00",
  "subfields": [
   {
    "id": "memory",
@@ -49,6 +49,29 @@
    "cited_by": 0,
    "venue": "arXiv (Cornell University)",
    "score": 8.0,
+   "tag": "memory"
+  },
+  {
+   "id": "2611.19279",
+   "title": "Rethinking KV Caching for LLM Decode: Free-Space Optical KV Regeneration for Reduction of Memory Traffic",
+   "url": "https://arxiv.org/abs/2611.19279",
+   "authors": [
+    "Aritra Bagchi",
+    "Bin Gao",
+    "James Spall"
+   ],
+   "n_authors": 6,
+   "published": "2026-11-14",
+   "categories": [
+    "cs.AR",
+    "cs.ET"
+   ],
+   "kw_hits": 3,
+   "abstract": "Long-context large language model (LLM) decoding repeatedly reads the historical key-value (KV) cache, making multi-head attention (MHA) memory-bandwidth-bound. Caching layer-input activations instead halves historical-cache storage and traffic, but requires regenerating KV from each cached activation. On digital accelerators such as GPUs, this regeneration takes far longer than fetching the activation from HBM. The KV regeneration overhead outweighs the savings from reduced memory traffic, shifting decode attention from a memory bottleneck to a compute bottleneck. We present OptiDecode, a hybrid optoelectronic decode-attention accelerator that regenerates historical KV using free-space optics and computes attention digitally. Projection weights remain resident on optical tiles, exploiting reuse across historical tokens for high-throughput optical regeneration. Scaling to large models…",
+   "excerpt": "Long-context large language model (LLM) decoding repeatedly reads the historical key-value (KV) cache, making multi-head attention (MHA) memory-bandwidth-bound.",
+   "cited_by": null,
+   "venue": null,
+   "score": 6.0,
    "tag": "memory"
   },
   {
@@ -274,25 +297,25 @@
    "tag": "accel"
   },
   {
-   "id": "2610.39420",
-   "title": "Energy-Efficient Memristor Accelerator for Depression Detection with a CNN-LSTM Hybrid Model",
-   "url": "https://arxiv.org/abs/2610.39420",
+   "id": "2611.00669",
+   "title": "FPGA Acceleration of CNN-BiLSTM for EEG-Based Sleep Staging Featuring FFT-Based Non-Unit Stride Fast Convolution",
+   "url": "https://arxiv.org/abs/2611.00669",
    "authors": [
-    "Jiaqi Liu",
-    "Yun Yu",
-    "Fenglin Xi"
+    "Aaron Zhou",
+    "Yaqian Xu",
+    "Chen Chen"
    ],
    "n_authors": 10,
-   "published": "2026-10-29",
+   "published": "2026-10-31",
    "categories": [
     "cs.AR"
    ],
-   "kw_hits": 3,
-   "abstract": "Early screening of depression requires efficient analysis of audio and speech data, while conventional CPU and GPU platforms incur high latency and energy consumption for CNN-LSTM inference. To address this challenge, we propose a unified resistive RAM (ReRAM) processing-in-memory accelerator for a CNN-LSTM attention workload. The architecture integrates convolutional, recurrent, attention, and multi-layer perceptron (MLP) stages within a crossbar-based framework, reducing intermediate data movement between spatial and temporal branches. CNN operations are mapped through im2col-based vectorization, while LSTM gate computations are reformulated using concatenated input-state vectors and mapped onto ReRAM crossbars. We further provide module-level workload breakdown, parameter sensitivity analysis, and matched-workload context against representative ReRAM/PIM accelerators. Experimental…",
-   "excerpt": "Early screening of depression requires efficient analysis of audio and speech data, while conventional CPU and GPU platforms incur high latency and energy consumption for CNN-LSTM inference.",
-   "cited_by": 0,
+   "kw_hits": 2,
+   "abstract": "Deep learning (DL) models for real-time wearable sleep staging often rely on long-kernel temporal convolutions, a requirement that current accelerators struggle to support efficiently. To overcome this, we present an FPGA-based CNN-BiLSTM accelerator that incorporates several algorithm-hardware co-design techniques to enable efficient edge inference. Central to this design is an FFT-based non-unit stride fast convolution, which performs accumulation in the frequency domain to enable a single IFFT per block, reducing post-processing complexity to $O(N\\log N)$. On the target long-kernel convolution layer, this yields a 20.5$\\times$ reduction in arithmetic operations. Power-of-two quantization is applied across the pipeline, including FFT-based convolution and BiLSTM activations, with an average accuracy degradation of only 0.11% relative to the floating-point baseline across all subjects…",
+   "excerpt": "Deep learning (DL) models for real-time wearable sleep staging often rely on long-kernel temporal convolutions, a requirement that current accelerators struggle to support efficiently.",
+   "cited_by": 1,
    "venue": "arXiv (Cornell University)",
-   "score": 6.0,
+   "score": 4.69,
    "tag": "accel"
   },
   {
@@ -908,35 +931,13 @@
    "venue": null,
    "score": 4.0,
    "tag": "accel"
-  },
-  {
-   "id": "2611.00669",
-   "title": "FPGA Acceleration of CNN-BiLSTM for EEG-Based Sleep Staging Featuring FFT-Based Non-Unit Stride Fast Convolution",
-   "url": "https://arxiv.org/abs/2611.00669",
-   "authors": [
-    "Aaron Zhou",
-    "Yaqian Xu",
-    "Chen Chen"
-   ],
-   "n_authors": 10,
-   "published": "2026-10-31",
-   "categories": [
-    "cs.AR"
-   ],
-   "kw_hits": 2,
-   "abstract": "Deep learning (DL) models for real-time wearable sleep staging often rely on long-kernel temporal convolutions, a requirement that current accelerators struggle to support efficiently. To overcome this, we present an FPGA-based CNN-BiLSTM accelerator that incorporates several algorithm-hardware co-design techniques to enable efficient edge inference. Central to this design is an FFT-based non-unit stride fast convolution, which performs accumulation in the frequency domain to enable a single IFFT per block, reducing post-processing complexity to $O(N\\log N)$. On the target long-kernel convolution layer, this yields a 20.5$\\times$ reduction in arithmetic operations. Power-of-two quantization is applied across the pipeline, including FFT-based convolution and BiLSTM activations, with an average accuracy degradation of only 0.11% relative to the floating-point baseline across all subjects…",
-   "excerpt": "Deep learning (DL) models for real-time wearable sleep staging often rely on long-kernel temporal convolutions, a requirement that current accelerators struggle to support efficiently.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "accel"
   }
  ],
  "papers_classic": [
   {
    "title": "ISAAC: a convolutional neural network accelerator with in-situ analog arithmetic in crossbars",
    "year": 2016,
-   "cited_by": 1559,
+   "cited_by": 1810,
    "venue": "ACM SIGARCH Computer Architecture News",
    "url": "https://doi.org/10.1145/3007787.3001139",
    "query": "neural network accelerator",
@@ -952,7 +953,7 @@
   {
    "title": "PRIME: a novel processing-in-memory architecture for neural network computation in ReRAM-based main memory",
    "year": 2016,
-   "cited_by": 1234,
+   "cited_by": 1347,
    "venue": "ACM SIGARCH Computer Architecture News",
    "url": "https://doi.org/10.1145/3007787.3001140",
    "query": "processing-in-memory",
@@ -968,7 +969,7 @@
   {
    "title": "Near-Threshold RISC-V Core With DSP Extensions for Scalable IoT Endpoint Devices",
    "year": 2017,
-   "cited_by": 540,
+   "cited_by": 611,
    "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
    "url": "https://doi.org/10.1109/tvlsi.2017.2654506",
    "query": "RISC-V",
@@ -984,7 +985,7 @@
   {
    "title": "Minerva: enabling low-power, highly-accurate deep neural network accelerators",
    "year": 2016,
-   "cited_by": 452,
+   "cited_by": 518,
    "venue": "ACM SIGARCH Computer Architecture News",
    "url": "https://doi.org/10.1145/3007787.3001165",
    "query": "neural network accelerator",
@@ -1000,7 +1001,7 @@
   {
    "title": "A cortical–hippocampal–cortical loop of information processing during memory consolidation",
    "year": 2016,
-   "cited_by": 416,
+   "cited_by": 439,
    "venue": "Nature Neuroscience",
    "url": "https://doi.org/10.1038/nn.4457",
    "query": "processing-in-memory",
@@ -1014,25 +1015,9 @@
    "tag": "memory"
   },
   {
-   "title": "Breaking the von Neumann bottleneck: architecture-level processing-in-memory technology",
-   "year": 2021,
-   "cited_by": 366,
-   "venue": "Science China Information Sciences",
-   "url": "https://doi.org/10.1007/s11432-020-3227-1",
-   "query": "processing-in-memory",
-   "authors": [
-    "Xingqi Zou",
-    "Sheng Xu",
-    "Xiaoming Chen"
-   ],
-   "abstract": "",
-   "excerpt": "",
-   "tag": "memory"
-  },
-  {
    "title": "Large-scale photonic chiplet Taichi empowers 160-TOPS/W artificial general intelligence",
    "year": 2024,
-   "cited_by": 349,
+   "cited_by": 397,
    "venue": "Science",
    "url": "https://doi.org/10.1126/science.adl1203",
    "query": "chiplet",
@@ -1046,9 +1031,25 @@
    "tag": "package"
   },
   {
+   "title": "Breaking the von Neumann bottleneck: architecture-level processing-in-memory technology",
+   "year": 2021,
+   "cited_by": 390,
+   "venue": "Science China Information Sciences",
+   "url": "https://doi.org/10.1007/s11432-020-3227-1",
+   "query": "processing-in-memory",
+   "authors": [
+    "Xingqi Zou",
+    "Sheng Xu",
+    "Xiaoming Chen"
+   ],
+   "abstract": "",
+   "excerpt": "",
+   "tag": "memory"
+  },
+  {
    "title": "UNPU: An Energy-Efficient Deep Neural Network Accelerator With Fully Variable Weight Bit Precision",
    "year": 2018,
-   "cited_by": 342,
+   "cited_by": 378,
    "venue": "IEEE Journal of Solid-State Circuits",
    "url": "https://doi.org/10.1109/jssc.2018.2865489",
    "query": "neural network accelerator",
@@ -1062,25 +1063,9 @@
    "tag": "accel"
   },
   {
-   "title": "NullHop: A Flexible Convolutional Neural Network Accelerator Based on Sparse Representations of Feature Maps",
-   "year": 2018,
-   "cited_by": 291,
-   "venue": "IEEE Transactions on Neural Networks and Learning Systems",
-   "url": "https://doi.org/10.1109/tnnls.2018.2852335",
-   "query": "neural network accelerator",
-   "authors": [
-    "Alessandro Aimar",
-    "Hesham Mostafa",
-    "Enrico Calabrese"
-   ],
-   "abstract": "Convolutional neural networks (CNNs) have become the dominant neural network architecture for solving many state-of-the-art (SOA) visual processing tasks. Even though graphical processing units are most often used in training and deploying CNNs, their power efficiency is less than 10 GOp/s/W for single-frame runtime inference. We propose a flexible and efficient CNN accelerator architecture called NullHop that implements SOA CNNs useful for low-power and low-latency application scenarios. NullHop exploits the sparsity of neuron activations in CNNs to accelerate the computation and reduce memory requirements. The flexible architecture allows high utilization of available computing resources across kernel sizes ranging from 1×1 to 7×7. NullHop can process up to 128 input and 128 output feature maps per layer in a single pass. We implemented the proposed architecture on a Xilinx Zynq…",
-   "excerpt": "Convolutional neural networks (CNNs) have become the dominant neural network architecture for solving many state-of-the-art (SOA) visual processing tasks.",
-   "tag": "accel"
-  },
-  {
    "title": "Benchmarking a New Paradigm: Experimental Analysis and Characterization of a Real Processing-in-Memory System",
    "year": 2022,
-   "cited_by": 285,
+   "cited_by": 336,
    "venue": "IEEE Access",
    "url": "https://doi.org/10.1109/access.2022.3174101",
    "query": "processing-in-memory",
@@ -1094,9 +1079,25 @@
    "tag": "memory"
   },
   {
+   "title": "NullHop: A Flexible Convolutional Neural Network Accelerator Based on Sparse Representations of Feature Maps",
+   "year": 2018,
+   "cited_by": 321,
+   "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+   "url": "https://doi.org/10.1109/tnnls.2018.2852335",
+   "query": "neural network accelerator",
+   "authors": [
+    "Alessandro Aimar",
+    "Hesham Mostafa",
+    "Enrico Calabrese"
+   ],
+   "abstract": "Convolutional neural networks (CNNs) have become the dominant neural network architecture for solving many state-of-the-art (SOA) visual processing tasks. Even though graphical processing units are most often used in training and deploying CNNs, their power efficiency is less than 10 GOp/s/W for single-frame runtime inference. We propose a flexible and efficient CNN accelerator architecture called NullHop that implements SOA CNNs useful for low-power and low-latency application scenarios. NullHop exploits the sparsity of neuron activations in CNNs to accelerate the computation and reduce memory requirements. The flexible architecture allows high utilization of available computing resources across kernel sizes ranging from 1×1 to 7×7. NullHop can process up to 128 input and 128 output feature maps per layer in a single pass. We implemented the proposed architecture on a Xilinx Zynq…",
+   "excerpt": "Convolutional neural networks (CNNs) have become the dominant neural network architecture for solving many state-of-the-art (SOA) visual processing tasks.",
+   "tag": "accel"
+  },
+  {
    "title": "Chiplet Heterogeneous Integration Technology—Status and Challenges",
    "year": 2020,
-   "cited_by": 244,
+   "cited_by": 284,
    "venue": "Electronics",
    "url": "https://doi.org/10.3390/electronics9040670",
    "query": "chiplet",
@@ -1110,87 +1111,9 @@
    "tag": "package"
   },
   {
-   "title": "Universal Chiplet Interconnect Express (UCIe): An Open Industry Standard for Innovations With Chiplets at Package Level",
-   "year": 2022,
-   "cited_by": 221,
-   "venue": "IEEE Transactions on Components Packaging and Manufacturing Technology",
-   "url": "https://doi.org/10.1109/tcpmt.2022.3207195",
-   "query": "chiplet",
-   "authors": [
-    "Debendra Das Sharma",
-    "Gerald Pasdast",
-    "Zhiguo Qian"
-   ],
-   "abstract": "Universal Chiplet Interconnect Express (UCIe) is an open industry standard interconnect for developing an open chiplet ecosystem, where chiplets from any supplier can be packaged anywhere in an interoperable manner. This article delves into the architectural, circuit, channel, and packaging aspects that we developed that has been adopted in the UCIe 1.0 Specification. We present our results based on our channel and circuit implementation studies.",
-   "excerpt": "Universal Chiplet Interconnect Express (UCIe) is an open industry standard interconnect for developing an open chiplet ecosystem, where chiplets from any supplier can be packaged anywhere in an interoperable manner.",
-   "tag": "package"
-  },
-  {
-   "title": "A Reconfigurable Streaming Deep Convolutional Neural Network Accelerator for Internet of Things",
-   "year": 2017,
-   "cited_by": 210,
-   "venue": "IEEE Transactions on Circuits and Systems I Regular Papers",
-   "url": "https://doi.org/10.1109/tcsi.2017.2735490",
-   "query": "neural network accelerator",
-   "authors": [
-    "Li Du",
-    "Yuan Du",
-    "Yilei Li"
-   ],
-   "abstract": "Convolutional neural network (CNN) offers significant accuracy in image detection. To implement image detection using CNN in the Internet of Things (IoT) devices, a streaming hardware accelerator is proposed. The proposed accelerator optimizes the energy efficiency by avoiding unnecessary data movement. With unique filter decomposition technique, the accelerator can support arbitrary convolution window size. In addition, max-pooling function can be computed in parallel with convolution by using separate pooling unit, thus achieving throughput improvement. A prototype accelerator was implemented in TSMC 65-nm technology with a core size of 5 mm2. The accelerator can support major CNNs and achieve 152GOPS peak throughput and 434GOPS/W energy efficiency at 350 mW, making it a promising hardware accelerator for intelligent IoT devices.",
-   "excerpt": "Convolutional neural network (CNN) offers significant accuracy in image detection.",
-   "tag": "accel"
-  },
-  {
-   "title": "The RISC-V Instruction Set Manual",
-   "year": 2014,
-   "cited_by": 195,
-   "venue": null,
-   "url": "https://openalex.org/W2187802606",
-   "query": "RISC-V",
-   "authors": [
-    "Andrew S. Waterman",
-    "Yunsup Lee",
-    "David A. Patterson"
-   ],
-   "abstract": "personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. To copy otherwise, to republish, to post on servers or to redistribute to lists, requires prior specific permission.",
-   "excerpt": "personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.",
-   "tag": "arch"
-  },
-  {
-   "title": "A Survey of ReRAM-Based Architectures for Processing-In-Memory and Neural Networks",
-   "year": 2018,
-   "cited_by": 190,
-   "venue": "Machine Learning and Knowledge Extraction",
-   "url": "https://doi.org/10.3390/make1010005",
-   "query": "processing-in-memory",
-   "authors": [
-    "Sparsh Mittal"
-   ],
-   "abstract": "As data movement operations and power-budget become key bottlenecks in the design of computing systems, the interest in unconventional approaches such as processing-in-memory (PIM), machine learning (ML), and especially neural network (NN)-based accelerators has grown significantly. Resistive random access memory (ReRAM) is a promising technology for efficiently architecting PIM- and NN-based accelerators due to its capabilities to work as both: High-density/low-energy storage and in-memory computation/search engine. In this paper, we present a survey of techniques for designing ReRAM-based PIM and NN architectures. By classifying the techniques based on key parameters, we underscore their similarities and differences. This paper will be valuable for computer architects, chip designers and researchers in the area of machine learning.",
-   "excerpt": "As data movement operations and power-budget become key bottlenecks in the design of computing systems, the interest in unconventional approaches such as processing-in-memory (PIM), machine learning (ML), and especially…",
-   "tag": "memory"
-  },
-  {
-   "title": "Active Memory Cube: A processing-in-memory architecture for exascale systems",
-   "year": 2015,
-   "cited_by": 189,
-   "venue": "IBM Journal of Research and Development",
-   "url": "https://doi.org/10.1147/jrd.2015.2409732",
-   "query": "processing-in-memory",
-   "authors": [
-    "R. Nair",
-    "Samuel Antão",
-    "Carlo Bertolli"
-   ],
-   "abstract": "Many studies point to the difficulty of scaling existing computer architectures to meet the needs of an exascale system (i.e., capable of executing$10^{18} $floating-point operations per second), consuming no more than 20 MW in power, by around the year 2020. This paper outlines a new architecture, the Active Memory Cube, which reduces the energy of computation significantly by performing computation in the memory module, rather than moving data through large memory hierarchies to the processor core. The architecture leverages a commercially demonstrated 3D memory stack called the Hybrid Memory Cube, placing sophisticated computational elements on the logic layer below its stack of dynamic random-access memory (DRAM) dies. The paper also describes an Active Memory Cube tuned to the requirements of a scientific exascale system. The computational elements have a vector architecture and…",
-   "excerpt": "Many studies point to the difficulty of scaling existing computer architectures to meet the needs of an exascale system (i.e., capable of executing$10^{18} $floating-point operations per second), consuming no more than…",
-   "tag": "memory"
-  },
-  {
    "title": "Processing-in-memory: A workload-driven perspective",
    "year": 2019,
-   "cited_by": 187,
+   "cited_by": 265,
    "venue": "IBM Journal of Research and Development",
    "url": "https://doi.org/10.1147/jrd.2019.2934048",
    "query": "processing-in-memory",
@@ -1204,9 +1127,103 @@
    "tag": "memory"
   },
   {
+   "title": "Universal Chiplet Interconnect Express (UCIe): An Open Industry Standard for Innovations With Chiplets at Package Level",
+   "year": 2022,
+   "cited_by": 257,
+   "venue": "IEEE Transactions on Components Packaging and Manufacturing Technology",
+   "url": "https://doi.org/10.1109/tcpmt.2022.3207195",
+   "query": "chiplet",
+   "authors": [
+    "Debendra Das Sharma",
+    "Gerald Pasdast",
+    "Zhiguo Qian"
+   ],
+   "abstract": "Universal Chiplet Interconnect Express (UCIe) is an open industry standard interconnect for developing an open chiplet ecosystem, where chiplets from any supplier can be packaged anywhere in an interoperable manner. This article delves into the architectural, circuit, channel, and packaging aspects that we developed that has been adopted in the UCIe 1.0 Specification. We present our results based on our channel and circuit implementation studies.",
+   "excerpt": "Universal Chiplet Interconnect Express (UCIe) is an open industry standard interconnect for developing an open chiplet ecosystem, where chiplets from any supplier can be packaged anywhere in an interoperable manner.",
+   "tag": "package"
+  },
+  {
+   "title": "Active Memory Cube: A processing-in-memory architecture for exascale systems",
+   "year": 2015,
+   "cited_by": 231,
+   "venue": "IBM Journal of Research and Development",
+   "url": "https://doi.org/10.1147/jrd.2015.2409732",
+   "query": "processing-in-memory",
+   "authors": [
+    "R. Nair",
+    "Samuel Antão",
+    "Carlo Bertolli"
+   ],
+   "abstract": "Many studies point to the difficulty of scaling existing computer architectures to meet the needs of an exascale system (i.e., capable of executing$10^{18} $floating-point operations per second), consuming no more than 20 MW in power, by around the year 2020. This paper outlines a new architecture, the Active Memory Cube, which reduces the energy of computation significantly by performing computation in the memory module, rather than moving data through large memory hierarchies to the processor core. The architecture leverages a commercially demonstrated 3D memory stack called the Hybrid Memory Cube, placing sophisticated computational elements on the logic layer below its stack of dynamic random-access memory (DRAM) dies. The paper also describes an Active Memory Cube tuned to the requirements of a scientific exascale system. The computational elements have a vector architecture and…",
+   "excerpt": "Many studies point to the difficulty of scaling existing computer architectures to meet the needs of an exascale system (i.e., capable of executing$10^{18} $floating-point operations per second), consuming no more than…",
+   "tag": "memory"
+  },
+  {
+   "title": "GRIM-Filter: Fast seed location filtering in DNA read mapping using processing-in-memory technologies",
+   "year": 2018,
+   "cited_by": 226,
+   "venue": "BMC Genomics",
+   "url": "https://doi.org/10.1186/s12864-018-4460-0",
+   "query": "processing-in-memory",
+   "authors": [
+    "Jeremie S. Kim",
+    "Damla Senol Cali",
+    "Hongyi Xin"
+   ],
+   "abstract": "BACKGROUND: Seed location filtering is critical in DNA read mapping, a process where billions of DNA fragments (reads) sampled from a donor are mapped onto a reference genome to identify genomic variants of the donor. State-of-the-art read mappers 1) quickly generate possible mapping locations for seeds (i.e., smaller segments) within each read, 2) extract reference sequences at each of the mapping locations, and 3) check similarity between each read and its associated reference sequences with a computationally-expensive algorithm (i.e., sequence alignment) to determine the origin of the read. A seed location filter comes into play before alignment, discarding seed locations that alignment would deem a poor match. The ideal seed location filter would discard all poor match locations prior to alignment such that there is no wasted computation on unnecessary alignments. RESULTS: We…",
+   "excerpt": "BACKGROUND: Seed location filtering is critical in DNA read mapping, a process where billions of DNA fragments (reads) sampled from a donor are mapped onto a reference genome to identify genomic variants of the donor.",
+   "tag": "memory"
+  },
+  {
+   "title": "A Reconfigurable Streaming Deep Convolutional Neural Network Accelerator for Internet of Things",
+   "year": 2017,
+   "cited_by": 223,
+   "venue": "IEEE Transactions on Circuits and Systems I Regular Papers",
+   "url": "https://doi.org/10.1109/tcsi.2017.2735490",
+   "query": "neural network accelerator",
+   "authors": [
+    "Li Du",
+    "Yuan Du",
+    "Yilei Li"
+   ],
+   "abstract": "Convolutional neural network (CNN) offers significant accuracy in image detection. To implement image detection using CNN in the Internet of Things (IoT) devices, a streaming hardware accelerator is proposed. The proposed accelerator optimizes the energy efficiency by avoiding unnecessary data movement. With unique filter decomposition technique, the accelerator can support arbitrary convolution window size. In addition, max-pooling function can be computed in parallel with convolution by using separate pooling unit, thus achieving throughput improvement. A prototype accelerator was implemented in TSMC 65-nm technology with a core size of 5 mm2. The accelerator can support major CNNs and achieve 152GOPS peak throughput and 434GOPS/W energy efficiency at 350 mW, making it a promising hardware accelerator for intelligent IoT devices.",
+   "excerpt": "Convolutional neural network (CNN) offers significant accuracy in image detection.",
+   "tag": "accel"
+  },
+  {
+   "title": "PULP-NN: accelerating quantized neural networks on parallel ultra-low-power RISC-V processors",
+   "year": 2019,
+   "cited_by": 222,
+   "venue": "Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences",
+   "url": "https://doi.org/10.1098/rsta.2019.0155",
+   "query": "RISC-V",
+   "authors": [
+    "Angelo Garofalo",
+    "Manuele Rusci",
+    "Francesco Conti"
+   ],
+   "abstract": "We present PULP-NN, an optimized computing library for a parallel ultra-low-power tightly coupled cluster of RISC-V processors. The key innovation in PULP-NN is a set of kernels for quantized neural network inference, targeting byte and sub-byte data types, down to INT-1, tuned for the recent trend toward aggressive quantization in deep neural network inference. The proposed library exploits both the digital signal processing extensions available in the PULP RISC-V processors and the cluster's parallelism, achieving up to 15.5 MACs/cycle on INT-8 and improving performance by up to 63 × with respect to a sequential implementation on a single RISC-V core implementing the baseline RV32IMC ISA. Using PULP-NN, a CIFAR-10 network on an octa-core cluster runs in 30 × and 19.6 × less clock cycles than the current state-of-the-art ARM CMSIS-NN library, running on STM32L4 and STM32H7 MCUs,…",
+   "excerpt": "We present PULP-NN, an optimized computing library for a parallel ultra-low-power tightly coupled cluster of RISC-V processors.",
+   "tag": "arch"
+  },
+  {
+   "title": "A Survey of ReRAM-Based Architectures for Processing-In-Memory and Neural Networks",
+   "year": 2018,
+   "cited_by": 216,
+   "venue": "Machine Learning and Knowledge Extraction",
+   "url": "https://doi.org/10.3390/make1010005",
+   "query": "processing-in-memory",
+   "authors": [
+    "Sparsh Mittal"
+   ],
+   "abstract": "As data movement operations and power-budget become key bottlenecks in the design of computing systems, the interest in unconventional approaches such as processing-in-memory (PIM), machine learning (ML), and especially neural network (NN)-based accelerators has grown significantly. Resistive random access memory (ReRAM) is a promising technology for efficiently architecting PIM- and NN-based accelerators due to its capabilities to work as both: High-density/low-energy storage and in-memory computation/search engine. In this paper, we present a survey of techniques for designing ReRAM-based PIM and NN architectures. By classifying the techniques based on key parameters, we underscore their similarities and differences. This paper will be valuable for computer architects, chip designers and researchers in the area of machine learning.",
+   "excerpt": "As data movement operations and power-budget become key bottlenecks in the design of computing systems, the interest in unconventional approaches such as processing-in-memory (PIM), machine learning (ML), and especially…",
+   "tag": "memory"
+  },
+  {
    "title": "ISA semantics for ARMv8-a, RISC-v, and CHERI-MIPS",
    "year": 2019,
-   "cited_by": 185,
+   "cited_by": 216,
    "venue": "Proceedings of the ACM on Programming Languages",
    "url": "https://doi.org/10.1145/3290384",
    "query": "RISC-V",
@@ -1220,9 +1237,25 @@
    "tag": "arch"
   },
   {
+   "title": "The RISC-V Instruction Set Manual",
+   "year": 2014,
+   "cited_by": 214,
+   "venue": null,
+   "url": "https://openalex.org/W2187802606",
+   "query": "RISC-V",
+   "authors": [
+    "Andrew S. Waterman",
+    "Yunsup Lee",
+    "David A. Patterson"
+   ],
+   "abstract": "personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. To copy otherwise, to republish, to post on servers or to redistribute to lists, requires prior specific permission.",
+   "excerpt": "personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.",
+   "tag": "arch"
+  },
+  {
    "title": "RISQ-V: Tightly Coupled RISC-V Accelerators for Post-Quantum Cryptography",
    "year": 2020,
-   "cited_by": 184,
+   "cited_by": 214,
    "venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
    "url": "https://doi.org/10.46586/tches.v2020.i4.239-280",
    "query": "RISC-V",
@@ -1238,7 +1271,7 @@
   {
    "title": "RISC-V Instruction Set Architecture Extensions: A Survey",
    "year": 2023,
-   "cited_by": 179,
+   "cited_by": 210,
    "venue": "IEEE Access",
    "url": "https://doi.org/10.1109/access.2023.3246491",
    "query": "RISC-V",
@@ -1254,7 +1287,7 @@
   {
    "title": "Hardware Approximate Techniques for Deep Neural Network Accelerators: A Survey",
    "year": 2022,
-   "cited_by": 167,
+   "cited_by": 204,
    "venue": "ACM Computing Surveys",
    "url": "https://doi.org/10.1145/3527156",
    "query": "neural network accelerator",
@@ -1270,7 +1303,7 @@
   {
    "title": "LazyPIM: An Efficient Cache Coherence Mechanism for Processing-in-Memory",
    "year": 2016,
-   "cited_by": 161,
+   "cited_by": 203,
    "venue": "IEEE Computer Architecture Letters",
    "url": "https://doi.org/10.1109/lca.2016.2577557",
    "query": "processing-in-memory",
@@ -1284,41 +1317,9 @@
    "tag": "memory"
   },
   {
-   "title": "TeraPHY: A Chiplet Technology for Low-Power, High-Bandwidth In-Package Optical I/O",
-   "year": 2020,
-   "cited_by": 161,
-   "venue": "IEEE Micro",
-   "url": "https://doi.org/10.1109/mm.2020.2976067",
-   "query": "chiplet",
-   "authors": [
-    "Mark T. Wade",
-    "Erik F. Anderson",
-    "Shahab Ardalan"
-   ],
-   "abstract": "In this article, we present TeraPHY, a monolithic electronic-photonic chiplet technology for low power and low latency, multi-Tb/s chip-to-chip communications. Integration of the TeraPHY optical technology with open source advanced interconnect bus interface enables communication between chips at board, rack, and row level at the energy and latency cost of in-package interconnect. This enables the design of logically connected but physically separated large-scale and high-performance digital systems. The copackaging integration approach is demonstrated by integrating the TeraPHY die into the Intel Stratix10 FPGA multichip package.",
-   "excerpt": "In this article, we present TeraPHY, a monolithic electronic-photonic chiplet technology for low power and low latency, multi-Tb/s chip-to-chip communications.",
-   "tag": "package"
-  },
-  {
-   "title": "GRIM-Filter: Fast seed location filtering in DNA read mapping using processing-in-memory technologies",
-   "year": 2018,
-   "cited_by": 151,
-   "venue": "BMC Genomics",
-   "url": "https://doi.org/10.1186/s12864-018-4460-0",
-   "query": "processing-in-memory",
-   "authors": [
-    "Jeremie S. Kim",
-    "Damla Senol Cali",
-    "Hongyi Xin"
-   ],
-   "abstract": "BACKGROUND: Seed location filtering is critical in DNA read mapping, a process where billions of DNA fragments (reads) sampled from a donor are mapped onto a reference genome to identify genomic variants of the donor. State-of-the-art read mappers 1) quickly generate possible mapping locations for seeds (i.e., smaller segments) within each read, 2) extract reference sequences at each of the mapping locations, and 3) check similarity between each read and its associated reference sequences with a computationally-expensive algorithm (i.e., sequence alignment) to determine the origin of the read. A seed location filter comes into play before alignment, discarding seed locations that alignment would deem a poor match. The ideal seed location filter would discard all poor match locations prior to alignment such that there is no wasted computation on unnecessary alignments. RESULTS: We…",
-   "excerpt": "BACKGROUND: Seed location filtering is critical in DNA read mapping, a process where billions of DNA fragments (reads) sampled from a donor are mapped onto a reference genome to identify genomic variants of the donor.",
-   "tag": "memory"
-  },
-  {
    "title": "GraphH: A Processing-in-Memory Architecture for Large-Scale Graph Processing",
    "year": 2018,
-   "cited_by": 150,
+   "cited_by": 198,
    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
    "url": "https://doi.org/10.1109/tcad.2018.2821565",
    "query": "processing-in-memory",
@@ -1332,9 +1333,25 @@
    "tag": "memory"
   },
   {
+   "title": "TeraPHY: A Chiplet Technology for Low-Power, High-Bandwidth In-Package Optical I/O",
+   "year": 2020,
+   "cited_by": 172,
+   "venue": "IEEE Micro",
+   "url": "https://doi.org/10.1109/mm.2020.2976067",
+   "query": "chiplet",
+   "authors": [
+    "Mark T. Wade",
+    "Erik F. Anderson",
+    "Shahab Ardalan"
+   ],
+   "abstract": "In this article, we present TeraPHY, a monolithic electronic-photonic chiplet technology for low power and low latency, multi-Tb/s chip-to-chip communications. Integration of the TeraPHY optical technology with open source advanced interconnect bus interface enables communication between chips at board, rack, and row level at the energy and latency cost of in-package interconnect. This enables the design of logically connected but physically separated large-scale and high-performance digital systems. The copackaging integration approach is demonstrated by integrating the TeraPHY die into the Intel Stratix10 FPGA multichip package.",
+   "excerpt": "In this article, we present TeraPHY, a monolithic electronic-photonic chiplet technology for low power and low latency, multi-Tb/s chip-to-chip communications.",
+   "tag": "package"
+  },
+  {
    "title": "Using Dataflow to Optimize Energy Efficiency of Deep Neural Network Accelerators",
    "year": 2017,
-   "cited_by": 146,
+   "cited_by": 171,
    "venue": "IEEE Micro",
    "url": "https://doi.org/10.1109/mm.2017.54",
    "query": "neural network accelerator",
@@ -1348,41 +1365,9 @@
    "tag": "accel"
   },
   {
-   "title": "A RISC-V 32-bit microprocessor based on two-dimensional semiconductors",
-   "year": 2025,
-   "cited_by": 144,
-   "venue": "Nature",
-   "url": "https://doi.org/10.1038/s41586-025-08759-9",
-   "query": "RISC-V",
-   "authors": [
-    "Mingrui Ao",
-    "Xiucheng Zhou",
-    "Xinjie Kong"
-   ],
-   "abstract": "",
-   "excerpt": "",
-   "tag": "arch"
-  },
-  {
-   "title": "IntAct: A 96-Core Processor With Six Chiplets 3D-Stacked on an Active Interposer With Distributed Interconnects and Integrated Power Management",
-   "year": 2020,
-   "cited_by": 140,
-   "venue": "IEEE Journal of Solid-State Circuits",
-   "url": "https://doi.org/10.1109/jssc.2020.3036341",
-   "query": "chiplet",
-   "authors": [
-    "Pascal Vivet",
-    "Èric Guthmuller",
-    "Yvain Thonnart"
-   ],
-   "abstract": "In the context of high-performance computing, the integration of more computing capabilities with generic cores or dedicated accelerators for artificial intelligence (AI) application is raising more and more challenges. Due to the increasing costs of advanced nodes and the difficulties of shrinking analog and circuit input output signals (IOs), alternative architecture solutions to single die are becoming mainstream. Chiplet-based systems using 3D technologies enable modular and scalable architecture and technology partitioning. Nevertheless, there are still limitations due to chiplet integration on passive interposers-silicon or organic. In this article we present the first CMOS active interposer, integrating: 1) power management without any external components; 2) distributed interconnects enabling any chiplet-to-chiplet communication; and 3) system infrastructure, design-for-test,…",
-   "excerpt": "In the context of high-performance computing, the integration of more computing capabilities with generic cores or dedicated accelerators for artificial intelligence (AI) application is raising more and more challenges.",
-   "tag": "package"
-  },
-  {
    "title": "A scalable processing-in-memory accelerator for parallel graph processing",
    "year": 2015,
-   "cited_by": 136,
+   "cited_by": 157,
    "venue": "ACM SIGARCH Computer Architecture News",
    "url": "https://doi.org/10.1145/2872887.2750386",
    "query": "processing-in-memory",
@@ -1398,7 +1383,7 @@
   {
    "title": "The Berkeley Out-of-Order Machine (BOOM): An Industry-Competitive, Synthesizable, Parameterized RISC-V Processor",
    "year": 2015,
-   "cited_by": 135,
+   "cited_by": 155,
    "venue": null,
    "url": "https://openalex.org/W2588464298",
    "query": "RISC-V",
@@ -1410,9 +1395,106 @@
    "abstract": "Abstract : BOOM is a synthesizable, parameterized, superscalar out-of-order RISC-V core designed to serve as the prototypical baseline processor for future micro-architectural studies of out-of-order processors. Our goal is to provide a readable, open-source implementation for use in education, research, and industry. BOOM is written in roughly 9,000 lines of the hardware construction language Chisel. We leveraged Berkeleys open-source Rocket-chip SoC generator, allowing us to quickly bring up an entire multi-core processor system (including caches and uncore) by replacing the in-order Rocket core with an out-of-order BOOM core. BOOM supports atomics, IEEE754-2008 floating-point, and page-based virtual memory. We have demonstrated BOOM running Linux, SPEC CINT2006, and CoreMark.",
    "excerpt": "Abstract : BOOM is a synthesizable, parameterized, superscalar out-of-order RISC-V core designed to serve as the prototypical baseline processor for future micro-architectural studies of out-of-order processors.",
    "tag": "arch"
+  },
+  {
+   "title": "A RISC-V 32-bit microprocessor based on two-dimensional semiconductors",
+   "year": 2025,
+   "cited_by": 154,
+   "venue": "Nature",
+   "url": "https://doi.org/10.1038/s41586-025-08759-9",
+   "query": "RISC-V",
+   "authors": [
+    "Mingrui Ao",
+    "Xiucheng Zhou",
+    "Xinjie Kong"
+   ],
+   "abstract": "",
+   "excerpt": "",
+   "tag": "arch"
   }
  ],
  "news": [
+  {
+   "title": "Self-Supervised Virtual Metrology For CMP MRR Prediction (SUTD, A*STAR, NUS)",
+   "url": "https://semiengineering.com/self-supervised-virtual-metrology-for-cmp-mrr-prediction-sutd-astar-nus/",
+   "source": "Semiconductor Engineering",
+   "published": "2026-11-17T00:56:29+00:00",
+   "desc": "Researchers at Singapore University of Technology and Design (SUTD), A*STAR, and National University of Singapore (NUS) published “Self-Supervised Attention-Based Virtual Metrology for CMP MRR Prediction.” Excerpt “In this paper, we propose Global Regression Pretraining (GREP), a self-supervised, attention-based framework for CMP* MRR prediction. GREP learns temporal representations from unlabeled sensor signals through global proxy-target regression,... » read more",
+   "excerpt": "Researchers at Singapore University of Technology and Design (SUTD), A*STAR, and National University of Singapore (NUS) published “Self-Supervised Attention-Based Virtual Metrology for CMP MRR Prediction.” Excerpt “In…",
+   "tag": null
+  },
+  {
+   "title": "Reducing High-Bandwidth Flash Latency In GPU Systems (Georgia Tech, Nvidia, Stanford)",
+   "url": "https://semiengineering.com/reducing-high-bandwidth-flash-latency-in-gpu-systems-georgia-tech-nvidia-stanford/",
+   "source": "Semiconductor Engineering",
+   "published": "2026-11-16T23:52:56+00:00",
+   "desc": "Researchers at Georgia Tech, NVIDIA Research, and Stanford University published “SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads.” Abstract Excerpt “Large language model (LLM) inference demands ever more memory capacity for larger models and batch sizes. High-Bandwidth Flash (HBF) replaces the DRAM dies of HBM with NAND flash and provides... » read more",
+   "excerpt": "Researchers at Georgia Tech, NVIDIA Research, and Stanford University published “SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads.” Abstract Excerpt “Large language model (LLM)…",
+   "tag": "memory"
+  },
+  {
+   "title": "Talking Venice with Mahesh Subramony at AMD In-Depth",
+   "url": "https://chipsandcheese.com/p/talking-venice-with-mahesh-subramony",
+   "source": "Chips and Cheese",
+   "published": "2026-11-16T20:32:28+00:00",
+   "desc": "Hello you fine Internet folks,",
+   "excerpt": "Hello you fine Internet folks,",
+   "tag": "industry"
+  },
+  {
+   "title": "Supercomputer Installs Take A Dive In The Second Half Of 2026",
+   "url": "https://www.nextplatform.com/hpc/2026/11/16/supercomputer-installs-take-a-dive-in-the-second-half-of-2026/5310221",
+   "source": "The Next Platform",
+   "published": "2026-11-16T18:59:25+00:00",
+   "desc": "",
+   "excerpt": "",
+   "tag": null
+  },
+  {
+   "title": "Taking a Tour of Canada’s Particle Accelerator",
+   "url": "https://www.eetimes.com/taking-a-tour-of-canadas-particle-accelerator/",
+   "source": "EE Times",
+   "published": "2026-11-16T17:52:31+00:00",
+   "desc": "Located on Canada’s west coast, TRIUMF’s normal-conducting cyclotron, unique materials probes, and irradiation facilities serve everything from quantum materials and radiation-hardened electronics to medical isotopes.",
+   "excerpt": "Located on Canada’s west coast, TRIUMF’s normal-conducting cyclotron, unique materials probes, and irradiation facilities serve everything from quantum materials and radiation-hardened electronics to medical isotopes.",
+   "tag": "accel"
+  },
+  {
+   "title": "Simplifying Power Design with µModule Solutions",
+   "url": "https://www.eetimes.com/simplifying-power-design-with-%c2%b5module-solutions/",
+   "source": "EE Times",
+   "published": "2026-11-16T17:41:23+00:00",
+   "desc": "Join this webinar to learn how highly integrated power solutions can simplify design, increase power density, and much more.",
+   "excerpt": "Join this webinar to learn how highly integrated power solutions can simplify design, increase power density, and much more.",
+   "tag": null
+  },
+  {
+   "title": "Beyond Low Energy: New Product Frontiers for Lossless Audio, Edge-AI and Display Streaming",
+   "url": "https://www.eetimes.com/beyond-low-energy-new-product-frontiers-for-lossless-audio-edge-ai-and-display-streaming/",
+   "source": "EE Times",
+   "published": "2026-11-16T17:19:44+00:00",
+   "desc": "Join our expert-led webinar to discover how the TL753X SoC leverages High Definition Technology (HDT) for innovative applications.",
+   "excerpt": "Join our expert-led webinar to discover how the TL753X SoC leverages High Definition Technology (HDT) for innovative applications.",
+   "tag": null
+  },
+  {
+   "title": "Silicon Motherboard Enables Double-Sided Integration of ICs and Passive Components",
+   "url": "https://www.eetimes.com/silicon-motherboard-enables-double-sided-integration-of-ics-and-passive-components/",
+   "source": "EE Times",
+   "published": "2026-11-16T17:00:00+00:00",
+   "desc": "Nisshinbo's Silicon Motherboard integrates ICs and passives on both sides of a silicon substrate, reducing mounting area by up to 90%.",
+   "excerpt": "Nisshinbo's Silicon Motherboard integrates ICs and passives on both sides of a silicon substrate, reducing mounting area by up to 90%.",
+   "tag": null
+  },
+  {
+   "title": "Technology as a Trojan Horse",
+   "url": "https://www.eetimes.com/technology-as-a-trojan-horse/",
+   "source": "EE Times",
+   "published": "2026-11-16T13:59:50+00:00",
+   "desc": "Jensen Huang is no longer leading Nvidia, but his Trojan horse question remains, for chips and for the rest of the technology stack: sell and try to control, or don’t sell and maybe delay?",
+   "excerpt": "Jensen Huang is no longer leading Nvidia, but his Trojan horse question remains, for chips and for the rest of the technology stack: sell and try to control, or don’t sell and maybe delay?",
+   "tag": null
+  },
   {
    "title": "What Is Acoustic Micro Imaging? A Quick Guide To This Inspection Process",
    "url": "https://semiengineering.com/what-is-acoustic-micro-imaging-a-quick-guide-to-this-inspection-process/",
@@ -1513,15 +1595,6 @@
    "tag": null
   },
   {
-   "title": "Jensen Resigns Over Second Affair",
-   "url": "https://www.eetimes.com/jensen-resigns-over-second-affair/",
-   "source": "EE Times",
-   "published": "2026-11-12T20:48:35+00:00",
-   "desc": "Nvidia CEO’s second affair scandal in a week prompted his resignation, and the board is now searching for a new leader for the company.",
-   "excerpt": "Nvidia CEO’s second affair scandal in a week prompted his resignation, and the board is now searching for a new leader for the company.",
-   "tag": "industry"
-  },
-  {
    "title": "The Nvidia Machine Is Self-Sustaining – And Was Already Facing A Tougher Future",
    "url": "https://www.nextplatform.com/ai/2026/11/12/the-nvidia-machine-is-self-sustaining-and-was-already-facing-a-tougher-future/5309473",
    "source": "The Next Platform",
@@ -1537,42 +1610,6 @@
    "published": "2026-11-12T15:57:50+00:00",
    "desc": "Accelerating IC innovation with AI.",
    "excerpt": "Accelerating IC innovation with AI.",
-   "tag": null
-  },
-  {
-   "title": "Design Smarter – Energy Harvesting for Battery-Free and Low-Maintenance Devices in Safety & Security applications",
-   "url": "https://www.eetimes.com/design-smarter-energy-harvesting-for-battery-free-and-low-maintenance-devices-in-safety-security-applications/",
-   "source": "EE Times",
-   "published": "2026-11-12T15:00:00+00:00",
-   "desc": "Battery-powered sensors and detectors underpin modern safety and security systems, yet they create a constant maintenance burden. Hundreds of devices need manual battery swaps, often in hard-to-reach places, interrupting reliability and raising costs.This document paper shows hardware and system designers how to power devices from ambient energy. It covers the full energy chain, offers a",
-   "excerpt": "Battery-powered sensors and detectors underpin modern safety and security systems, yet they create a constant maintenance burden.",
-   "tag": null
-  },
-  {
-   "title": "Can Machines See a Sick Plant Before a Farmer Can?",
-   "url": "https://www.eetimes.com/can-machines-see-a-sick-plant-before-a-farmer-can/",
-   "source": "EE Times",
-   "published": "2026-11-12T13:00:00+00:00",
-   "desc": "Soybean disease research shows the promise of hyperspectral imaging, while semiconductor advances could make spectral sensing affordable for farmers.",
-   "excerpt": "Soybean disease research shows the promise of hyperspectral imaging, while semiconductor advances could make spectral sensing affordable for farmers.",
-   "tag": null
-  },
-  {
-   "title": "Connecting AI to the Physical World",
-   "url": "https://www.eetimes.com/connecting-ai-to-the-physical-world/",
-   "source": "EE Times",
-   "published": "2026-11-12T10:20:00+00:00",
-   "desc": "Why specialized wireless devices and SDR software IP matter to the next wave of intelligent machines",
-   "excerpt": "Why specialized wireless devices and SDR software IP matter to the next wave of intelligent machines",
-   "tag": null
-  },
-  {
-   "title": "Harari Warns Tech Leaders Against Pursuing AI Superintelligence",
-   "url": "https://www.eetimes.com/harari-warns-tech-leaders-against-pursuing-ai-superintelligence/",
-   "source": "EE Times",
-   "published": "2026-11-12T08:30:00+00:00",
-   "desc": "At Gartner IT Symposium/Xpo 2026, philosopher Yuval Noah Harari makes an appeal to delay artificial superintelligence as it threatens to erode human agency and democratic sovereignty.",
-   "excerpt": "At Gartner IT Symposium/Xpo 2026, philosopher Yuval Noah Harari makes an appeal to delay artificial superintelligence as it threatens to erode human agency and democratic sovereignty.",
    "tag": null
   },
   {
@@ -1600,24 +1637,6 @@
    "published": "2026-11-12T08:06:49+00:00",
    "desc": "Use evidence from silicon to improve the tools and decisions that create the next generation of hardware.",
    "excerpt": "Use evidence from silicon to improve the tools and decisions that create the next generation of hardware.",
-   "tag": null
-  },
-  {
-   "title": "Designing Edge AI SoCs At Near-Threshold: Why Foundation IP Can Help You Break Down The Power Wall",
-   "url": "https://semiengineering.com/designing-edge-ai-socs-at-near-threshold-why-foundation-ip-can-help-you-break-down-the-power-wall/",
-   "source": "Semiconductor Engineering",
-   "published": "2026-11-12T08:05:04+00:00",
-   "desc": "Traditional voltage scaling is no longer sufficient to deliver real-time performance within tight energy and thermal limits.",
-   "excerpt": "Traditional voltage scaling is no longer sufficient to deliver real-time performance within tight energy and thermal limits.",
-   "tag": null
-  },
-  {
-   "title": "IP Integration Challenges Evolve",
-   "url": "https://semiengineering.com/ip-integration-challenges-evolve/",
-   "source": "Semiconductor Engineering",
-   "published": "2026-11-12T08:05:00+00:00",
-   "desc": "Integration challenges are growing more complex, but the problem is well understood and solutions are emerging.",
-   "excerpt": "Integration challenges are growing more complex, but the problem is well understood and solutions are emerging.",
    "tag": null
   },
   {
@@ -1718,15 +1737,6 @@
    "desc": "",
    "excerpt": "",
    "tag": null
-  },
-  {
-   "title": "Qualcomm Has Eyes On The AI Inference Datacenter With HBC And AI250",
-   "url": "https://www.nextplatform.com/ai/2026/11/02/qualcomm-has-eyes-on-the-ai-inference-datacenter-with-hbc-and-ai250/5306954",
-   "source": "The Next Platform",
-   "published": "2026-11-02T18:02:57+00:00",
-   "desc": "",
-   "excerpt": "",
-   "tag": "accel"
   }
  ],
  "score_rule": "score = 2*keyword_hits(title+abstract) + ln(1+citations); source: arXiv API, OpenAlex"
