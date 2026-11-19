@@ -1,7 +1,7 @@
 {
  "field": "semiconductor",
  "label": "반도체",
- "updated": "2026-11-18T02:41:34+00:00",
+ "updated": "2026-11-19T02:10:49+00:00",
  "subfields": [
   {
    "id": "memory",
@@ -70,8 +70,8 @@
    "kw_hits": 3,
    "abstract": "LayerNorm and attention Softmax are critical operations in Transformers. However, they cannot be efficiently mapped to General Matrix Multiplication (GEMM) computations on hardware. Therefore, modern hardware accelerator designs, such as NPUs on ASIC/FPGA, consume a large amount of hardware resources or chip area to implement their specific arithmetic units. Building on previous work about LayerNorm, Softmax, and their alternatives, we introduce Learnable Normalization States (LENS), a framework that reformulates LayerNorm as tiny MLPs by abstracting a common structure from related methods and extends this method to Softmax, which moves more of the computation in Transformers to GEMM as a hardware-friendly architecture. We evaluate LENS on image classification with Vision Transformers (ViT) and autoregressive language modeling with Pythia models, including generalization tests on…",
    "excerpt": "LayerNorm and attention Softmax are critical operations in Transformers.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 6.0,
    "tag": "accel"
   },
@@ -142,8 +142,8 @@
    "kw_hits": 3,
    "abstract": "Long-context large language model (LLM) decoding repeatedly reads the historical key-value (KV) cache, making multi-head attention (MHA) memory-bandwidth-bound. Caching layer-input activations instead halves historical-cache storage and traffic, but requires regenerating KV from each cached activation. On digital accelerators such as GPUs, this regeneration takes far longer than fetching the activation from HBM. The KV regeneration overhead outweighs the savings from reduced memory traffic, shifting decode attention from a memory bottleneck to a compute bottleneck. We present OptiDecode, a hybrid optoelectronic decode-attention accelerator that regenerates historical KV using free-space optics and computes attention digitally. Projection weights remain resident on optical tiles, exploiting reuse across historical tokens for high-throughput optical regeneration. Scaling to large models…",
    "excerpt": "Long-context large language model (LLM) decoding repeatedly reads the historical key-value (KV) cache, making multi-head attention (MHA) memory-bandwidth-bound.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 6.0,
    "tag": "memory"
   },
@@ -327,25 +327,121 @@
    "tag": "memory"
   },
   {
-   "id": "2611.00669",
-   "title": "FPGA Acceleration of CNN-BiLSTM for EEG-Based Sleep Staging Featuring FFT-Based Non-Unit Stride Fast Convolution",
-   "url": "https://arxiv.org/abs/2611.00669",
+   "id": "2611.23663",
+   "title": "Lodestone: Automated Semantic Discovery of Datacenter Hardware Specialization",
+   "url": "https://arxiv.org/abs/2611.23663",
    "authors": [
-    "Aaron Zhou",
-    "Yaqian Xu",
-    "Chen Chen"
+    "Peizhe Liu",
+    "Akanksha Jain",
+    "Gerasimos Gerogiannis"
    ],
-   "n_authors": 10,
-   "published": "2026-10-31",
+   "n_authors": 6,
+   "published": "2026-11-18",
    "categories": [
+    "cs.AR",
+    "cs.AI"
+   ],
+   "kw_hits": 2,
+   "abstract": "Hardware specialization can improve datacenter efficiency. Unfortunately, identifying computations that justify dedicated hardware is difficult. Existing approaches analyze hot functions, instruction patterns, or overheads such as datacenter tax. They can miss fine-grained computations whose aggregate cost is spread across applications and libraries, especially when different pieces of code obscure the same underlying computation. We observe that seemingly unrelated code regions often perform the same computations, creating specialization opportunities that require semantic reasoning. The rise of agentic AI makes it possible to automate this. However, conventional AI agents cannot efficiently and reliably analyze large scale datacenter software. To unlock this opportunity, we present Lodestone, an agentic framework that automatically discovers hardware specialization opportunities by…",
+   "excerpt": "Hardware specialization can improve datacenter efficiency.",
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0,
+   "tag": null
+  },
+  {
+   "id": "2611.23101",
+   "title": "StreamingDPD: A 1.28-GSa/s Instantaneous-Power-Gated Depthwise TCN Accelerator for Real-Time 320-MHz Digital Predistortion",
+   "url": "https://arxiv.org/abs/2611.23101",
+   "authors": [
+    "Yizhuo Wu",
+    "Xinling Wang",
+    "Chang Gao"
+   ],
+   "n_authors": 3,
+   "published": "2026-11-17",
+   "categories": [
+    "eess.SP",
     "cs.AR"
    ],
    "kw_hits": 2,
-   "abstract": "Deep learning (DL) models for real-time wearable sleep staging often rely on long-kernel temporal convolutions, a requirement that current accelerators struggle to support efficiently. To overcome this, we present an FPGA-based CNN-BiLSTM accelerator that incorporates several algorithm-hardware co-design techniques to enable efficient edge inference. Central to this design is an FFT-based non-unit stride fast convolution, which performs accumulation in the frequency domain to enable a single IFFT per block, reducing post-processing complexity to $O(N\\log N)$. On the target long-kernel convolution layer, this yields a 20.5$\\times$ reduction in arithmetic operations. Power-of-two quantization is applied across the pipeline, including FFT-based convolution and BiLSTM activations, with an average accuracy degradation of only 0.11% relative to the floating-point baseline across all subjects…",
-   "excerpt": "Deep learning (DL) models for real-time wearable sleep staging often rely on long-kernel temporal convolutions, a requirement that current accelerators struggle to support efficiently.",
-   "cited_by": 1,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.69,
+   "abstract": "State feedback between successive samples limits the streaming throughput of recurrent neural networks for digital predistortion (DPD). We present StreamingDPD, an accelerator that processes 320-MHz signals at 1.28 GSa/s. Its 207-parameter instantaneous-power-gated depthwise temporal convolutional network (IPG-DWTCN) uses $|x[n]|^2$ to gate feature channels and causal dilated depthwise convolutions to model power amplifier memory. The network maps to a spatially unrolled fixed-point pipeline with shift-based quadratic activations and layer-wise mixed precision, sustaining one complex sample per cycle per lane. Its algorithmic cost is 554 floating-point operations per complex sample, 30.1% fewer than the recurrent baseline with the best linearization performance. In RF playback measurements on three power amplifiers driven by 40- to 320-MHz Wi-Fi 6/7 and 5G NR waveforms, IPG-DWTCN…",
+   "excerpt": "State feedback between successive samples limits the streaming throughput of recurrent neural networks for digital predistortion (DPD).",
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0,
+   "tag": "accel"
+  },
+  {
+   "id": "2611.22937",
+   "title": "LASH-PAT: Deadlock-Free Adaptive Shortest-Path Routing for Inter-Chiplet Interconnects",
+   "url": "https://arxiv.org/abs/2611.22937",
+   "authors": [
+    "Patrick Iff",
+    "Torsten Hoefler"
+   ],
+   "n_authors": 2,
+   "published": "2026-11-17",
+   "categories": [
+    "cs.AR",
+    "cs.NI"
+   ],
+   "kw_hits": 2,
+   "abstract": "With the slowdown of transistor scaling, chipletbased systems, and in particular chiplet-based wafer-scale integration, have emerged as a promising approach to sustain growth in computing capability per cost for modern processors and accelerators. In recent years, many specialized inter-chiplet interconnect topologies have been proposed. In these topologies, the simple, well-established, and deadlock-free dimension-order routing scheme is not applicable due to its reliance on regular mesh structures. In this work, we study routing in these recently proposed inter-chiplet interconnect topologies by categorizing and evaluating nine deadlock-free routing functions for irregular topologies known from data center networking in this new context. This reveals a trade-off between turn-based routing, which enables path diversity, and layered routing, which ensures shortest-path delivery. To…",
+   "excerpt": "With the slowdown of transistor scaling, chipletbased systems, and in particular chiplet-based wafer-scale integration, have emerged as a promising approach to sustain growth in computing capability per cost for modern…",
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0,
+   "tag": "package"
+  },
+  {
+   "id": "2611.22844",
+   "title": "How well does graph superoptimization transfer? Adapting tensor-graph superoptimizer to a Triton-based NPU",
+   "url": "https://arxiv.org/abs/2611.22844",
+   "authors": [
+    "Weronika Hryniewska-Guzik",
+    "Mateusz Comblik",
+    "Daniel Murawski"
+   ],
+   "n_authors": 7,
+   "published": "2026-11-17",
+   "categories": [
+    "cs.PF",
+    "cs.AR",
+    "cs.PL"
+   ],
+   "kw_hits": 2,
+   "abstract": "For automatic optimization systems, performance portability across increasingly diverse AI accelerators remains a challenge. We investigate how well graph-level superoptimization transfers across architectures by adapting Mirage from its CUDA-oriented design to the Huawei Ascend 910B3 through a Triton-based compilation stack. We evaluate the adapted system on transformer-relevant workloads, including matrix multiplication, softmax, RMSNorm+MatMul, gated MLP, FNN, and attention. The results show that graph-level optimization can successfully transfer and outperform available reference implementations by up to 87.0% on fused workloads. However, performance is highly dependent on tensor shape and workload structure, with substantial regressions for other configurations. We identify target-specific tensor partitioning, execution-resource modeling, backend lowering and fusion, and search and…",
+   "excerpt": "For automatic optimization systems, performance portability across increasingly diverse AI accelerators remains a challenge.",
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0,
+   "tag": "accel"
+  },
+  {
+   "id": "2611.22483",
+   "title": "Manufacturing Differential Sparsity: Planner-Hardware Co-Design for Efficient World Model Planning",
+   "url": "https://arxiv.org/abs/2611.22483",
+   "authors": [
+    "Wenbo Zhu",
+    "Paul Yi-Chia Chen",
+    "Yuanhan Li"
+   ],
+   "n_authors": 5,
+   "published": "2026-11-17",
+   "categories": [
+    "cs.AR",
+    "cs.AI",
+    "cs.LG",
+    "cs.RO",
+    "eess.SY"
+   ],
+   "kw_hits": 2,
+   "abstract": "JEPA-style latent world models let embodied agents plan toward new goals with model predictive control, but they are still too slow for real-life embodied control: sampling-based MPC repeats predictor inference tens of thousands of times per plan, and even on high-end GPUs one planning step can take tens of seconds. We observe substantial latent locality in this repeated-inference workload: the predictor maps close actions to close latents, and inside a quantized predictor this closeness takes a form that hardware can exploit, differential bit-level sparsity. Unlike an input stream, whose temporal similarity is given, a planner itself decides which candidates it evaluates together, so the planner can choose its own references and, with reference forest sampling, manufacture more sparsity: it couples the sampled action sequences of each group to a shared root, with competitive planning…",
+   "excerpt": "JEPA-style latent world models let embodied agents plan toward new goals with model predictive control, but they are still too slow for real-life embodied control: sampling-based MPC repeats predictor inference tens of…",
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0,
    "tag": "accel"
   },
   {
@@ -365,8 +461,8 @@
    "kw_hits": 2,
    "abstract": "Mobile GUI agents are increasingly used to automate everyday smartphone tasks, but most existing systems still rely on cloud-hosted models or remote inference, introducing repeated communication latency, privacy exposure, and dependence on network availability. Modern smartphones integrate neural processing units (NPUs) that provide an attractive substrate for fully on-device LLM inference. However, directly deploying conventional GUI-agent pipelines on mobile NPUs is inefficient. GUI-agent inference is fundamentally a long-input, short-output workload, yet conventional agents spend substantial time on autoregressive reasoning and action generation, while mobile NPUs provide much higher throughput for prompt prefill than token-by-token decoding. Meanwhile, dynamically varying GUI-agent contexts conflict with the fixed context profiles required by statically compiled NPU runtimes. We…",
    "excerpt": "Mobile GUI agents are increasingly used to automate everyday smartphone tasks, but most existing systems still rely on cloud-hosted models or remote inference, introducing repeated communication latency, privacy…",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 4.0,
    "tag": "accel"
   },
@@ -387,8 +483,8 @@
    "kw_hits": 2,
    "abstract": "Fixed-point reciprocals are used in normalization and division on field-programmable gate arrays (FPGAs). Designs that share an output format can differ in worst-case error and in their need for memory and multipliers. The effect of table width, internal precision and refinement was evaluated for reciprocal computation in the Q16.16 and Q8.24 formats. Every representable input in the interval from 0.5 to 2.5 was tested against an exact integer reference. Five arithmetic paths were reconstructed from register-transfer-level source. Guarded interpolation, Newton-Raphson refinement and residual correction were then evaluated alongside polynomial and digit-recurrence baselines. Correct rounding was verified for all 131,073 Q16.16 and 33,554,433 Q8.24 inputs by adding one residual check to a guarded interpolated seed and one refinement step. An implementation with product reuse was verified…",
    "excerpt": "Fixed-point reciprocals are used in normalization and division on field-programmable gate arrays (FPGAs).",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 4.0,
    "tag": "arch"
   },
@@ -848,100 +944,82 @@
    "venue": "arXiv (Cornell University)",
    "score": 4.0,
    "tag": "memory"
-  },
-  {
-   "id": "2611.07707",
-   "title": "CAMP: Context-Aware Mapping and Placement for LLMs on 3D-IMC Arrays",
-   "url": "https://arxiv.org/abs/2611.07707",
-   "authors": [
-    "Orhun Görkem",
-    "Athanasios Vasilopoulos",
-    "Georgios Pagonis"
-   ],
-   "n_authors": 9,
-   "published": "2026-11-05",
-   "categories": [
-    "cs.AR",
-    "cs.AI"
-   ],
-   "kw_hits": 2,
-   "abstract": "Large Language Models (LLMs) incur severe memory-access overheads due to the cost of loading large weight matrices and key-value (KV) caches. Analog In-Memory Computing (AIMC) is an emerging solution that enables computation directly on static weights stored in memory, substantially reducing energy and latency. 3D-IMC further stacks memory arrays into vertical tiers, increasing capacity but revealing a new challenge: how weights are placed in memory determines which matrix-vector multiplications (MVMs) can execute concurrently, affecting latency and throughput. The concurrency aspect of 3D-IMC weight-mapping remains underexplored in the literature, leading to sub-optimal utilization of compute resources on 3D-IMC chips. In this context we propose CAMP (Context-Aware Mapping and Placement), an inference-context-aware weight mapping algorithm for 3D-IMC-based LLM accelerators. CAMP…",
-   "excerpt": "Large Language Models (LLMs) incur severe memory-access overheads due to the cost of loading large weight matrices and key-value (KV) caches.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "memory"
-  },
-  {
-   "id": "2611.06829",
-   "title": "Enabling AWS Cloud FPGA Development Using High-Level Vitis HLS",
-   "url": "https://arxiv.org/abs/2611.06829",
-   "authors": [
-    "David Rostcheck"
-   ],
-   "n_authors": 1,
-   "published": "2026-11-04",
-   "categories": [
-    "cs.AR",
-    "cs.AI",
-    "cs.LG"
-   ],
-   "kw_hits": 2,
-   "abstract": "We present a toolchain for development of ML models on AWS EC2 F2 cloud FPGA infrastructure from high-level language, implementing a complete Vitis HLS to HDK bridge to AFI workflow that has been absent from the academic literature despite eight years of AWS FPGA availability. We introduce a four-level methodology (FP32 PyTorch, bit-accurate quantized Python, HLS C-simulation, physical FPGA) to aid in localizing errors, including FPGA-specific circuit errors. Together these tools allow coding agents to effectively implement FPGA designs from user directions, testing and debugging as needed. We document the deployment workflow, timing closure strategies, and practical HLS engineering decisions that proved crucial. We validate using TinyBERT fine-tuned for address Named Entity Recognition, implementing the embedding layer and the first of four encoder layers on the FPGA hardware. Our…",
-   "excerpt": "We present a toolchain for development of ML models on AWS EC2 F2 cloud FPGA infrastructure from high-level language, implementing a complete Vitis HLS to HDK bridge to AFI workflow that has been absent from the…",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "arch"
-  },
-  {
-   "id": "2611.06036",
-   "title": "PIMROP: A Feasibility Study of Return-Oriented Programming on Commercial Processing-in-Memory Architectures",
-   "url": "https://arxiv.org/abs/2611.06036",
-   "authors": [
-    "William C. Tegge",
-    "Shouzhi Fang",
-    "Alex K. Jones"
-   ],
-   "n_authors": 3,
-   "published": "2026-11-04",
-   "categories": [
-    "cs.CR",
-    "cs.AR"
-   ],
-   "kw_hits": 2,
-   "abstract": "Processing-in-Memory places small programmable cores on the memory device, where they execute beside the DRAM banks and beyond the control-flow defenses that protect host programs. The security of this in-memory code is an attack surface that remains largely unstudied. We present PIMROP, to our knowledge the first demonstrated code-reuse attack on a commercial Processing in-Memory ISA. We show that return-oriented programming is feasible on a real, commercially shipped PIM instruction set, the UPMEM DPU, whose DRAM Processing Units run C compiled by a dedicated LLVM toolchain. We build Galileo-for-DPU, a gadget scanner adapted to the DPU's fixed-width, 8-byte-aligned RISC encoding, and run it entirely on the UPMEM functional simulator in a reproducible Docker and VM environment. We find the runtime library that every kernel links already yields 517 non-trivial gadgets covering all five…",
-   "excerpt": "Processing-in-Memory places small programmable cores on the memory device, where they execute beside the DRAM banks and beyond the control-flow defenses that protect host programs.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "memory"
-  },
-  {
-   "id": "2611.04740",
-   "title": "A RISC-V Simulator for the Tenstorrent Tensix Architecture",
-   "url": "https://arxiv.org/abs/2611.04740",
-   "authors": [
-    "Nick Brown",
-    "Daniyal Arshad"
-   ],
-   "n_authors": 2,
-   "published": "2026-11-03",
-   "categories": [
-    "cs.DC",
-    "cs.AR"
-   ],
-   "kw_hits": 2,
-   "abstract": "RISC-V based AI accelerators have become popular and not only for AI and ML, but also as vehicles for exploring HPC workloads more generally. Tenstorrent are one example, and whilst they document their Tensix architecture in detail and develop their software stack openly, running code has historically required a physical card, and their recently released simulator targets hardware equivalence rather than introspection. In this paper we present Wolfpine, a community developed RISC-V simulator for the Tensix architecture, supporting both the Wormhole and Blackhole generations and integrating seamlessly with the TT-Metal software stack. Constructed entirely from publicly available documentation, open source software and measurements on physical hardware, Wolfpine is written in pure Python for readability and ease of modification. An opt-in, provenance-tracked cost model adds timing…",
-   "excerpt": "RISC-V based AI accelerators have become popular and not only for AI and ML, but also as vehicles for exploring HPC workloads more generally.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "arch"
   }
  ],
  "papers_classic": [],
  "news": [
+  {
+   "title": "Quantum Stocks Are Headed for a Correction, Investor Charles Beyrouthy Says",
+   "url": "https://www.eetimes.com/quantum-stocks-are-headed-for-a-correction-investor-charles-beyrouthy-says/",
+   "source": "EE Times",
+   "published": "2026-11-18T23:39:34+00:00",
+   "desc": "Charles Beyrouthy warns quantum stocks face a correction as investors ignore revenue and tech differences; watch where he sees opportunity next.",
+   "excerpt": "Charles Beyrouthy warns quantum stocks face a correction as investors ignore revenue and tech differences; watch where he sees opportunity next.",
+   "tag": "industry"
+  },
+  {
+   "title": "Beyond One Turn: How a Single-Chip Multiturn Position Sensor Is Reshaping Actuator Design",
+   "url": "https://www.eetimes.com/beyond-one-turn-how-a-single-chip-multiturn-position-sensor-is-reshaping-actuator-design/",
+   "source": "EE Times",
+   "published": "2026-11-18T15:00:00+00:00",
+   "desc": "Discover how advanced multiturn position sensing can transform industrial motion control without the limitations of traditional mechanical solutions. Explore how magnetic sensing technology enables accurate, reliable tracking of rotational movement even when power is removed. From robotics and linear actuators to hoists, winches and automated systems, learn how this innovative approach can simplify designs, improve",
+   "excerpt": "Discover how advanced multiturn position sensing can transform industrial motion control without the limitations of traditional mechanical solutions.",
+   "tag": null
+  },
+  {
+   "title": "Qnity at One: Randy King on Shrink, Stack and the Materials Behind AI",
+   "url": "https://www.eetimes.com/qnity-at-one-randy-king-on-shrink-stack-and-the-materials-behind-ai/",
+   "source": "EE Times",
+   "published": "2026-11-18T14:00:00+00:00",
+   "desc": "Qnity CTO Randy King on year one as an independent company, shrink-and-stack chips and the materials challenges of advanced packaging for AI.",
+   "excerpt": "Qnity CTO Randy King on year one as an independent company, shrink-and-stack chips and the materials challenges of advanced packaging for AI.",
+   "tag": "package"
+  },
+  {
+   "title": "Koduri’s Oxmiq Offers IP, Tools for Indian Teams to Design AI Chips",
+   "url": "https://www.eetimes.com/koduri-oxmiq-offers-ip-tools-for-indian-teams-to-design-ai-chips/",
+   "source": "EE Times",
+   "published": "2026-11-18T13:30:00+00:00",
+   "desc": "India's AI infrastructure needs could exceed 6 GW by 2030. Oxmiq Labs CEO Raja Koduri explains why domestic chip design and custom systems matter.",
+   "excerpt": "India's AI infrastructure needs could exceed 6 GW by 2030.",
+   "tag": "accel"
+  },
+  {
+   "title": "Can AI Agents Really Shift Chip Design Left?",
+   "url": "https://semiengineering.com/can-ai-agents-really-shift-chip-design-left/",
+   "source": "Semiconductor Engineering",
+   "published": "2026-11-18T08:01:53+00:00",
+   "desc": "Agentic AI promises to automate more of the chip flow, but integration with EDA tools and capturing decades of engineering expertise are non-trivial.",
+   "excerpt": "Agentic AI promises to automate more of the chip flow, but integration with EDA tools and capturing decades of engineering expertise are non-trivial.",
+   "tag": null
+  },
+  {
+   "title": "Blog Review: Nov. 18",
+   "url": "https://semiengineering.com/blog-review-nov-18-3/",
+   "source": "Semiconductor Engineering",
+   "published": "2026-11-18T08:01:49+00:00",
+   "desc": "PCIe and trust; rack-scale co-design; heterogeneous scaling; AI data center primer; on-device balancing; EU semi trends.",
+   "excerpt": "PCIe and trust; rack-scale co-design; heterogeneous scaling; AI data center primer; on-device balancing; EU semi trends.",
+   "tag": null
+  },
+  {
+   "title": "Edge AI Moves Agricultural Intelligence from the Cloud to the Field",
+   "url": "https://www.eetimes.com/edge-ai-moves-agricultural-intelligence-from-the-cloud-to-the-field/",
+   "source": "EE Times",
+   "published": "2026-11-18T06:59:00+00:00",
+   "desc": "NXP and Nvidia tackle the challenges of delivering computing power, energy efficiency, and safety as agricultural machinery becomes autonomous.",
+   "excerpt": "NXP and Nvidia tackle the challenges of delivering computing power, energy efficiency, and safety as agricultural machinery becomes autonomous.",
+   "tag": null
+  },
+  {
+   "title": "Nvidia Breaks Revenue And Profit Records, And Will Keep Doing It",
+   "url": "https://www.nextplatform.com/compute/2026/11/18/nvidia-breaks-revenue-and-profit-records-and-will-keep-doing-it/5310669",
+   "source": "The Next Platform",
+   "published": "2026-11-18T06:06:35+00:00",
+   "desc": "",
+   "excerpt": "",
+   "tag": "industry"
+  },
   {
    "title": "Marc Hijink on ASML’s Culture, Supply Chain, and Geopolitics",
    "url": "https://www.eetimes.com/marc-hijink-on-asmls-culture-supply-chain-and-geopolitics/",
@@ -1087,51 +1165,6 @@
    "tag": null
   },
   {
-   "title": "Taking a Tour of Canada’s Particle Accelerator",
-   "url": "https://www.eetimes.com/taking-a-tour-of-canadas-particle-accelerator/",
-   "source": "EE Times",
-   "published": "2026-11-16T17:52:31+00:00",
-   "desc": "Located on Canada’s west coast, TRIUMF’s normal-conducting cyclotron, unique materials probes, and irradiation facilities serve everything from quantum materials and radiation-hardened electronics to medical isotopes.",
-   "excerpt": "Located on Canada’s west coast, TRIUMF’s normal-conducting cyclotron, unique materials probes, and irradiation facilities serve everything from quantum materials and radiation-hardened electronics to medical isotopes.",
-   "tag": "accel"
-  },
-  {
-   "title": "Simplifying Power Design with µModule Solutions",
-   "url": "https://www.eetimes.com/simplifying-power-design-with-%c2%b5module-solutions/",
-   "source": "EE Times",
-   "published": "2026-11-16T17:41:23+00:00",
-   "desc": "Join this webinar to learn how highly integrated power solutions can simplify design, increase power density, and much more.",
-   "excerpt": "Join this webinar to learn how highly integrated power solutions can simplify design, increase power density, and much more.",
-   "tag": null
-  },
-  {
-   "title": "Beyond Low Energy: New Product Frontiers for Lossless Audio, Edge-AI and Display Streaming",
-   "url": "https://www.eetimes.com/beyond-low-energy-new-product-frontiers-for-lossless-audio-edge-ai-and-display-streaming/",
-   "source": "EE Times",
-   "published": "2026-11-16T17:19:44+00:00",
-   "desc": "Join our expert-led webinar to discover how the TL753X SoC leverages High Definition Technology (HDT) for innovative applications.",
-   "excerpt": "Join our expert-led webinar to discover how the TL753X SoC leverages High Definition Technology (HDT) for innovative applications.",
-   "tag": null
-  },
-  {
-   "title": "Silicon Motherboard Enables Double-Sided Integration of ICs and Passive Components",
-   "url": "https://www.eetimes.com/silicon-motherboard-enables-double-sided-integration-of-ics-and-passive-components/",
-   "source": "EE Times",
-   "published": "2026-11-16T17:00:00+00:00",
-   "desc": "Nisshinbo's Silicon Motherboard integrates ICs and passives on both sides of a silicon substrate, reducing mounting area by up to 90%.",
-   "excerpt": "Nisshinbo's Silicon Motherboard integrates ICs and passives on both sides of a silicon substrate, reducing mounting area by up to 90%.",
-   "tag": null
-  },
-  {
-   "title": "Technology as a Trojan Horse",
-   "url": "https://www.eetimes.com/technology-as-a-trojan-horse/",
-   "source": "EE Times",
-   "published": "2026-11-16T13:59:50+00:00",
-   "desc": "Jensen Huang is no longer leading Nvidia, but his Trojan horse question remains, for chips and for the rest of the technology stack: sell and try to control, or don’t sell and maybe delay?",
-   "excerpt": "Jensen Huang is no longer leading Nvidia, but his Trojan horse question remains, for chips and for the rest of the technology stack: sell and try to control, or don’t sell and maybe delay?",
-   "tag": null
-  },
-  {
    "title": "What Is Acoustic Micro Imaging? A Quick Guide To This Inspection Process",
    "url": "https://semiengineering.com/what-is-acoustic-micro-imaging-a-quick-guide-to-this-inspection-process/",
    "source": "Semiconductor Engineering",
@@ -1157,24 +1190,6 @@
    "desc": "",
    "excerpt": "",
    "tag": null
-  },
-  {
-   "title": "Shifting HBM4 Controller Functions Closer To Memory (UC Riverside)",
-   "url": "https://semiengineering.com/shifting-hbm4-controller-functions-closer-to-memory-uc-riverside/",
-   "source": "Semiconductor Engineering",
-   "published": "2026-11-13T21:53:30+00:00",
-   "desc": "Tharunya Yogananda and Wantong Li of the University of California, Riverside published a technical paper titled “Beyond Host-Side Control: HBM Controller Partitioning Across Host and HBM Base Dies.” Abstract Excerpt: “Recent generations of high bandwidth memory (HBM), such as HBM4, allow the base die of the memory stack to be manufactured using a logic process... » read more",
-   "excerpt": "Tharunya Yogananda and Wantong Li of the University of California, Riverside published a technical paper titled “Beyond Host-Side Control: HBM Controller Partitioning Across Host and HBM Base Dies.” Abstract Excerpt:…",
-   "tag": "memory"
-  },
-  {
-   "title": "Chip Industry Week In Review",
-   "url": "https://semiengineering.com/chip-industry-week-in-review-164/",
-   "source": "Semiconductor Engineering",
-   "published": "2026-11-13T08:01:34+00:00",
-   "desc": "300mm SiC breakthrough; Nvidia faces questions about security and oversight; Siemens buys Lauterbach; chiplet standards; new memory bets; imec interposer process flow; TPUs with CPUs; 2D transistors; anti-smuggling tools for chips.",
-   "excerpt": "300mm SiC breakthrough; Nvidia faces questions about security and oversight; Siemens buys Lauterbach; chiplet standards; new memory bets; imec interposer process flow; TPUs with CPUs; 2D transistors; anti-smuggling…",
-   "tag": "package"
   },
   {
    "title": "The Nvidia Machine Is Self-Sustaining – And Was Already Facing A Tougher Future",
@@ -1265,15 +1280,6 @@
    "desc": "",
    "excerpt": "",
    "tag": null
-  },
-  {
-   "title": "AMD Cannot Catch Nvidia, But It Sure Can Make Some Money",
-   "url": "https://www.nextplatform.com/compute/2026/11/04/amd-cannot-catch-nvidia-but-it-sure-can-make-some-money/5307666",
-   "source": "The Next Platform",
-   "published": "2026-11-04T20:31:15+00:00",
-   "desc": "",
-   "excerpt": "",
-   "tag": "industry"
   }
  ],
  "score_rule": "score = 2*keyword_hits(title+abstract) + ln(1+citations); source: arXiv API, OpenAlex"
