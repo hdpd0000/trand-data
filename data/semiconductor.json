@@ -1,7 +1,7 @@
 {
  "field": "semiconductor",
  "label": "반도체",
- "updated": "2026-11-20T01:58:56+00:00",
+ "updated": "2026-11-21T01:55:17+00:00",
  "subfields": [
   {
    "id": "memory",
@@ -29,6 +29,28 @@
   }
  ],
  "papers_new": [
+  {
+   "id": "2611.26472",
+   "title": "FoldSim: Scaling Cycle-Exact RTL Simulation with Hierarchical Folding and Static Scheduling",
+   "url": "https://arxiv.org/abs/2611.26472",
+   "authors": [
+    "Chengxuan Wang",
+    "Nikhil Rout",
+    "Yang-gon Kim"
+   ],
+   "n_authors": 6,
+   "published": "2026-11-19",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 3,
+   "abstract": "RTL simulation is essential for hardware design and verification, yet its execution time grows rapidly with design scale and complexity. CPU- and GPU-based simulators exploit parallelism to accelerate RTL evaluation, but achieving high simulation throughput for large designs remains challenging. FPGA-based simulators offer higher throughput by mapping RTL computations directly onto hardware, but their scalability is constrained by FPGA resource capacity. We present FoldSim, an automated framework that enables cycle-exact simulation of large RTL designs on a single FPGA through hierarchical folding. FoldSim maps instances across the design hierarchy onto shared logic while maintaining their independent state. Given foldable module classes, its compiler constructs a static schedule that coordinates their execution, reducing dynamic synchronization overhead and making state accesses…",
+   "excerpt": "RTL simulation is essential for hardware design and verification, yet its execution time grows rapidly with design scale and complexity.",
+   "cited_by": null,
+   "venue": null,
+   "score": 6.0,
+   "tag": "arch"
+  },
   {
    "id": "2611.20331",
    "title": "LENS: Replacing LayerNorm and Softmax in Transformers with Learnable Normalization States",
@@ -282,27 +304,95 @@
    "tag": "memory"
   },
   {
-   "id": "2611.07506",
-   "title": "Memory Fit: Architectural Support for Page Placement by Learning Models of Good Behavior",
-   "url": "https://arxiv.org/abs/2611.07506",
+   "id": "2611.26307",
+   "title": "Scalable fault vulnerability analysis for ReRAM-based process-in-memory CNN accelerators",
+   "url": "https://arxiv.org/abs/2611.26307",
    "authors": [
-    "Chun Deng",
-    "Hui Sub Shim",
-    "Evan Laufer"
+    "Aniseh Dorostkar",
+    "Hamed Farbeh",
+    "Hamid R. Zarandi"
    ],
-   "n_authors": 7,
-   "published": "2026-11-05",
+   "n_authors": 4,
+   "published": "2026-11-19",
    "categories": [
-    "cs.OS",
+    "cs.AR",
+    "cs.LG"
+   ],
+   "kw_hits": 2,
+   "abstract": "Resistive random-access memory (ReRAM)-based processing-in-memory (PIM) accelerators offer a highly efficient platform for parallel matrix-vector multiplications (VMM) in neural networks, leveraging analog computation, high density, low leakage, and non-volatility. However, their susceptibility to permanent faults, such as stuck-at-high (\\textit{SaH}) and stuck-at-low (\\textit{SaL}) resistance states, permanently corrupts the convolutional neural networks (CNNs) weights mapped onto ReRAM cell conductance values, thereby degrading inference accuracy and leading to system unreliability in safety-critical applications. Fault injection is a commonly used technique to assess the vulnerability of neural networks by systematically injecting faults into individual parameters and measuring the resulting accuracy degradation. Although this method is accurate, it is prohibitively time-consuming…",
+   "excerpt": "Resistive random-access memory (ReRAM)-based processing-in-memory (PIM) accelerators offer a highly efficient platform for parallel matrix-vector multiplications (VMM) in neural networks, leveraging analog computation,…",
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0,
+   "tag": "accel"
+  },
+  {
+   "id": "2611.25947",
+   "title": "Matching Architecture to Workload: Comparing RISC-V Parallel Accelerators for Energy-Efficient Embedded Computing",
+   "url": "https://arxiv.org/abs/2611.25947",
+   "authors": [
+    "Luca Colombo",
+    "Luigi Ghionda",
+    "Amirhossein Kiamarzi"
+   ],
+   "n_authors": 10,
+   "published": "2026-11-19",
+   "categories": [
+    "cs.DC",
     "cs.AR"
    ],
-   "kw_hits": 3,
-   "abstract": "Server main memory is increasingly heterogeneous, incorporating technologies such as zswap, CXL memory expanders, and emerging phase-change memories (PCM). To decide where to place pages, operating systems have to choose between efficient but coarse-grained access bits, out-of-band profiling, or costly runtime instrumentation. This paper proposes memory fit, a hardware abstraction that provides precise and accurate page placement information to an operating system. Memory fit measures how well a page \"fits\" each type of memory in the system. Memory fit separates the mechanism of measuring affinity between pages and memories from the OS policy of choosing which pages to move when. The paper describes soft trace matching (STM), a computationally and space efficient algorithm to compute memory fit. The key technical insight behind STM is that it can estimate memory fit by comparing…",
-   "excerpt": "Server main memory is increasingly heterogeneous, incorporating technologies such as zswap, CXL memory expanders, and emerging phase-change memories (PCM).",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 6.0,
-   "tag": "memory"
+   "kw_hits": 2,
+   "abstract": "Embedded computing demands high performance and energy efficiency across workloads with widely different computational characteristics. Choosing the most suitable execution model therefore requires a quantitative understanding of how each model maps to different workload classes. In this paper, we compare three execution models for energy-efficient embedded computing: scalar multicore, stream ing multicore, and vector processing. We use three open-source RISC-V accelerators as representative implementations: the PULP Cluster, the Snitch Cluster, and Spatz, respectively. Their open-source hardware and software stacks enable a controlled comparison based on implementations in the same 12 nm technology and a common benchmark suite. Our results reveal that no single execution model performs best across all workload classes. Spatz delivers the greatest benefits for regular and highly…",
+   "excerpt": "Embedded computing demands high performance and energy efficiency across workloads with widely different computational characteristics.",
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0,
+   "tag": "accel"
+  },
+  {
+   "id": "2611.25339",
+   "title": "From FIPS to FPGA with LLM Agents: Measuring What Tests and Reviews Miss in Post-Quantum Cryptographic Hardware",
+   "url": "https://arxiv.org/abs/2611.25339",
+   "authors": [
+    "Jungmin Park",
+    "Eunha Kim",
+    "Wooseop Kim"
+   ],
+   "n_authors": 5,
+   "published": "2026-11-19",
+   "categories": [
+    "cs.CR",
+    "cs.AI",
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "abstract": "As LLM agents increasingly generate RTL alongside the tests and reviews that validate it, self-generated evidence is a weak foundation for trustworthy hardware. We present our seven-stage verification-gated workflow, evolved during a post-quantum design port, in which a gate counts only if shown able to fail on negative controls and fault mutants, and reviewer agents audit work before commit. We then audit this evidence with tool-selected netlist mutants, flaw replays, and formal checks. The flow ported an ML-KEM-768/ML-DSA-65 accelerator to a 300 MHz Zynq UltraScale+ key-custody card: all six operations are byte-exact on the board, and it passes all 85 interface-applicable NIST ACVP cases (of 285) and 484 ML-DSA known answers. However, passing module tests overstate the verification strength. Across three RTL modules, existing simulation gates kill only 76% of 399 tool-selected netlist…",
+   "excerpt": "As LLM agents increasingly generate RTL alongside the tests and reviews that validate it, self-generated evidence is a weak foundation for trustworthy hardware.",
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0,
+   "tag": "arch"
+  },
+  {
+   "id": "2611.25293",
+   "title": "Bottom-Up FPGA Reconfigurable Accelerator Overlay Generation",
+   "url": "https://arxiv.org/abs/2611.25293",
+   "authors": [
+    "Mohamed Bouaziz",
+    "Suhaib A. Fahmy"
+   ],
+   "n_authors": 2,
+   "published": "2026-11-18",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "abstract": "Programmable FPGA overlays run new workloads without re-synthesis, yet they pay twice. An overlay adds a second layer of programmability on top of the FPGA's own overhead. Moreover, overlay generators usually start from a regular template, so they spend logic on switches and links that the workloads never use, and they close timing at low clocks. We present a flow that instead grows an overlay bottom-up from the dataflow graphs of the workloads it must run. The flow clusters workloads by structural similarity, ranks shared slots with spectral descriptors of each operation's surroundings, and adds only the units and links a workload lacks. It builds every unit on native hard blocks, with their internal pipeline registers, dual-ported memories and double-pumped DSPs, and it uses fixed-function engines where wider data types exceed the overlay's 16-bit lanes. Workloads then switch by…",
+   "excerpt": "Programmable FPGA overlays run new workloads without re-synthesis, yet they pay twice.",
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0,
+   "tag": "accel"
   },
   {
    "id": "2611.24733",
@@ -321,8 +411,8 @@
    "kw_hits": 2,
    "abstract": "NPU design-space exploration for LLM inference mainly relies on an expensive simulator that often returns only scalar feedback such as latency and power. Such feedback can rank evaluated configurations, but gives little information for deciding why a configuration is slow or which architecture parameter should be changed next. This limitation is especially severe because prefill and decode workloads can be limited by different resources, including compute throughput and HBM bandwidth. We propose CriticNPU, a sample-efficient DSE framework built around an online-calibrated mechanistic critic for NPU architecture design. The critic uses explicit hardware limits to evaluate NPU configurations: before simulation, it estimates whether a proposed configuration is likely to improve over the current best and filters weak candidates; after simulation, it aggregates operator-level runtimes into…",
    "excerpt": "NPU design-space exploration for LLM inference mainly relies on an expensive simulator that often returns only scalar feedback such as latency and power.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 4.0,
    "tag": "accel"
   },
@@ -345,8 +435,8 @@
    "kw_hits": 2,
    "abstract": "Continual learning (CL) enables neural networks to adapt to non-stationary data streams by mitigating catastrophic forgetting, offering a path to robust, private, and adaptable edge devices. Yet, porting CL to real-world edge devices remains challenging for two reasons: (i) online operation, where sensor data arrives one sample at a time and the device must adapt on-the-fly, and (ii) the low footprint of edge devices, which makes traditional error backpropagation training prohibitive. Inspired by the brain's wake and sleep cycles, the former for rapid adaptation with minimal resources and the latter for long-term consolidation, we introduce Hypnos, an open-source dual-phase platform for efficient CL at the edge. In the wake phase (e.g., daily operation), Hypnos relies on a low-footprint system-on-chip with a RISC-V microcontroller unit (MCU) targeting efficient inference and supporting…",
    "excerpt": "Continual learning (CL) enables neural networks to adapt to non-stationary data streams by mitigating catastrophic forgetting, offering a path to robust, private, and adaptable edge devices.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 4.0,
    "tag": "accel"
   },
@@ -367,8 +457,8 @@
    "kw_hits": 2,
    "abstract": "Vision-language-action (VLA) models such as GR00T control robots through an action head: a diffusion transformer that turns noise into a chunk of actions in a few flow-matching steps. Every step re-reads all of the head's weights from DRAM but applies each weight to only about fifty tokens. Inference is therefore memory-bound, and its latency and energy are largely determined by the total number of transferred weight bits. We show that later flow steps attenuate the quantization errors of earlier steps, so the weight precision of an action head should rise over the steps. With plain per-channel rounding and without calibration or training, widths rising over the steps from 2 to 4 bits preserve the closed-loop success of robot policies. These widths transfer 25% fewer bits than 4-bit weights at every step. However, we show that on Jetson AGX Thor, current GPU kernels cannot exploit this…",
    "excerpt": "Vision-language-action (VLA) models such as GR00T control robots through an action head: a diffusion transformer that turns noise into a chunk of actions in a few flow-matching steps.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 4.0,
    "tag": "accel"
   },
@@ -390,8 +480,8 @@
    "kw_hits": 2,
    "abstract": "Post-update attestation proves that a device installed the intended firmware, not that the image stayed protected until the report was signed. In a multi-master SoC, a master outside the attested processor can corrupt update-critical memory. In contrast, the firmware identity, lifecycle state, and the CPU's protection evidence remain byte-identical to a healthy device's. We present PULSAR-V, a post-update attestation architecture which binds the authenticated update commit to the effective permissions and immutability of both gates (PMP/EPMP on the CPU, the I/O policy mediating DMA), sampled at the commit and at attestation, the I/O gate latching its own commit-time state in hardware. In a RISC-V SoC prototyped on a ZCU102 FPGA (CV32E40S core with 16 PMP regions, IOPMP-style unit, AXI write guard), a 256-byte write from the board's Arm DMA engine bypasses PMP and corrupts the committed…",
    "excerpt": "Post-update attestation proves that a device installed the intended firmware, not that the image stayed protected until the report was signed.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 4.0,
    "tag": "arch"
   },
@@ -414,8 +504,8 @@
    "kw_hits": 2,
    "abstract": "Ising machines, dedicated accelerators built around the dynamics of Ising-like spin models, have emerged as a leading platform for combinatorial optimization and probabilistic sampling. The problems that motivate them require millions of spins, far beyond the on-chip capacity of any single device, so a practical Ising machine must distribute its computation across many devices. Prior work reports throughput at a single operating point, leaving the binding resource unidentified and platform crossovers measurable only by experiment; no calibrated cross-platform cost model of distributed Ising machines has been reported, nor have systematic techniques to accelerate their Markov chain Monte Carlo (MCMC) workloads. This work presents a calibrated cost model that decomposes digital Ising sweep time into compute, memory, synchronization, and inter-device communication terms, validated with…",
    "excerpt": "Ising machines, dedicated accelerators built around the dynamics of Ising-like spin models, have emerged as a leading platform for combinatorial optimization and probabilistic sampling.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 4.0,
    "tag": null
   },
@@ -434,10 +524,10 @@
     "cs.AR"
    ],
    "kw_hits": 2,
-   "abstract": "Edge devices in vehicles and robots serve concurrent requests with different deadlines to a vision-language model (VLM), each mixing a compute-bound encoder and prefill with a memory-bound decode. GPU serving targets datacenter throughput with per-iteration host scheduling: an urgent request waits for the running iteration, and small-batch decode costs much energy per token. Prior accelerators on Versal AI Engine (AIE) SoCs map one model onto a fixed AIE dataflow graph for one input stream, without decode or request scheduling. HETEROVLM keeps the AIE graph static and makes it schedulable. The AIE array runs the encoder, prefill and attention, and the programmable logic (PL) holds GEMV engines for small decode steps and a scheduler that orders short work units by class and deadline. Concurrent requests share one decode step that reads the weights once. An urgent request preempts at a…",
-   "excerpt": "Edge devices in vehicles and robots serve concurrent requests with different deadlines to a vision-language model (VLM), each mixing a compute-bound encoder and prefill with a memory-bound decode.",
-   "cited_by": null,
-   "venue": null,
+   "abstract": "Vision-language models (VLMs) play a pivotal role in enabling autonomous vehicles and robots to perceive and reason about the physical world. Edge computers in autonomous systems typically serve concurrent VLM inference requests with various deadlines, each mixing a compute-bound encoder and prefill stage with a memory-bound decode stage. GPU serving optimizes for high throughput in datacenters, with per-iteration host scheduling, which can cause an urgent request to wait for a long time, and small-batch decode costs much energy per token. Prior accelerators on Versal AI Engine (AIE) SoCs map one model onto a fixed AIE dataflow graph for one input stream, without decode or request scheduling, which limits their capability in serving multiple requests. We present HETEROVLM, which is optimized for multi-request VLM serving on a resource-constrained heterogeneous platform. It keeps the AIE…",
+   "excerpt": "Vision-language models (VLMs) play a pivotal role in enabling autonomous vehicles and robots to perceive and reason about the physical world.",
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 4.0,
    "tag": "accel"
   },
@@ -459,8 +549,8 @@
    "kw_hits": 2,
    "abstract": "Hardware specialization can improve datacenter efficiency. Unfortunately, identifying computations that justify dedicated hardware is difficult. Existing approaches analyze hot functions, instruction patterns, or overheads such as datacenter tax. They can miss fine-grained computations whose aggregate cost is spread across applications and libraries, especially when different pieces of code obscure the same underlying computation. We observe that seemingly unrelated code regions often perform the same computations, creating specialization opportunities that require semantic reasoning. The rise of agentic AI makes it possible to automate this. However, conventional AI agents cannot efficiently and reliably analyze large scale datacenter software. To unlock this opportunity, we present Lodestone, an agentic framework that automatically discovers hardware specialization opportunities by…",
    "excerpt": "Hardware specialization can improve datacenter efficiency.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 4.0,
    "tag": null
   },
@@ -712,8 +802,8 @@
     "cs.IT"
    ],
    "kw_hits": 2,
-   "abstract": "Memory decides which LLMs an edge device runs, and how fast: capacity on a 4 GB Jetson Nano, bandwidth on an 8 GB Jetson Orin Nano Super. Deployed formats (GPTQ, AWQ, llama.cpp's K- and I-quants) spend equal bits on every integer code of a matrix, although the codes are far from uniform. LazyWeights keeps these formats but tunes GPTQ so the codes compress, Huffman-codes them losslessly in interleaved lanes, and decodes them on demand in a small unit between DRAM and L2, so GPU kernels run unchanged and DRAM moves only coded bytes. At 1% and 3.5% perplexity budgets, coded Phi-3-mini, Mistral-7B and SmolLM-1.7B are 5.7-31.4% smaller than the best llama.cpp format. A bit-exact 0.21 mm^2 ASIC decoder unit (1 GHz, 7 nm) cuts Orin latency and energy per token by up to 36% and 38% (54% and 44% with prompt-lookup speculation). On the Nano, LazyWeights needs 58-64% less time and 53-57% less…",
-   "excerpt": "Memory decides which LLMs an edge device runs, and how fast: capacity on a 4 GB Jetson Nano, bandwidth on an 8 GB Jetson Orin Nano Super.",
+   "abstract": "Memory determines which large language models (LLMs) an edge device can run and how fast it runs them: capacity limits a 4 GB Jetson Nano, and bandwidth limits an 8 GB Jetson Orin Nano Super. Deployed weight formats (GPTQ, AWQ, and the GGUF K- and I-quants) spend the same number of bits on every integer code of a matrix, although the codes are far from uniform. We present LazyWeights, which keeps these formats, tunes GPTQ so the codes compress, Huffman-codes them losslessly in interleaved lanes, and decodes them on demand in a small unit between DRAM and L2, so GPU kernels run unchanged and DRAM moves only coded bytes. At 1% and 3.5% perplexity budgets, coded Phi-3-mini, Mistral-7B and SmolLM-1.7B are 5.7-31.4% smaller than the best GGUF format. A bit-exact 0.21 mm^2 ASIC decoder unit (1 GHz, 7 nm) cuts Orin latency and energy per token by up to 36% and 38% (54% and 44% with…",
+   "excerpt": "Memory determines which large language models (LLMs) an edge device can run and how fast it runs them: capacity limits a 4 GB Jetson Nano, and bandwidth limits an 8 GB Jetson Orin Nano Super.",
    "cited_by": 0,
    "venue": "arXiv (Cornell University)",
    "score": 4.0,
@@ -857,98 +947,6 @@
    "venue": "arXiv (Cornell University)",
    "score": 4.0,
    "tag": "memory"
-  },
-  {
-   "id": "2611.21666",
-   "title": "Testyard Benchmarks: a Dynamic RISC-V-based Benchmark Framework including DfT insertion, Structural and Functional Test Flows",
-   "url": "https://arxiv.org/abs/2611.21666",
-   "authors": [
-    "Francesco Angione",
-    "Nicola di Gruttola Giardino",
-    "Gabriele Filipponi"
-   ],
-   "n_authors": 6,
-   "published": "2026-11-10",
-   "categories": [
-    "cs.AR"
-   ],
-   "kw_hits": 2,
-   "abstract": "The main challenge of modern computing manufacturing is to produce silicon products capable of operating under the worst possible conditions, both in data centers and under stringent functional safety constraints. These requirements impose exceptionally high quality standards on silicon vendors, while testing costs keep escalating as transistors continue to shrink. Evaluating new testing strategies, however, presents a dual challenge for researchers. Standard academic benchmarks, such as the ITC-99 suite, remain valuable for fast test prototyping, but they lack the structural complexity of modern VLSI devices. Assessing the true computational effort of academic methodologies on industrial scale designs is equally difficult without accessible and scalable models. A further obstacle is the absence of a unified framework able to abstract the commands imposed by each EDA tool and the…",
-   "excerpt": "The main challenge of modern computing manufacturing is to produce silicon products capable of operating under the worst possible conditions, both in data centers and under stringent functional safety constraints.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "arch"
-  },
-  {
-   "id": "2611.12622",
-   "title": "Reconfiguring System-Level Protection Through Bounded Delegation in RISC-V MCUs",
-   "url": "https://arxiv.org/abs/2611.12622",
-   "authors": [
-    "Luís Cunha",
-    "José Martins",
-    "Manuel Rodríguez"
-   ],
-   "n_authors": 10,
-   "published": "2026-11-09",
-   "categories": [
-    "cs.CR",
-    "cs.AR"
-   ],
-   "kw_hits": 2,
-   "abstract": "MCU-based embedded and cyber-physical systems increasingly require protection policies to change at runtime as resources, software, and system composition evolve. Yet widely used COTS MCU protection mechanisms are still largely designed around statically established policies. While they can restrict which domains modify protection primitives, they generally do not constrain what policy an authorized domain may create. As a result, domains may expand protection rules beyond their intended scope or interfere with boundaries established by other domains. We identify bounded configuration authority as a missing primitive for secure dynamic policy evolution and introduce an ownership-aware model in which explicit ownership and rule containment bound both configuration authority and recursive delegation. Changes to active protection-rule ranges are validated before commit, preserving…",
-   "excerpt": "MCU-based embedded and cyber-physical systems increasingly require protection policies to change at runtime as resources, software, and system composition evolve.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "arch"
-  },
-  {
-   "id": "2611.11402",
-   "title": "A Per-Step Load-Balancing Engine for Expert-Parallel MoE Serving",
-   "url": "https://arxiv.org/abs/2611.11402",
-   "authors": [
-    "Jingyuan Li",
-    "Maolin Wang",
-    "Hayden So"
-   ],
-   "n_authors": 3,
-   "published": "2026-11-08",
-   "categories": [
-    "cs.AR",
-    "cs.DC"
-   ],
-   "kw_hits": 2,
-   "abstract": "In expert-parallel Mixture-of-Experts serving, a layer finishes only when the most loaded GPU of its group does. Token routing shifts at every decode step and concentrates on a few experts, so most of the group's reserved GPU time waits on stragglers. Recovering that time means re-deciding, at every layer of every decode step, how each replicated expert's tokens divide between its copies. The exact linear-program solvers that make this decision optimally take longer than many of the layers they serve, and their working set outgrows GPU shared memory at deployment scale. We introduce Relief, a bidirectional pairwise relaxation that makes the linear program unnecessary, coming within a fraction of a point of the per-step optimum in a few passes of integer halving over the token counts. We build and measure three deployments, CUDA kernels on the serving GPU, the same verified engine on an…",
-   "excerpt": "In expert-parallel Mixture-of-Experts serving, a layer finishes only when the most loaded GPU of its group does.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": null
-  },
-  {
-   "id": "2611.10316",
-   "title": "The World Model Planning Accelerator (WMPA): Hardware-Algorithm Co-Design for Embedded AI in Robotics",
-   "url": "https://arxiv.org/abs/2611.10316",
-   "authors": [
-    "Prerana Ramkumar",
-    "Suhas Suresh Bharadwaj",
-    "Fazal Hameed"
-   ],
-   "n_authors": 3,
-   "published": "2026-11-06",
-   "categories": [
-    "cs.AR",
-    "cs.LG",
-    "cs.RO"
-   ],
-   "kw_hits": 2,
-   "abstract": "Embedded AI is moving from perception to prediction. Robots now use world models$\\unicode{x2014}$learned simulators that predict the outcome of candidate actions in a compressed latent space before any is executed. Every predicted step must be computed on board within a tight power and thermal budget, yet the energy these steps fundamentally require, and how far real hardware sits from it, have not been characterized. We derive lower bounds on the arithmetic operations and the CMOS dynamic energy of a latent state transition from information theory and Boolean circuit complexity. Profiling a DreamerV3-style Recurrent State Space Model (RSSM) shows that every rollout operation is memory-bandwidth bound and that a GPU consumes at least $5.9\\times10^{10}$ times the CMOS energy floor. Transient 3D thermal simulations show that this inefficiency is also a thermal one, since sustained…",
-   "excerpt": "Embedded AI is moving from perception to prediction.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "accel"
   }
  ],
  "papers_classic": [
@@ -987,7 +985,7 @@
   {
    "title": "Near-Threshold RISC-V Core With DSP Extensions for Scalable IoT Endpoint Devices",
    "year": 2017,
-   "cited_by": 614,
+   "cited_by": 615,
    "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
    "url": "https://doi.org/10.1109/tvlsi.2017.2654506",
    "query": "RISC-V",
@@ -1051,7 +1049,7 @@
   {
    "title": "Breaking the von Neumann bottleneck: architecture-level processing-in-memory technology",
    "year": 2021,
-   "cited_by": 390,
+   "cited_by": 391,
    "venue": "Science China Information Sciences",
    "url": "https://doi.org/10.1007/s11432-020-3227-1",
    "query": "processing-in-memory",
@@ -1115,7 +1113,7 @@
   {
    "title": "Chiplet Heterogeneous Integration Technology—Status and Challenges",
    "year": 2020,
-   "cited_by": 287,
+   "cited_by": 288,
    "venue": "Electronics",
    "url": "https://doi.org/10.3390/electronics9040670",
    "query": "chiplet",
@@ -1147,7 +1145,7 @@
   {
    "title": "Universal Chiplet Interconnect Express (UCIe): An Open Industry Standard for Innovations With Chiplets at Package Level",
    "year": 2022,
-   "cited_by": 257,
+   "cited_by": 258,
    "venue": "IEEE Transactions on Components Packaging and Manufacturing Technology",
    "url": "https://doi.org/10.1109/tcpmt.2022.3207195",
    "query": "chiplet",
@@ -1227,7 +1225,7 @@
   {
    "title": "ISA semantics for ARMv8-a, RISC-v, and CHERI-MIPS",
    "year": 2019,
-   "cited_by": 221,
+   "cited_by": 219,
    "venue": "Proceedings of the ACM on Programming Languages",
    "url": "https://doi.org/10.1145/3290384",
    "query": "RISC-V",
@@ -1255,6 +1253,22 @@
    "tag": "memory"
   },
   {
+   "title": "RISQ-V: Tightly Coupled RISC-V Accelerators for Post-Quantum Cryptography",
+   "year": 2020,
+   "cited_by": 215,
+   "venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+   "url": "https://doi.org/10.46586/tches.v2020.i4.239-280",
+   "query": "RISC-V",
+   "authors": [
+    "Tim Fritzmann",
+    "Georg Sigl",
+    "Johanna Sepúlveda"
+   ],
+   "abstract": "Empowering electronic devices to support Post-Quantum Cryptography (PQC) is a challenging task. PQC introduces new mathematical elements and operations which are usually not easy to implement on standard processors. Especially for low cost and resource constraint devices, hardware acceleration is usually required. In addition, as the standardization process of PQC is still ongoing, a focus on maintaining flexibility is mandatory. To cope with such requirements, hardware/software co-design techniques have been recently used for developing complex and highly customized PQC solutions. However, while most of the previous works have developed loosely coupled PQC accelerators, the design of tightly coupled accelerators and Instruction Set Architecture (ISA) extensions for PQC have been barely explored. To this end, we present RISQ-V, an enhanced RISC-V architecture that integrates a set of…",
+   "excerpt": "Empowering electronic devices to support Post-Quantum Cryptography (PQC) is a challenging task.",
+   "tag": "arch"
+  },
+  {
    "title": "The RISC-V Instruction Set Manual",
    "year": 2014,
    "cited_by": 214,
@@ -1271,25 +1285,9 @@
    "tag": "arch"
   },
   {
-   "title": "RISQ-V: Tightly Coupled RISC-V Accelerators for Post-Quantum Cryptography",
-   "year": 2020,
-   "cited_by": 214,
-   "venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
-   "url": "https://doi.org/10.46586/tches.v2020.i4.239-280",
-   "query": "RISC-V",
-   "authors": [
-    "Tim Fritzmann",
-    "Georg Sigl",
-    "Johanna Sepúlveda"
-   ],
-   "abstract": "Empowering electronic devices to support Post-Quantum Cryptography (PQC) is a challenging task. PQC introduces new mathematical elements and operations which are usually not easy to implement on standard processors. Especially for low cost and resource constraint devices, hardware acceleration is usually required. In addition, as the standardization process of PQC is still ongoing, a focus on maintaining flexibility is mandatory. To cope with such requirements, hardware/software co-design techniques have been recently used for developing complex and highly customized PQC solutions. However, while most of the previous works have developed loosely coupled PQC accelerators, the design of tightly coupled accelerators and Instruction Set Architecture (ISA) extensions for PQC have been barely explored. To this end, we present RISQ-V, an enhanced RISC-V architecture that integrates a set of…",
-   "excerpt": "Empowering electronic devices to support Post-Quantum Cryptography (PQC) is a challenging task.",
-   "tag": "arch"
-  },
-  {
    "title": "RISC-V Instruction Set Architecture Extensions: A Survey",
    "year": 2023,
-   "cited_by": 213,
+   "cited_by": 212,
    "venue": "IEEE Access",
    "url": "https://doi.org/10.1109/access.2023.3246491",
    "query": "RISC-V",
@@ -1426,12 +1424,75 @@
     "David A. Patterson",
     "Christopher Celio"
    ],
-   "abstract": "Abstract : BOOM is a synthesizable, parameterized, superscalar out-of-order RISC-V core designed to serve as the prototypical baseline processor for future micro-architectural studies of out-of-order processors. Our goal is to provide a readable, open-source implementation for use in education, research, and industry. BOOM is written in roughly 9,000 lines of the hardware construction language Chisel. We leveraged Berkeleys open-source Rocket-chip SoC generator, allowing us to quickly bring up an entire multi-core processor system (including caches and uncore) by replacing the in-order Rocket core with an out-of-order BOOM core. BOOM supports atomics, IEEE754-2008 floating-point, and page-based virtual memory. We have demonstrated BOOM running Linux, SPEC CINT2006, and CoreMark.",
-   "excerpt": "Abstract : BOOM is a synthesizable, parameterized, superscalar out-of-order RISC-V core designed to serve as the prototypical baseline processor for future micro-architectural studies of out-of-order processors.",
+   "abstract": "BOOM is a synthesizable, parameterized, superscalar out-of-order RISC-V core designed to serve as the prototypical baseline processor for future micro-architectural studies of out-of-order processors. Our goal is to provide a readable, open-source implementation for use in education, research, and industry. BOOM is written in roughly 9,000 lines of the hardware construction language Chisel. We leveraged Berkeleys open-source Rocket-chip SoC generator, allowing us to quickly bring up an entire multi-core processor system (including caches and uncore) by replacing the in-order Rocket core with an out-of-order BOOM core. BOOM supports atomics, IEEE754-2008 floating-point, and page-based virtual memory. We have demonstrated BOOM running Linux, SPEC CINT2006, and CoreMark.",
+   "excerpt": "BOOM is a synthesizable, parameterized, superscalar out-of-order RISC-V core designed to serve as the prototypical baseline processor for future micro-architectural studies of out-of-order processors.",
    "tag": "arch"
   }
  ],
  "news": [
+  {
+   "title": "The Storm Is Over, but Costs Keep Coming: How Utilities Can Strengthen Financial Oversight Throughout a Storm Response",
+   "url": "https://intelligence.theregister.com/paper/view/21319",
+   "source": "The Next Platform",
+   "published": "2026-11-21T00:00:00+00:00",
+   "desc": "When a major storm threatens a utility's service territory, the financial response begins before the first outage.",
+   "excerpt": "When a major storm threatens a utility's service territory, the financial response begins before the first outage.",
+   "tag": null
+  },
+  {
+   "title": "Pat Gelsinger Goes Hunting for Europe’s Unbuilt Tech Companies",
+   "url": "https://www.eetimes.com/pat-gelsinger-goes-hunting-for-europes-unbuilt-tech-companies/",
+   "source": "EE Times",
+   "published": "2026-11-20T22:23:32+00:00",
+   "desc": "Playground Global is searching CEA laboratories for technologies that could create new markets—but global capital complicates European sovereignty.",
+   "excerpt": "Playground Global is searching CEA laboratories for technologies that could create new markets—but global capital complicates European sovereignty.",
+   "tag": null
+  },
+  {
+   "title": "Casing The HPC And AI-Sci Market With Hyperion Research",
+   "url": "https://www.nextplatform.com/hpc/2026/11/20/casing-the-hpc-and-ai-sci-market-with-hyperion-research/5311388",
+   "source": "The Next Platform",
+   "published": "2026-11-20T15:49:32+00:00",
+   "desc": "",
+   "excerpt": "",
+   "tag": "industry"
+  },
+  {
+   "title": "Palo Alto Networks Expands into Enterprise AI with $4.5B Deal",
+   "url": "https://www.eetimes.com/palo-alto-networks-expands-into-enterprise-ai-with-4-5b-deal/",
+   "source": "EE Times",
+   "published": "2026-11-20T15:37:26+00:00",
+   "desc": "Enterprise security outfit Palo Alto Networks snaps up a startup with a platform for post-training and inference of open-weight AI models.",
+   "excerpt": "Enterprise security outfit Palo Alto Networks snaps up a startup with a platform for post-training and inference of open-weight AI models.",
+   "tag": null
+  },
+  {
+   "title": "Anthropic’s IPO and the B2D Strategy",
+   "url": "https://www.eetimes.com/anthropic-ipo-and-the-b2d-strategy/",
+   "source": "EE Times",
+   "published": "2026-11-20T09:43:53+00:00",
+   "desc": "From Nvidia’s CUDA to Anthropic's Claude Code, developer adoption can drive enterprise sales, but hardware startups show how difficult conversion can be.",
+   "excerpt": "From Nvidia’s CUDA to Anthropic's Claude Code, developer adoption can drive enterprise sales, but hardware startups show how difficult conversion can be.",
+   "tag": "industry"
+  },
+  {
+   "title": "Chip Industry Week In Review",
+   "url": "https://semiengineering.com/chip-industry-week-in-review-165/",
+   "source": "Semiconductor Engineering",
+   "published": "2026-11-20T08:01:14+00:00",
+   "desc": "Intel's first 18A-P external customer; Siemens buys Breker; backside clock distribution; Microsoft taps EMIB; export controls tighten around China; Nvidia expands packaging capacity; SC26 brings new HPC HW; JEDEC previews DDR6; Europe pushes ahead with €33B in chip projects.",
+   "excerpt": "Intel's first 18A-P external customer; Siemens buys Breker; backside clock distribution; Microsoft taps EMIB; export controls tighten around China; Nvidia expands packaging capacity; SC26 brings new HPC HW; JEDEC…",
+   "tag": "industry"
+  },
+  {
+   "title": "Geehy Launches G32R502 1kW Bidirectional Inverter Solution",
+   "url": "https://www.eetimes.com/geehy-launches-the-g32r502-1kw-fully-digital-bidirectional-energy-storage-inverter-solution/",
+   "source": "EE Times",
+   "published": "2026-11-20T07:00:00+00:00",
+   "desc": "Explore Geehy’s G32R502 1kW bidirectional energy storage inverter reference design, featuring digital control, high efficiency, and UPS functionality.",
+   "excerpt": "Explore Geehy’s G32R502 1kW bidirectional energy storage inverter reference design, featuring digital control, high efficiency, and UPS functionality.",
+   "tag": null
+  },
   {
    "title": "Memory R&D Is a High-Stakes Game",
    "url": "https://www.eetimes.com/memory-rd-is-a-high-stakes-game/",
@@ -1559,24 +1620,6 @@
    "tag": null
   },
   {
-   "title": "Qnity at One: Randy King on Shrink, Stack and the Materials Behind AI",
-   "url": "https://www.eetimes.com/qnity-at-one-randy-king-on-shrink-stack-and-the-materials-behind-ai/",
-   "source": "EE Times",
-   "published": "2026-11-18T14:00:00+00:00",
-   "desc": "Qnity CTO Randy King on year one as an independent company, shrink-and-stack chips and the materials challenges of advanced packaging for AI.",
-   "excerpt": "Qnity CTO Randy King on year one as an independent company, shrink-and-stack chips and the materials challenges of advanced packaging for AI.",
-   "tag": "package"
-  },
-  {
-   "title": "Koduri’s Oxmiq Offers IP, Tools for Indian Teams to Design AI Chips",
-   "url": "https://www.eetimes.com/koduri-oxmiq-offers-ip-tools-for-indian-teams-to-design-ai-chips/",
-   "source": "EE Times",
-   "published": "2026-11-18T13:30:00+00:00",
-   "desc": "India's AI infrastructure needs could exceed 6 GW by 2030. Oxmiq Labs CEO Raja Koduri explains why domestic chip design and custom systems matter.",
-   "excerpt": "India's AI infrastructure needs could exceed 6 GW by 2030.",
-   "tag": "accel"
-  },
-  {
    "title": "Can AI Agents Really Shift Chip Design Left?",
    "url": "https://semiengineering.com/can-ai-agents-really-shift-chip-design-left/",
    "source": "Semiconductor Engineering",
@@ -1586,39 +1629,12 @@
    "tag": null
   },
   {
-   "title": "Blog Review: Nov. 18",
-   "url": "https://semiengineering.com/blog-review-nov-18-3/",
-   "source": "Semiconductor Engineering",
-   "published": "2026-11-18T08:01:49+00:00",
-   "desc": "PCIe and trust; rack-scale co-design; heterogeneous scaling; AI data center primer; on-device balancing; EU semi trends.",
-   "excerpt": "PCIe and trust; rack-scale co-design; heterogeneous scaling; AI data center primer; on-device balancing; EU semi trends.",
-   "tag": null
-  },
-  {
-   "title": "Edge AI Moves Agricultural Intelligence from the Cloud to the Field",
-   "url": "https://www.eetimes.com/edge-ai-moves-agricultural-intelligence-from-the-cloud-to-the-field/",
-   "source": "EE Times",
-   "published": "2026-11-18T06:59:00+00:00",
-   "desc": "NXP and Nvidia tackle the challenges of delivering computing power, energy efficiency, and safety as agricultural machinery becomes autonomous.",
-   "excerpt": "NXP and Nvidia tackle the challenges of delivering computing power, energy efficiency, and safety as agricultural machinery becomes autonomous.",
-   "tag": null
-  },
-  {
    "title": "Nvidia Breaks Revenue And Profit Records, And Will Keep Doing It",
    "url": "https://www.nextplatform.com/compute/2026/11/18/nvidia-breaks-revenue-and-profit-records-and-will-keep-doing-it/5310669",
    "source": "The Next Platform",
    "published": "2026-11-18T06:06:35+00:00",
    "desc": "",
    "excerpt": "",
-   "tag": "industry"
-  },
-  {
-   "title": "Marc Hijink on ASML’s Culture, Supply Chain, and Geopolitics",
-   "url": "https://www.eetimes.com/marc-hijink-on-asmls-culture-supply-chain-and-geopolitics/",
-   "source": "EE Times",
-   "published": "2026-11-17T22:37:22+00:00",
-   "desc": "Explore how ASML’s partner-driven culture, EUV dominance, and geopolitical pressures reshaped chipmaking in Marc Hijink’s interview.",
-   "excerpt": "Explore how ASML’s partner-driven culture, EUV dominance, and geopolitical pressures reshaped chipmaking in Marc Hijink’s interview.",
    "tag": "industry"
   },
   {
@@ -1637,15 +1653,6 @@
    "published": "2026-11-17T15:39:13+00:00",
    "desc": "",
    "excerpt": "",
-   "tag": null
-  },
-  {
-   "title": "Palo Alto Networks named a Leader in Worldwide IR Services.",
-   "url": "https://intelligence.theregister.com/paper/view/21307",
-   "source": "The Next Platform",
-   "published": "2026-11-17T00:00:00+00:00",
-   "desc": "Palo Alto Networks is proud to be recognized as a Leader in the 2025 IDC MarketScape for Worldwide Incident Response Services.",
-   "excerpt": "Palo Alto Networks is proud to be recognized as a Leader in the 2025 IDC MarketScape for Worldwide Incident Response Services.",
    "tag": null
   },
   {
@@ -1746,15 +1753,6 @@
    "desc": "",
    "excerpt": "",
    "tag": "accel"
-  },
-  {
-   "title": "IBM, AMD, And Oak Ridge Unveil Quantum Error Correction Platform",
-   "url": "https://www.nextplatform.com/compute/2026/11/06/ibm-amd-and-oak-ridge-unveil-quantum-error-correction-platform/5308284",
-   "source": "The Next Platform",
-   "published": "2026-11-06T22:58:31+00:00",
-   "desc": "",
-   "excerpt": "",
-   "tag": "industry"
   }
  ],
  "score_rule": "score = 2*keyword_hits(title+abstract) + ln(1+citations); source: arXiv API, OpenAlex"
