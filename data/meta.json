@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T01:55:17+00:00",
+ "updated": "2026-11-22T00:51:35+00:00",
  "status": {
   "semiconductor:arxiv": "ok",
   "semiconductor:openalex-enrich": "ok",
@@ -12,7 +12,7 @@
   "quantum:arxiv": "ok",
   "quantum:openalex-enrich": "ok",
   "quantum:openalex-classics": "ok",
-  "feed:The Quantum Insider": "ok (parsed=10, newest=2026-11-20, kept_in_window=10)",
+  "feed:The Quantum Insider": "ok (parsed=10, newest=2026-11-21, kept_in_window=10)",
   "feed:Physics World": "ok (parsed=160, newest=2026-11-20, kept_in_window=4)"
  }
 }

@@ -1,7 +1,7 @@
 {
  "field": "semiconductor",
  "label": "반도체",
- "updated": "2026-11-21T01:55:17+00:00",
+ "updated": "2026-11-22T00:51:35+00:00",
  "subfields": [
   {
    "id": "memory",
@@ -46,8 +46,8 @@
    "kw_hits": 3,
    "abstract": "RTL simulation is essential for hardware design and verification, yet its execution time grows rapidly with design scale and complexity. CPU- and GPU-based simulators exploit parallelism to accelerate RTL evaluation, but achieving high simulation throughput for large designs remains challenging. FPGA-based simulators offer higher throughput by mapping RTL computations directly onto hardware, but their scalability is constrained by FPGA resource capacity. We present FoldSim, an automated framework that enables cycle-exact simulation of large RTL designs on a single FPGA through hierarchical folding. FoldSim maps instances across the design hierarchy onto shared logic while maintaining their independent state. Given foldable module classes, its compiler constructs a static schedule that coordinates their execution, reducing dynamic synchronization overhead and making state accesses…",
    "excerpt": "RTL simulation is essential for hardware design and verification, yet its execution time grows rapidly with design scale and complexity.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 6.0,
    "tag": "arch"
   },
@@ -304,6 +304,28 @@
    "tag": "memory"
   },
   {
+   "id": "2611.21666",
+   "title": "Testyard Benchmarks: a Dynamic RISC-V-based Benchmark Framework including DfT insertion, Structural and Functional Test Flows",
+   "url": "https://arxiv.org/abs/2611.21666",
+   "authors": [
+    "Francesco Angione",
+    "Nicola di Gruttola Giardino",
+    "Gabriele Filipponi"
+   ],
+   "n_authors": 6,
+   "published": "2026-11-10",
+   "categories": [
+    "cs.AR"
+   ],
+   "kw_hits": 2,
+   "abstract": "The main challenge of modern computing manufacturing is to produce silicon products capable of operating under the worst possible conditions, both in data centers and under stringent functional safety constraints. These requirements impose exceptionally high quality standards on silicon vendors, while testing costs keep escalating as transistors continue to shrink. Evaluating new testing strategies, however, presents a dual challenge for researchers. Standard academic benchmarks, such as the ITC-99 suite, remain valuable for fast test prototyping, but they lack the structural complexity of modern VLSI devices. Assessing the true computational effort of academic methodologies on industrial scale designs is equally difficult without accessible and scalable models. A further obstacle is the absence of a unified framework able to abstract the commands imposed by each EDA tool and the…",
+   "excerpt": "The main challenge of modern computing manufacturing is to produce silicon products capable of operating under the worst possible conditions, both in data centers and under stringent functional safety constraints.",
+   "cited_by": 2,
+   "venue": "arXiv (Cornell University)",
+   "score": 5.1,
+   "tag": "arch"
+  },
+  {
    "id": "2611.26307",
    "title": "Scalable fault vulnerability analysis for ReRAM-based process-in-memory CNN accelerators",
    "url": "https://arxiv.org/abs/2611.26307",
@@ -344,8 +366,8 @@
    "kw_hits": 2,
    "abstract": "Embedded computing demands high performance and energy efficiency across workloads with widely different computational characteristics. Choosing the most suitable execution model therefore requires a quantitative understanding of how each model maps to different workload classes. In this paper, we compare three execution models for energy-efficient embedded computing: scalar multicore, stream ing multicore, and vector processing. We use three open-source RISC-V accelerators as representative implementations: the PULP Cluster, the Snitch Cluster, and Spatz, respectively. Their open-source hardware and software stacks enable a controlled comparison based on implementations in the same 12 nm technology and a common benchmark suite. Our results reveal that no single execution model performs best across all workload classes. Spatz delivers the greatest benefits for regular and highly…",
    "excerpt": "Embedded computing demands high performance and energy efficiency across workloads with widely different computational characteristics.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 4.0,
    "tag": "accel"
   },
@@ -368,8 +390,8 @@
    "kw_hits": 2,
    "abstract": "As LLM agents increasingly generate RTL alongside the tests and reviews that validate it, self-generated evidence is a weak foundation for trustworthy hardware. We present our seven-stage verification-gated workflow, evolved during a post-quantum design port, in which a gate counts only if shown able to fail on negative controls and fault mutants, and reviewer agents audit work before commit. We then audit this evidence with tool-selected netlist mutants, flaw replays, and formal checks. The flow ported an ML-KEM-768/ML-DSA-65 accelerator to a 300 MHz Zynq UltraScale+ key-custody card: all six operations are byte-exact on the board, and it passes all 85 interface-applicable NIST ACVP cases (of 285) and 484 ML-DSA known answers. However, passing module tests overstate the verification strength. Across three RTL modules, existing simulation gates kill only 76% of 399 tool-selected netlist…",
    "excerpt": "As LLM agents increasingly generate RTL alongside the tests and reviews that validate it, self-generated evidence is a weak foundation for trustworthy hardware.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 4.0,
    "tag": "arch"
   },
@@ -389,8 +411,8 @@
    "kw_hits": 2,
    "abstract": "Programmable FPGA overlays run new workloads without re-synthesis, yet they pay twice. An overlay adds a second layer of programmability on top of the FPGA's own overhead. Moreover, overlay generators usually start from a regular template, so they spend logic on switches and links that the workloads never use, and they close timing at low clocks. We present a flow that instead grows an overlay bottom-up from the dataflow graphs of the workloads it must run. The flow clusters workloads by structural similarity, ranks shared slots with spectral descriptors of each operation's surroundings, and adds only the units and links a workload lacks. It builds every unit on native hard blocks, with their internal pipeline registers, dual-ported memories and double-pumped DSPs, and it uses fixed-function engines where wider data types exceed the overlay's 16-bit lanes. Workloads then switch by…",
    "excerpt": "Programmable FPGA overlays run new workloads without re-synthesis, yet they pay twice.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 4.0,
    "tag": "accel"
   },
@@ -923,37 +945,13 @@
    "venue": "arXiv (Cornell University)",
    "score": 4.0,
    "tag": "accel"
-  },
-  {
-   "id": "2611.14776",
-   "title": "SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads",
-   "url": "https://arxiv.org/abs/2611.14776",
-   "authors": [
-    "Anish Saxena",
-    "Hritvik Taneja",
-    "Christos Kozyrakis"
-   ],
-   "n_authors": 4,
-   "published": "2026-11-10",
-   "categories": [
-    "cs.AR",
-    "cs.DC",
-    "cs.LG"
-   ],
-   "kw_hits": 2,
-   "abstract": "Large language model (LLM) inference demands ever more memory capacity for larger models and batch sizes. High-Bandwidth Flash (HBF) replaces the DRAM dies of HBM with NAND flash and provides up to 16x the capacity at comparable read bandwidth. However, HBF can incur a read latency of nearly 20$μ$s, 20x that of HBM, so on-demand HBF accesses slow inference by up to 12.8x. Conventional cache-line prefetchers require 20x more in-flight tracking state to cover this latency. Tensor-streaming designs, such as H3, follow virtual-address order as opposed to kernel-demand order, and therefore need hundreds of megabytes of buffering. We propose SlipStream, a software-hardware co-designed prefetcher that turns prefetching into a demand-paced producer-consumer pipeline. In software, SlipStream profiles the repeatable weight-page demand order of data-independent LLM kernels and inserts a staging…",
-   "excerpt": "Large language model (LLM) inference demands ever more memory capacity for larger models and batch sizes.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "memory"
   }
  ],
  "papers_classic": [
   {
    "title": "ISAAC: a convolutional neural network accelerator with in-situ analog arithmetic in crossbars",
    "year": 2016,
-   "cited_by": 1811,
+   "cited_by": 1818,
    "venue": "ACM SIGARCH Computer Architecture News",
    "url": "https://doi.org/10.1145/3007787.3001139",
    "query": "neural network accelerator",
@@ -969,7 +967,7 @@
   {
    "title": "PRIME: a novel processing-in-memory architecture for neural network computation in ReRAM-based main memory",
    "year": 2016,
-   "cited_by": 1347,
+   "cited_by": 1349,
    "venue": "ACM SIGARCH Computer Architecture News",
    "url": "https://doi.org/10.1145/3007787.3001140",
    "query": "processing-in-memory",
@@ -985,7 +983,7 @@
   {
    "title": "Near-Threshold RISC-V Core With DSP Extensions for Scalable IoT Endpoint Devices",
    "year": 2017,
-   "cited_by": 615,
+   "cited_by": 620,
    "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
    "url": "https://doi.org/10.1109/tvlsi.2017.2654506",
    "query": "RISC-V",
@@ -1017,7 +1015,7 @@
   {
    "title": "A cortical–hippocampal–cortical loop of information processing during memory consolidation",
    "year": 2016,
-   "cited_by": 440,
+   "cited_by": 443,
    "venue": "Nature Neuroscience",
    "url": "https://doi.org/10.1038/nn.4457",
    "query": "processing-in-memory",
@@ -1033,7 +1031,7 @@
   {
    "title": "Large-scale photonic chiplet Taichi empowers 160-TOPS/W artificial general intelligence",
    "year": 2024,
-   "cited_by": 398,
+   "cited_by": 402,
    "venue": "Science",
    "url": "https://doi.org/10.1126/science.adl1203",
    "query": "chiplet",
@@ -1049,7 +1047,7 @@
   {
    "title": "Breaking the von Neumann bottleneck: architecture-level processing-in-memory technology",
    "year": 2021,
-   "cited_by": 391,
+   "cited_by": 393,
    "venue": "Science China Information Sciences",
    "url": "https://doi.org/10.1007/s11432-020-3227-1",
    "query": "processing-in-memory",
@@ -1065,7 +1063,7 @@
   {
    "title": "UNPU: An Energy-Efficient Deep Neural Network Accelerator With Fully Variable Weight Bit Precision",
    "year": 2018,
-   "cited_by": 379,
+   "cited_by": 382,
    "venue": "IEEE Journal of Solid-State Circuits",
    "url": "https://doi.org/10.1109/jssc.2018.2865489",
    "query": "neural network accelerator",
@@ -1097,7 +1095,7 @@
   {
    "title": "NullHop: A Flexible Convolutional Neural Network Accelerator Based on Sparse Representations of Feature Maps",
    "year": 2018,
-   "cited_by": 320,
+   "cited_by": 325,
    "venue": "IEEE Transactions on Neural Networks and Learning Systems",
    "url": "https://doi.org/10.1109/tnnls.2018.2852335",
    "query": "neural network accelerator",
@@ -1113,7 +1111,7 @@
   {
    "title": "Chiplet Heterogeneous Integration Technology—Status and Challenges",
    "year": 2020,
-   "cited_by": 288,
+   "cited_by": 291,
    "venue": "Electronics",
    "url": "https://doi.org/10.3390/electronics9040670",
    "query": "chiplet",
@@ -1129,7 +1127,7 @@
   {
    "title": "Processing-in-memory: A workload-driven perspective",
    "year": 2019,
-   "cited_by": 265,
+   "cited_by": 266,
    "venue": "IBM Journal of Research and Development",
    "url": "https://doi.org/10.1147/jrd.2019.2934048",
    "query": "processing-in-memory",
@@ -1145,7 +1143,7 @@
   {
    "title": "Universal Chiplet Interconnect Express (UCIe): An Open Industry Standard for Innovations With Chiplets at Package Level",
    "year": 2022,
-   "cited_by": 258,
+   "cited_by": 266,
    "venue": "IEEE Transactions on Components Packaging and Manufacturing Technology",
    "url": "https://doi.org/10.1109/tcpmt.2022.3207195",
    "query": "chiplet",
@@ -1161,7 +1159,7 @@
   {
    "title": "Active Memory Cube: A processing-in-memory architecture for exascale systems",
    "year": 2015,
-   "cited_by": 232,
+   "cited_by": 236,
    "venue": "IBM Journal of Research and Development",
    "url": "https://doi.org/10.1147/jrd.2015.2409732",
    "query": "processing-in-memory",
@@ -1177,7 +1175,7 @@
   {
    "title": "GRIM-Filter: Fast seed location filtering in DNA read mapping using processing-in-memory technologies",
    "year": 2018,
-   "cited_by": 227,
+   "cited_by": 231,
    "venue": "BMC Genomics",
    "url": "https://doi.org/10.1186/s12864-018-4460-0",
    "query": "processing-in-memory",
@@ -1207,25 +1205,9 @@
    "tag": "accel"
   },
   {
-   "title": "PULP-NN: accelerating quantized neural networks on parallel ultra-low-power RISC-V processors",
-   "year": 2019,
-   "cited_by": 222,
-   "venue": "Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences",
-   "url": "https://doi.org/10.1098/rsta.2019.0155",
-   "query": "RISC-V",
-   "authors": [
-    "Angelo Garofalo",
-    "Manuele Rusci",
-    "Francesco Conti"
-   ],
-   "abstract": "We present PULP-NN, an optimized computing library for a parallel ultra-low-power tightly coupled cluster of RISC-V processors. The key innovation in PULP-NN is a set of kernels for quantized neural network inference, targeting byte and sub-byte data types, down to INT-1, tuned for the recent trend toward aggressive quantization in deep neural network inference. The proposed library exploits both the digital signal processing extensions available in the PULP RISC-V processors and the cluster's parallelism, achieving up to 15.5 MACs/cycle on INT-8 and improving performance by up to 63 × with respect to a sequential implementation on a single RISC-V core implementing the baseline RV32IMC ISA. Using PULP-NN, a CIFAR-10 network on an octa-core cluster runs in 30 × and 19.6 × less clock cycles than the current state-of-the-art ARM CMSIS-NN library, running on STM32L4 and STM32H7 MCUs,…",
-   "excerpt": "We present PULP-NN, an optimized computing library for a parallel ultra-low-power tightly coupled cluster of RISC-V processors.",
-   "tag": "arch"
-  },
-  {
    "title": "ISA semantics for ARMv8-a, RISC-v, and CHERI-MIPS",
    "year": 2019,
-   "cited_by": 219,
+   "cited_by": 222,
    "venue": "Proceedings of the ACM on Programming Languages",
    "url": "https://doi.org/10.1145/3290384",
    "query": "RISC-V",
@@ -1241,7 +1223,7 @@
   {
    "title": "A Survey of ReRAM-Based Architectures for Processing-In-Memory and Neural Networks",
    "year": 2018,
-   "cited_by": 217,
+   "cited_by": 219,
    "venue": "Machine Learning and Knowledge Extraction",
    "url": "https://doi.org/10.3390/make1010005",
    "query": "processing-in-memory",
@@ -1255,7 +1237,7 @@
   {
    "title": "RISQ-V: Tightly Coupled RISC-V Accelerators for Post-Quantum Cryptography",
    "year": 2020,
-   "cited_by": 215,
+   "cited_by": 216,
    "venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
    "url": "https://doi.org/10.46586/tches.v2020.i4.239-280",
    "query": "RISC-V",
@@ -1271,7 +1253,7 @@
   {
    "title": "The RISC-V Instruction Set Manual",
    "year": 2014,
-   "cited_by": 214,
+   "cited_by": 215,
    "venue": null,
    "url": "https://openalex.org/W2187802606",
    "query": "RISC-V",
@@ -1303,7 +1285,7 @@
   {
    "title": "Hardware Approximate Techniques for Deep Neural Network Accelerators: A Survey",
    "year": 2022,
-   "cited_by": 204,
+   "cited_by": 206,
    "venue": "ACM Computing Surveys",
    "url": "https://doi.org/10.1145/3527156",
    "query": "neural network accelerator",
@@ -1335,7 +1317,7 @@
   {
    "title": "GraphH: A Processing-in-Memory Architecture for Large-Scale Graph Processing",
    "year": 2018,
-   "cited_by": 198,
+   "cited_by": 199,
    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
    "url": "https://doi.org/10.1109/tcad.2018.2821565",
    "query": "processing-in-memory",
@@ -1351,7 +1333,7 @@
   {
    "title": "TeraPHY: A Chiplet Technology for Low-Power, High-Bandwidth In-Package Optical I/O",
    "year": 2020,
-   "cited_by": 174,
+   "cited_by": 175,
    "venue": "IEEE Micro",
    "url": "https://doi.org/10.1109/mm.2020.2976067",
    "query": "chiplet",
@@ -1367,7 +1349,7 @@
   {
    "title": "Using Dataflow to Optimize Energy Efficiency of Deep Neural Network Accelerators",
    "year": 2017,
-   "cited_by": 172,
+   "cited_by": 171,
    "venue": "IEEE Micro",
    "url": "https://doi.org/10.1109/mm.2017.54",
    "query": "neural network accelerator",
@@ -1383,7 +1365,7 @@
   {
    "title": "A scalable processing-in-memory accelerator for parallel graph processing",
    "year": 2015,
-   "cited_by": 157,
+   "cited_by": 158,
    "venue": "ACM SIGARCH Computer Architecture News",
    "url": "https://doi.org/10.1145/2872887.2750386",
    "query": "processing-in-memory",
@@ -1399,7 +1381,7 @@
   {
    "title": "A RISC-V 32-bit microprocessor based on two-dimensional semiconductors",
    "year": 2025,
-   "cited_by": 155,
+   "cited_by": 157,
    "venue": "Nature",
    "url": "https://doi.org/10.1038/s41586-025-08759-9",
    "query": "RISC-V",
@@ -1415,7 +1397,7 @@
   {
    "title": "The Berkeley Out-of-Order Machine (BOOM): An Industry-Competitive, Synthesizable, Parameterized RISC-V Processor",
    "year": 2015,
-   "cited_by": 155,
+   "cited_by": 156,
    "venue": null,
    "url": "https://openalex.org/W2588464298",
    "query": "RISC-V",
@@ -1426,6 +1408,22 @@
    ],
    "abstract": "BOOM is a synthesizable, parameterized, superscalar out-of-order RISC-V core designed to serve as the prototypical baseline processor for future micro-architectural studies of out-of-order processors. Our goal is to provide a readable, open-source implementation for use in education, research, and industry. BOOM is written in roughly 9,000 lines of the hardware construction language Chisel. We leveraged Berkeleys open-source Rocket-chip SoC generator, allowing us to quickly bring up an entire multi-core processor system (including caches and uncore) by replacing the in-order Rocket core with an out-of-order BOOM core. BOOM supports atomics, IEEE754-2008 floating-point, and page-based virtual memory. We have demonstrated BOOM running Linux, SPEC CINT2006, and CoreMark.",
    "excerpt": "BOOM is a synthesizable, parameterized, superscalar out-of-order RISC-V core designed to serve as the prototypical baseline processor for future micro-architectural studies of out-of-order processors.",
+   "tag": "arch"
+  },
+  {
+   "title": "An Agile Approach to Building RISC-V Microprocessors",
+   "year": 2016,
+   "cited_by": 154,
+   "venue": "IEEE Micro",
+   "url": "https://doi.org/10.1109/mm.2016.11",
+   "query": "RISC-V",
+   "authors": [
+    "Yunsup Lee",
+    "Andrew S. Waterman",
+    "Henry M. Cook"
+   ],
+   "abstract": "The final phase of CMOS technology scaling provides continued increases in already vast transistor counts, but only minimal improvements in energy efficiency, thus requiring innovation in circuits and architectures. However, even huge teams are struggling to complete large, complex designs on schedule using traditional rigid development flows. This article presents an agile hardware development methodology, which the authors adopted for 11 RISC-V microprocessor tape-outs on modern 28-nm and 45-nm CMOS processes in the past five years. The authors discuss how this approach enabled small teams to build energy-efficient, cost-effective, and industry-competitive high-performance microprocessors in a matter of months. Their agile methodology relies on rapid iterative improvement of fabricatable prototypes using hardware generators written in Chisel, a new hardware description language…",
+   "excerpt": "The final phase of CMOS technology scaling provides continued increases in already vast transistor counts, but only minimal improvements in energy efficiency, thus requiring innovation in circuits and architectures.",
    "tag": "arch"
   }
  ],

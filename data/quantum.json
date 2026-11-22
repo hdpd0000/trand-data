@@ -1,7 +1,7 @@
 {
  "field": "quantum",
  "label": "양자",
- "updated": "2026-11-21T01:55:17+00:00",
+ "updated": "2026-11-22T00:51:35+00:00",
  "subfields": [
   {
    "id": "qec",
@@ -48,8 +48,8 @@
    "kw_hits": 3,
    "abstract": "Fault-tolerant quantum computation requires a classical decoder fast enough to process syndrome measurements at the rate at which they are generated, and to return its decisions with low latency. This is most demanding for superconducting processors, whose fast syndrome cycles force a trade-off between decoding speed and accuracy. Decoders fast enough to keep up sacrifice accuracy, which must be compensated for with larger codes and thus additional physical qubits. Here we introduce Rapids, a streaming neural decoder that is both fast and accurate. We achieve this by co-designing the decoder with a field-programmable gate array (FPGA): the network is built from operations that map cheaply onto the device and trained in its integer arithmetic. For the distance-19 surface code, Rapids decodes each round of syndromes in under a microsecond on a single FPGA, fast enough for superconducting…",
    "excerpt": "Fault-tolerant quantum computation requires a classical decoder fast enough to process syndrome measurements at the rate at which they are generated, and to return its decisions with low latency.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 6.0,
    "tag": "qec"
   },
@@ -70,8 +70,8 @@
    "kw_hits": 3,
    "abstract": "The realization of large-scale quantum computation will require quantum error correction (QEC). One way to reduce the demands placed on QEC is to correct dominant physical errors at a lower level before passing the remaining errors to an outer code. Recently, Krastanov et al. [Nat. Commun. 12, 191 (2021)] proposed a measurement-free error-correction protocol based on coherent control of photonic modes that corrects for photon loss. Here, we adapt this approach to a circuit quantum electrodynamics (cQED) architecture using three superconducting microwave cavities coupled by Josephson-junction-based nonlinear elements. We encode the logical qubit in the lowest-order binomial code of one cavity, while the two other cavities serve as ancillas. Using numerical simulations with experimentally realistic parameters, we demonstrate that our protocol can correct single-photon loss with 99%…",
    "excerpt": "The realization of large-scale quantum computation will require quantum error correction (QEC).",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 6.0,
    "tag": "qec"
   },
@@ -249,8 +249,8 @@
    "kw_hits": 2,
    "abstract": "A key challenge in fault-tolerant quantum error correction (QEC) is that the syndrome extraction circuits are themselves faulty. Such circuit-level noise is commonly described by a detector error model (DEM). In Stim and in almost all related works, DEMs are binary: every non-binary circuit error (e.g., CNOT gate), is decomposed into independent binary error mechanisms. In this work, we introduce non-binary DEMs, in which each fault location of the syndrome extraction circuit is modeled by one random variable over its original alphabet, e.g., the 16 two-qubit Pauli errors after a CNOT gate. We also propose a split-merge-regroup transformation that builds a compact non-binary DEM from any Clifford circuit by merging the error components that flip the same detectors and observables. Non-binary DEMs represent any Pauli channel exactly, whereas binary DEMs are exact only for channels that…",
    "excerpt": "A key challenge in fault-tolerant quantum error correction (QEC) is that the syndrome extraction circuits are themselves faulty.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 4.0,
    "tag": "qec"
   },
@@ -274,8 +274,8 @@
    "kw_hits": 2,
    "abstract": "Quantum computation entails robustness engineering: a noisy quantum state is measured continuously, and a classical algorithm (the decoder) must infer corrections that reliably remove the noise, fast enough to keep up. We write several published belief-propagation (BP) decoders for quantum low-density parity-check (qLDPC) codes in a Domain-Specific Language (DSL), and search over it with grammatical evolution. Written in the language, the published decoders show their parameters in plain view, allowing us to re-parameterise BP+OSD (ordered statistics decoding) and BP+LSD (localized statistics decoding) decoders with damping, before any search, making each 17.1--41.0$\\times$ faster at a higher error rate, and BP+OSD-0 about 103 faster than the ldpc package's version tuned on the [[72,12,6]] bivariate-bicycle code. Evolution over the language finds decoders that improve the time-error…",
    "excerpt": "Quantum computation entails robustness engineering: a noisy quantum state is measured continuously, and a classical algorithm (the decoder) must infer corrections that reliably remove the noise, fast enough to keep up.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 4.0,
    "tag": "qec"
   },
@@ -296,8 +296,8 @@
    "kw_hits": 2,
    "abstract": "Fault-tolerant quantum computing requires high-fidelity entangling gates that can be implemented efficiently across multiple qubit pairs. We present a scheme for simultaneous pairwise entangling operations, i.e., a transversal controlled-$Z$ gate, across neighboring wells in a double-well trapped-ion architecture. A tailored dynamical decoupling scheme suppresses unwanted couplings with a pulse count that scales quadratically with the number of ions. We show that incorporating a genuine geometric cancellation reduces the pulse count and, for selected register sizes, allows the parallel operation to be completed faster than an equivalent sequence of two-qubit gates while requiring a significantly smaller two-photon Rabi frequency. We assess the experimental feasibility of the protocol by analyzing the impact of decoherence and crosstalk arising from laser wave-vector misalignment. To…",
    "excerpt": "Fault-tolerant quantum computing requires high-fidelity entangling gates that can be implemented efficiently across multiple qubit pairs.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 4.0,
    "tag": "qec"
   },
@@ -564,8 +564,8 @@
    "kw_hits": 1,
    "abstract": "Experimental demonstrations of quantum error correction often exhibit noise that varies across space and time, and attempting to characterize this disorder has been shown to substantially improve decoding performance. However, theoretical studies of quantum error correction typically assume fixed, perfectly known, homogeneous noise. Here we model decoding with incomplete or inaccurate knowledge of disordered noise channels by treating physical error rates as random variables. We show that the decoding performance is set by a small number of information-theoretic functionals of the noise distribution: the entropy determines the threshold while Bhattacharyya coefficients bound the deep sub-threshold decay rate of logical failures. Furthermore, our results give a quantitative measure of the benefits of characterizing this noise. We numerically investigate both maximum-likelihood and…",
    "excerpt": "Experimental demonstrations of quantum error correction often exhibit noise that varies across space and time, and attempting to characterize this disorder has been shown to substantially improve decoding performance.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 2.0,
    "tag": "qec"
   },
@@ -586,8 +586,8 @@
    "kw_hits": 1,
    "abstract": "Realistic quantum sensing is often affected by both noise and unknown nuisance parameters. Under Markovian dynamics, existing error correction approaches have often sought to suppress nuisance responses alongside environmental noise. Here we show that this local suppression of nuisance parameters is unnecessary and can be overly restrictive: nuisance parameters and Markovian noise impose fundamentally different constraints and require distinct treatments. We establish a general framework for quantum sensing with parameters encoded in a general time dependent Hamiltonian, in the presence of both nuisance parameters and Markovian noise. We derive a necessary and sufficient condition for Heisenberg scaling, determine the exact optimal precision, and construct protocols that attain it. Our results show that to achieve Heisenberg scaling Markovian noise must be suppressed locally by quantum…",
    "excerpt": "Realistic quantum sensing is often affected by both noise and unknown nuisance parameters.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 2.0,
    "tag": "qec"
   },
@@ -606,8 +606,8 @@
    "kw_hits": 1,
    "abstract": "How far must decoding observables be from having elements of reality to achieve a given quantum advantage in a communication task? We answer this question for quantum random access codes. Here, an observable has an element of reality when its unrevealed measurement leaves the preparation undisturbed; its irrealism is the relative entropy to the closest such preparation. Because it comprises local coherence and the correlations destroyed by the unrevealed measurement, irrealism applies to prepare-and-measure (PM) and entanglement-assisted (EA) codes alike. For PM codes decoded in mutually unbiased bases, we obtain the irrealism frontier, the least total irrealism compatible with each success probability, exactly in every dimension; an excess-irrealism identity shows that Gibbs states of the decoding operator attain it uniquely. For PM codes minimized also over the decoders, the required…",
    "excerpt": "How far must decoding observables be from having elements of reality to achieve a given quantum advantage in a communication task?",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 2.0,
    "tag": "qec"
   },
@@ -626,8 +626,8 @@
    "kw_hits": 1,
    "abstract": "Proposals abound for performing fault-tolerant logical Pauli-product measurements between quantum codes beyond the surface code. We introduce a new construction, the code quilt, whereby a target joint logical operator of two or more codeblocks is directly measured without the use of an ancillary system. We construct explicit circuits to perform a logical measurement using the quilt construction, which also require no physical qubits beyond the ancillas already in place to perform idle syndrome extraction on the codeblocks in question. We give a detailed structural analysis of the construction, which is based on a subsystem code, and provide several sets of sufficient conditions under which the relevant code-capacity distance is preserved. We give two variants of the protocol. The first, where the gauge generators of the subsystem code are measured directly, is provably not fault…",
    "excerpt": "Proposals abound for performing fault-tolerant logical Pauli-product measurements between quantum codes beyond the surface code.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 2.0,
    "tag": "qec"
   },
@@ -647,8 +647,8 @@
    "kw_hits": 1,
    "abstract": "Qubit loss and leakage are persistent errors: while a qubit remains lost or leaked, every operation acting on it is dropped. Consequently, the Clifford circuit executed differs from shot to shot. This variation breaks Pauli-frame simulation, which constructs each shot by XORing sampled Pauli flips onto a single \\emph{common reference} measurement record. By rethinking the roles of tableau simulation and Pauli-frame simulation, we show that many key fault-tolerant primitives nevertheless retain a common reference under loss. These include CSS code memory, lattice surgery, and transversal CNOT. Such circuits can therefore be simulated exactly under Pauli noise and loss by a Pauli frame with per-shot masks for the dropped operations. We define \\emph{frame-CSS} circuits as those that are CSS up to local single-qubit basis changes, given a loss model that specifies where qubits can be lost…",
    "excerpt": "Qubit loss and leakage are persistent errors: while a qubit remains lost or leaked, every operation acting on it is dropped.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 2.0,
    "tag": "algo"
   },
@@ -669,8 +669,8 @@
    "kw_hits": 1,
    "abstract": "We present Gate-Error Amplification for Recalibration with Syndromes (GEARS), a runtime calibration framework that uses gate-error amplification to efficiently tune control parameters during quantum error correction. Maintaining reliable control of large qubit arrays throughout hours-long computations requires repeated calibration to compensate for hardware drift. In conventional calibration, targeted qubits are temporarily removed from the code, introducing non-negligible space-time overhead. An elegant alternative uses syndrome information already collected during error correction as feedback for in situ recalibration, but acquiring signal requires sufficient (1) measurement budget or (2) probe strength, i.e., the size of deliberate control perturbations. More measurements improve statistical precision but result in slower control updates, while stronger perturbations produce larger…",
    "excerpt": "We present Gate-Error Amplification for Recalibration with Syndromes (GEARS), a runtime calibration framework that uses gate-error amplification to efficiently tune control parameters during quantum error correction.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 2.0,
    "tag": "qec"
   },
@@ -694,8 +694,8 @@
    "kw_hits": 1,
    "abstract": "Most practical combinatorial optimization problems involve constraints, and an Ising machine that flips one spin at a time can respect them only through energy penalties that raise barriers between feasible solutions. Here we show that a higher-order neuromorphic Ising machine can enforce constraints through programmable transitions rather than penalties. In an autoencoder-like architecture, each inner-layer neuron represents a move, a family of multi-spin transitions that maps every feasible state to another feasible state, receives the energy change of its move through connections that outer-layer neurons multiplicatively switch on or off, and updates the state through the same connections. A compiler turns constraints into this wiring with a number of auxiliary clauses that grows only polynomially for parity, cardinality, one-hot, partition and permutation constraints. Restricting…",
    "excerpt": "Most practical combinatorial optimization problems involve constraints, and an Ising machine that flips one spin at a time can respect them only through energy penalties that raise barriers between feasible solutions.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 2.0,
    "tag": "arch"
   },
@@ -716,8 +716,8 @@
    "kw_hits": 1,
    "abstract": "Quantum simulators have become a reality in recent years, with several platforms now remotely accessible through the cloud. These systems give researchers the opportunity to run quantum programs without requiring either a dedicated laboratory or extensive experimental expertise, and, in several cases, they have already enabled the execution of relevant protocols with remarkable results. However, despite the impressive progress in the performance of these machines, they still suffer from various noise sources, some of which are not always completely clear to the end user, which limits their applicability to tasks that are sufficiently robust against noise of various kinds. In this work, we investigate the behavior of Fresnel, a remotely accessible neutral-atom analog quantum simulator provided by Pasqal. We design and perform a series of experiments probing the machine's response to…",
    "excerpt": "Quantum simulators have become a reality in recent years, with several platforms now remotely accessible through the cloud.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 2.0,
    "tag": "hardware"
   },
@@ -737,8 +737,8 @@
    "kw_hits": 1,
    "abstract": "Fault-tolerant quantum computing needs logical states prepared such that single faults cannot spread into uncorrectable errors. Post-selection achieves this with added checks that detect dangerous faults and discard the run. How the checks are measured sets the depth and operation count of the circuit, and the best trade-off depends on the hardware. Existing automated methods, however, each use one check construction and yield fixed trade-offs. We first introduce Block Checks, in which several checks share one fault-tolerantly prepared auxiliary block, which places them and existing constructions in a single design space. Second, to explore that space, we propose a Pareto tree search that adds checks and auxiliary blocks, merges auxiliaries, and edits the circuit. On quantum codes of distance up to seven, the search finds best-known circuits for many new operation--depth trade-offs and…",
    "excerpt": "Fault-tolerant quantum computing needs logical states prepared such that single faults cannot spread into uncorrectable errors.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 2.0,
    "tag": "qec"
   },
@@ -759,8 +759,8 @@
    "kw_hits": 1,
    "abstract": "Quantum frameworks each define their own Multi-Level Intermediate Representation (MLIR) dialect, so porting a circuit to a Quantum Intermediate Representation (QIR) runtime needs a hand-written pass per dialect. Our translator selects among three paths: a deterministic compiler path for known grammars (Catalyst and Quake), a large language model (LLM) agentic path for unseen dialects, and a repair path invoked when deterministic output fails testing. A dual-backend pipeline executes the source MLIR and generated QIR on independent simulators, comparing output distributions by total variation distance (TVD). For smaller open-weight models we replace retrieval-augmented generation with inline context engineering and add a guardrail-assembler that rebuilds valid QIR from incomplete output. Across 41 circuits spanning three dialects and 1-100 qubits, the deterministic path is gate-exact on…",
    "excerpt": "Quantum frameworks each define their own Multi-Level Intermediate Representation (MLIR) dialect, so porting a circuit to a Quantum Intermediate Representation (QIR) runtime needs a hand-written pass per dialect.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 2.0,
    "tag": "arch"
   },
@@ -783,8 +783,8 @@
    "kw_hits": 1,
    "abstract": "The Bravyi-König theorem limits the constant-depth logical gates of 2D topological Pauli stabilizer codes to be in the Clifford group. Known qubit codes with Clifford stabilizers exceed it by only one level of the Clifford hierarchy, and this was conjectured to hold generally. We show that this bound can be completely bypassed, and that topological codes with Clifford stabilizers in 2D can realize transversal logical gates at any level of the Clifford hierarchy. We present two explicit constructions of codes based on copies of the quantum doubles of $D_4$ and $\\mathbb{Z}_2$, with $k$ logical qubits and a logical $C^{k-1}Z$ gate, which is at level $k$ of the Clifford hierarchy. The physical circuits realizing the gates consist only of physical $Z$ or $CZ$ gates. The main new ingredient comes from the logical encoding, which depends crucially on non-Abelian group multiplication.",
    "excerpt": "The Bravyi-König theorem limits the constant-depth logical gates of 2D topological Pauli stabilizer codes to be in the Clifford group.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 2.0,
    "tag": "qec"
   },
@@ -806,8 +806,8 @@
    "kw_hits": 1,
    "abstract": "Superconducting qubits provide microwave-scale transitions and thus offer quantum targets for direct particle scattering with extremely small energy transfer. We develop a general framework for inelastic scattering in which an incident particle exchanges an off-shell photon with a superconducting quantum circuit, inducing a transition from a lower-energy internal state of the circuit to a higher-energy one. The target dependence is encoded in a finite-momentum electromagnetic transition current and, for charge-dominated response, in a qubit transition form factor. A key feature of particle scattering is that a microwave-scale excitation does not necessarily correspond to a long-wavelength interaction, since nonrelativistic particles can transfer spatial momenta much larger than the deposited energy. The full finite-momentum device response is therefore essential. We specialize the…",
    "excerpt": "Superconducting qubits provide microwave-scale transitions and thus offer quantum targets for direct particle scattering with extremely small energy transfer.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv (Cornell University)",
    "score": 2.0,
    "tag": "hardware"
   },
@@ -930,7 +930,7 @@
   {
    "title": "Surface codes: Towards practical large-scale quantum computation",
    "year": 2012,
-   "cited_by": 4043,
+   "cited_by": 4080,
    "venue": "Physical Review A",
    "url": "https://doi.org/10.1103/physreva.86.032324",
    "query": "surface code",
@@ -946,7 +946,7 @@
   {
    "title": "Superconducting quantum circuits at the surface code threshold for fault tolerance",
    "year": 2014,
-   "cited_by": 2123,
+   "cited_by": 2150,
    "venue": "Nature",
    "url": "https://doi.org/10.1038/nature13171",
    "query": "surface code",
@@ -962,7 +962,7 @@
   {
    "title": "Quantum error correction for quantum memories",
    "year": 2015,
-   "cited_by": 2073,
+   "cited_by": 2104,
    "venue": "Reviews of Modern Physics",
    "url": "https://doi.org/10.1103/revmodphys.87.307",
    "query": "quantum error correction",
@@ -976,7 +976,7 @@
   {
    "title": "Quantum error correction below the surface code threshold",
    "year": 2024,
-   "cited_by": 2037,
+   "cited_by": 2076,
    "venue": "Nature",
    "url": "https://doi.org/10.1038/s41586-024-08449-y",
    "query": "quantum error correction",
@@ -992,7 +992,7 @@
   {
    "title": "Suppressing quantum errors by scaling a surface code logical qubit",
    "year": 2023,
-   "cited_by": 1887,
+   "cited_by": 1900,
    "venue": "Nature",
    "url": "https://doi.org/10.1038/s41586-022-05434-1",
    "query": "surface code",
@@ -1008,7 +1008,7 @@
   {
    "title": "Surface code quantum computing by lattice surgery",
    "year": 2012,
-   "cited_by": 1105,
+   "cited_by": 1126,
    "venue": "New Journal of Physics",
    "url": "https://doi.org/10.1088/1367-2630/14/12/123011",
    "query": "surface code",
@@ -1024,7 +1024,7 @@
   {
    "title": "Bulk locality and quantum error correction in AdS/CFT",
    "year": 2015,
-   "cited_by": 1070,
+   "cited_by": 1075,
    "venue": "Journal of High Energy Physics",
    "url": "https://doi.org/10.1007/jhep04(2015)163",
    "query": "quantum error correction",
@@ -1040,7 +1040,7 @@
   {
    "title": "Realizing repeated quantum error correction in a distance-three surface code",
    "year": 2022,
-   "cited_by": 1048,
+   "cited_by": 1055,
    "venue": "Nature",
    "url": "https://doi.org/10.1038/s41586-022-04566-8",
    "query": "quantum error correction",
@@ -1056,7 +1056,7 @@
   {
    "title": "Quantum error correction for beginners",
    "year": 2013,
-   "cited_by": 1038,
+   "cited_by": 1051,
    "venue": "Reports on Progress in Physics",
    "url": "https://doi.org/10.1088/0034-4885/76/7/076001",
    "query": "quantum error correction",
@@ -1072,7 +1072,7 @@
   {
    "title": "A Game of Surface Codes: Large-Scale Quantum Computing with Lattice Surgery",
    "year": 2019,
-   "cited_by": 947,
+   "cited_by": 958,
    "venue": "Quantum",
    "url": "https://doi.org/10.22331/q-2019-03-05-128",
    "query": "surface code",
@@ -1086,7 +1086,7 @@
   {
    "title": "Real-time quantum error correction beyond break-even",
    "year": 2023,
-   "cited_by": 724,
+   "cited_by": 729,
    "venue": "Nature",
    "url": "https://doi.org/10.1038/s41586-023-05782-6",
    "query": "quantum error correction",
@@ -1102,7 +1102,7 @@
   {
    "title": "Realization of three-qubit quantum error correction with superconducting circuits",
    "year": 2012,
-   "cited_by": 714,
+   "cited_by": 717,
    "venue": "Nature",
    "url": "https://doi.org/10.1038/nature10786",
    "query": "quantum error correction",
@@ -1118,7 +1118,7 @@
   {
    "title": "Quantum logic with spin qubits crossing the surface code threshold",
    "year": 2022,
-   "cited_by": 706,
+   "cited_by": 709,
    "venue": "Nature",
    "url": "https://doi.org/10.1038/s41586-021-04273-w",
    "query": "surface code",
@@ -1134,7 +1134,7 @@
   {
    "title": "Quantum error correction in a solid-state hybrid spin register",
    "year": 2014,
-   "cited_by": 702,
+   "cited_by": 706,
    "venue": "Nature",
    "url": "https://doi.org/10.1038/nature12919",
    "query": "quantum error correction",
@@ -1150,7 +1150,7 @@
   {
    "title": "Quantum error correction of a qubit encoded in grid states of an oscillator",
    "year": 2020,
-   "cited_by": 657,
+   "cited_by": 670,
    "venue": "Nature",
    "url": "https://doi.org/10.1038/s41586-020-2603-3",
    "query": "quantum error correction",
@@ -1166,7 +1166,7 @@
   {
    "title": "Application of a Resource Theory for Magic States to Fault-Tolerant Quantum Computing",
    "year": 2017,
-   "cited_by": 656,
+   "cited_by": 663,
    "venue": "Physical Review Letters",
    "url": "https://doi.org/10.1103/physrevlett.118.090501",
    "query": "fault-tolerant quantum computing",
@@ -1181,7 +1181,7 @@
   {
    "title": "Quantum error correction: an introductory guide",
    "year": 2019,
-   "cited_by": 620,
+   "cited_by": 623,
    "venue": "Contemporary Physics",
    "url": "https://doi.org/10.1080/00107514.2019.1667078",
    "query": "quantum error correction",
@@ -1195,7 +1195,7 @@
   {
    "title": "Quantum Error Correction in Scrambling Dynamics and Measurement-Induced Phase Transition",
    "year": 2020,
-   "cited_by": 598,
+   "cited_by": 600,
    "venue": "Physical Review Letters",
    "url": "https://doi.org/10.1103/physrevlett.125.030505",
    "query": "quantum error correction",
@@ -1211,7 +1211,7 @@
   {
    "title": "Realization of Real-Time Fault-Tolerant Quantum Error Correction",
    "year": 2021,
-   "cited_by": 550,
+   "cited_by": 558,
    "venue": "Physical Review X",
    "url": "https://doi.org/10.1103/physrevx.11.041058",
    "query": "quantum error correction",
@@ -1227,7 +1227,7 @@
   {
    "title": "The Ryu–Takayanagi Formula from Quantum Error Correction",
    "year": 2017,
-   "cited_by": 546,
+   "cited_by": 545,
    "venue": "Communications in Mathematical Physics",
    "url": "https://doi.org/10.1007/s00220-017-2904-z",
    "query": "quantum error correction",
@@ -1241,7 +1241,7 @@
   {
    "title": "Realization of an Error-Correcting Surface Code with Superconducting Qubits",
    "year": 2022,
-   "cited_by": 503,
+   "cited_by": 507,
    "venue": "Physical Review Letters",
    "url": "https://doi.org/10.1103/physrevlett.129.030501",
    "query": "surface code",
@@ -1257,7 +1257,7 @@
   {
    "title": "Fault-Tolerant Measurement-Based Quantum Computing with Continuous-Variable Cluster States",
    "year": 2014,
-   "cited_by": 496,
+   "cited_by": 501,
    "venue": "Physical Review Letters",
    "url": "https://doi.org/10.1103/physrevlett.112.120504",
    "query": "fault-tolerant quantum computing",
@@ -1287,7 +1287,7 @@
   {
    "title": "Achieving the Heisenberg limit in quantum metrology using quantum error correction",
    "year": 2018,
-   "cited_by": 441,
+   "cited_by": 445,
    "venue": "Nature Communications",
    "url": "https://doi.org/10.1038/s41467-017-02510-3",
    "query": "quantum error correction",
@@ -1303,7 +1303,7 @@
   {
    "title": "Repeated quantum error detection in a surface code",
    "year": 2020,
-   "cited_by": 425,
+   "cited_by": 428,
    "venue": "Nature Physics",
    "url": "https://doi.org/10.1038/s41567-020-0920-y",
    "query": "surface code",
@@ -1319,7 +1319,7 @@
   {
    "title": "Low-distance surface codes under realistic quantum noise",
    "year": 2014,
-   "cited_by": 408,
+   "cited_by": 414,
    "venue": "Physical Review A",
    "url": "https://doi.org/10.1103/physreva.90.062320",
    "query": "surface code",
@@ -1334,7 +1334,7 @@
   {
    "title": "Quantum error correction and universal gate set operation on a binomial bosonic logical qubit",
    "year": 2019,
-   "cited_by": 407,
+   "cited_by": 411,
    "venue": "Nature Physics",
    "url": "https://doi.org/10.1038/s41567-018-0414-3",
    "query": "quantum error correction",
@@ -1350,7 +1350,7 @@
   {
    "title": "Quantum Error Correction for Metrology",
    "year": 2014,
-   "cited_by": 374,
+   "cited_by": 378,
    "venue": "Physical Review Letters",
    "url": "https://doi.org/10.1103/physrevlett.112.150802",
    "query": "quantum error correction",
@@ -1366,7 +1366,7 @@
   {
    "title": "Erasure conversion for fault-tolerant quantum computing in alkaline earth Rydberg atom arrays",
    "year": 2022,
-   "cited_by": 363,
+   "cited_by": 371,
    "venue": "Nature Communications",
    "url": "https://doi.org/10.1038/s41467-022-32094-6",
    "query": "fault-tolerant quantum computing",
@@ -1382,7 +1382,7 @@
   {
    "title": "Improved Quantum Metrology Using Quantum Error Correction",
    "year": 2014,
-   "cited_by": 355,
+   "cited_by": 358,
    "venue": "Physical Review Letters",
    "url": "https://doi.org/10.1103/physrevlett.112.080801",
    "query": "quantum error correction",
@@ -1397,6 +1397,15 @@
   }
  ],
  "news": [
+  {
+   "title": "TQI linking test v15 (delete me)",
+   "url": "https://thequantuminsider.com/2026/11/21/__trashed-5/",
+   "source": "The Quantum Insider",
+   "published": "2026-11-21T21:45:27+00:00",
+   "desc": "IonQ announced a deal with Mastercard today. Analysts said IonQ’s roadmap is ambitious. Mastercard also commented. D-Wave Quantum and D-Wave were mentioned. The city of Chattanooga hosted it. Over a long time horizon, Horizon Europe funds research. Horizon Quantum Computing is different from Horizon raising money. IBM , Harvard , HSBC",
+   "excerpt": "IonQ announced a deal with Mastercard today.",
+   "tag": "industry"
+  },
   {
    "title": "10-Member Team Drawn from Chinese Institutions Wins 2026 Gordon Bell Prize",
    "url": "https://thequantuminsider.com/2026/11/20/10-member-team-drawn-from-chinese-institutions-wins-2026-gordon-bell-prize/",
@@ -1477,15 +1486,6 @@
    "desc": "Insider Brief It turns out teamwork can indeed make the dream work, even when the team isn’t allowed to talk. It helps to have a few entangled qubits, though. In a study, a Google-led team of researchers used a quantum chip to beat the best classical strategies in games that barred players from communicating, demonstrating",
    "excerpt": "Insider Brief It turns out teamwork can indeed make the dream work, even when the team isn’t allowed to talk.",
    "tag": "hardware"
-  },
-  {
-   "title": "Delta Gold Launches Dedicated Quantum Sensing Program",
-   "url": "https://thequantuminsider.com/2026/11/19/delta-gold-launches-dedicated-quantum-sensing-program/",
-   "source": "The Quantum Insider",
-   "published": "2026-11-19T17:12:49+00:00",
-   "desc": "With new equipment funding at Penn State and the University of Toronto, Delta Gold Technologies has launched a dedicated quantum sensing program, allowing its gold nanoclusters to get to work on navigation and magnetic sensing while the quantum computing effort continues. Insider Brief For most of us, day-to-day navigation happens somewhere overhead. Our phones listen",
-   "excerpt": "With new equipment funding at Penn State and the University of Toronto, Delta Gold Technologies has launched a dedicated quantum sensing program, allowing its gold nanoclusters to get to work on navigation and magnetic…",
-   "tag": "industry"
   },
   {
    "title": "Taking an atomic approach to silicon quantum computing",
