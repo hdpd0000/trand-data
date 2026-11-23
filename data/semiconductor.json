@@ -1,7 +1,7 @@
 {
  "field": "semiconductor",
  "label": "반도체",
- "updated": "2026-11-22T00:51:35+00:00",
+ "updated": "2026-11-23T01:19:42+00:00",
  "subfields": [
   {
    "id": "memory",
@@ -28,930 +28,12 @@
    "label": "산업·시장"
   }
  ],
- "papers_new": [
-  {
-   "id": "2611.26472",
-   "title": "FoldSim: Scaling Cycle-Exact RTL Simulation with Hierarchical Folding and Static Scheduling",
-   "url": "https://arxiv.org/abs/2611.26472",
-   "authors": [
-    "Chengxuan Wang",
-    "Nikhil Rout",
-    "Yang-gon Kim"
-   ],
-   "n_authors": 6,
-   "published": "2026-11-19",
-   "categories": [
-    "cs.AR"
-   ],
-   "kw_hits": 3,
-   "abstract": "RTL simulation is essential for hardware design and verification, yet its execution time grows rapidly with design scale and complexity. CPU- and GPU-based simulators exploit parallelism to accelerate RTL evaluation, but achieving high simulation throughput for large designs remains challenging. FPGA-based simulators offer higher throughput by mapping RTL computations directly onto hardware, but their scalability is constrained by FPGA resource capacity. We present FoldSim, an automated framework that enables cycle-exact simulation of large RTL designs on a single FPGA through hierarchical folding. FoldSim maps instances across the design hierarchy onto shared logic while maintaining their independent state. Given foldable module classes, its compiler constructs a static schedule that coordinates their execution, reducing dynamic synchronization overhead and making state accesses…",
-   "excerpt": "RTL simulation is essential for hardware design and verification, yet its execution time grows rapidly with design scale and complexity.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 6.0,
-   "tag": "arch"
-  },
-  {
-   "id": "2611.20331",
-   "title": "LENS: Replacing LayerNorm and Softmax in Transformers with Learnable Normalization States",
-   "url": "https://arxiv.org/abs/2611.20331",
-   "authors": [
-    "Yuhao Liu",
-    "Salim Ullah",
-    "Akash Kumar"
-   ],
-   "n_authors": 3,
-   "published": "2026-11-15",
-   "categories": [
-    "cs.LG",
-    "cs.AI",
-    "cs.AR"
-   ],
-   "kw_hits": 3,
-   "abstract": "LayerNorm and attention Softmax are critical operations in Transformers. However, they cannot be efficiently mapped to General Matrix Multiplication (GEMM) computations on hardware. Therefore, modern hardware accelerator designs, such as NPUs on ASIC/FPGA, consume a large amount of hardware resources or chip area to implement their specific arithmetic units. Building on previous work about LayerNorm, Softmax, and their alternatives, we introduce Learnable Normalization States (LENS), a framework that reformulates LayerNorm as tiny MLPs by abstracting a common structure from related methods and extends this method to Softmax, which moves more of the computation in Transformers to GEMM as a hardware-friendly architecture. We evaluate LENS on image classification with Vision Transformers (ViT) and autoregressive language modeling with Pythia models, including generalization tests on…",
-   "excerpt": "LayerNorm and attention Softmax are critical operations in Transformers.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 6.0,
-   "tag": "accel"
-  },
-  {
-   "id": "2611.20187",
-   "title": "Cyber-Secure Wearable, Ultra-Low-Power Networked Sensors for Soldier Health Monitoring: Insights from the CAPSARII project",
-   "url": "https://arxiv.org/abs/2611.20187",
-   "authors": [
-    "Luciano Bozzi",
-    "Christian Celidonio",
-    "Umberto Nuzzi"
-   ],
-   "n_authors": 22,
-   "published": "2026-11-15",
-   "categories": [
-    "cs.ET",
-    "cs.AI",
-    "cs.AR",
-    "cs.CR",
-    "cs.HC",
-    "cs.LG"
-   ],
-   "kw_hits": 3,
-   "abstract": "The CAPSARII project advances a cyber-secure, ultra-low-power wearable platform and Internet of Battlefield Things (IoBT) framework to support real-time monitoring of military personnel and data-driven decision support. The architecture integrates smart-textile sensing, a body/squad area mesh, edge-deployed AI on secure RISC-V microcontrollers, and cloud/federated analytics for cross-mission learning and comparative studies. Two representative use cases--pilot fatigue and warfighters operating in harsh environments--guide requirements, validation, and interface design (including HUD and haptic feedback). As an initial step toward embedded models, we benchmark stress classification on a public wearable dataset: tree-ensemble baselines achieve state-of-the-art performance for accuracy and F1 (e.g., XGBoost: $\\mathrm{Accuracy}=0.901\\!\\pm\\!0.023$, $\\mathrm{F1}=0.920\\!\\pm\\!0.019$), while a…",
-   "excerpt": "The CAPSARII project advances a cyber-secure, ultra-low-power wearable platform and Internet of Battlefield Things (IoBT) framework to support real-time monitoring of military personnel and data-driven decision support.",
-   "cited_by": null,
-   "venue": null,
-   "score": 6.0,
-   "tag": null
-  },
-  {
-   "id": "2611.21677",
-   "title": "Chimera: A Configurable LLM Decode Accelerator Architecture with Compute-Memory-Floorplan Co-Design for HBM-Equipped Multi-Die FPGAs",
-   "url": "https://arxiv.org/abs/2611.21677",
-   "authors": [
-    "Zhiheng Chen",
-    "Yifan Zhang",
-    "Yu-An Chou"
-   ],
-   "n_authors": 5,
-   "published": "2026-11-14",
-   "categories": [
-    "cs.AR"
-   ],
-   "kw_hits": 3,
-   "abstract": "GPUs are widely used for LLM inference, but single-request decoding is memory-bound, leaving their compute underutilized while they draw substantial power. HBM-equipped FPGAs are well suited to LLM decoding: their customizable datapaths use memory bandwidth more energy-efficiently than GPUs. However, high memory bandwidth alone does not ensure high decode performance: exploiting it requires parallel compute and memory interfaces, whose resource costs and placement on the chip can limit the throughput. We present Chimera, a configurable LLM decode accelerator architecture that co-designs compute, memory access, and floorplan. Specifically, HBM Proxy Ports extend HBM access to compute lanes on every super logic region (SLR) die, and tiered expert storage holds mixture-of-experts weights beyond the HBM capacity. In addition, a unified configuration analysis estimates per-token latency and…",
-   "excerpt": "GPUs are widely used for LLM inference, but single-request decoding is memory-bound, leaving their compute underutilized while they draw substantial power.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 6.0,
-   "tag": "memory"
-  },
-  {
-   "id": "2611.19279",
-   "title": "Rethinking KV Caching for LLM Decode: Free-Space Optical KV Regeneration for Reduction of Memory Traffic",
-   "url": "https://arxiv.org/abs/2611.19279",
-   "authors": [
-    "Aritra Bagchi",
-    "Bin Gao",
-    "James Spall"
-   ],
-   "n_authors": 6,
-   "published": "2026-11-14",
-   "categories": [
-    "cs.AR",
-    "cs.ET"
-   ],
-   "kw_hits": 3,
-   "abstract": "Long-context large language model (LLM) decoding repeatedly reads the historical key-value (KV) cache, making multi-head attention (MHA) memory-bandwidth-bound. Caching layer-input activations instead halves historical-cache storage and traffic, but requires regenerating KV from each cached activation. On digital accelerators such as GPUs, this regeneration takes far longer than fetching the activation from HBM. The KV regeneration overhead outweighs the savings from reduced memory traffic, shifting decode attention from a memory bottleneck to a compute bottleneck. We present OptiDecode, a hybrid optoelectronic decode-attention accelerator that regenerates historical KV using free-space optics and computes attention digitally. Projection weights remain resident on optical tiles, exploiting reuse across historical tokens for high-throughput optical regeneration. Scaling to large models…",
-   "excerpt": "Long-context large language model (LLM) decoding repeatedly reads the historical key-value (KV) cache, making multi-head attention (MHA) memory-bandwidth-bound.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 6.0,
-   "tag": "memory"
-  },
-  {
-   "id": "2611.17785",
-   "title": "CHARMING: Parallel Edge AI Acceleration Across Tensor Processing and In-Memory Computation",
-   "url": "https://arxiv.org/abs/2611.17785",
-   "authors": [
-    "Md Omar Faruque",
-    "Jingang Jin",
-    "João Paulo C. de Lima"
-   ],
-   "n_authors": 8,
-   "published": "2026-11-13",
-   "categories": [
-    "cs.AR"
-   ],
-   "kw_hits": 3,
-   "abstract": "Edge AI increasingly relies on specialized accelerators for low-latency inference under tight resource and energy constraints, yet their efficiency remains limited by data movement. Prior work, CHARM, mitigates this overhead by overlapping data movement with computation. We observe that in-memory computing can further supplement tensor processing as a parallel accelerator while eliminating certain data movements entirely. We present CHARMING, a heterogeneous edge AI architecture that uses accuracy- and quantization-aware partitioning to distribute and concurrently execute inference workloads across tensor processing and in-memory computation. CHARMING partitions attention heads between an AIE array and an in-DRAM compute unit, balancing execution according to model architecture, sequence length, and precision while selecting heads to minimize accuracy degradation. CHARMING also…",
-   "excerpt": "Edge AI increasingly relies on specialized accelerators for low-latency inference under tight resource and energy constraints, yet their efficiency remains limited by data movement.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 6.0,
-   "tag": "memory"
-  },
-  {
-   "id": "2611.17097",
-   "title": "Broadcast, Don't Replicate: Eliminating Weight HBM in Datacenter LLM Serving",
-   "url": "https://arxiv.org/abs/2611.17097",
-   "authors": [
-    "Hannah Atmer",
-    "Yuan Yao",
-    "Thiemo Voigt"
-   ],
-   "n_authors": 4,
-   "published": "2026-11-12",
-   "categories": [
-    "cs.AR",
-    "cs.DC",
-    "cs.ET",
-    "cs.NI"
-   ],
-   "kw_hits": 3,
-   "abstract": "Large language model (LLM) inference at datacenter scale is fundamentally bottlenecked by memory capacity and bandwidth limits. Because model weights are read-only and identical across instances, conventional architectures that replicate these parameters across the local DRAM of tens of thousands of accelerators incur massive capital expenditures, significant static power dissipation, and redundant memory-fetch energy. A recent proposal to use optical fiber loops as delay-line memory alleviates these issues, but its recirculating loop must hold the whole model: loop length grows with model size, slack is fixed when the ring is built, and the layouts that serve modern Mixture of Experts (MoE) models efficiently do not fit in it. We propose Optical Broadcast Memory (OBM), an open-ended hierarchical Tap-and-Amplify fiber architecture that generalizes and replaces the optical ring paradigm.…",
-   "excerpt": "Large language model (LLM) inference at datacenter scale is fundamentally bottlenecked by memory capacity and bandwidth limits.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 6.0,
-   "tag": "memory"
-  },
-  {
-   "id": "2611.14495",
-   "title": "SkipLane: Write-Once, Conflict-Free Accumulation for Zero-Skipping CNN Engines on FPGAs",
-   "url": "https://arxiv.org/abs/2611.14495",
-   "authors": [
-    "Aditya Saboo",
-    "Pratibha Verma"
-   ],
-   "n_authors": 2,
-   "published": "2026-11-10",
-   "categories": [
-    "cs.AR"
-   ],
-   "kw_hits": 3,
-   "abstract": "Skipping zero activations saves multiplications in CNN accelerators, but it complicates accumulation: the products in a compressed input window belong to different output columns and must be merged. In our earlier engine, this merging was done by read-modify-write (RMW) of a row buffer, which made sparse inputs slower than dense ones even at 87% sparsity. Existing designs either merge kernel rows through RMW or reduce bank conflicts with extra hardware, without eliminating them. SkipLane makes the entire accumulation path write-once. Each kernel row is processed in its own lane, which holds partial sums in three registers and retires up to three finished columns per cycle into memory banks that cannot conflict. Lanes and input channels are summed only at readout, so no partial sum is ever read back. Multipliers left idle by zero weights compute a second filter in the same pass. In RTL…",
-   "excerpt": "Skipping zero activations saves multiplications in CNN accelerators, but it complicates accumulation: the products in a compressed input window belong to different output columns and must be merged.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 6.0,
-   "tag": "accel"
-  },
-  {
-   "id": "2611.13644",
-   "title": "Tri-Stack-PIM: A Heterogeneous Multi-Die 3D-Integrated Processing-in-Memory Architecture for Efficient LLM Inference",
-   "url": "https://arxiv.org/abs/2611.13644",
-   "authors": [
-    "Shuao Jia",
-    "Zichao Ling",
-    "Chen Bai"
-   ],
-   "n_authors": 5,
-   "published": "2026-11-10",
-   "categories": [
-    "cs.AR"
-   ],
-   "kw_hits": 3,
-   "abstract": "Large language model (LLM) inference during autoregressive decoding is fundamentally memory-bandwidth-bound. Existing three-dimensional (3D) stacked processing-in-memory (PIM) architectures alleviate the off-chip bandwidth wall, yet remain constrained by several limitations: physical layer (PHY), controllers, and direct memory access (DMA) engines compete with arithmetic units for advanced-node base-die area; hybrid-bonding keep-out zones fragment the base-die floorplan and impede physical design; compute tiles built in a dynamic random access memory (DRAM) process are restricted to low logic density, capping achievable throughput; and nonlinear operations offloaded to the host reintroduce a communication bottleneck. We present Tri-Stack-PIM, a heterogeneous three-die architecture that resolves these tensions by dedicating a top DRAM die to storage, a middle buffer die on a mature…",
-   "excerpt": "Large language model (LLM) inference during autoregressive decoding is fundamentally memory-bandwidth-bound.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 6.0,
-   "tag": "memory"
-  },
-  {
-   "id": "2611.11823",
-   "title": "AscSpMM: Efficient SpMM on Ascend NPUs via Pipelined Vector-Cube Collaboration",
-   "url": "https://arxiv.org/abs/2611.11823",
-   "authors": [
-    "Fei Li",
-    "Haoxin Li",
-    "Kehong Liu"
-   ],
-   "n_authors": 8,
-   "published": "2026-11-09",
-   "categories": [
-    "cs.AR"
-   ],
-   "kw_hits": 3,
-   "abstract": "Neural processing units (NPUs) provide high compute density and energy efficiency through specialized matrix engines and software-managed on-chip memory. However, their libraries primarily target dense computation. Sparse matrix-dense matrix multiplication (SpMM), a key kernel in graph analytics, sparse neural networks, and scientific computing, requires index-driven operand selection, indirect addressing, scattered memory accesses, and load balancing. These requirements conflict with the fixed shapes and contiguous layouts preferred by NPU matrix engines. GPU Tensor Core SpMM methods cannot be directly transferred to NPUs with decoupled vector and matrix engines. We present AscSpMM, which separates irregular operand preparation from regular matrix computation through a parameterized Vector-CSR representation. The vector engine decodes indices and gathers and reorganizes dense operands,…",
-   "excerpt": "Neural processing units (NPUs) provide high compute density and energy efficiency through specialized matrix engines and software-managed on-chip memory.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 6.0,
-   "tag": "accel"
-  },
-  {
-   "id": "2611.10930",
-   "title": "Beyond Host-Side Control: HBM Controller Partitioning Across Host and HBM Base Dies",
-   "url": "https://arxiv.org/abs/2611.10930",
-   "authors": [
-    "Tharunya Yogananda",
-    "Wantong Li"
-   ],
-   "n_authors": 2,
-   "published": "2026-11-07",
-   "categories": [
-    "cs.AR"
-   ],
-   "kw_hits": 3,
-   "abstract": "Recent generations of high bandwidth memory (HBM), such as HBM4, allow the base die of the memory stack to be manufactured using a logic process that can accommodate more complex controller functions next to the DRAM. We present the first systematic quantitative study of function-level controller placement between the host and the HBM4 base die on a silicon interposer. We divide the controller into its main functions and evaluate four placements, from a complete host controller to a complete base die controller, with intermediate placements that move maintenance or scheduling to the base die. We extend Ramulator 2 with HBM4 timing and maintenance, model a die-to-die (D2D) link with timing checks at the DRAM interface, and compose area, energy, and temperature from synthesized controller blocks, modeled storage, and interface data. A provisioned D2D link preserves per-stack bandwidth and…",
-   "excerpt": "Recent generations of high bandwidth memory (HBM), such as HBM4, allow the base die of the memory stack to be manufactured using a logic process that can accommodate more complex controller functions next to the DRAM.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 6.0,
-   "tag": "memory"
-  },
-  {
-   "id": "2611.10648",
-   "title": "PENSA: A Spatial Accelerator for BitNet b1.58 Inference on an HBM-equipped AMD Alveo FPGA",
-   "url": "https://arxiv.org/abs/2611.10648",
-   "authors": [
-    "Karthikeyan B. Kalyanasundaram",
-    "Ivan S. Maksymov",
-    "Philip H. W. Leong"
-   ],
-   "n_authors": 3,
-   "published": "2026-11-07",
-   "categories": [
-    "cs.AR",
-    "eess.SP"
-   ],
-   "kw_hits": 3,
-   "abstract": "Ternary large language models (tLLMs) replace general multiplication in dominant linear layers with sign-controlled accumulation, shifting hardware bottlenecks toward packed-weight delivery, reduction, and operator occupancy. PENSA is an end-to-end FPGA accelerator for the BitNet b1.58 2B4T model on an AMD Alveo U50. Two row-partitioned ternary matrix engines consume packed TQ1_0 weights from eight independent high-bandwidth memory (HBM) pseudo-channels, each processing 1,280 ternary weights per cycle through sign selection and integer reduction. The sequencer, attention, and vocabulary-projection units remain resident on the FPGA, while two-stream interleaved scheduling overlaps sequences across the persistent pipeline to form the Penta-Unit. At 104.1~MHz, PENSA achieves 58.09 tok/s at context 128 and 24.60 tok/s at context 2048, corresponding to 2.14-3.14$\\times$ the throughput of a…",
-   "excerpt": "Ternary large language models (tLLMs) replace general multiplication in dominant linear layers with sign-controlled accumulation, shifting hardware bottlenecks toward packed-weight delivery, reduction, and operator…",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 6.0,
-   "tag": "memory"
-  },
-  {
-   "id": "2611.21666",
-   "title": "Testyard Benchmarks: a Dynamic RISC-V-based Benchmark Framework including DfT insertion, Structural and Functional Test Flows",
-   "url": "https://arxiv.org/abs/2611.21666",
-   "authors": [
-    "Francesco Angione",
-    "Nicola di Gruttola Giardino",
-    "Gabriele Filipponi"
-   ],
-   "n_authors": 6,
-   "published": "2026-11-10",
-   "categories": [
-    "cs.AR"
-   ],
-   "kw_hits": 2,
-   "abstract": "The main challenge of modern computing manufacturing is to produce silicon products capable of operating under the worst possible conditions, both in data centers and under stringent functional safety constraints. These requirements impose exceptionally high quality standards on silicon vendors, while testing costs keep escalating as transistors continue to shrink. Evaluating new testing strategies, however, presents a dual challenge for researchers. Standard academic benchmarks, such as the ITC-99 suite, remain valuable for fast test prototyping, but they lack the structural complexity of modern VLSI devices. Assessing the true computational effort of academic methodologies on industrial scale designs is equally difficult without accessible and scalable models. A further obstacle is the absence of a unified framework able to abstract the commands imposed by each EDA tool and the…",
-   "excerpt": "The main challenge of modern computing manufacturing is to produce silicon products capable of operating under the worst possible conditions, both in data centers and under stringent functional safety constraints.",
-   "cited_by": 2,
-   "venue": "arXiv (Cornell University)",
-   "score": 5.1,
-   "tag": "arch"
-  },
-  {
-   "id": "2611.26307",
-   "title": "Scalable fault vulnerability analysis for ReRAM-based process-in-memory CNN accelerators",
-   "url": "https://arxiv.org/abs/2611.26307",
-   "authors": [
-    "Aniseh Dorostkar",
-    "Hamed Farbeh",
-    "Hamid R. Zarandi"
-   ],
-   "n_authors": 4,
-   "published": "2026-11-19",
-   "categories": [
-    "cs.AR",
-    "cs.LG"
-   ],
-   "kw_hits": 2,
-   "abstract": "Resistive random-access memory (ReRAM)-based processing-in-memory (PIM) accelerators offer a highly efficient platform for parallel matrix-vector multiplications (VMM) in neural networks, leveraging analog computation, high density, low leakage, and non-volatility. However, their susceptibility to permanent faults, such as stuck-at-high (\\textit{SaH}) and stuck-at-low (\\textit{SaL}) resistance states, permanently corrupts the convolutional neural networks (CNNs) weights mapped onto ReRAM cell conductance values, thereby degrading inference accuracy and leading to system unreliability in safety-critical applications. Fault injection is a commonly used technique to assess the vulnerability of neural networks by systematically injecting faults into individual parameters and measuring the resulting accuracy degradation. Although this method is accurate, it is prohibitively time-consuming…",
-   "excerpt": "Resistive random-access memory (ReRAM)-based processing-in-memory (PIM) accelerators offer a highly efficient platform for parallel matrix-vector multiplications (VMM) in neural networks, leveraging analog computation,…",
-   "cited_by": null,
-   "venue": null,
-   "score": 4.0,
-   "tag": "accel"
-  },
-  {
-   "id": "2611.25947",
-   "title": "Matching Architecture to Workload: Comparing RISC-V Parallel Accelerators for Energy-Efficient Embedded Computing",
-   "url": "https://arxiv.org/abs/2611.25947",
-   "authors": [
-    "Luca Colombo",
-    "Luigi Ghionda",
-    "Amirhossein Kiamarzi"
-   ],
-   "n_authors": 10,
-   "published": "2026-11-19",
-   "categories": [
-    "cs.DC",
-    "cs.AR"
-   ],
-   "kw_hits": 2,
-   "abstract": "Embedded computing demands high performance and energy efficiency across workloads with widely different computational characteristics. Choosing the most suitable execution model therefore requires a quantitative understanding of how each model maps to different workload classes. In this paper, we compare three execution models for energy-efficient embedded computing: scalar multicore, stream ing multicore, and vector processing. We use three open-source RISC-V accelerators as representative implementations: the PULP Cluster, the Snitch Cluster, and Spatz, respectively. Their open-source hardware and software stacks enable a controlled comparison based on implementations in the same 12 nm technology and a common benchmark suite. Our results reveal that no single execution model performs best across all workload classes. Spatz delivers the greatest benefits for regular and highly…",
-   "excerpt": "Embedded computing demands high performance and energy efficiency across workloads with widely different computational characteristics.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "accel"
-  },
-  {
-   "id": "2611.25339",
-   "title": "From FIPS to FPGA with LLM Agents: Measuring What Tests and Reviews Miss in Post-Quantum Cryptographic Hardware",
-   "url": "https://arxiv.org/abs/2611.25339",
-   "authors": [
-    "Jungmin Park",
-    "Eunha Kim",
-    "Wooseop Kim"
-   ],
-   "n_authors": 5,
-   "published": "2026-11-19",
-   "categories": [
-    "cs.CR",
-    "cs.AI",
-    "cs.AR"
-   ],
-   "kw_hits": 2,
-   "abstract": "As LLM agents increasingly generate RTL alongside the tests and reviews that validate it, self-generated evidence is a weak foundation for trustworthy hardware. We present our seven-stage verification-gated workflow, evolved during a post-quantum design port, in which a gate counts only if shown able to fail on negative controls and fault mutants, and reviewer agents audit work before commit. We then audit this evidence with tool-selected netlist mutants, flaw replays, and formal checks. The flow ported an ML-KEM-768/ML-DSA-65 accelerator to a 300 MHz Zynq UltraScale+ key-custody card: all six operations are byte-exact on the board, and it passes all 85 interface-applicable NIST ACVP cases (of 285) and 484 ML-DSA known answers. However, passing module tests overstate the verification strength. Across three RTL modules, existing simulation gates kill only 76% of 399 tool-selected netlist…",
-   "excerpt": "As LLM agents increasingly generate RTL alongside the tests and reviews that validate it, self-generated evidence is a weak foundation for trustworthy hardware.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "arch"
-  },
-  {
-   "id": "2611.25293",
-   "title": "Bottom-Up FPGA Reconfigurable Accelerator Overlay Generation",
-   "url": "https://arxiv.org/abs/2611.25293",
-   "authors": [
-    "Mohamed Bouaziz",
-    "Suhaib A. Fahmy"
-   ],
-   "n_authors": 2,
-   "published": "2026-11-18",
-   "categories": [
-    "cs.AR"
-   ],
-   "kw_hits": 2,
-   "abstract": "Programmable FPGA overlays run new workloads without re-synthesis, yet they pay twice. An overlay adds a second layer of programmability on top of the FPGA's own overhead. Moreover, overlay generators usually start from a regular template, so they spend logic on switches and links that the workloads never use, and they close timing at low clocks. We present a flow that instead grows an overlay bottom-up from the dataflow graphs of the workloads it must run. The flow clusters workloads by structural similarity, ranks shared slots with spectral descriptors of each operation's surroundings, and adds only the units and links a workload lacks. It builds every unit on native hard blocks, with their internal pipeline registers, dual-ported memories and double-pumped DSPs, and it uses fixed-function engines where wider data types exceed the overlay's 16-bit lanes. Workloads then switch by…",
-   "excerpt": "Programmable FPGA overlays run new workloads without re-synthesis, yet they pay twice.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "accel"
-  },
-  {
-   "id": "2611.24733",
-   "title": "Mechanistic Critics for Sample-Efficient NPU Design-Space Exploration",
-   "url": "https://arxiv.org/abs/2611.24733",
-   "authors": [
-    "Yicheng He",
-    "Yuqi Xue",
-    "Tianyang Wu"
-   ],
-   "n_authors": 5,
-   "published": "2026-11-18",
-   "categories": [
-    "cs.AR"
-   ],
-   "kw_hits": 2,
-   "abstract": "NPU design-space exploration for LLM inference mainly relies on an expensive simulator that often returns only scalar feedback such as latency and power. Such feedback can rank evaluated configurations, but gives little information for deciding why a configuration is slow or which architecture parameter should be changed next. This limitation is especially severe because prefill and decode workloads can be limited by different resources, including compute throughput and HBM bandwidth. We propose CriticNPU, a sample-efficient DSE framework built around an online-calibrated mechanistic critic for NPU architecture design. The critic uses explicit hardware limits to evaluate NPU configurations: before simulation, it estimates whether a proposed configuration is likely to improve over the current best and filters weak candidates; after simulation, it aggregates operator-level runtimes into…",
-   "excerpt": "NPU design-space exploration for LLM inference mainly relies on an expensive simulator that often returns only scalar feedback such as latency and power.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "accel"
-  },
-  {
-   "id": "2611.24637",
-   "title": "Hypnos: A Dual-Phase End-to-End Platform for Scalable Continual Learning at the Edge",
-   "url": "https://arxiv.org/abs/2611.24637",
-   "authors": [
-    "Guilherme Guedes",
-    "Marco Apolinario Lainez",
-    "Charlotte Frenkel"
-   ],
-   "n_authors": 3,
-   "published": "2026-11-18",
-   "categories": [
-    "cs.AR",
-    "cs.AI",
-    "cs.CV"
-   ],
-   "kw_hits": 2,
-   "abstract": "Continual learning (CL) enables neural networks to adapt to non-stationary data streams by mitigating catastrophic forgetting, offering a path to robust, private, and adaptable edge devices. Yet, porting CL to real-world edge devices remains challenging for two reasons: (i) online operation, where sensor data arrives one sample at a time and the device must adapt on-the-fly, and (ii) the low footprint of edge devices, which makes traditional error backpropagation training prohibitive. Inspired by the brain's wake and sleep cycles, the former for rapid adaptation with minimal resources and the latter for long-term consolidation, we introduce Hypnos, an open-source dual-phase platform for efficient CL at the edge. In the wake phase (e.g., daily operation), Hypnos relies on a low-footprint system-on-chip with a RISC-V microcontroller unit (MCU) targeting efficient inference and supporting…",
-   "excerpt": "Continual learning (CL) enables neural networks to adapt to non-stationary data streams by mitigating catastrophic forgetting, offering a path to robust, private, and adaptable edge devices.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "accel"
-  },
-  {
-   "id": "2611.24234",
-   "title": "Hardware Acceleration of Vision-Language-Action Models with Weight Precision Rising over the Flow Steps",
-   "url": "https://arxiv.org/abs/2611.24234",
-   "authors": [
-    "Robin Geens",
-    "Simon Haepers",
-    "Jonas Crols"
-   ],
-   "n_authors": 5,
-   "published": "2026-11-18",
-   "categories": [
-    "cs.AR"
-   ],
-   "kw_hits": 2,
-   "abstract": "Vision-language-action (VLA) models such as GR00T control robots through an action head: a diffusion transformer that turns noise into a chunk of actions in a few flow-matching steps. Every step re-reads all of the head's weights from DRAM but applies each weight to only about fifty tokens. Inference is therefore memory-bound, and its latency and energy are largely determined by the total number of transferred weight bits. We show that later flow steps attenuate the quantization errors of earlier steps, so the weight precision of an action head should rise over the steps. With plain per-channel rounding and without calibration or training, widths rising over the steps from 2 to 4 bits preserve the closed-loop success of robot policies. These widths transfer 25% fewer bits than 4-bit weights at every step. However, we show that on Jetson AGX Thor, current GPU kernels cannot exploit this…",
-   "excerpt": "Vision-language-action (VLA) models such as GR00T control robots through an action head: a diffusion transformer that turns noise into a chunk of actions in a few flow-matching steps.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "accel"
-  },
-  {
-   "id": "2611.24135",
-   "title": "PULSAR-V: I/O-Aware Post-Update Attestation for RISC-V",
-   "url": "https://arxiv.org/abs/2611.24135",
-   "authors": [
-    "Niccolò Lentini",
-    "Stefano Di Carlo",
-    "Alessandro Savino"
-   ],
-   "n_authors": 3,
-   "published": "2026-11-18",
-   "categories": [
-    "cs.CR",
-    "cs.AR"
-   ],
-   "kw_hits": 2,
-   "abstract": "Post-update attestation proves that a device installed the intended firmware, not that the image stayed protected until the report was signed. In a multi-master SoC, a master outside the attested processor can corrupt update-critical memory. In contrast, the firmware identity, lifecycle state, and the CPU's protection evidence remain byte-identical to a healthy device's. We present PULSAR-V, a post-update attestation architecture which binds the authenticated update commit to the effective permissions and immutability of both gates (PMP/EPMP on the CPU, the I/O policy mediating DMA), sampled at the commit and at attestation, the I/O gate latching its own commit-time state in hardware. In a RISC-V SoC prototyped on a ZCU102 FPGA (CV32E40S core with 16 PMP regions, IOPMP-style unit, AXI write guard), a 256-byte write from the board's Arm DMA engine bypasses PMP and corrupts the committed…",
-   "excerpt": "Post-update attestation proves that a device installed the intended firmware, not that the image stayed protected until the report was signed.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "arch"
-  },
-  {
-   "id": "2611.23883",
-   "title": "Accelerating Distributed Digital Ising Machines",
-   "url": "https://arxiv.org/abs/2611.23883",
-   "authors": [
-    "Tong Wu",
-    "Ziyad Alswaidan",
-    "Shreya Mukherjee"
-   ],
-   "n_authors": 14,
-   "published": "2026-11-18",
-   "categories": [
-    "cs.AR",
-    "cs.DC",
-    "cs.LG"
-   ],
-   "kw_hits": 2,
-   "abstract": "Ising machines, dedicated accelerators built around the dynamics of Ising-like spin models, have emerged as a leading platform for combinatorial optimization and probabilistic sampling. The problems that motivate them require millions of spins, far beyond the on-chip capacity of any single device, so a practical Ising machine must distribute its computation across many devices. Prior work reports throughput at a single operating point, leaving the binding resource unidentified and platform crossovers measurable only by experiment; no calibrated cross-platform cost model of distributed Ising machines has been reported, nor have systematic techniques to accelerate their Markov chain Monte Carlo (MCMC) workloads. This work presents a calibrated cost model that decomposes digital Ising sweep time into compute, memory, synchronization, and inter-device communication terms, validated with…",
-   "excerpt": "Ising machines, dedicated accelerators built around the dynamics of Ising-like spin models, have emerged as a leading platform for combinatorial optimization and probabilistic sampling.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": null
-  },
-  {
-   "id": "2611.23878",
-   "title": "HETEROVLM: Edge Multi-Request Vision-Language Model Serving on a Heterogeneous Versal SoC with AI Engines and Programmable Logic",
-   "url": "https://arxiv.org/abs/2611.23878",
-   "authors": [
-    "Zhiheng Chen",
-    "Yu-An Chou",
-    "Yifan Zhang"
-   ],
-   "n_authors": 6,
-   "published": "2026-11-18",
-   "categories": [
-    "cs.AR"
-   ],
-   "kw_hits": 2,
-   "abstract": "Vision-language models (VLMs) play a pivotal role in enabling autonomous vehicles and robots to perceive and reason about the physical world. Edge computers in autonomous systems typically serve concurrent VLM inference requests with various deadlines, each mixing a compute-bound encoder and prefill stage with a memory-bound decode stage. GPU serving optimizes for high throughput in datacenters, with per-iteration host scheduling, which can cause an urgent request to wait for a long time, and small-batch decode costs much energy per token. Prior accelerators on Versal AI Engine (AIE) SoCs map one model onto a fixed AIE dataflow graph for one input stream, without decode or request scheduling, which limits their capability in serving multiple requests. We present HETEROVLM, which is optimized for multi-request VLM serving on a resource-constrained heterogeneous platform. It keeps the AIE…",
-   "excerpt": "Vision-language models (VLMs) play a pivotal role in enabling autonomous vehicles and robots to perceive and reason about the physical world.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "accel"
-  },
-  {
-   "id": "2611.23663",
-   "title": "Lodestone: Automated Semantic Discovery of Datacenter Hardware Specialization",
-   "url": "https://arxiv.org/abs/2611.23663",
-   "authors": [
-    "Peizhe Liu",
-    "Akanksha Jain",
-    "Gerasimos Gerogiannis"
-   ],
-   "n_authors": 6,
-   "published": "2026-11-18",
-   "categories": [
-    "cs.AR",
-    "cs.AI"
-   ],
-   "kw_hits": 2,
-   "abstract": "Hardware specialization can improve datacenter efficiency. Unfortunately, identifying computations that justify dedicated hardware is difficult. Existing approaches analyze hot functions, instruction patterns, or overheads such as datacenter tax. They can miss fine-grained computations whose aggregate cost is spread across applications and libraries, especially when different pieces of code obscure the same underlying computation. We observe that seemingly unrelated code regions often perform the same computations, creating specialization opportunities that require semantic reasoning. The rise of agentic AI makes it possible to automate this. However, conventional AI agents cannot efficiently and reliably analyze large scale datacenter software. To unlock this opportunity, we present Lodestone, an agentic framework that automatically discovers hardware specialization opportunities by…",
-   "excerpt": "Hardware specialization can improve datacenter efficiency.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": null
-  },
-  {
-   "id": "2611.23101",
-   "title": "StreamingDPD: A 1.28-GSa/s Instantaneous-Power-Gated Depthwise TCN Accelerator for Real-Time 320-MHz Digital Predistortion",
-   "url": "https://arxiv.org/abs/2611.23101",
-   "authors": [
-    "Yizhuo Wu",
-    "Xinling Wang",
-    "Chang Gao"
-   ],
-   "n_authors": 3,
-   "published": "2026-11-17",
-   "categories": [
-    "eess.SP",
-    "cs.AR"
-   ],
-   "kw_hits": 2,
-   "abstract": "State feedback between successive samples limits the streaming throughput of recurrent neural networks for digital predistortion (DPD). We present StreamingDPD, an accelerator that processes 320-MHz signals at 1.28 GSa/s. Its 207-parameter instantaneous-power-gated depthwise temporal convolutional network (IPG-DWTCN) uses $|x[n]|^2$ to gate feature channels and causal dilated depthwise convolutions to model power amplifier memory. The network maps to a spatially unrolled fixed-point pipeline with shift-based quadratic activations and layer-wise mixed precision, sustaining one complex sample per cycle per lane. Its algorithmic cost is 554 floating-point operations per complex sample, 30.1% fewer than the recurrent baseline with the best linearization performance. In RF playback measurements on three power amplifiers driven by 40- to 320-MHz Wi-Fi 6/7 and 5G NR waveforms, IPG-DWTCN…",
-   "excerpt": "State feedback between successive samples limits the streaming throughput of recurrent neural networks for digital predistortion (DPD).",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "accel"
-  },
-  {
-   "id": "2611.22937",
-   "title": "LASH-PAT: Deadlock-Free Adaptive Shortest-Path Routing for Inter-Chiplet Interconnects",
-   "url": "https://arxiv.org/abs/2611.22937",
-   "authors": [
-    "Patrick Iff",
-    "Torsten Hoefler"
-   ],
-   "n_authors": 2,
-   "published": "2026-11-17",
-   "categories": [
-    "cs.AR",
-    "cs.NI"
-   ],
-   "kw_hits": 2,
-   "abstract": "With the slowdown of transistor scaling, chipletbased systems, and in particular chiplet-based wafer-scale integration, have emerged as a promising approach to sustain growth in computing capability per cost for modern processors and accelerators. In recent years, many specialized inter-chiplet interconnect topologies have been proposed. In these topologies, the simple, well-established, and deadlock-free dimension-order routing scheme is not applicable due to its reliance on regular mesh structures. In this work, we study routing in these recently proposed inter-chiplet interconnect topologies by categorizing and evaluating nine deadlock-free routing functions for irregular topologies known from data center networking in this new context. This reveals a trade-off between turn-based routing, which enables path diversity, and layered routing, which ensures shortest-path delivery. To…",
-   "excerpt": "With the slowdown of transistor scaling, chipletbased systems, and in particular chiplet-based wafer-scale integration, have emerged as a promising approach to sustain growth in computing capability per cost for modern…",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "package"
-  },
-  {
-   "id": "2611.22844",
-   "title": "How well does graph superoptimization transfer? Adapting tensor-graph superoptimizer to a Triton-based NPU",
-   "url": "https://arxiv.org/abs/2611.22844",
-   "authors": [
-    "Weronika Hryniewska-Guzik",
-    "Mateusz Comblik",
-    "Daniel Murawski"
-   ],
-   "n_authors": 7,
-   "published": "2026-11-17",
-   "categories": [
-    "cs.PF",
-    "cs.AR",
-    "cs.PL"
-   ],
-   "kw_hits": 2,
-   "abstract": "For automatic optimization systems, performance portability across increasingly diverse AI accelerators remains a challenge. We investigate how well graph-level superoptimization transfers across architectures by adapting Mirage from its CUDA-oriented design to the Huawei Ascend 910B3 through a Triton-based compilation stack. We evaluate the adapted system on transformer-relevant workloads, including matrix multiplication, softmax, RMSNorm+MatMul, gated MLP, FNN, and attention. The results show that graph-level optimization can successfully transfer and outperform available reference implementations by up to 87.0% on fused workloads. However, performance is highly dependent on tensor shape and workload structure, with substantial regressions for other configurations. We identify target-specific tensor partitioning, execution-resource modeling, backend lowering and fusion, and search and…",
-   "excerpt": "For automatic optimization systems, performance portability across increasingly diverse AI accelerators remains a challenge.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "accel"
-  },
-  {
-   "id": "2611.22483",
-   "title": "Manufacturing Differential Sparsity: Planner-Hardware Co-Design for Efficient World Model Planning",
-   "url": "https://arxiv.org/abs/2611.22483",
-   "authors": [
-    "Wenbo Zhu",
-    "Paul Yi-Chia Chen",
-    "Yuanhan Li"
-   ],
-   "n_authors": 5,
-   "published": "2026-11-17",
-   "categories": [
-    "cs.AR",
-    "cs.AI",
-    "cs.LG",
-    "cs.RO",
-    "eess.SY"
-   ],
-   "kw_hits": 2,
-   "abstract": "JEPA-style latent world models let embodied agents plan toward new goals with model predictive control, but they are still too slow for real-life embodied control: sampling-based MPC repeats predictor inference tens of thousands of times per plan, and even on high-end GPUs one planning step can take tens of seconds. We observe substantial latent locality in this repeated-inference workload: the predictor maps close actions to close latents, and inside a quantized predictor this closeness takes a form that hardware can exploit, differential bit-level sparsity. Unlike an input stream, whose temporal similarity is given, a planner itself decides which candidates it evaluates together, so the planner can choose its own references and, with reference forest sampling, manufacture more sparsity: it couples the sampled action sequences of each group to a shared root, with competitive planning…",
-   "excerpt": "JEPA-style latent world models let embodied agents plan toward new goals with model predictive control, but they are still too slow for real-life embodied control: sampling-based MPC repeats predictor inference tens of…",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "accel"
-  },
-  {
-   "id": "2611.20772",
-   "title": "Building Fully On-Device GUI Agents with Mobile NPUs",
-   "url": "https://arxiv.org/abs/2611.20772",
-   "authors": [
-    "Zhe Dong",
-    "Guanyu Cai",
-    "Yuchen Jiang"
-   ],
-   "n_authors": 4,
-   "published": "2026-11-16",
-   "categories": [
-    "cs.AR"
-   ],
-   "kw_hits": 2,
-   "abstract": "Mobile GUI agents are increasingly used to automate everyday smartphone tasks, but most existing systems still rely on cloud-hosted models or remote inference, introducing repeated communication latency, privacy exposure, and dependence on network availability. Modern smartphones integrate neural processing units (NPUs) that provide an attractive substrate for fully on-device LLM inference. However, directly deploying conventional GUI-agent pipelines on mobile NPUs is inefficient. GUI-agent inference is fundamentally a long-input, short-output workload, yet conventional agents spend substantial time on autoregressive reasoning and action generation, while mobile NPUs provide much higher throughput for prompt prefill than token-by-token decoding. Meanwhile, dynamically varying GUI-agent contexts conflict with the fixed context profiles required by statically compiled NPU runtimes. We…",
-   "excerpt": "Mobile GUI agents are increasingly used to automate everyday smartphone tasks, but most existing systems still rely on cloud-hosted models or remote inference, introducing repeated communication latency, privacy…",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "accel"
-  },
-  {
-   "id": "2611.19944",
-   "title": "Exhaustive Evaluation of Fixed-Point Reciprocal Architectures for FPGAs",
-   "url": "https://arxiv.org/abs/2611.19944",
-   "authors": [
-    "Navaneeth Kutty",
-    "Anish Murali",
-    "Iacovos Ioannou"
-   ],
-   "n_authors": 5,
-   "published": "2026-11-15",
-   "categories": [
-    "cs.AR"
-   ],
-   "kw_hits": 2,
-   "abstract": "Fixed-point reciprocals are used in normalization and division on field-programmable gate arrays (FPGAs). Designs that share an output format can differ in worst-case error and in their need for memory and multipliers. The effect of table width, internal precision and refinement was evaluated for reciprocal computation in the Q16.16 and Q8.24 formats. Every representable input in the interval from 0.5 to 2.5 was tested against an exact integer reference. Five arithmetic paths were reconstructed from register-transfer-level source. Guarded interpolation, Newton-Raphson refinement and residual correction were then evaluated alongside polynomial and digit-recurrence baselines. Correct rounding was verified for all 131,073 Q16.16 and 33,554,433 Q8.24 inputs by adding one residual check to a guarded interpolated seed and one refinement step. An implementation with product reuse was verified…",
-   "excerpt": "Fixed-point reciprocals are used in normalization and division on field-programmable gate arrays (FPGAs).",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "arch"
-  },
-  {
-   "id": "2611.18527",
-   "title": "WaferTetris: Efficient Freeform Mapping on Wafer-Scale Accelerators",
-   "url": "https://arxiv.org/abs/2611.18527",
-   "authors": [
-    "Dayou Du",
-    "Congjie He",
-    "Andrew Boutros"
-   ],
-   "n_authors": 6,
-   "published": "2026-11-13",
-   "categories": [
-    "cs.AR",
-    "cs.CL"
-   ],
-   "kw_hits": 2,
-   "abstract": "Wafer-scale accelerators offer massive compute capacity through hundreds of thousands of processing elements (PEs) interconnected across a single wafer, but realizing this potential requires efficient application mapping. Their scale makes programming these systems and mapping applications onto them challenging. Existing approaches rely on template-based mappings to maintain productivity, but these templates restrict the mapping design space. In particular, they impose fixed geometric layouts over the PE grid, often leaving compute and memory resources underutilized. In this work, we present WaferTetris, a system that removes these geometric restrictions through freeform mapping. Its Tetris-like strategy flexibly packs computation across the wafer, improving PE utilization and usable memory capacity while preserving PE-task code. We develop a recurrence-based throughput model that…",
-   "excerpt": "Wafer-scale accelerators offer massive compute capacity through hundreds of thousands of processing elements (PEs) interconnected across a single wafer, but realizing this potential requires efficient application…",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "accel"
-  },
-  {
-   "id": "2611.18523",
-   "title": "Mutable Inference: Architecting LLM Accelerators for Inference-Time Learning",
-   "url": "https://arxiv.org/abs/2611.18523",
-   "authors": [
-    "Yimin Gao",
-    "Liangtao Dai",
-    "Melika Morsali"
-   ],
-   "n_authors": 5,
-   "published": "2026-11-13",
-   "categories": [
-    "cs.AR"
-   ],
-   "kw_hits": 2,
-   "abstract": "Long-context LLMs must retain growing histories, but full attention makes each new token increasingly expensive. Inference-time learning (ITL) offers another approach. The model keeps training on the context during inference, retaining what it learns in its weights. Recent work shows that ITL can match full-context attention quality while attending only to a recent fixed-size window. This bounds attention costs but adds Learning (backward computation and weight updates) alongside Prediction (the forward pass) costs. Inference accelerators assume fixed weights, while training accelerators target complete training steps. This work identifies two opportunities. Attention's non-matrix operations leave enough idle matrix capacity for Learning, while selected layers can tolerate delayed weight updates with little quality loss. We exploit both with Learning While Serving (LWS), an inference…",
-   "excerpt": "Long-context LLMs must retain growing histories, but full attention makes each new token increasingly expensive.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "accel"
-  },
-  {
-   "id": "2611.17908",
-   "title": "DiffusionSSD: Achieving Extreme Visual Compression with Dual-stage Diffusion and Cross-level Near-Data Processing",
-   "url": "https://arxiv.org/abs/2611.17908",
-   "authors": [
-    "Kuai Yu",
-    "Wen Li",
-    "Shengwen Liang"
-   ],
-   "n_authors": 9,
-   "published": "2026-11-13",
-   "categories": [
-    "cs.AR",
-    "cs.CV",
-    "eess.IV"
-   ],
-   "kw_hits": 2,
-   "abstract": "Growing visual data overwhelms storage on resource-constrained edge devices, making compression essential. Traditional codecs offer inadequate rate-distortion performance, motivating the exploration of diffusion codecs. Diffusion codecs face two limitations: (1) At the algorithm level, diffusion decoders preserve perceptual quality under extreme compression, but require substantial computation. (2) At the architecture level, in NPU-centered devices, neural codecs occupy the NPU, interfering with other AI applications. Meanwhile, the complex codec pipeline incurs long I/O paths, leading to additional overhead and energy cost. To address these issues, we propose DiffusionSSD, a cross-level near-data processing framework for extreme visual data compression on edge devices, using an algorithm-architecture co-design method. Specifically, (1) at algorithm level, we present Dual-stage…",
-   "excerpt": "Growing visual data overwhelms storage on resource-constrained edge devices, making compression essential.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": null
-  },
-  {
-   "id": "2611.17798",
-   "title": "Elasticy: A Runtime-Reconfigurable Architecture for Dynamic Streams",
-   "url": "https://arxiv.org/abs/2611.17798",
-   "authors": [
-    "Konstantin J Hossfeld",
-    "Nathan Sobotka",
-    "Gina Sohn"
-   ],
-   "n_authors": 5,
-   "published": "2026-11-13",
-   "categories": [
-    "cs.AR"
-   ],
-   "kw_hits": 2,
-   "abstract": "Reconfigurable Dataflow Accelerators (RDAs) have demonstrated high performance and energy efficiency for dense, regular tensor applications. However, conventional RDAs with static configurations show dramatically reduced performance and efficiency on irregular tensor workloads with data-dependent, non-uniform, dynamic tensor shapes. We propose Elasticy, a dynamically reconfigurable dataflow accelerator that employs streaming and tile abstractions to minimize the overhead of dynamic support. By encoding dynamic shapes into streams using rank-variable expressions, Elasticy exploits data-dependent tensor shape dynamism to minimize off-chip data traffic and wasted compute cycles. Elasticy employs stream-embedded reconfiguration information to trigger fine-grained runtime scheduling decisions. Elasticy also introduces a novel distributed linked streaming memory (DLSM) that more effectively…",
-   "excerpt": "Reconfigurable Dataflow Accelerators (RDAs) have demonstrated high performance and energy efficiency for dense, regular tensor applications.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": null
-  },
-  {
-   "id": "2611.17108",
-   "title": "LazyWeights: Decode-on-Demand Edge LLMs",
-   "url": "https://arxiv.org/abs/2611.17108",
-   "authors": [
-    "Arnab Sanyal",
-    "Gourav Datta",
-    "Sandeep P. Chinchali"
-   ],
-   "n_authors": 3,
-   "published": "2026-11-12",
-   "categories": [
-    "cs.LG",
-    "cs.AR",
-    "cs.CL",
-    "cs.IT"
-   ],
-   "kw_hits": 2,
-   "abstract": "Memory determines which large language models (LLMs) an edge device can run and how fast it runs them: capacity limits a 4 GB Jetson Nano, and bandwidth limits an 8 GB Jetson Orin Nano Super. Deployed weight formats (GPTQ, AWQ, and the GGUF K- and I-quants) spend the same number of bits on every integer code of a matrix, although the codes are far from uniform. We present LazyWeights, which keeps these formats, tunes GPTQ so the codes compress, Huffman-codes them losslessly in interleaved lanes, and decodes them on demand in a small unit between DRAM and L2, so GPU kernels run unchanged and DRAM moves only coded bytes. At 1% and 3.5% perplexity budgets, coded Phi-3-mini, Mistral-7B and SmolLM-1.7B are 5.7-31.4% smaller than the best GGUF format. A bit-exact 0.21 mm^2 ASIC decoder unit (1 GHz, 7 nm) cuts Orin latency and energy per token by up to 36% and 38% (54% and 44% with…",
-   "excerpt": "Memory determines which large language models (LLMs) an edge device can run and how fast it runs them: capacity limits a 4 GB Jetson Nano, and bandwidth limits an 8 GB Jetson Orin Nano Super.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "memory"
-  },
-  {
-   "id": "2611.17042",
-   "title": "Infrastructure for Verifiable AI: Where Proof Costs Go and How Hardware Can Help",
-   "url": "https://arxiv.org/abs/2611.17042",
-   "authors": [
-    "Yihan Xia",
-    "Wenxin Xu",
-    "Taotao Wang"
-   ],
-   "n_authors": 3,
-   "published": "2026-11-12",
-   "categories": [
-    "cs.AR",
-    "cs.CR",
-    "cs.LG"
-   ],
-   "kw_hits": 2,
-   "abstract": "Users of artificial intelligence services, including those powered by large language models and other transformer-based models, need assurance that inference and training follow the declared computation without exposing private models or data. Zero-knowledge proofs can provide this assurance, but proof generation remains expensive. Hardware acceleration research often reports gains for individual cryptographic operations, leaving their effect on the full cost of proving neural-network workloads, particularly large transformer models, unclear. We introduce a four-layer framework linking verifiable AI workloads, proof systems, cryptographic kernels and hardware platforms, use it to review the literature, and add original measurements of six provers and seven kernels to identify which costs matter in practice. Our measurements show that the dominant cost changes with the proof system and…",
-   "excerpt": "Users of artificial intelligence services, including those powered by large language models and other transformer-based models, need assurance that inference and training follow the declared computation without exposing…",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "accel"
-  },
-  {
-   "id": "2611.16376",
-   "title": "SPEC CPU2026 Under the Microscope: Programs, Phases, and Samples",
-   "url": "https://arxiv.org/abs/2611.16376",
-   "authors": [
-    "Peijun Li",
-    "Pei-Hung Lin",
-    "Tianming Cui"
-   ],
-   "n_authors": 6,
-   "published": "2026-11-12",
-   "categories": [
-    "cs.AR",
-    "cs.PF"
-   ],
-   "kw_hits": 2,
-   "abstract": "SPEC CPU2026, the latest generation of the SPEC CPU benchmarks, is set to become the standard benchmark suite in computer architecture research, where new designs are often evaluated through sampled simulation with tools such as SimPoint. Existing characterizations of the suite focus on whole-run averages, which reveal neither how behavior changes within a run nor how well sampling captures it. We characterize CPU2026 on real hardware at three levels: programs, phases, and samples. At the program level, we report whole-run metrics and top-down bottleneck classes for all four suites and examine how they change with workload size, compiler version, and platform, across machines with three different instruction set architectures: x86, Arm, and RISC-V. Notably, changing only the compiler version can halve or nearly double the IPC of individual benchmarks. At the phase level, we track…",
-   "excerpt": "SPEC CPU2026, the latest generation of the SPEC CPU benchmarks, is set to become the standard benchmark suite in computer architecture research, where new designs are often evaluated through sampled simulation with…",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "arch"
-  },
-  {
-   "id": "2611.16363",
-   "title": "Vector-Space Projection and Unified Complex-Valued Acceleration for Scaling Matrix-Based Brain-Inspired Representations",
-   "url": "https://arxiv.org/abs/2611.16363",
-   "authors": [
-    "William Youngwoo Chung",
-    "Hyunwoo Oh",
-    "Calvin Yeung"
-   ],
-   "n_authors": 6,
-   "published": "2026-11-12",
-   "categories": [
-    "cs.AR"
-   ],
-   "kw_hits": 2,
-   "abstract": "Symbolic reasoning at scale requires representations that are both expressive and hardware-efficient. Hyperdimensional Computing (HDC) provides a promising brain-inspired framework, encoding concepts as high-dimensional vectors composed through efficient algebraic operations. However, the widely used Fourier Holographic Reduced Representation (FHRR) relies on commutative binding, which cannot encode order or directionality. Prior FPGA/ASIC accelerators recover this through costly permutation logic, incurring irregular memory access and high control overhead. Generalized Holographic Reduced Representations (GHRR) instead redefine binding as non-commutative matrix multiplication, naturally encoding sequences, graphs, and hierarchies without permutations-but at the cost of turning every element into a matrix, introducing compute and storage overhead that limits scalability. In this work,…",
-   "excerpt": "Symbolic reasoning at scale requires representations that are both expressive and hardware-efficient.",
-   "cited_by": null,
-   "venue": null,
-   "score": 4.0,
-   "tag": null
-  },
-  {
-   "id": "2611.16189",
-   "title": "SBA: A Practical Memory Performance Denial-of-Service Attack",
-   "url": "https://arxiv.org/abs/2611.16189",
-   "authors": [
-    "Amin Mamandipoor",
-    "Connor Rudy Sullivan",
-    "Cole Ridge Strickler"
-   ],
-   "n_authors": 5,
-   "published": "2026-11-12",
-   "categories": [
-    "cs.AR"
-   ],
-   "kw_hits": 2,
-   "abstract": "Modern cloud platforms use memory bandwidth regulation to isolate co-located workloads, implicitly assuming that high aggregate bandwidth consumption implies high interference. We show that this assumption is fundamentally flawed. We present the Single-Bank Attack (SBA), a practical memory denial-of-service attack that induces extreme cross-core slowdowns---over three orders of magnitude on memory-intensive victims (e.g., LLM decode)---while consuming less than 1 GB/s of memory bandwidth. SBA exploits the gap between peak and worst-case DRAM throughput by concentrating memory write operations on a single bank, forcing persistent row conflicts and frequent write draining, thereby collapsing the memory service rate. Across Intel and AMD systems, including DDR5- and HBM2E-based platforms, SBA consistently causes orders-of-magnitude slowdowns under realistic multi-tenant settings, revealing…",
-   "excerpt": "Modern cloud platforms use memory bandwidth regulation to isolate co-located workloads, implicitly assuming that high aggregate bandwidth consumption implies high interference.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "memory"
-  },
-  {
-   "id": "2611.15951",
-   "title": "Starscream: Reimagining LLM Sharding on AMD Instinct GPUs with GPU Partitioning",
-   "url": "https://arxiv.org/abs/2611.15951",
-   "authors": [
-    "Sumanth Gudaparthi",
-    "Smeet Chheda",
-    "Ganesh Dasika"
-   ],
-   "n_authors": 3,
-   "published": "2026-11-11",
-   "categories": [
-    "cs.DC",
-    "cs.AR",
-    "cs.LG"
-   ],
-   "kw_hits": 2,
-   "abstract": "As GPU accelerators grow larger to meet rising compute demands, they exhibit increasingly pronounced non-uniform memory access (NUMA) characteristics that challenge existing LLM frameworks. Chiplet-based architectures provide a practical path to larger GPUs while mitigating manufacturing yield constraints. Modern GPUs such as AMD Instinct MI300X employs such a multi-die design, and further offer GPU partitioning capabilities, partitioning a single physical GPU into multiple logical devices with NUMA-aware memory domains, promising faster kernel launches, and reduced memory access latencies with improved locality. However, current parallelization strategies, designed for homogeneous GPU topologies, when applied under partitioning, extend its unidimensional sharding causing significant performance degradation. Three bottlenecks emerge: (1) memory redundancy; (2) arithmetic intensity…",
-   "excerpt": "As GPU accelerators grow larger to meet rising compute demands, they exhibit increasingly pronounced non-uniform memory access (NUMA) characteristics that challenge existing LLM frameworks.",
-   "cited_by": 0,
-   "venue": "arXiv (Cornell University)",
-   "score": 4.0,
-   "tag": "accel"
-  }
- ],
+ "papers_new": [],
  "papers_classic": [
   {
    "title": "ISAAC: a convolutional neural network accelerator with in-situ analog arithmetic in crossbars",
    "year": 2016,
-   "cited_by": 1818,
+   "cited_by": 1820,
    "venue": "ACM SIGARCH Computer Architecture News",
    "url": "https://doi.org/10.1145/3007787.3001139",
    "query": "neural network accelerator",
@@ -967,7 +49,7 @@
   {
    "title": "PRIME: a novel processing-in-memory architecture for neural network computation in ReRAM-based main memory",
    "year": 2016,
-   "cited_by": 1349,
+   "cited_by": 1350,
    "venue": "ACM SIGARCH Computer Architecture News",
    "url": "https://doi.org/10.1145/3007787.3001140",
    "query": "processing-in-memory",
@@ -1031,7 +113,7 @@
   {
    "title": "Large-scale photonic chiplet Taichi empowers 160-TOPS/W artificial general intelligence",
    "year": 2024,
-   "cited_by": 402,
+   "cited_by": 403,
    "venue": "Science",
    "url": "https://doi.org/10.1126/science.adl1203",
    "query": "chiplet",
@@ -1063,7 +145,7 @@
   {
    "title": "UNPU: An Energy-Efficient Deep Neural Network Accelerator With Fully Variable Weight Bit Precision",
    "year": 2018,
-   "cited_by": 382,
+   "cited_by": 383,
    "venue": "IEEE Journal of Solid-State Circuits",
    "url": "https://doi.org/10.1109/jssc.2018.2865489",
    "query": "neural network accelerator",
@@ -1125,6 +207,22 @@
    "tag": "package"
   },
   {
+   "title": "Universal Chiplet Interconnect Express (UCIe): An Open Industry Standard for Innovations With Chiplets at Package Level",
+   "year": 2022,
+   "cited_by": 267,
+   "venue": "IEEE Transactions on Components Packaging and Manufacturing Technology",
+   "url": "https://doi.org/10.1109/tcpmt.2022.3207195",
+   "query": "chiplet",
+   "authors": [
+    "Debendra Das Sharma",
+    "Gerald Pasdast",
+    "Zhiguo Qian"
+   ],
+   "abstract": "Universal Chiplet Interconnect Express (UCIe) is an open industry standard interconnect for developing an open chiplet ecosystem, where chiplets from any supplier can be packaged anywhere in an interoperable manner. This article delves into the architectural, circuit, channel, and packaging aspects that we developed that has been adopted in the UCIe 1.0 Specification. We present our results based on our channel and circuit implementation studies.",
+   "excerpt": "Universal Chiplet Interconnect Express (UCIe) is an open industry standard interconnect for developing an open chiplet ecosystem, where chiplets from any supplier can be packaged anywhere in an interoperable manner.",
+   "tag": "package"
+  },
+  {
    "title": "Processing-in-memory: A workload-driven perspective",
    "year": 2019,
    "cited_by": 266,
@@ -1139,22 +237,6 @@
    "abstract": "Many modern and emerging applications must process increasingly large volumes of data. Unfortunately, prevalent computing paradigms are not designed to efficiently handle such large-scale data: The energy and performance costs to move this data between the memory subsystem and the CPU now dominate the total costs of computation. This forces system architects and designers to fundamentally rethink how to design computers. Processing-in-memory (PIM) is a computing paradigm that avoids most data movement costs by bringing computation to the data. New opportunities in modern memory systems are enabling architectures that can perform varying degrees of processing inside the memory subsystem. However, many practical system-level issues must be tackled to construct PIM architectures, including enabling workloads and programmers to easily take advantage of PIM. This article examines three key…",
    "excerpt": "Many modern and emerging applications must process increasingly large volumes of data.",
    "tag": "memory"
-  },
-  {
-   "title": "Universal Chiplet Interconnect Express (UCIe): An Open Industry Standard for Innovations With Chiplets at Package Level",
-   "year": 2022,
-   "cited_by": 266,
-   "venue": "IEEE Transactions on Components Packaging and Manufacturing Technology",
-   "url": "https://doi.org/10.1109/tcpmt.2022.3207195",
-   "query": "chiplet",
-   "authors": [
-    "Debendra Das Sharma",
-    "Gerald Pasdast",
-    "Zhiguo Qian"
-   ],
-   "abstract": "Universal Chiplet Interconnect Express (UCIe) is an open industry standard interconnect for developing an open chiplet ecosystem, where chiplets from any supplier can be packaged anywhere in an interoperable manner. This article delves into the architectural, circuit, channel, and packaging aspects that we developed that has been adopted in the UCIe 1.0 Specification. We present our results based on our channel and circuit implementation studies.",
-   "excerpt": "Universal Chiplet Interconnect Express (UCIe) is an open industry standard interconnect for developing an open chiplet ecosystem, where chiplets from any supplier can be packaged anywhere in an interoperable manner.",
-   "tag": "package"
   },
   {
    "title": "Active Memory Cube: A processing-in-memory architecture for exascale systems",
@@ -1191,7 +273,7 @@
   {
    "title": "A Reconfigurable Streaming Deep Convolutional Neural Network Accelerator for Internet of Things",
    "year": 2017,
-   "cited_by": 223,
+   "cited_by": 224,
    "venue": "IEEE Transactions on Circuits and Systems I Regular Papers",
    "url": "https://doi.org/10.1109/tcsi.2017.2735490",
    "query": "neural network accelerator",
@@ -1207,7 +289,7 @@
   {
    "title": "ISA semantics for ARMv8-a, RISC-v, and CHERI-MIPS",
    "year": 2019,
-   "cited_by": 222,
+   "cited_by": 223,
    "venue": "Proceedings of the ACM on Programming Languages",
    "url": "https://doi.org/10.1145/3290384",
    "query": "RISC-V",
@@ -1237,7 +319,7 @@
   {
    "title": "RISQ-V: Tightly Coupled RISC-V Accelerators for Post-Quantum Cryptography",
    "year": 2020,
-   "cited_by": 216,
+   "cited_by": 217,
    "venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
    "url": "https://doi.org/10.46586/tches.v2020.i4.239-280",
    "query": "RISC-V",
@@ -1381,7 +463,7 @@
   {
    "title": "A RISC-V 32-bit microprocessor based on two-dimensional semiconductors",
    "year": 2025,
-   "cited_by": 157,
+   "cited_by": 158,
    "venue": "Nature",
    "url": "https://doi.org/10.1038/s41586-025-08759-9",
    "query": "RISC-V",
@@ -1411,20 +493,20 @@
    "tag": "arch"
   },
   {
-   "title": "An Agile Approach to Building RISC-V Microprocessors",
-   "year": 2016,
-   "cited_by": 154,
-   "venue": "IEEE Micro",
-   "url": "https://doi.org/10.1109/mm.2016.11",
-   "query": "RISC-V",
+   "title": "IntAct: A 96-Core Processor With Six Chiplets 3D-Stacked on an Active Interposer With Distributed Interconnects and Integrated Power Management",
+   "year": 2020,
+   "cited_by": 155,
+   "venue": "IEEE Journal of Solid-State Circuits",
+   "url": "https://doi.org/10.1109/jssc.2020.3036341",
+   "query": "chiplet",
    "authors": [
-    "Yunsup Lee",
-    "Andrew S. Waterman",
-    "Henry M. Cook"
+    "Pascal Vivet",
+    "Èric Guthmuller",
+    "Yvain Thonnart"
    ],
-   "abstract": "The final phase of CMOS technology scaling provides continued increases in already vast transistor counts, but only minimal improvements in energy efficiency, thus requiring innovation in circuits and architectures. However, even huge teams are struggling to complete large, complex designs on schedule using traditional rigid development flows. This article presents an agile hardware development methodology, which the authors adopted for 11 RISC-V microprocessor tape-outs on modern 28-nm and 45-nm CMOS processes in the past five years. The authors discuss how this approach enabled small teams to build energy-efficient, cost-effective, and industry-competitive high-performance microprocessors in a matter of months. Their agile methodology relies on rapid iterative improvement of fabricatable prototypes using hardware generators written in Chisel, a new hardware description language…",
-   "excerpt": "The final phase of CMOS technology scaling provides continued increases in already vast transistor counts, but only minimal improvements in energy efficiency, thus requiring innovation in circuits and architectures.",
-   "tag": "arch"
+   "abstract": "In the context of high-performance computing, the integration of more computing capabilities with generic cores or dedicated accelerators for artificial intelligence (AI) application is raising more and more challenges. Due to the increasing costs of advanced nodes and the difficulties of shrinking analog and circuit input output signals (IOs), alternative architecture solutions to single die are becoming mainstream. Chiplet-based systems using 3D technologies enable modular and scalable architecture and technology partitioning. Nevertheless, there are still limitations due to chiplet integration on passive interposers-silicon or organic. In this article we present the first CMOS active interposer, integrating: 1) power management without any external components; 2) distributed interconnects enabling any chiplet-to-chiplet communication; and 3) system infrastructure, design-for-test,…",
+   "excerpt": "In the context of high-performance computing, the integration of more computing capabilities with generic cores or dedicated accelerators for artificial intelligence (AI) application is raising more and more challenges.",
+   "tag": "package"
   }
  ],
  "news": [
