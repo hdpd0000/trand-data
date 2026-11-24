@@ -1,16 +1,18 @@
 {
- "updated": "2026-11-23T01:19:42+00:00",
+ "updated": "2026-11-24T05:06:14+00:00",
  "status": {
-  "semiconductor:arxiv": "HTTPError: HTTP Error 429: Unknown Error",
+  "semiconductor:arxiv": "ok",
+  "semiconductor:openalex-enrich": "ok",
   "semiconductor:openalex-classics": "ok",
-  "feed:Semiconductor Engineering": "ok (parsed=10, newest=2026-11-20, kept_in_window=10)",
+  "feed:Semiconductor Engineering": "ok (parsed=10, newest=2026-11-23, kept_in_window=10)",
   "feed:Chips and Cheese": "ok (parsed=20, newest=2026-11-16, kept_in_window=3)",
-  "feed:The Next Platform": "ok (parsed=86, newest=2026-11-21, kept_in_window=13)",
-  "feed:EE Times": "ok (parsed=10, newest=2026-11-20, kept_in_window=10)",
+  "feed:The Next Platform": "ok (parsed=86, newest=2026-11-23, kept_in_window=12)",
+  "feed:EE Times": "ok (parsed=10, newest=2026-11-23, kept_in_window=10)",
   "feed:TrendForce News": "ok (parsed=20, newest=2026-07-01, kept_in_window=0)",
-  "quantum:arxiv": "HTTPError: HTTP Error 429: Unknown Error",
+  "quantum:arxiv": "ok",
+  "quantum:openalex-enrich": "ok",
   "quantum:openalex-classics": "ok",
-  "feed:The Quantum Insider": "ok (parsed=10, newest=2026-11-20, kept_in_window=10)",
-  "feed:Physics World": "ok (parsed=160, newest=2026-11-20, kept_in_window=4)"
+  "feed:The Quantum Insider": "ok (parsed=10, newest=2026-11-23, kept_in_window=10)",
+  "feed:Physics World": "ok (parsed=160, newest=2026-11-23, kept_in_window=3)"
  }
 }
