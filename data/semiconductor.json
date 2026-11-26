@@ -1,7 +1,7 @@
 {
  "field": "semiconductor",
  "label": "반도체",
- "updated": "2026-11-25T03:54:30+00:00",
+ "updated": "2026-11-26T03:20:25+00:00",
  "subfields": [
   {
    "id": "memory",
@@ -46,10 +46,31 @@
    "kw_hits": 4,
    "abstract": "Serving large language models with long contexts requires keeping the key-value (KV) cache of every request, which can exceed GPU memory capacity. Sparse attention reads only a small, query-dependent subset of this cache at each decoding step, yet must retain the full cache because later steps may select other entries. Processing-near-memory (PNM) devices attached through Compute Express Link (CXL) can hold the full cache and compute attention where it resides. Prior GPU-PNM systems for sparse attention are PNM-centric, processing most of the attention on the PNM. As existing CXL-PNM devices provide far less memory bandwidth than GPU HBM, this PNM-centric execution makes the PNM the bottleneck and leaves the GPU idle waiting for attention results. We present ANOR, a GPU-PNM joint acceleration system that exploits the selection locality of sparse attention by computing most of the…",
    "excerpt": "Serving large language models with long contexts requires keeping the key-value (KV) cache of every request, which can exceed GPU memory capacity.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv",
    "score": 8.0,
    "tag": "memory"
+  },
+  {
+   "id": "2611.33406",
+   "title": "WADJET: Whole-Job Authorization and Dispatch for Job Execution Trust on FPGA System-on-Chip Accelerators",
+   "url": "https://arxiv.org/abs/2611.33406",
+   "authors": [
+    "Mohamed El-Hadedy"
+   ],
+   "n_authors": 1,
+   "published": "2026-11-24",
+   "categories": [
+    "cs.AR",
+    "cs.CR"
+   ],
+   "kw_hits": 3,
+   "abstract": "On an FPGA system-on-chip, the software that submits work to an accelerator also decides what the accelerator does. It writes the registers one by one, and the hardware runs whatever it finds, so faulty or compromised software can change one address or resend a job. Existing protections decide who may reach an accelerator or keep its data safe. Deciding whether one job was approved and is still unused takes three things in one place: the only way to the accelerator, the whole job held back until checked, and a record of used approvals. WADJET puts the three in one gate in FPGA logic. A separate authority encrypts and authenticates each approved job, with a sequence number, using Ascon-AEAD128. The gate verifies the whole job before releasing any part, accepts only a newer sequence number, uses it up, and writes the registers of an unmodified accelerator itself. The gate replaces only…",
+   "excerpt": "On an FPGA system-on-chip, the software that submits work to an accelerator also decides what the accelerator does.",
+   "cited_by": null,
+   "venue": null,
+   "score": 6.0,
+   "tag": "accel"
   },
   {
    "id": "2611.30216",
@@ -68,8 +89,8 @@
    "kw_hits": 3,
    "abstract": "Edge deployment of audio language models (ALMs) is constrained by large model footprints, heterogeneous workloads, and limited software support. This paper presents EdgeALM, an efficient and unified FPGA accelerator for ALMs that combines full-stack hardware-software co-design with agent-driven recursive optimization. An end-to-end ALM compression flow is developed, combining a unified AWQ-style quantizer with modality-conditioned vocabulary pruning. A Conv-Matmul Disaggregation architecture is proposed, with dedicated matrix and convolution engines that operate concurrently on their respective workloads. An Extra-Coarse-Grained ISA is designed to incorporate regular on-chip data movement and execution sequences into compute instructions, reducing software complexity with modest hardware control overhead. Hardware and software recursive loops are introduced for agent-driven full-stack…",
    "excerpt": "Edge deployment of audio language models (ALMs) is constrained by large model footprints, heterogeneous workloads, and limited software support.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv",
    "score": 6.0,
    "tag": "accel"
   },
@@ -192,26 +213,49 @@
    "tag": "memory"
   },
   {
-   "id": "2611.17785",
-   "title": "CHARMING: Parallel Edge AI Acceleration Across Tensor Processing and In-Memory Computation",
-   "url": "https://arxiv.org/abs/2611.17785",
+   "id": "2611.33691",
+   "title": "L2C2: Enhancing Large-scale Chiplets for Agent Long-Context LLM Inference with Sparse and Distributed Attention",
+   "url": "https://arxiv.org/abs/2611.33691",
    "authors": [
-    "Md Omar Faruque",
-    "Jingang Jin",
-    "João Paulo C. de Lima"
+    "Kangbo Bai",
+    "Zhonghua Mu",
+    "Hongze Zhou"
    ],
-   "n_authors": 8,
-   "published": "2026-11-13",
+   "n_authors": 4,
+   "published": "2026-11-25",
    "categories": [
     "cs.AR"
    ],
-   "kw_hits": 3,
-   "abstract": "Edge AI increasingly relies on specialized accelerators for low-latency inference under tight resource and energy constraints, yet their efficiency remains limited by data movement. Prior work, CHARM, mitigates this overhead by overlapping data movement with computation. We observe that in-memory computing can further supplement tensor processing as a parallel accelerator while eliminating certain data movements entirely. We present CHARMING, a heterogeneous edge AI architecture that uses accuracy- and quantization-aware partitioning to distribute and concurrently execute inference workloads across tensor processing and in-memory computation. CHARMING partitions attention heads between an AIE array and an in-DRAM compute unit, balancing execution according to model architecture, sequence length, and precision while selecting heads to minimize accuracy degradation. CHARMING also…",
-   "excerpt": "Edge AI increasingly relies on specialized accelerators for low-latency inference under tight resource and energy constraints, yet their efficiency remains limited by data movement.",
-   "cited_by": 0,
-   "venue": "arXiv",
-   "score": 6.0,
-   "tag": "memory"
+   "kw_hits": 2,
+   "abstract": "Long-context inference is a rising demand for LLMs, especially for agent applications. Sparse attention (SpAt) and chiplet technology are promising solutions to reduce computations and scale hardware performance. However, deploying SpAt on distributed chiplets necessitates context parallelism for workload partitioning, introducing complex distributed attention. In this work, we present L2C2, a system optimization for distributed SpAt in long-context inference. During the partial-prefill stage, we propose a novel Split-Comm Attention mechanism that leverages the high-bandwidth interconnect of chiplets to trade communication overhead for reduced memory access. We combine it with conventional Ring Attention to form a Bi-Mode method that adapts to varying input sequence lengths. During the decoding stage, we analyze the cause of memory access imbalance and address it by static interleaved…",
+   "excerpt": "Long-context inference is a rising demand for LLMs, especially for agent applications.",
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0,
+   "tag": "accel"
+  },
+  {
+   "id": "2611.32662",
+   "title": "OpenWoud: Vendor-Unlocked Scalable Adaptive Random Forest Accelerator",
+   "url": "https://arxiv.org/abs/2611.32662",
+   "authors": [
+    "Ewout van Nimwegen",
+    "Elijah Seth Cishugi",
+    "Hendrik Folmer"
+   ],
+   "n_authors": 5,
+   "published": "2026-11-24",
+   "categories": [
+    "cs.AR",
+    "cs.LG"
+   ],
+   "kw_hits": 2,
+   "abstract": "Online Machine Learning (ML) enables real-time decision-making on evolving data streams. These dynamic models learn continuously to adapt to new concepts, as previous ones become invalid, but their performance is often limited by throughput. The Adaptive Random Forest (ARF) is a state-of-the-art model for this setting, which naturally exposes parallelism and is therefore well-suited for hardware acceleration. However, prior Field Programmable Gate Array (FPGA)-based accelerators are vendor-locked and rely on resource-hungry Floating-Point (FP) arithmetics, limiting their scalability and portability. We present OpenWoud, a vendor-unlocked ARF framework for FPGAs. Our design replaces FP operators with a flexible FiXed-Point (FxP) arithmetic library and introduces fully transparent, manually scheduled dataflows for training and drift detection. This enables fine-grained time/area…",
+   "excerpt": "Online Machine Learning (ML) enables real-time decision-making on evolving data streams.",
+   "cited_by": null,
+   "venue": null,
+   "score": 4.0,
+   "tag": "accel"
   },
   {
    "id": "2611.32264",
@@ -252,8 +296,8 @@
    "kw_hits": 2,
    "abstract": "During multi-agent video reasoning, model weights and per-agent key-value caches can exceed high-bandwidth memory (HBM) capacity. High-bandwidth flash (HBF) adds capacity, but agents still wait for GPU execution. Synapse, an HBM-coordinated near-memory computing architecture, overlaps HBF attention and expert execution with GPU computation across agents. It also reduces dispatch delays and unnecessary refreshes. Across three models, Synapse achieves 48.92-66.60% lower end-to-end latency, up to $2.98\\times$ throughput, and up to 64.48% lower modeled energy per output token than GPU execution with passive HBF. Wear simulations project 46% longer HBF lifetime than block-wide refresh at equal workload rates.",
    "excerpt": "During multi-agent video reasoning, model weights and per-agent key-value caches can exceed high-bandwidth memory (HBM) capacity.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv",
    "score": 4.0,
    "tag": "memory"
   },
@@ -275,8 +319,8 @@
    "kw_hits": 2,
    "abstract": "Fully homomorphic encryption enables cloud servers to run neural networks on encrypted inputs. In CKKS, inference requires costly arithmetic on high-degree polynomials. On Ascend neural processing units, preparing operands and reconstructing intermediate results add to this cost, while limited local memory constrains parallel execution. We present AscendFHE, a CKKS backend that coordinates Ascend's matrix engines and vector cores for bootstrapping and encrypted inference. It uses balanced-byte encoding and exact modular reconstruction to reduce vector work and packs intermediate results in the next operator's input format to avoid redundant transfers. Its two-task pipeline reuses shared buffers after their last read to overlap matrix and vector execution within the local memory budget. On Ascend 910B3, AscendFHE achieves a 4.61$\\times$ bootstrapping speedup and…",
    "excerpt": "Fully homomorphic encryption enables cloud servers to run neural networks on encrypted inputs.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv",
    "score": 4.0,
    "tag": "accel"
   },
@@ -299,8 +343,8 @@
    "kw_hits": 2,
    "abstract": "Dynamic programming (DP)-based genome sequence analysis is fundamental to computational genomics, but it remains computationally intensive as genomic data volumes continue to outpace Moore's Law. Existing hardware accelerators often sacrifice programmability and scalability across diverse alignment algorithms. In this work, we present VEGA, a scalable software-hardware co-design that accelerates genome alignment using RISC-V Vector extensions. VEGA introduces specialized vector instructions and three key innovations: a Forefront Stationary dataflow that minimizes off-chip memory access, intersequence parallelism that maximizes SIMD lane utilization, and custom ISA extensions that accelerate core alignment operations. Evaluations show that VEGA achieves up to 15.1x and 9.7x speedups for Edit Distance and Smith-Waterman algorithms over the Ara2-RVV vector baseline, sustaining 10.2x and…",
    "excerpt": "Dynamic programming (DP)-based genome sequence analysis is fundamental to computational genomics, but it remains computationally intensive as genomic data volumes continue to outpace Moore's Law.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv",
    "score": 4.0,
    "tag": "arch"
   },
@@ -323,8 +367,8 @@
    "kw_hits": 2,
    "abstract": "Decoding with large language models at small batch sizes is limited by memory bandwidth, so the bits stored per weight largely set its cost. Group-wise integer quantization stores every weight of a group at the same precision, although the input channels of a group differ in sensitivity. We present BITSHARE, a codebook-free weight format that keeps the integer grid and the dequantizer of group-wise quantization but varies precision within each group. Sensitivity-aware binning places the channels of each group into three bins at fixed positions, and static bit sharing with optimal bit-value allocation lets the less sensitive weights share their lower bits, each stored once per group or once per pair of weights. A sharing-aware version of GPTQ chooses every stored value, with no fine-tuning and no codebook. BITSHARE has two modes. BITSHARE-U gives every group the same layout, so its…",
    "excerpt": "Decoding with large language models at small batch sizes is limited by memory bandwidth, so the bits stored per weight largely set its cost.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv",
    "score": 4.0,
    "tag": "memory"
   },
@@ -811,72 +855,49 @@
    "tag": "accel"
   },
   {
-   "id": "2611.18523",
-   "title": "Mutable Inference: Architecting LLM Accelerators for Inference-Time Learning",
-   "url": "https://arxiv.org/abs/2611.18523",
+   "id": "2611.33981",
+   "title": "MixMoMo: Accelerating Extra--Large MoE Inference with Mixed--Precision GPU--NPU Execution on Mobile Devices",
+   "url": "https://arxiv.org/abs/2611.33981",
    "authors": [
-    "Yimin Gao",
-    "Liangtao Dai",
-    "Melika Morsali"
+    "Hailong Zou",
+    "Maoliang Li",
+    "Taohong Han"
    ],
-   "n_authors": 5,
-   "published": "2026-11-13",
+   "n_authors": 7,
+   "published": "2026-11-25",
    "categories": [
     "cs.AR"
    ],
-   "kw_hits": 2,
-   "abstract": "Long-context LLMs must retain growing histories, but full attention makes each new token increasingly expensive. Inference-time learning (ITL) offers another approach. The model keeps training on the context during inference, retaining what it learns in its weights. Recent work shows that ITL can match full-context attention quality while attending only to a recent fixed-size window. This bounds attention costs but adds Learning (backward computation and weight updates) alongside Prediction (the forward pass) costs. Inference accelerators assume fixed weights, while training accelerators target complete training steps. This work identifies two opportunities. Attention's non-matrix operations leave enough idle matrix capacity for Learning, while selected layers can tolerate delayed weight updates with little quality loss. We exploit both with Learning While Serving (LWS), an inference…",
-   "excerpt": "Long-context LLMs must retain growing histories, but full attention makes each new token increasingly expensive.",
-   "cited_by": 0,
-   "venue": "arXiv",
-   "score": 4.0,
+   "kw_hits": 1,
+   "abstract": "Mobile agents and on-device intelligence increasingly demand more capable models on smartphones. Through sparse expert activation, Mixture-of-Experts (MoE) scales model capacity, yet growing numbers of fine-grained experts complicate loading and computation. Model compression complements expert offloading by reducing storage and computation costs. Among compression techniques, mixed-precision quantization assigns lower expert bitwidths to balance model quality and inference efficiency. However, existing offline metrics and routing scores fail to reflect expert quantization sensitivity, undermining precision assignment. Diverse bitwidths also complicate balanced expert allocation across GPUs and NPUs with distinct execution characteristics, while tile-wise dequantization underutilizes NPU vector parallelism. We present MixMoMo, an efficient mixed-precision inference runtime for…",
+   "excerpt": "Mobile agents and on-device intelligence increasingly demand more capable models on smartphones.",
+   "cited_by": null,
+   "venue": null,
+   "score": 2.0,
    "tag": "accel"
   },
   {
-   "id": "2611.17908",
-   "title": "DiffusionSSD: Achieving Extreme Visual Compression with Dual-stage Diffusion and Cross-level Near-Data Processing",
-   "url": "https://arxiv.org/abs/2611.17908",
+   "id": "2611.32652",
+   "title": "Power Side-Channel Evaluation using Multi-FPGA Systems",
+   "url": "https://arxiv.org/abs/2611.32652",
    "authors": [
-    "Kuai Yu",
-    "Wen Li",
-    "Shengwen Liang"
+    "Yaswanth Tavva",
+    "Geng Luo",
+    "Trevor E. Carlson"
    ],
-   "n_authors": 9,
-   "published": "2026-11-13",
+   "n_authors": 4,
+   "published": "2026-11-24",
    "categories": [
-    "cs.AR",
-    "cs.CV",
-    "eess.IV"
-   ],
-   "kw_hits": 2,
-   "abstract": "Growing visual data overwhelms storage on resource-constrained edge devices, making compression essential. Traditional codecs offer inadequate rate-distortion performance, motivating the exploration of diffusion codecs. Diffusion codecs face two limitations: (1) At the algorithm level, diffusion decoders preserve perceptual quality under extreme compression, but require substantial computation. (2) At the architecture level, in NPU-centered devices, neural codecs occupy the NPU, interfering with other AI applications. Meanwhile, the complex codec pipeline incurs long I/O paths, leading to additional overhead and energy cost. To address these issues, we propose DiffusionSSD, a cross-level near-data processing framework for extreme visual data compression on edge devices, using an algorithm-architecture co-design method. Specifically, (1) at algorithm level, we present Dual-stage…",
-   "excerpt": "Growing visual data overwhelms storage on resource-constrained edge devices, making compression essential.",
-   "cited_by": 0,
-   "venue": "arXiv",
-   "score": 4.0,
-   "tag": null
-  },
-  {
-   "id": "2611.17798",
-   "title": "Elasticy: A Runtime-Reconfigurable Architecture for Dynamic Streams",
-   "url": "https://arxiv.org/abs/2611.17798",
-   "authors": [
-    "Konstantin J Hossfeld",
-    "Nathan Sobotka",
-    "Gina Sohn"
-   ],
-   "n_authors": 5,
-   "published": "2026-11-13",
-   "categories": [
+    "cs.CR",
     "cs.AR"
    ],
-   "kw_hits": 2,
-   "abstract": "Reconfigurable Dataflow Accelerators (RDAs) have demonstrated high performance and energy efficiency for dense, regular tensor applications. However, conventional RDAs with static configurations show dramatically reduced performance and efficiency on irregular tensor workloads with data-dependent, non-uniform, dynamic tensor shapes. We propose Elasticy, a dynamically reconfigurable dataflow accelerator that employs streaming and tile abstractions to minimize the overhead of dynamic support. By encoding dynamic shapes into streams using rank-variable expressions, Elasticy exploits data-dependent tensor shape dynamism to minimize off-chip data traffic and wasted compute cycles. Elasticy employs stream-embedded reconfiguration information to trigger fine-grained runtime scheduling decisions. Elasticy also introduces a novel distributed linked streaming memory (DLSM) that more effectively…",
-   "excerpt": "Reconfigurable Dataflow Accelerators (RDAs) have demonstrated high performance and energy efficiency for dense, regular tensor applications.",
-   "cited_by": 0,
-   "venue": "arXiv",
-   "score": 4.0,
-   "tag": null
+   "kw_hits": 1,
+   "abstract": "Complex out-of-order processors are difficult to evaluate for power side-channel leakage before tapeout. A single FPGA often lacks sufficient capacity, whereas conventional CAD-based analysis is too slow to support the large numbers of traces required by practical attacks. Multi-FPGA emulation provides greater capacity, but existing partitioning schemes are not security-aware and thus results in poor attack performance. This work presents Scissors, a security-aware multi-FPGA partitioning approach for pre-silicon power side-channel evaluation of complex out-of-order processors. Scissors uses side-channel vulnerability factor (SVF) analysis to identify signals correlated with the secret key. It then keeps strongly key-correlated signals confined to one FPGA partition (measured) while moving rest of the signals to the other FPGAs (support), improving the observability of the side-channel…",
+   "excerpt": "Complex out-of-order processors are difficult to evaluate for power side-channel leakage before tapeout.",
+   "cited_by": null,
+   "venue": null,
+   "score": 2.0,
+   "tag": "arch"
   },
   {
    "id": "2611.32288",
@@ -921,36 +942,13 @@
    "venue": null,
    "score": 2.0,
    "tag": "arch"
-  },
-  {
-   "id": "2611.32223",
-   "title": "Beyond Autoregression: Diffusion Language Model is All Analog In-Memory Computing Need",
-   "url": "https://arxiv.org/abs/2611.32223",
-   "authors": [
-    "Yuanuo Feng",
-    "Yubing Ye",
-    "Yizhe Chen"
-   ],
-   "n_authors": 7,
-   "published": "2026-11-24",
-   "categories": [
-    "cs.AR",
-    "cs.LG"
-   ],
-   "kw_hits": 1,
-   "abstract": "Analog in-memory computing (AIMC) enables energy-efficient language-model inference, but hardware non-idealities perturb matrix--vector multiplications and degrade generation quality. Autoregressive (AR) models are especially vulnerable: each token is committed to the causal context at birth, so perturbation-induced errors cascade. We study diffusion language models (DLMs), which iteratively refine a masked sequence, as an alternative paradigm. Across scale-matched model pairs and open checkpoints, DLMs degrade more gracefully than AR counterparts under persistent weight perturbations. Controlled analyses rule out cross-round noise averaging and support delayed token commitment and progressive context resolution as the mechanism. A larger denoising-step budget further shrinks the clean--noisy gap, a DLM-specific latency--robustness knob. We perform large-scale simulation tests across…",
-   "excerpt": "Analog in-memory computing (AIMC) enables energy-efficient language-model inference, but hardware non-idealities perturb matrix--vector multiplications and degrade generation quality.",
-   "cited_by": null,
-   "venue": null,
-   "score": 2.0,
-   "tag": "memory"
   }
  ],
  "papers_classic": [
   {
    "title": "ISAAC: a convolutional neural network accelerator with in-situ analog arithmetic in crossbars",
    "year": 2016,
-   "cited_by": 1825,
+   "cited_by": 1623,
    "venue": "ACM SIGARCH Computer Architecture News",
    "url": "https://doi.org/10.1145/3007787.3001139",
    "query": "neural network accelerator",
@@ -966,7 +964,7 @@
   {
    "title": "PRIME: a novel processing-in-memory architecture for neural network computation in ReRAM-based main memory",
    "year": 2016,
-   "cited_by": 1351,
+   "cited_by": 1114,
    "venue": "ACM SIGARCH Computer Architecture News",
    "url": "https://doi.org/10.1145/3007787.3001140",
    "query": "processing-in-memory",
@@ -982,7 +980,7 @@
   {
    "title": "Near-Threshold RISC-V Core With DSP Extensions for Scalable IoT Endpoint Devices",
    "year": 2017,
-   "cited_by": 626,
+   "cited_by": 624,
    "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
    "url": "https://doi.org/10.1109/tvlsi.2017.2654506",
    "query": "RISC-V",
@@ -996,25 +994,9 @@
    "tag": "arch"
   },
   {
-   "title": "Minerva: enabling low-power, highly-accurate deep neural network accelerators",
-   "year": 2016,
-   "cited_by": 521,
-   "venue": "ACM SIGARCH Computer Architecture News",
-   "url": "https://doi.org/10.1145/3007787.3001165",
-   "query": "neural network accelerator",
-   "authors": [
-    "Brandon Reagen",
-    "Paul N. Whatmough",
-    "Robert Adolf"
-   ],
-   "abstract": "The continued success of Deep Neural Networks (DNNs) in classification tasks has sparked a trend of accelerating their execution with specialized hardware. While published designs easily give an order of magnitude improvement over general-purpose hardware, few look beyond an initial implementation. This paper presents Minerva, a highly automated co-design approach across the algorithm, architecture, and circuit levels to optimize DNN hardware accelerators. Compared to an established fixed-point accelerator baseline, we show that fine-grained, heterogeneous datatype optimization reduces power by 1.5×; aggressive, inline predication and pruning of small activity values further reduces power by 2.0×; and active hardware fault detection coupled with domain-aware error mitigation eliminates an additional 2.7× through lowering SRAM voltages. Across five datasets, these optimizations provide a…",
-   "excerpt": "The continued success of Deep Neural Networks (DNNs) in classification tasks has sparked a trend of accelerating their execution with specialized hardware.",
-   "tag": "accel"
-  },
-  {
    "title": "A cortical–hippocampal–cortical loop of information processing during memory consolidation",
    "year": 2016,
-   "cited_by": 437,
+   "cited_by": 438,
    "venue": "Nature Neuroscience",
    "url": "https://doi.org/10.1038/nn.4457",
    "query": "processing-in-memory",
@@ -1028,9 +1010,25 @@
    "tag": "memory"
   },
   {
+   "title": "Minerva: enabling low-power, highly-accurate deep neural network accelerators",
+   "year": 2016,
+   "cited_by": 418,
+   "venue": "ACM SIGARCH Computer Architecture News",
+   "url": "https://doi.org/10.1145/3007787.3001165",
+   "query": "neural network accelerator",
+   "authors": [
+    "Brandon Reagen",
+    "Paul N. Whatmough",
+    "Robert Adolf"
+   ],
+   "abstract": "The continued success of Deep Neural Networks (DNNs) in classification tasks has sparked a trend of accelerating their execution with specialized hardware. While published designs easily give an order of magnitude improvement over general-purpose hardware, few look beyond an initial implementation. This paper presents Minerva, a highly automated co-design approach across the algorithm, architecture, and circuit levels to optimize DNN hardware accelerators. Compared to an established fixed-point accelerator baseline, we show that fine-grained, heterogeneous datatype optimization reduces power by 1.5×; aggressive, inline predication and pruning of small activity values further reduces power by 2.0×; and active hardware fault detection coupled with domain-aware error mitigation eliminates an additional 2.7× through lowering SRAM voltages. Across five datasets, these optimizations provide a…",
+   "excerpt": "The continued success of Deep Neural Networks (DNNs) in classification tasks has sparked a trend of accelerating their execution with specialized hardware.",
+   "tag": "accel"
+  },
+  {
    "title": "Large-scale photonic chiplet Taichi empowers 160-TOPS/W artificial general intelligence",
    "year": 2024,
-   "cited_by": 403,
+   "cited_by": 404,
    "venue": "Science",
    "url": "https://doi.org/10.1126/science.adl1203",
    "query": "chiplet",
@@ -1046,7 +1044,7 @@
   {
    "title": "Breaking the von Neumann bottleneck: architecture-level processing-in-memory technology",
    "year": 2021,
-   "cited_by": 396,
+   "cited_by": 389,
    "venue": "Science China Information Sciences",
    "url": "https://doi.org/10.1007/s11432-020-3227-1",
    "query": "processing-in-memory",
@@ -1062,7 +1060,7 @@
   {
    "title": "UNPU: An Energy-Efficient Deep Neural Network Accelerator With Fully Variable Weight Bit Precision",
    "year": 2018,
-   "cited_by": 384,
+   "cited_by": 379,
    "venue": "IEEE Journal of Solid-State Circuits",
    "url": "https://doi.org/10.1109/jssc.2018.2865489",
    "query": "neural network accelerator",
@@ -1078,7 +1076,7 @@
   {
    "title": "Benchmarking a New Paradigm: Experimental Analysis and Characterization of a Real Processing-in-Memory System",
    "year": 2022,
-   "cited_by": 338,
+   "cited_by": 333,
    "venue": "IEEE Access",
    "url": "https://doi.org/10.1109/access.2022.3174101",
    "query": "processing-in-memory",
@@ -1103,7 +1101,7 @@
     "Hesham Mostafa",
     "Enrico Calabrese"
    ],
-   "abstract": "Convolutional neural networks (CNNs) have become the dominant neural network architecture for solving many state-of-the-art (SOA) visual processing tasks. Even though graphical processing units are most often used in training and deploying CNNs, their power efficiency is less than 10 GOp/s/W for single-frame runtime inference. We propose a flexible and efficient CNN accelerator architecture called NullHop that implements SOA CNNs useful for low-power and low-latency application scenarios. NullHop exploits the sparsity of neuron activations in CNNs to accelerate the computation and reduce memory requirements. The flexible architecture allows high utilization of available computing resources across kernel sizes ranging from 1×1 to 7×7. NullHop can process up to 128 input and 128 output feature maps per layer in a single pass. We implemented the proposed architecture on a Xilinx Zynq…",
+   "abstract": "Convolutional neural networks (CNNs) have become the dominant neural network architecture for solving many state-of-the-art (SOA) visual processing tasks. Even though graphical processing units are most often used in training and deploying CNNs, their power efficiency is less than 10 GOp/s/W for single-frame runtime inference. We propose a flexible and efficient CNN accelerator architecture called NullHop that implements SOA CNNs useful for low-power and low-latency application scenarios. NullHop exploits the sparsity of neuron activations in CNNs to accelerate the computation and reduce memory requirements. The flexible architecture allows high utilization of available computing resources across kernel sizes ranging from 1×1 to 7×7 . NullHop can process up to 128 input and 128 output feature maps per layer in a single pass. We implemented the proposed architecture on a Xilinx Zynq…",
    "excerpt": "Convolutional neural networks (CNNs) have become the dominant neural network architecture for solving many state-of-the-art (SOA) visual processing tasks.",
    "tag": "accel"
   },
@@ -1126,7 +1124,7 @@
   {
    "title": "Processing-in-memory: A workload-driven perspective",
    "year": 2019,
-   "cited_by": 268,
+   "cited_by": 274,
    "venue": "IBM Journal of Research and Development",
    "url": "https://doi.org/10.1147/jrd.2019.2934048",
    "query": "processing-in-memory",
@@ -1142,7 +1140,7 @@
   {
    "title": "Universal Chiplet Interconnect Express (UCIe): An Open Industry Standard for Innovations With Chiplets at Package Level",
    "year": 2022,
-   "cited_by": 268,
+   "cited_by": 271,
    "venue": "IEEE Transactions on Components Packaging and Manufacturing Technology",
    "url": "https://doi.org/10.1109/tcpmt.2022.3207195",
    "query": "chiplet",
@@ -1158,7 +1156,7 @@
   {
    "title": "Active Memory Cube: A processing-in-memory architecture for exascale systems",
    "year": 2015,
-   "cited_by": 239,
+   "cited_by": 240,
    "venue": "IBM Journal of Research and Development",
    "url": "https://doi.org/10.1147/jrd.2015.2409732",
    "query": "processing-in-memory",
@@ -1206,7 +1204,7 @@
   {
    "title": "A Reconfigurable Streaming Deep Convolutional Neural Network Accelerator for Internet of Things",
    "year": 2017,
-   "cited_by": 227,
+   "cited_by": 225,
    "venue": "IEEE Transactions on Circuits and Systems I Regular Papers",
    "url": "https://doi.org/10.1109/tcsi.2017.2735490",
    "query": "neural network accelerator",
@@ -1236,7 +1234,7 @@
   {
    "title": "RISQ-V: Tightly Coupled RISC-V Accelerators for Post-Quantum Cryptography",
    "year": 2020,
-   "cited_by": 217,
+   "cited_by": 215,
    "venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
    "url": "https://doi.org/10.46586/tches.v2020.i4.239-280",
    "query": "RISC-V",
@@ -1250,25 +1248,9 @@
    "tag": "arch"
   },
   {
-   "title": "The RISC-V Instruction Set Manual",
-   "year": 2014,
-   "cited_by": 215,
-   "venue": null,
-   "url": "https://openalex.org/W2187802606",
-   "query": "RISC-V",
-   "authors": [
-    "Andrew S. Waterman",
-    "Yunsup Lee",
-    "David A. Patterson"
-   ],
-   "abstract": "personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. To copy otherwise, to republish, to post on servers or to redistribute to lists, requires prior specific permission.",
-   "excerpt": "personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.",
-   "tag": "arch"
-  },
-  {
    "title": "RISC-V Instruction Set Architecture Extensions: A Survey",
    "year": 2023,
-   "cited_by": 212,
+   "cited_by": 214,
    "venue": "IEEE Access",
    "url": "https://doi.org/10.1109/access.2023.3246491",
    "query": "RISC-V",
@@ -1284,7 +1266,7 @@
   {
    "title": "Hardware Approximate Techniques for Deep Neural Network Accelerators: A Survey",
    "year": 2022,
-   "cited_by": 206,
+   "cited_by": 208,
    "venue": "ACM Computing Surveys",
    "url": "https://doi.org/10.1145/3527156",
    "query": "neural network accelerator",
@@ -1298,25 +1280,9 @@
    "tag": "accel"
   },
   {
-   "title": "LazyPIM: An Efficient Cache Coherence Mechanism for Processing-in-Memory",
-   "year": 2016,
-   "cited_by": 204,
-   "venue": "IEEE Computer Architecture Letters",
-   "url": "https://doi.org/10.1109/lca.2016.2577557",
-   "query": "processing-in-memory",
-   "authors": [
-    "Amirali Boroumand",
-    "Saugata Ghose",
-    "Minesh Patel"
-   ],
-   "abstract": "Processing-in-memory (PIM) architectures cannot use traditional approaches to cache coherence due to the high off-chip traffic consumed by coherence messages. We propose LazyPIM, a new hardware cache coherence mechanism designed specifically for PIM. LazyPIM uses a combination of speculative cache coherence and compressed coherence signatures to greatly reduce the overhead of keeping PIM coherent with the processor. We find that LazyPIM improves average performance across a range of PIM applications by 49.1 percent over the best prior approach, coming within 5.5 percent of an ideal PIM mechanism.",
-   "excerpt": "Processing-in-memory (PIM) architectures cannot use traditional approaches to cache coherence due to the high off-chip traffic consumed by coherence messages.",
-   "tag": "memory"
-  },
-  {
    "title": "GraphH: A Processing-in-Memory Architecture for Large-Scale Graph Processing",
    "year": 2018,
-   "cited_by": 199,
+   "cited_by": 198,
    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
    "url": "https://doi.org/10.1109/tcad.2018.2821565",
    "query": "processing-in-memory",
@@ -1330,9 +1296,25 @@
    "tag": "memory"
   },
   {
+   "title": "LazyPIM: An Efficient Cache Coherence Mechanism for Processing-in-Memory",
+   "year": 2016,
+   "cited_by": 195,
+   "venue": "IEEE Computer Architecture Letters",
+   "url": "https://doi.org/10.1109/lca.2016.2577557",
+   "query": "processing-in-memory",
+   "authors": [
+    "Amirali Boroumand",
+    "Saugata Ghose",
+    "Minesh Patel"
+   ],
+   "abstract": "Processing-in-memory (PIM) architectures cannot use traditional approaches to cache coherence due to the high off-chip traffic consumed by coherence messages. We propose LazyPIM, a new hardware cache coherence mechanism designed specifically for PIM. LazyPIM uses a combination of speculative cache coherence and compressed coherence signatures to greatly reduce the overhead of keeping PIM coherent with the processor. We find that LazyPIM improves average performance across a range of PIM applications by 49.1 percent over the best prior approach, coming within 5.5 percent of an ideal PIM mechanism.",
+   "excerpt": "Processing-in-memory (PIM) architectures cannot use traditional approaches to cache coherence due to the high off-chip traffic consumed by coherence messages.",
+   "tag": "memory"
+  },
+  {
    "title": "TeraPHY: A Chiplet Technology for Low-Power, High-Bandwidth In-Package Optical I/O",
    "year": 2020,
-   "cited_by": 175,
+   "cited_by": 174,
    "venue": "IEEE Micro",
    "url": "https://doi.org/10.1109/mm.2020.2976067",
    "query": "chiplet",
@@ -1348,7 +1330,7 @@
   {
    "title": "Using Dataflow to Optimize Energy Efficiency of Deep Neural Network Accelerators",
    "year": 2017,
-   "cited_by": 172,
+   "cited_by": 173,
    "venue": "IEEE Micro",
    "url": "https://doi.org/10.1109/mm.2017.54",
    "query": "neural network accelerator",
@@ -1378,41 +1360,9 @@
    "tag": "arch"
   },
   {
-   "title": "A scalable processing-in-memory accelerator for parallel graph processing",
-   "year": 2015,
-   "cited_by": 158,
-   "venue": "ACM SIGARCH Computer Architecture News",
-   "url": "https://doi.org/10.1145/2872887.2750386",
-   "query": "processing-in-memory",
-   "authors": [
-    "Junwhan Ahn",
-    "Sungpack Hong",
-    "Sungjoo Yoo"
-   ],
-   "abstract": "The explosion of digital data and the ever-growing need for fast data analysis have made in-memory big-data processing in computer systems increasingly important. In particular, large-scale graph processing is gaining attention due to its broad applicability from social science to machine learning. However, scalable hardware design that can efficiently process large graphs in main memory is still an open problem. Ideally, cost-effective and scalable graph processing systems can be realized by building a system whose performance increases proportionally with the sizes of graphs that can be stored in the system, which is extremely challenging in conventional systems due to severe memory bandwidth limitations. In this work, we argue that the conventional concept of processing-in-memory (PIM) can be a viable solution to achieve such an objective. The key modern enabler for PIM is the recent…",
-   "excerpt": "The explosion of digital data and the ever-growing need for fast data analysis have made in-memory big-data processing in computer systems increasingly important.",
-   "tag": "memory"
-  },
-  {
-   "title": "The Berkeley Out-of-Order Machine (BOOM): An Industry-Competitive, Synthesizable, Parameterized RISC-V Processor",
-   "year": 2015,
-   "cited_by": 157,
-   "venue": null,
-   "url": "https://openalex.org/W2588464298",
-   "query": "RISC-V",
-   "authors": [
-    "Krste Asanović",
-    "David A. Patterson",
-    "Christopher Celio"
-   ],
-   "abstract": "BOOM is a synthesizable, parameterized, superscalar out-of-order RISC-V core designed to serve as the prototypical baseline processor for future micro-architectural studies of out-of-order processors. Our goal is to provide a readable, open-source implementation for use in education, research, and industry. BOOM is written in roughly 9,000 lines of the hardware construction language Chisel. We leveraged Berkeleys open-source Rocket-chip SoC generator, allowing us to quickly bring up an entire multi-core processor system (including caches and uncore) by replacing the in-order Rocket core with an out-of-order BOOM core. BOOM supports atomics, IEEE754-2008 floating-point, and page-based virtual memory. We have demonstrated BOOM running Linux, SPEC CINT2006, and CoreMark.",
-   "excerpt": "BOOM is a synthesizable, parameterized, superscalar out-of-order RISC-V core designed to serve as the prototypical baseline processor for future micro-architectural studies of out-of-order processors.",
-   "tag": "arch"
-  },
-  {
    "title": "IntAct: A 96-Core Processor With Six Chiplets 3D-Stacked on an Active Interposer With Distributed Interconnects and Integrated Power Management",
    "year": 2020,
-   "cited_by": 157,
+   "cited_by": 156,
    "venue": "IEEE Journal of Solid-State Circuits",
    "url": "https://doi.org/10.1109/jssc.2020.3036341",
    "query": "chiplet",
@@ -1424,9 +1374,183 @@
    "abstract": "In the context of high-performance computing, the integration of more computing capabilities with generic cores or dedicated accelerators for artificial intelligence (AI) application is raising more and more challenges. Due to the increasing costs of advanced nodes and the difficulties of shrinking analog and circuit input output signals (IOs), alternative architecture solutions to single die are becoming mainstream. Chiplet-based systems using 3D technologies enable modular and scalable architecture and technology partitioning. Nevertheless, there are still limitations due to chiplet integration on passive interposers-silicon or organic. In this article we present the first CMOS active interposer, integrating: 1) power management without any external components; 2) distributed interconnects enabling any chiplet-to-chiplet communication; and 3) system infrastructure, design-for-test,…",
    "excerpt": "In the context of high-performance computing, the integration of more computing capabilities with generic cores or dedicated accelerators for artificial intelligence (AI) application is raising more and more challenges.",
    "tag": "package"
+  },
+  {
+   "title": "An Agile Approach to Building RISC-V Microprocessors",
+   "year": 2016,
+   "cited_by": 151,
+   "venue": "IEEE Micro",
+   "url": "https://doi.org/10.1109/mm.2016.11",
+   "query": "RISC-V",
+   "authors": [
+    "Yunsup Lee",
+    "Andrew S. Waterman",
+    "Henry M. Cook"
+   ],
+   "abstract": "The final phase of CMOS technology scaling provides continued increases in already vast transistor counts, but only minimal improvements in energy efficiency, thus requiring innovation in circuits and architectures. However, even huge teams are struggling to complete large, complex designs on schedule using traditional rigid development flows. This article presents an agile hardware development methodology, which the authors adopted for 11 RISC-V microprocessor tape-outs on modern 28-nm and 45-nm CMOS processes in the past five years. The authors discuss how this approach enabled small teams to build energy-efficient, cost-effective, and industry-competitive high-performance microprocessors in a matter of months. Their agile methodology relies on rapid iterative improvement of fabricatable prototypes using hardware generators written in Chisel, a new hardware description language…",
+   "excerpt": "The final phase of CMOS technology scaling provides continued increases in already vast transistor counts, but only minimal improvements in energy efficiency, thus requiring innovation in circuits and architectures.",
+   "tag": "arch"
+  },
+  {
+   "title": "VPQC: A Domain-Specific Vector Processor for Post-Quantum Cryptography Based on RISC-V Architecture",
+   "year": 2020,
+   "cited_by": 148,
+   "venue": "IEEE Transactions on Circuits and Systems I Regular Papers",
+   "url": "https://doi.org/10.1109/tcsi.2020.2983185",
+   "query": "RISC-V",
+   "authors": [
+    "Guozhu Xin",
+    "Jun Shu Han",
+    "Tianyu Yin"
+   ],
+   "abstract": "In the 5G era, massive devices need to be securely connected to the edge of communication networks, while emerging quantum computers can easily crack the traditional public-key ciphers. Lattice-based cryptography (LBC) is one of the most promising types of schemes in all post-quantum cryptography (PQC) due to its security and efficiency. To meet the requirements of high-throughput and diverse application scenarios of 5G, we investigate the vectorization of kernel algorithms of several LBC candidates and thus present a domain-specific vector processor, VPQC, leveraging the extensible RISC-V architecture. To support the parallel computation of number theoretic transform (NTT) of different dimensions (from 64 to 2048), a vector NTT unit is implemented in VPQC. Besides, a vector sampler executing both uniform sampling and binomial sampling is also employed. Evaluated under TSMC 28nm…",
+   "excerpt": "In the 5G era, massive devices need to be securely connected to the edge of communication networks, while emerging quantum computers can easily crack the traditional public-key ciphers.",
+   "tag": "arch"
+  },
+  {
+   "title": "A scalable processing-in-memory accelerator for parallel graph processing",
+   "year": 2015,
+   "cited_by": 147,
+   "venue": "ACM SIGARCH Computer Architecture News",
+   "url": "https://doi.org/10.1145/2872887.2750386",
+   "query": "processing-in-memory",
+   "authors": [
+    "Junwhan Ahn",
+    "Sungpack Hong",
+    "Sungjoo Yoo"
+   ],
+   "abstract": "The explosion of digital data and the ever-growing need for fast data analysis have made in-memory big-data processing in computer systems increasingly important. In particular, large-scale graph processing is gaining attention due to its broad applicability from social science to machine learning. However, scalable hardware design that can efficiently process large graphs in main memory is still an open problem. Ideally, cost-effective and scalable graph processing systems can be realized by building a system whose performance increases proportionally with the sizes of graphs that can be stored in the system, which is extremely challenging in conventional systems due to severe memory bandwidth limitations. In this work, we argue that the conventional concept of processing-in-memory (PIM) can be a viable solution to achieve such an objective. The key modern enabler for PIM is the recent…",
+   "excerpt": "The explosion of digital data and the ever-growing need for fast data analysis have made in-memory big-data processing in computer systems increasingly important.",
+   "tag": "memory"
   }
  ],
  "news": [
+  {
+   "title": "Qualcomm’s Oryon 3 Reaches the Top",
+   "url": "https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top",
+   "source": "Chips and Cheese",
+   "published": "2026-11-26T02:14:27+00:00",
+   "desc": "Qualcomm’s laptop effort had humble beginnings.",
+   "excerpt": "Qualcomm’s laptop effort had humble beginnings.",
+   "tag": "industry"
+  },
+  {
+   "title": "Beating the Edge AI Power Wall with Low Voltage Foundation IP",
+   "url": "https://intelligence.theregister.com/paper/view/21381",
+   "source": "The Next Platform",
+   "published": "2026-11-26T00:00:00+00:00",
+   "desc": "Edge‑AI systems are moving intelligence closer to where the data originates",
+   "excerpt": "Edge‑AI systems are moving intelligence closer to where the data originates",
+   "tag": null
+  },
+  {
+   "title": "Infineon CoolSET™ SiP Enables Efficient, ‘First-Time-Right’ Auxiliary Power Designs",
+   "url": "https://www.eetimes.com/infineon-coolset-sip-enables-efficient-first-time-right-auxiliary-power-designs/",
+   "source": "EE Times",
+   "published": "2026-11-25T22:02:21+00:00",
+   "desc": "Auxiliary supply is indispensable, and designers need to facilitate high-efficiency solutions across a wide range of loads, in a limited PCB area, and deliver first-time-right designs.",
+   "excerpt": "Auxiliary supply is indispensable, and designers need to facilitate high-efficiency solutions across a wide range of loads, in a limited PCB area, and deliver first-time-right designs.",
+   "tag": null
+  },
+  {
+   "title": "MCRPS Power Supply for Enterprise Data Centers",
+   "url": "https://www.eetimes.com/mcrps-power-supply-for-enterprise-data-centers/",
+   "source": "EE Times",
+   "published": "2026-11-25T20:36:47+00:00",
+   "desc": "The 5.6 kW MCRPS reference design from Infineon provides a viable solution for next-generation common redundant PSUs in enterprise servers.",
+   "excerpt": "The 5.6 kW MCRPS reference design from Infineon provides a viable solution for next-generation common redundant PSUs in enterprise servers.",
+   "tag": null
+  },
+  {
+   "title": "Turning Optical Telemetry into Cluster Reliability: Integrating Link Health Data into Monitoring and Ticketing",
+   "url": "https://www.eetimes.com/turning-optical-telemetry-into-cluster-reliability-integrating-link-health-data-into-monitoring-and-ticketing/",
+   "source": "EE Times",
+   "published": "2026-11-25T18:00:22+00:00",
+   "desc": "Explore how integrating optical link health data into monitoring and ticketing can help teams improve cluster reliability.",
+   "excerpt": "Explore how integrating optical link health data into monitoring and ticketing can help teams improve cluster reliability.",
+   "tag": null
+  },
+  {
+   "title": "AI Makes Formal Verification Practical",
+   "url": "https://www.eetimes.com/ai-makes-formal-verification-practical/",
+   "source": "EE Times",
+   "published": "2026-11-25T17:34:58+00:00",
+   "desc": "AI model startup Harmonic is expanding into formal verification for software and hardware.",
+   "excerpt": "AI model startup Harmonic is expanding into formal verification for software and hardware.",
+   "tag": null
+  },
+  {
+   "title": "Dell Is Finally Making Money On GenAI As Traditional Servers Boom",
+   "url": "https://www.nextplatform.com/compute/2026/11/25/dell-is-finally-making-money-on-genai-as-traditional-servers-boom/5312184",
+   "source": "The Next Platform",
+   "published": "2026-11-25T15:58:07+00:00",
+   "desc": "",
+   "excerpt": "",
+   "tag": null
+  },
+  {
+   "title": "Understanding Accuracy and Resolution for Magnetic Angle Sensors",
+   "url": "https://www.eetimes.com/understanding-accuracy-and-resolution-for-magnetic-angle-sensors/",
+   "source": "EE Times",
+   "published": "2026-11-25T14:00:00+00:00",
+   "desc": "Learn how magnetic angle sensor accuracy and resolution affect position measurement, and explore key factors for precise, reliable sensing applications.",
+   "excerpt": "Learn how magnetic angle sensor accuracy and resolution affect position measurement, and explore key factors for precise, reliable sensing applications.",
+   "tag": null
+  },
+  {
+   "title": "AMD Tackles DRAM Shortages with AI and Flash Storage",
+   "url": "https://www.eetimes.com/amd-tackles-dram-shortages-with-ai-and-flash-storage/",
+   "source": "EE Times",
+   "published": "2026-11-25T14:00:00+00:00",
+   "desc": "AMD MEXT uses AI to park cold memory pages in flash, cutting DRAM costs and easing data center shortages.",
+   "excerpt": "AMD MEXT uses AI to park cold memory pages in flash, cutting DRAM costs and easing data center shortages.",
+   "tag": "industry"
+  },
+  {
+   "title": "Winbond Widens Edge AI Reach, Certifies NOR Flash",
+   "url": "https://www.eetimes.com/winbond-widens-edge-ai-reach-certifies-nor-flash/",
+   "source": "EE Times",
+   "published": "2026-11-25T08:59:51+00:00",
+   "desc": "Winbond is pairing bandwidth and density to meet the edge’s demand for faster, safer memory without the custom-design price tag.",
+   "excerpt": "Winbond is pairing bandwidth and density to meet the edge’s demand for faster, safer memory without the custom-design price tag.",
+   "tag": null
+  },
+  {
+   "title": "Southchip Showcases Automotive Power, Charging, and Load-Control Solutions at electronica Munich",
+   "url": "https://www.eetimes.com/southchip-showcases-automotive-power-charging-and-load-control-solutions-at-electronica-munich/",
+   "source": "EE Times",
+   "published": "2026-11-25T08:32:46+00:00",
+   "desc": "Southchip presented its automotive PMICs, 240W USB charging, wireless charging, ambient lighting, and high-side drivers at electronica Munich.",
+   "excerpt": "Southchip presented its automotive PMICs, 240W USB charging, wireless charging, ambient lighting, and high-side drivers at electronica Munich.",
+   "tag": null
+  },
+  {
+   "title": "Blog Review: Nov. 25",
+   "url": "https://semiengineering.com/blog-review-nov-25-3/",
+   "source": "Semiconductor Engineering",
+   "published": "2026-11-25T08:01:39+00:00",
+   "desc": "PCIe SVC; co-packaged optics; liquid-cooled data center model; LUT-GEMM; automotive traceability.",
+   "excerpt": "PCIe SVC; co-packaged optics; liquid-cooled data center model; LUT-GEMM; automotive traceability.",
+   "tag": null
+  },
+  {
+   "title": "Chip Industry Technical Paper Roundup: Nov. 25",
+   "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-nov-25-2/",
+   "source": "Semiconductor Engineering",
+   "published": "2026-11-25T08:01:01+00:00",
+   "desc": "Hybrid-bonded 3D NAND analog IMC; defect-aware chiplet matching for HI yield; HBF latency reduction for GPU systems; backside clock meshes for BSPDN; LLM-agent verification for post-quantum HW; self-supervised CMP virtual metrology; e-beam stitching losses in SOI waveguides.",
+   "excerpt": "Hybrid-bonded 3D NAND analog IMC; defect-aware chiplet matching for HI yield; HBF latency reduction for GPU systems; backside clock meshes for BSPDN; LLM-agent verification for post-quantum HW; self-supervised CMP…",
+   "tag": null
+  },
+  {
+   "title": "From AI Platforms to Industry Innovation: How NVIDIA Connects Startups to Build an AI Ecosystem",
+   "url": "https://www.eetimes.com/from-ai-platforms-to-industry-innovation-how-nvidia-connects-startups-to-build-an-ai-ecosystem/",
+   "source": "EE Times",
+   "published": "2026-11-25T05:00:00+00:00",
+   "desc": "For AI startups, the real challenge is often not building AI itself, but getting it to work reliably in the real world.",
+   "excerpt": "For AI startups, the real challenge is often not building AI itself, but getting it to work reliably in the real world.",
+   "tag": "industry"
+  },
   {
    "title": "NCSA Gets Supercomputing Capacity With $334 Million Schmidt Sciences Grant",
    "url": "https://www.nextplatform.com/hpc/2026/11/24/ncsa-gets-supercomputing-capacity-with-334-million-schmidt-sciences-grant/5311971",
@@ -1443,24 +1567,6 @@
    "published": "2026-11-24T16:16:56+00:00",
    "desc": "Edge AI and robotics bring greater precision and autonomy to agricultural machinery, from targeted spraying to harvesting.",
    "excerpt": "Edge AI and robotics bring greater precision and autonomy to agricultural machinery, from targeted spraying to harvesting.",
-   "tag": null
-  },
-  {
-   "title": "Vehicle-to-Grid: Great Idea or Unrealistic Dream? (Part 2)",
-   "url": "https://www.eetimes.com/vehicle-to-grid-great-idea-or-unrealistic-dream-part-2/",
-   "source": "EE Times",
-   "published": "2026-11-24T11:53:11+00:00",
-   "desc": "Vehicle-to-grid technology promises grid benefits but raises concerns over battery life, charging access, costs, and driver convenience.",
-   "excerpt": "Vehicle-to-grid technology promises grid benefits but raises concerns over battery life, charging access, costs, and driver convenience.",
-   "tag": null
-  },
-  {
-   "title": "Vehicle-to-Grid: Great Idea or Unrealistic Dream?",
-   "url": "https://www.eetimes.com/vehicle-to-grid-great-idea-or-unrealistic-dream/",
-   "source": "EE Times",
-   "published": "2026-11-24T08:40:49+00:00",
-   "desc": "Vehicle-to-grid sounds like a partial solution for enhancing the grid, but the reality of the human factor may say otherwise.",
-   "excerpt": "Vehicle-to-grid sounds like a partial solution for enhancing the grid, but the reality of the human factor may say otherwise.",
    "tag": null
   },
   {
@@ -1536,60 +1642,6 @@
    "tag": null
   },
   {
-   "title": "Securing The Chiplet Future With A UCIe 4.0-Aware Verification Architecture",
-   "url": "https://semiengineering.com/securing-the-chiplet-future-with-a-ucie-4-0-aware-verification-architecture/",
-   "source": "Semiconductor Engineering",
-   "published": "2026-11-24T08:03:00+00:00",
-   "desc": "Bringing together compliance tests, protocol-aware monitoring, transaction recording, scoreboarding, error-injection callbacks, and targeted debug to support multiple layers.",
-   "excerpt": "Bringing together compliance tests, protocol-aware monitoring, transaction recording, scoreboarding, error-injection callbacks, and targeted debug to support multiple layers.",
-   "tag": "package"
-  },
-  {
-   "title": "Verifying UCIe.mem: Flexible Verification For Compute And Memory Chiplets",
-   "url": "https://semiengineering.com/verifying-ucie-mem-flexible-verification-for-compute-and-memory-chiplets/",
-   "source": "Semiconductor Engineering",
-   "published": "2026-11-24T08:02:43+00:00",
-   "desc": "Validate UCIe.mem implementations across development stages while reusing a common verification environment.",
-   "excerpt": "Validate UCIe.mem implementations across development stages while reusing a common verification environment.",
-   "tag": "memory"
-  },
-  {
-   "title": "NSING Featured CRA, AI Robotics, Motor Control and Digital Energy at electronica 2026",
-   "url": "https://www.eetimes.com/nsing-featured-cra-ai-robotics-motor-control-and-digital-energy-at-electronica-2026/",
-   "source": "EE Times",
-   "published": "2026-11-24T07:41:37+00:00",
-   "desc": "At electronica 2026 in Munich, NSING exhibited 35 solutions built on N32‑series MCUs, N32WB BLE SoCs and NS350 TPM, covering AI robotics, motor control and digital energy, and presented its CRA compliance offerings.",
-   "excerpt": "At electronica 2026 in Munich, NSING exhibited 35 solutions built on N32‑series MCUs, N32WB BLE SoCs and NS350 TPM, covering AI robotics, motor control and digital energy, and presented its CRA compliance offerings.",
-   "tag": null
-  },
-  {
-   "title": "Nvidia Board Reinstates Jensen Huang as CEO",
-   "url": "https://www.eetimes.com/nvidia-board-reinstates-jensen-huang-as-ceo/",
-   "source": "EE Times",
-   "published": "2026-11-23T18:17:02+00:00",
-   "desc": "Nvidia goes back to business as usual following Huang's resignation and reinstatement after a week.",
-   "excerpt": "Nvidia goes back to business as usual following Huang's resignation and reinstatement after a week.",
-   "tag": "industry"
-  },
-  {
-   "title": "The Sovereign AI Paradox: Who Controls the Compute?",
-   "url": "https://www.eetimes.com/the-sovereign-ai-paradox-who-controls-the-compute/",
-   "source": "EE Times",
-   "published": "2026-11-23T16:08:35+00:00",
-   "desc": "U.S. restrictions on overseas AI infrastructure could accelerate sovereign computing and weaken American technology dominance.",
-   "excerpt": "U.S. restrictions on overseas AI infrastructure could accelerate sovereign computing and weaken American technology dominance.",
-   "tag": null
-  },
-  {
-   "title": "Secure Flash: A Practical Path to Cyber Resilience Act Compliance",
-   "url": "https://www.eetimes.com/secure-flash-a-practical-path-to-cyber-resilience-act-compliance/",
-   "source": "EE Times",
-   "published": "2026-11-23T15:00:00+00:00",
-   "desc": "The EU Cyber Resilience Act (CRA) introduces cybersecurity requirements for connected products throughout their lifecycle. This white paper explores how Winbond’s TrustME® W77Q Secure Flash and CRA Conformance and Integration Kit help OEMs strengthen firmware protection, secure software updates, rollback prevention, and system recovery. It also highlights practical integration guidance, testing resources, and compliance-related documentation",
-   "excerpt": "The EU Cyber Resilience Act (CRA) introduces cybersecurity requirements for connected products throughout their lifecycle.",
-   "tag": null
-  },
-  {
    "title": "Jensen Huang Back In Charge Of Nvidia",
    "url": "https://www.nextplatform.com/ai/2026/11/23/jensen-huang-back-in-charge-of-nvidia/5311691",
    "source": "The Next Platform",
@@ -1599,33 +1651,6 @@
    "tag": "industry"
   },
   {
-   "title": "The Enigma of SoftBank’s $1 Trillion SK Hynix Buyout Attempt",
-   "url": "https://www.eetimes.com/the-enigma-of-softbanks-1-trillion-sk-hynix-buyout-attempt/",
-   "source": "EE Times",
-   "published": "2026-11-23T08:30:00+00:00",
-   "desc": "Here is why it was a non-starter and what the story reveals about memory’s strategic appeal in the AI buildup.",
-   "excerpt": "Here is why it was a non-starter and what the story reveals about memory’s strategic appeal in the AI buildup.",
-   "tag": "industry"
-  },
-  {
-   "title": "The Storm Is Over, but Costs Keep Coming: How Utilities Can Strengthen Financial Oversight Throughout a Storm Response",
-   "url": "https://intelligence.theregister.com/paper/view/21319",
-   "source": "The Next Platform",
-   "published": "2026-11-21T00:00:00+00:00",
-   "desc": "When a major storm threatens a utility's service territory, the financial response begins before the first outage.",
-   "excerpt": "When a major storm threatens a utility's service territory, the financial response begins before the first outage.",
-   "tag": null
-  },
-  {
-   "title": "Pat Gelsinger Goes Hunting for Europe’s Unbuilt Tech Companies",
-   "url": "https://www.eetimes.com/pat-gelsinger-goes-hunting-for-europes-unbuilt-tech-companies/",
-   "source": "EE Times",
-   "published": "2026-11-20T22:23:32+00:00",
-   "desc": "Playground Global is searching CEA laboratories for technologies that could create new markets—but global capital complicates European sovereignty.",
-   "excerpt": "Playground Global is searching CEA laboratories for technologies that could create new markets—but global capital complicates European sovereignty.",
-   "tag": null
-  },
-  {
    "title": "Casing The HPC And AI-Sci Market With Hyperion Research",
    "url": "https://www.nextplatform.com/hpc/2026/11/20/casing-the-hpc-and-ai-sci-market-with-hyperion-research/5311388",
    "source": "The Next Platform",
@@ -1633,15 +1658,6 @@
    "desc": "",
    "excerpt": "",
    "tag": "industry"
-  },
-  {
-   "title": "Palo Alto Networks Expands into Enterprise AI with $4.5B Deal",
-   "url": "https://www.eetimes.com/palo-alto-networks-expands-into-enterprise-ai-with-4-5b-deal/",
-   "source": "EE Times",
-   "published": "2026-11-20T15:37:26+00:00",
-   "desc": "Enterprise security outfit Palo Alto Networks snaps up a startup with a platform for post-training and inference of open-weight AI models.",
-   "excerpt": "Enterprise security outfit Palo Alto Networks snaps up a startup with a platform for post-training and inference of open-weight AI models.",
-   "tag": null
   },
   {
    "title": "Nvidia Breaks Revenue And Profit Records, And Will Keep Doing It",
@@ -1704,24 +1720,6 @@
    "published": "2026-11-12T18:42:07+00:00",
    "desc": "",
    "excerpt": "",
-   "tag": "industry"
-  },
-  {
-   "title": "CoreWeave Is Accelerating To Escape Velocity Thanks To GPU Shortages",
-   "url": "https://www.nextplatform.com/cloud/2026/11/12/coreweave-is-accelerating-to-escape-velocity-thanks-to-gpu-shortages/5309222",
-   "source": "The Next Platform",
-   "published": "2026-11-12T00:50:59+00:00",
-   "desc": "",
-   "excerpt": "",
-   "tag": "accel"
-  },
-  {
-   "title": "Talking Zen 6 with Mike Clark at AMD In-Depth",
-   "url": "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at",
-   "source": "Chips and Cheese",
-   "published": "2026-11-11T22:22:57+00:00",
-   "desc": "Hello you fine Internet folks,",
-   "excerpt": "Hello you fine Internet folks,",
    "tag": "industry"
   }
  ],
