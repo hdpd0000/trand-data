@@ -1,7 +1,7 @@
 {
  "field": "semiconductor",
  "label": "반도체",
- "updated": "2026-11-27T03:25:59+00:00",
+ "updated": "2026-11-28T03:01:54+00:00",
  "subfields": [
   {
    "id": "memory",
@@ -67,8 +67,8 @@
    "kw_hits": 3,
    "abstract": "On an FPGA system-on-chip, the software that submits work to an accelerator also decides what the accelerator does. It writes the registers one by one, and the hardware runs whatever it finds, so faulty or compromised software can change one address or resend a job. Existing protections decide who may reach an accelerator or keep its data safe. Deciding whether one job was approved and is still unused takes three things in one place: the only way to the accelerator, the whole job held back until checked, and a record of used approvals. WADJET puts the three in one gate in FPGA logic. A separate authority encrypts and authenticates each approved job, with a sequence number, using Ascon-AEAD128. The gate verifies the whole job before releasing any part, accepts only a newer sequence number, uses it up, and writes the registers of an unmodified accelerator itself. The gate replaces only…",
    "excerpt": "On an FPGA system-on-chip, the software that submits work to an accelerator also decides what the accelerator does.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv",
    "score": 6.0,
    "tag": "accel"
   },
@@ -229,8 +229,8 @@
    "kw_hits": 2,
    "abstract": "Long-context inference is a rising demand for LLMs, especially for agent applications. Sparse attention (SpAt) and chiplet technology are promising solutions to reduce computations and scale hardware performance. However, deploying SpAt on distributed chiplets necessitates context parallelism for workload partitioning, introducing complex distributed attention. In this work, we present L2C2, a system optimization for distributed SpAt in long-context inference. During the partial-prefill stage, we propose a novel Split-Comm Attention mechanism that leverages the high-bandwidth interconnect of chiplets to trade communication overhead for reduced memory access. We combine it with conventional Ring Attention to form a Bi-Mode method that adapts to varying input sequence lengths. During the decoding stage, we analyze the cause of memory access imbalance and address it by static interleaved…",
    "excerpt": "Long-context inference is a rising demand for LLMs, especially for agent applications.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv",
    "score": 4.0,
    "tag": "accel"
   },
@@ -848,8 +848,8 @@
    "kw_hits": 1,
    "abstract": "Large language models (LLMs) have become foundational to modern artificial intelligence. Driven by scaling laws, their rapid growth poses increasing computational and memory challenges for deployment. To accelerate the general matrix multiplication (GEMM) operations that dominate LLM computation, bit-slice architectures decompose quantized operands along the bit dimension, exposing slice-level sparsity and redundancy. However, existing bit-slice designs primarily exploit sparsity in high-order slices, while dense low-order slices still offer substantial untapped reuse opportunities. We observe that bit-slice vectors (BSVs) are highly clustered in Hamming space, with many BSVs lying only a few bit flips away from a small set of representative patterns. Based on this observation, we propose ISTS, an algorithm-hardware co-designed accelerator that leverages representative BSV patterns as…",
    "excerpt": "Large language models (LLMs) have become foundational to modern artificial intelligence.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv",
    "score": 2.0,
    "tag": "accel"
   },
@@ -870,8 +870,8 @@
    "kw_hits": 1,
    "abstract": "Mobile agents and on-device intelligence increasingly demand more capable models on smartphones. Through sparse expert activation, Mixture-of-Experts (MoE) scales model capacity, yet growing numbers of fine-grained experts complicate loading and computation. Model compression complements expert offloading by reducing storage and computation costs. Among compression techniques, mixed-precision quantization assigns lower expert bitwidths to balance model quality and inference efficiency. However, existing offline metrics and routing scores fail to reflect expert quantization sensitivity, undermining precision assignment. Diverse bitwidths also complicate balanced expert allocation across GPUs and NPUs with distinct execution characteristics, while tile-wise dequantization underutilizes NPU vector parallelism. We present MixMoMo, an efficient mixed-precision inference runtime for…",
    "excerpt": "Mobile agents and on-device intelligence increasingly demand more capable models on smartphones.",
-   "cited_by": null,
-   "venue": null,
+   "cited_by": 0,
+   "venue": "arXiv",
    "score": 2.0,
    "tag": "accel"
   },
@@ -947,7 +947,7 @@
   {
    "title": "ISAAC: a convolutional neural network accelerator with in-situ analog arithmetic in crossbars",
    "year": 2016,
-   "cited_by": 1624,
+   "cited_by": 1627,
    "venue": "ACM SIGARCH Computer Architecture News",
    "url": "https://doi.org/10.1145/3007787.3001139",
    "query": "neural network accelerator",
@@ -979,7 +979,7 @@
   {
    "title": "Near-Threshold RISC-V Core With DSP Extensions for Scalable IoT Endpoint Devices",
    "year": 2017,
-   "cited_by": 626,
+   "cited_by": 627,
    "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
    "url": "https://doi.org/10.1109/tvlsi.2017.2654506",
    "query": "RISC-V",
@@ -1011,7 +1011,7 @@
   {
    "title": "Minerva: enabling low-power, highly-accurate deep neural network accelerators",
    "year": 2016,
-   "cited_by": 417,
+   "cited_by": 419,
    "venue": "ACM SIGARCH Computer Architecture News",
    "url": "https://doi.org/10.1145/3007787.3001165",
    "query": "neural network accelerator",
@@ -1027,7 +1027,7 @@
   {
    "title": "Large-scale photonic chiplet Taichi empowers 160-TOPS/W artificial general intelligence",
    "year": 2024,
-   "cited_by": 405,
+   "cited_by": 409,
    "venue": "Science",
    "url": "https://doi.org/10.1126/science.adl1203",
    "query": "chiplet",
@@ -1043,7 +1043,7 @@
   {
    "title": "Breaking the von Neumann bottleneck: architecture-level processing-in-memory technology",
    "year": 2021,
-   "cited_by": 393,
+   "cited_by": 394,
    "venue": "Science China Information Sciences",
    "url": "https://doi.org/10.1007/s11432-020-3227-1",
    "query": "processing-in-memory",
@@ -1107,7 +1107,7 @@
   {
    "title": "Chiplet Heterogeneous Integration Technology—Status and Challenges",
    "year": 2020,
-   "cited_by": 293,
+   "cited_by": 294,
    "venue": "Electronics",
    "url": "https://doi.org/10.3390/electronics9040670",
    "query": "chiplet",
@@ -1171,7 +1171,7 @@
   {
    "title": "GRIM-Filter: Fast seed location filtering in DNA read mapping using processing-in-memory technologies",
    "year": 2018,
-   "cited_by": 232,
+   "cited_by": 233,
    "venue": "BMC Genomics",
    "url": "https://doi.org/10.1186/s12864-018-4460-0",
    "query": "processing-in-memory",
@@ -1217,6 +1217,22 @@
    "tag": "accel"
   },
   {
+   "title": "PULP-NN: accelerating quantized neural networks on parallel ultra-low-power RISC-V processors",
+   "year": 2019,
+   "cited_by": 224,
+   "venue": "Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences",
+   "url": "https://doi.org/10.1098/rsta.2019.0155",
+   "query": "RISC-V",
+   "authors": [
+    "Angelo Garofalo",
+    "Manuele Rusci",
+    "Francesco Conti"
+   ],
+   "abstract": "We present PULP-NN, an optimized computing library for a parallel ultra-low-power tightly coupled cluster of RISC-V processors. The key innovation in PULP-NN is a set of kernels for quantized neural network inference, targeting byte and sub-byte data types, down to INT-1, tuned for the recent trend toward aggressive quantization in deep neural network inference. The proposed library exploits both the digital signal processing extensions available in the PULP RISC-V processors and the cluster's parallelism, achieving up to 15.5 MACs/cycle on INT-8 and improving performance by up to 63 × with respect to a sequential implementation on a single RISC-V core implementing the baseline RV32IMC ISA. Using PULP-NN, a CIFAR-10 network on an octa-core cluster runs in 30 × and 19.6 × less clock cycles than the current state-of-the-art ARM CMSIS-NN library, running on STM32L4 and STM32H7 MCUs,…",
+   "excerpt": "We present PULP-NN, an optimized computing library for a parallel ultra-low-power tightly coupled cluster of RISC-V processors.",
+   "tag": "arch"
+  },
+  {
    "title": "A Survey of ReRAM-Based Architectures for Processing-In-Memory and Neural Networks",
    "year": 2018,
    "cited_by": 219,
@@ -1233,7 +1249,7 @@
   {
    "title": "RISC-V Instruction Set Architecture Extensions: A Survey",
    "year": 2023,
-   "cited_by": 215,
+   "cited_by": 217,
    "venue": "IEEE Access",
    "url": "https://doi.org/10.1109/access.2023.3246491",
    "query": "RISC-V",
@@ -1249,7 +1265,7 @@
   {
    "title": "RISQ-V: Tightly Coupled RISC-V Accelerators for Post-Quantum Cryptography",
    "year": 2020,
-   "cited_by": 215,
+   "cited_by": 217,
    "venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
    "url": "https://doi.org/10.46586/tches.v2020.i4.239-280",
    "query": "RISC-V",
@@ -1265,7 +1281,7 @@
   {
    "title": "Hardware Approximate Techniques for Deep Neural Network Accelerators: A Survey",
    "year": 2022,
-   "cited_by": 209,
+   "cited_by": 210,
    "venue": "ACM Computing Surveys",
    "url": "https://doi.org/10.1145/3527156",
    "query": "neural network accelerator",
@@ -1313,7 +1329,7 @@
   {
    "title": "TeraPHY: A Chiplet Technology for Low-Power, High-Bandwidth In-Package Optical I/O",
    "year": 2020,
-   "cited_by": 174,
+   "cited_by": 176,
    "venue": "IEEE Micro",
    "url": "https://doi.org/10.1109/mm.2020.2976067",
    "query": "chiplet",
@@ -1393,7 +1409,7 @@
   {
    "title": "VPQC: A Domain-Specific Vector Processor for Post-Quantum Cryptography Based on RISC-V Architecture",
    "year": 2020,
-   "cited_by": 148,
+   "cited_by": 150,
    "venue": "IEEE Transactions on Circuits and Systems I Regular Papers",
    "url": "https://doi.org/10.1109/tcsi.2020.2983185",
    "query": "RISC-V",
@@ -1405,25 +1421,63 @@
    "abstract": "In the 5G era, massive devices need to be securely connected to the edge of communication networks, while emerging quantum computers can easily crack the traditional public-key ciphers. Lattice-based cryptography (LBC) is one of the most promising types of schemes in all post-quantum cryptography (PQC) due to its security and efficiency. To meet the requirements of high-throughput and diverse application scenarios of 5G, we investigate the vectorization of kernel algorithms of several LBC candidates and thus present a domain-specific vector processor, VPQC, leveraging the extensible RISC-V architecture. To support the parallel computation of number theoretic transform (NTT) of different dimensions (from 64 to 2048), a vector NTT unit is implemented in VPQC. Besides, a vector sampler executing both uniform sampling and binomial sampling is also employed. Evaluated under TSMC 28nm…",
    "excerpt": "In the 5G era, massive devices need to be securely connected to the edge of communication networks, while emerging quantum computers can easily crack the traditional public-key ciphers.",
    "tag": "arch"
-  },
-  {
-   "title": "A scalable processing-in-memory accelerator for parallel graph processing",
-   "year": 2015,
-   "cited_by": 147,
-   "venue": "ACM SIGARCH Computer Architecture News",
-   "url": "https://doi.org/10.1145/2872887.2750386",
-   "query": "processing-in-memory",
-   "authors": [
-    "Junwhan Ahn",
-    "Sungpack Hong",
-    "Sungjoo Yoo"
-   ],
-   "abstract": "The explosion of digital data and the ever-growing need for fast data analysis have made in-memory big-data processing in computer systems increasingly important. In particular, large-scale graph processing is gaining attention due to its broad applicability from social science to machine learning. However, scalable hardware design that can efficiently process large graphs in main memory is still an open problem. Ideally, cost-effective and scalable graph processing systems can be realized by building a system whose performance increases proportionally with the sizes of graphs that can be stored in the system, which is extremely challenging in conventional systems due to severe memory bandwidth limitations. In this work, we argue that the conventional concept of processing-in-memory (PIM) can be a viable solution to achieve such an objective. The key modern enabler for PIM is the recent…",
-   "excerpt": "The explosion of digital data and the ever-growing need for fast data analysis have made in-memory big-data processing in computer systems increasingly important.",
-   "tag": "memory"
   }
  ],
  "news": [
+  {
+   "title": "GTA: Grand Three Assumptions",
+   "url": "https://www.eetimes.com/gta-grand-three-assumptions/",
+   "source": "EE Times",
+   "published": "2026-11-28T02:00:00+00:00",
+   "desc": "GTA 6 broke sales records, but consoles running it rest on assumptions that failed: cheaper hardware, commodity memory, frozen platforms.",
+   "excerpt": "GTA 6 broke sales records, but consoles running it rest on assumptions that failed: cheaper hardware, commodity memory, frozen platforms.",
+   "tag": null
+  },
+  {
+   "title": "Penguin Revives Retired DDR4 for AI Servers",
+   "url": "https://www.eetimes.com/penguin-revives-retired-ddr4-for-ai-servers/",
+   "source": "EE Times",
+   "published": "2026-11-27T19:17:00+00:00",
+   "desc": "Hyperscalers are already reclaiming older DRAM, but enterprises have been slower to reuse DDR4 to meet their memory expansion demands.",
+   "excerpt": "Hyperscalers are already reclaiming older DRAM, but enterprises have been slower to reuse DDR4 to meet their memory expansion demands.",
+   "tag": "memory"
+  },
+  {
+   "title": "The Software-Defined Mirage And The Alien Worlds Of Socket Cores And OS Kernels",
+   "url": "https://www.nextplatform.com/control/2026/11/27/the-software-defined-mirage-and-the-alien-worlds-of-socket-cores-and-os-kernels/5313186",
+   "source": "The Next Platform",
+   "published": "2026-11-27T15:04:38+00:00",
+   "desc": "",
+   "excerpt": "",
+   "tag": null
+  },
+  {
+   "title": "Beyond Lithography: The Battle for Semiconductor Manufacturing Yield",
+   "url": "https://www.eetimes.com/beyond-lithography-the-battle-for-semiconductor-manufacturing-yield/",
+   "source": "EE Times",
+   "published": "2026-11-27T14:22:45+00:00",
+   "desc": "The proposed MATCH Act exposes a strategic vulnerability extending beyond ASML to the technologies that determine manufacturing productivity and yield.",
+   "excerpt": "The proposed MATCH Act exposes a strategic vulnerability extending beyond ASML to the technologies that determine manufacturing productivity and yield.",
+   "tag": "process"
+  },
+  {
+   "title": "NuVolta Technical Sharing: PCB Grounding Design and Return Path",
+   "url": "https://www.eetimes.com/nuvolta-technical-sharing-pcb-grounding-design-and-return-path/",
+   "source": "EE Times",
+   "published": "2026-11-27T14:00:00+00:00",
+   "desc": "Many PCB design guidelines reduce grounding to a few rules: These rules are not wrong, but they are incomplete. They do not answer a fundamental question: where does the current return? If a ground plane is split and a signal crosses the gap, its return current may be forced to detour. The result can be",
+   "excerpt": "Many PCB design guidelines reduce grounding to a few rules: These rules are not wrong, but they are incomplete.",
+   "tag": null
+  },
+  {
+   "title": "Huawei’s Next Big AI Move: HBM Workaround",
+   "url": "https://www.eetimes.com/huawei-next-big-ai-move-hbm-workaround/",
+   "source": "EE Times",
+   "published": "2026-11-27T08:56:46+00:00",
+   "desc": "The Shenzhen-based tech firm will provide details about its custom HBM design at ISSCC 2027 in San Francisco early next year.",
+   "excerpt": "The Shenzhen-based tech firm will provide details about its custom HBM design at ISSCC 2027 in San Francisco early next year.",
+   "tag": "memory"
+  },
   {
    "title": "Siemens Adds SoC Verification and Software Debug with Two Planned Deals",
    "url": "https://www.eetimes.com/siemens-adds-soc-verification-and-software-debug-with-two-planned-deals/",
@@ -1488,33 +1542,6 @@
    "tag": null
   },
   {
-   "title": "MCRPS Power Supply for Enterprise Data Centers",
-   "url": "https://www.eetimes.com/mcrps-power-supply-for-enterprise-data-centers/",
-   "source": "EE Times",
-   "published": "2026-11-25T20:36:47+00:00",
-   "desc": "The 5.6 kW MCRPS reference design from Infineon provides a viable solution for next-generation common redundant PSUs in enterprise servers.",
-   "excerpt": "The 5.6 kW MCRPS reference design from Infineon provides a viable solution for next-generation common redundant PSUs in enterprise servers.",
-   "tag": null
-  },
-  {
-   "title": "Turning Optical Telemetry into Cluster Reliability: Integrating Link Health Data into Monitoring and Ticketing",
-   "url": "https://www.eetimes.com/turning-optical-telemetry-into-cluster-reliability-integrating-link-health-data-into-monitoring-and-ticketing/",
-   "source": "EE Times",
-   "published": "2026-11-25T18:00:22+00:00",
-   "desc": "Explore how integrating optical link health data into monitoring and ticketing can help teams improve cluster reliability.",
-   "excerpt": "Explore how integrating optical link health data into monitoring and ticketing can help teams improve cluster reliability.",
-   "tag": null
-  },
-  {
-   "title": "AI Makes Formal Verification Practical",
-   "url": "https://www.eetimes.com/ai-makes-formal-verification-practical/",
-   "source": "EE Times",
-   "published": "2026-11-25T17:34:58+00:00",
-   "desc": "AI model startup Harmonic is expanding into formal verification for software and hardware.",
-   "excerpt": "AI model startup Harmonic is expanding into formal verification for software and hardware.",
-   "tag": null
-  },
-  {
    "title": "Dell Is Finally Making Money On GenAI As Traditional Servers Boom",
    "url": "https://www.nextplatform.com/compute/2026/11/25/dell-is-finally-making-money-on-genai-as-traditional-servers-boom/5312184",
    "source": "The Next Platform",
@@ -1522,24 +1549,6 @@
    "desc": "",
    "excerpt": "",
    "tag": null
-  },
-  {
-   "title": "Understanding Accuracy and Resolution for Magnetic Angle Sensors",
-   "url": "https://www.eetimes.com/understanding-accuracy-and-resolution-for-magnetic-angle-sensors/",
-   "source": "EE Times",
-   "published": "2026-11-25T14:00:00+00:00",
-   "desc": "Learn how magnetic angle sensor accuracy and resolution affect position measurement, and explore key factors for precise, reliable sensing applications.",
-   "excerpt": "Learn how magnetic angle sensor accuracy and resolution affect position measurement, and explore key factors for precise, reliable sensing applications.",
-   "tag": null
-  },
-  {
-   "title": "AMD Tackles DRAM Shortages with AI and Flash Storage",
-   "url": "https://www.eetimes.com/amd-tackles-dram-shortages-with-ai-and-flash-storage/",
-   "source": "EE Times",
-   "published": "2026-11-25T14:00:00+00:00",
-   "desc": "AMD MEXT uses AI to park cold memory pages in flash, cutting DRAM costs and easing data center shortages.",
-   "excerpt": "AMD MEXT uses AI to park cold memory pages in flash, cutting DRAM costs and easing data center shortages.",
-   "tag": "industry"
   },
   {
    "title": "Blog Review: Nov. 25",
@@ -1699,15 +1708,6 @@
    "url": "https://www.nextplatform.com/hpc/2026/11/16/supercomputer-installs-take-a-dive-in-the-second-half-of-2026/5310221",
    "source": "The Next Platform",
    "published": "2026-11-16T18:59:25+00:00",
-   "desc": "",
-   "excerpt": "",
-   "tag": null
-  },
-  {
-   "title": "Cerebras Readies CS-5 Systems For 2027 Launch As It Bags Another Hyperscaler",
-   "url": "https://www.nextplatform.com/compute/2026/11/14/cerebras-readies-cs-5-systems-for-2027-launch-as-it-bags-another-hyperscaler/5309932",
-   "source": "The Next Platform",
-   "published": "2026-11-14T00:40:35+00:00",
    "desc": "",
    "excerpt": "",
    "tag": null

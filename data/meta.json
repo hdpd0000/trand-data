@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-27T03:25:59+00:00",
+ "updated": "2026-11-28T03:01:54+00:00",
  "status": {
   "semiconductor:arxiv": "ok",
   "semiconductor:openalex-enrich": "ok",
   "semiconductor:openalex-classics": "ok",
   "feed:Semiconductor Engineering": "ok (parsed=10, newest=2026-11-25, kept_in_window=10)",
   "feed:Chips and Cheese": "ok (parsed=20, newest=2026-11-26, kept_in_window=2)",
-  "feed:The Next Platform": "ok (parsed=86, newest=2026-11-26, kept_in_window=10)",
-  "feed:EE Times": "ok (parsed=10, newest=2026-11-26, kept_in_window=10)",
+  "feed:The Next Platform": "ok (parsed=87, newest=2026-11-27, kept_in_window=10)",
+  "feed:EE Times": "ok (parsed=10, newest=2026-11-28, kept_in_window=10)",
   "feed:TrendForce News": "ok (parsed=20, newest=2026-07-01, kept_in_window=0)",
   "quantum:arxiv": "ok",
   "quantum:openalex-enrich": "ok",
   "quantum:openalex-classics": "ok",
-  "feed:The Quantum Insider": "ok (parsed=10, newest=2026-11-26, kept_in_window=10)",
-  "feed:Physics World": "ok (parsed=160, newest=2026-11-26, kept_in_window=6)"
+  "feed:The Quantum Insider": "ok (parsed=10, newest=2026-11-27, kept_in_window=10)",
+  "feed:Physics World": "ok (parsed=160, newest=2026-11-27, kept_in_window=6)"
  }
 }
